@@ -11,10 +11,10 @@ export function buildDiscoveredChannels(epgData) {
   for (const ch of epgData.channels) {
     if (!seen.has(ch.id)) {
       seen.add(ch.id);
-      result.push({ 'tvg-id': ch.id, displayName: ch.displayName, category: '' });
+      result.push({ 'tvg-id': ch.id, displayName: ch.displayName ?? '', category: '' });
     }
   }
-  return result.sort((a, b) => a.displayName.localeCompare(b.displayName));
+  return result.sort((a, b) => (a.displayName || '').localeCompare(b.displayName || ''));
 }
 
 /**
