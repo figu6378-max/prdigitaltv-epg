@@ -35,7 +35,8 @@ jobs:
         run: |
           git config user.name "EPG Bot"
           git config user.email "epg-bot@prdigitaltv.com"
-          git add output/epg.xml
+          cp output/epg.xml epg.xml
+          git add epg.xml
           if git diff --staged --quiet; then
             echo "No changes to epg.xml"
           else
