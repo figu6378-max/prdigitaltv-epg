@@ -1,0 +1,22 @@
+{
+  "secondary": [
+    {
+      "name": "epgshare01-us",
+      "url": "https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz",
+      "enabled": true,
+      "gzip": true
+    },
+    {
+      "name": "epg-pw-us",
+      "url": "https://epg.pw/xmltv/epg_US.xml.gz",
+      "enabled": true,
+      "gzip": true
+    },
+    {
+      "name": "epg-pw-es",
+      "url": "https://epg.pw/xmltv/epg_ES.xml.gz",
+      "enabled": true,
+      "gzip": true
+    }
+  ]
+}
