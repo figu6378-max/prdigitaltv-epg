@@ -122,7 +122,7 @@ export async function buildSecondaryDescMap(sources) {
         const { programmes } = parseXmltvString(xml);
         for (const prog of programmes) {
           if (!prog.desc || !prog.title) continue;
-          const key = `${prog.channel}::${prog.title.toLowerCase().trim()}`;
+          const key = prog.title.toLowerCase().trim();
           if (!descMap.has(key)) descMap.set(key, prog.desc);
         }
         console.log(`[fetch] ${source.name}: ${programmes.length} programmes loaded`);

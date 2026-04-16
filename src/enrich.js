@@ -124,6 +124,32 @@ export async function lookupMovieDescription(title, year, apiKey) {
 }
 
 /**
+ * Look up Spanish TV series description from TMDB API.
+ * @param {string} title
+ * @param {string} apiKey
+ * @returns {Promise<string>}
+ */
+export async function lookupTvDescription(title, apiKey) {
+  if (!apiKey) return '';
+  const showName = title.replace(SERIES_RE, '').trim();
+  const cacheKey = `tv::${showName}`;
+  if (tmdbCache.has(cacheKey)) return tmdbCache.get(cacheKey);
+
+  try {
+    const res = await axios.get(`${TMDB_BASE}/search/tv`, {
+      params: { api_key: apiKey, query: showName, language: 'es-419' },
+      timeout: 10000,
+    });
+    const overview = res.data?.results?.[0]?.overview || '';
+    tmdbCache.set(cacheKey, overview);
+    return overview;
+  } catch {
+    tmdbCache.set(cacheKey, '');
+    return '';
+  }
+}
+
+/**
  * Look up TV series description from TVMaze (free, no key required).
  * Strips HTML tags from the TVMaze summary field.
  * @param {string} title
@@ -163,7 +189,7 @@ export async function lookupSeriesDescription(title) {
 export async function enrichProgramme(programme, secondaryDescMap, tmdbApiKey) {
   if (programme.desc?.trim()) return programme;
 
-  const secKey = `${programme.channel}::${programme.title.toLowerCase().trim()}`;
+  const secKey = programme.title.toLowerCase().trim();
   const secDesc = secondaryDescMap.get(secKey);
   if (secDesc) return { ...programme, desc: secDesc };
 
@@ -181,8 +207,15 @@ export async function enrichProgramme(programme, secondaryDescMap, tmdbApiKey) {
   }
 
   if (type === 'series') {
+    const tmdbDesc = await lookupTvDescription(programme.title, tmdbApiKey);
+    if (tmdbDesc) return { ...programme, desc: tmdbDesc };
     const desc = await lookupSeriesDescription(programme.title);
     if (desc) return { ...programme, desc };
+  }
+
+  if (type === 'unknown') {
+    const tmdbDesc = await lookupTvDescription(programme.title, tmdbApiKey);
+    if (tmdbDesc) return { ...programme, desc: tmdbDesc };
   }
 
   return { ...programme, desc: programme.title };
