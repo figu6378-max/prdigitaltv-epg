@@ -1,6 +1,7 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { parseXmltvString } from '../src/fetch.js';
+import { buildDiscoveredChannels } from '../src/discover.js';
 
 const SAMPLE_XMLTV = `<?xml version="1.0" encoding="UTF-8"?>
 <tv generator-info-name="Test">
@@ -49,4 +50,19 @@ test('parseXmltvString returns empty string for missing icon', () => {
   const result = parseXmltvString(SAMPLE_XMLTV);
   const nhkCh = result.channels.find(c => c.id === 'NHK.jp');
   assert.equal(nhkCh.icon, '');
+});
+
+test('buildDiscoveredChannels deduplicates and sorts channels', () => {
+  const epgData = {
+    channels: [
+      { id: 'ESPN.us', displayName: 'ESPN', icon: '' },
+      { id: 'HBO.us', displayName: 'HBO', icon: '' },
+      { id: 'ESPN.us', displayName: 'ESPN', icon: '' },
+    ],
+    programmes: []
+  };
+  const result = buildDiscoveredChannels(epgData);
+  assert.equal(result.length, 2);
+  assert.deepEqual(result[0], { 'tvg-id': 'ESPN.us', displayName: 'ESPN', category: '' });
+  assert.deepEqual(result[1], { 'tvg-id': 'HBO.us', displayName: 'HBO', category: '' });
 });
