@@ -6,7 +6,7 @@ import { XMLParser } from 'fast-xml-parser';
 const xmlParser = new XMLParser({
   ignoreAttributes: false,
   attributeNamePrefix: '@_',
-  isArray: (name) => ['channel', 'programme'].includes(name),
+  isArray: (name) => ['channel', 'programme', 'display-name', 'icon', 'category'].includes(name),
   allowBooleanAttributes: true,
 });
 
@@ -24,8 +24,8 @@ export function parseXmltvString(xmlString) {
 
   const channels = rawChannels.map(ch => ({
     id: ch['@_id'] || '',
-    displayName: extractText(ch['display-name']),
-    icon: ch.icon?.['@_src'] || '',
+    displayName: extractText(Array.isArray(ch['display-name']) ? ch['display-name'][0] : ch['display-name']),
+    icon: Array.isArray(ch.icon) ? (ch.icon[0]?.['@_src'] || '') : (ch.icon?.['@_src'] || ''),
   }));
 
   const programmes = rawProgrammes.map(prog => ({
@@ -34,8 +34,8 @@ export function parseXmltvString(xmlString) {
     stop: prog['@_stop'] || '',
     title: extractText(prog.title),
     desc: extractText(prog.desc),
-    category: extractText(prog.category),
-    icon: prog.icon?.['@_src'] || '',
+    category: extractText(Array.isArray(prog.category) ? prog.category[0] : prog.category),
+    icon: Array.isArray(prog.icon) ? (prog.icon[0]?.['@_src'] || '') : (prog.icon?.['@_src'] || ''),
   }));
 
   return { channels, programmes };
@@ -47,6 +47,7 @@ export function parseXmltvString(xmlString) {
  * @returns {string}
  */
 function extractText(node) {
+  if (Array.isArray(node)) return extractText(node[0]);
   if (!node && node !== 0) return '';
   if (typeof node === 'string') return node;
   if (typeof node === 'number') return String(node);
@@ -62,11 +63,22 @@ function extractText(node) {
  * @returns {Promise<string>}
  */
 export async function downloadXmltvUrl(url, gzip = false) {
-  const response = await axios.get(url, {
-    responseType: 'arraybuffer',
-    timeout: 30000,
-    headers: { 'User-Agent': 'PRDigitalTV-EPG/1.0' },
-  });
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), 30000);
+  let response;
+  try {
+    response = await axios.get(url, {
+      responseType: 'arraybuffer',
+      signal: controller.signal,
+      headers: { 'User-Agent': 'PRDigitalTV-EPG/1.0' },
+    });
+  } finally {
+    clearTimeout(timer);
+  }
+
+  if (response.status < 200 || response.status >= 300) {
+    throw new Error(`HTTP ${response.status} from ${url}`);
+  }
 
   if (gzip) {
     return decompressGzip(Buffer.from(response.data));
@@ -85,6 +97,7 @@ function decompressGzip(buffer) {
     const readable = Readable.from(buffer);
     const chunks = [];
     readable.pipe(gunzip);
+    readable.on('error', reject);
     gunzip.on('data', chunk => chunks.push(chunk));
     gunzip.on('end', () => resolve(Buffer.concat(chunks).toString('utf8')));
     gunzip.on('error', reject);
@@ -107,7 +120,7 @@ export async function buildSecondaryDescMap(sources) {
         const xml = await downloadXmltvUrl(source.url, source.gzip);
         const { programmes } = parseXmltvString(xml);
         for (const prog of programmes) {
-          if (!prog.desc) continue;
+          if (!prog.desc || !prog.title) continue;
           const key = `${prog.channel}::${prog.title.toLowerCase().trim()}`;
           if (!descMap.has(key)) descMap.set(key, prog.desc);
         }
