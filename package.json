@@ -1,38 +1,16 @@
 {
   "name": "prdigitaltv-epg",
   "version": "1.0.0",
-  "description": "EPG (Electronic Program Guide) generator for PRDigitalTV IPTV service",
-  "type": "module",
+  "description": "EPG automation pipeline for PRDigitalTV",
   "main": "src/index.js",
+  "type": "module",
   "scripts": {
     "start": "node src/index.js",
-    "dev": "node --watch src/index.js",
-    "test": "node --test tests/**/*.test.js",
-    "generate": "node src/index.js",
-    "lint": "eslint src tests"
+    "discover": "node src/index.js --discover",
+    "test": "node --test tests/*.test.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/figu6378-max/prdigitaltv-epg.git"
-  },
-  "keywords": [
-    "iptv",
-    "epg",
-    "program-guide",
-    "xml",
-    "prdigitaltv"
-  ],
-  "author": "PRDigitalTV Dev",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/figu6378-max/prdigitaltv-epg/issues"
-  },
-  "homepage": "https://github.com/figu6378-max/prdigitaltv-epg#readme",
   "dependencies": {
-    "axios": "^1.15.0",
-    "fast-xml-parser": "^5.6.0"
-  },
-  "devDependencies": {
-    "eslint": "^8.55.0"
+    "axios": "^1.7.0",
+    "fast-xml-parser": "^4.4.0"
   }
 }
