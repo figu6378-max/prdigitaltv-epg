@@ -8,6 +8,7 @@ const xmlParser = new XMLParser({
   attributeNamePrefix: '@_',
   isArray: (name) => ['channel', 'programme', 'display-name', 'icon', 'category'].includes(name),
   allowBooleanAttributes: true,
+  processEntities: false,
 });
 
 /**
