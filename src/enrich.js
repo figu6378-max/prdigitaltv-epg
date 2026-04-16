@@ -58,6 +58,7 @@ export function formatSportsDescription(event) {
  * @returns {Promise<string>}
  */
 export async function lookupSportsDescription(title, xmltvStart) {
+  if (!xmltvStart) return '';
   const date = `${xmltvStart.slice(0,4)}-${xmltvStart.slice(4,6)}-${xmltvStart.slice(6,8)}`;
   const SPORT_MAP = {
     NFL: 'American Football', NBA: 'Basketball', MLB: 'Baseball',
