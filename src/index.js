@@ -37,6 +37,37 @@ async function main() {
     process.exit(0); // exit 0 — not a build failure, just a network issue
   }
 
+  // FETCH: Additional primary EPG sources (e.g. iptv-epg.org) — merge into provider data
+  const additionalPrimary = (sources.primary_additional || []).filter(s => s.enabled);
+  for (const source of additionalPrimary) {
+    try {
+      console.log(`[pipeline] Fetching additional primary EPG: ${source.name}...`);
+      const xml = await downloadXmltvUrl(source.url, source.gzip);
+      const extra = parseXmltvString(xml);
+      console.log(`[pipeline] ${source.name}: ${extra.channels.length} channels, ${extra.programmes.length} programmes`);
+
+      // Merge channels — add any not already present in provider EPG
+      const existingIds = new Set(providerEpg.channels.map(c => c.id));
+      for (const ch of extra.channels) {
+        if (!existingIds.has(ch.id)) {
+          providerEpg.channels.push(ch);
+          existingIds.add(ch.id);
+        }
+      }
+
+      // Merge programmes — add programmes for channels not covered by provider
+      const coveredByProvider = new Set(providerEpg.programmes.map(p => p.channel));
+      for (const prog of extra.programmes) {
+        if (!coveredByProvider.has(prog.channel)) {
+          providerEpg.programmes.push(prog);
+        }
+      }
+      console.log(`[pipeline] After merge: ${providerEpg.channels.length} channels, ${providerEpg.programmes.length} programmes`);
+    } catch (err) {
+      console.warn(`[pipeline] ${source.name} unavailable: ${err.message}`);
+    }
+  }
+
   // DISCOVERY MODE: write channel list and exit
   if (DISCOVER_MODE) {
     writeDiscoveredChannels(buildDiscoveredChannels(providerEpg));

@@ -1,4 +1,12 @@
 {
+  "primary_additional": [
+    {
+      "name": "iptv-epg-us",
+      "url": "https://iptv-epg.org/files/epg-us.xml.gz",
+      "enabled": true,
+      "gzip": true
+    }
+  ],
   "secondary": [
     {
       "name": "epg-pw-us",
