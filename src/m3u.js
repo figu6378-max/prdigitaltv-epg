@@ -10,7 +10,11 @@ export async function downloadM3u(url) {
     responseType: 'text',
     timeout: 60000,
     headers: { 'User-Agent': 'PRDigitalTV-Selector/1.0' },
+    validateStatus: () => true,  // accept any status — some IPTV providers return non-2xx with valid M3U body
   });
+  if (!String(res.data).trimStart().startsWith('#EXTM3U')) {
+    throw new Error(`Provider returned status ${res.status} and no M3U content. Response: ${String(res.data).slice(0, 200)}`);
+  }
   return res.data;
 }
 
