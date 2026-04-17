@@ -41,6 +41,7 @@ jobs:
             echo "No changes to epg.xml"
           else
             git commit -m "chore: update epg.xml [$(date -u '+%Y-%m-%d %H:%M UTC')]"
+            git checkout -- output/epg.xml
             git pull --rebase origin main
             git push
           fi
