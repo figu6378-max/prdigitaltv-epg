@@ -928,10 +928,6 @@
     <title lang="es">Live: College Baseball</title>
     <desc lang="es">From David F. Couch Ballpark in Winston Salem, N.C.</desc>
   </programme>
-  <programme start="20260416024000 +0200" stop="20260416032500 +0200" channel="AMC.es">
-    <title lang="es">Obituary</title>
-    <desc lang="es">Cuando recibe una carta anónima en la que critican cruelmente su forma de escribir obituarios, Elvira decide iniciar una laboriosa búsqueda para dar con su autora.</desc>
-  </programme>
   <programme start="20260416032500 +0200" stop="20260416040900 +0200" channel="AMC.es">
     <title lang="es">Obituary</title>
     <desc lang="es">Elvira es abordada por Denis, un adolescente que presenció cómo mataba a su primera víctima. Denis le pide que mate al chico que le hace la vida imposible en el instituto a cambio de su silencio.</desc>
@@ -1064,10 +1060,6 @@
     <title lang="es">Upgrade</title>
     <desc lang="es">Tras ver cómo su mujer es asesinada tras un accidente que le deja parapléjico, un hombre se somete a una operación que le permite no solo volver a caminar, sino adquirir una fuerza y habilidades para la lucha fuera de lo común. Mientras va aprendiendo a controlar sus nuevas capacidades, toda su obsesión es descubrir quién fue el responsable de la muerte de su esposa. Leigh Whannell, colaborador habitual de James Wan y coguionista de &amp;apos;&amp;apos;Saw&amp;apos;&amp;apos; e &amp;apos;&amp;apos;Insidious&amp;apos;&amp;apos;, dirige y escribe este thriller de ciencia ficción ganador del Gran Premio del Público en el Festival de Sitges de 2018. Logan Marshall-Green (&amp;apos;&amp;apos;La invitación&amp;apos;&amp;apos;), Betty Gabriel (&amp;apos;&amp;apos;Déjame salir&amp;apos;&amp;apos;) y Harrison Gilbertson (&amp;apos;&amp;apos;Accidents Happen&amp;apos;&amp;apos;) protagonizan esta historia distópica sobre un hombre obsesionado con vengar la muerte de su mujer a manos de una cruel y sanguinaria pandilla, y tratará de hacerlo gracias a la implantación de un dispositivo electrónico en su cerebro.</desc>
   </programme>
-  <programme start="20260416023000 +0200" stop="20260416050000 +0200" channel="AMC.us">
-    <title lang="es">Back to the Future Part II</title>
-    <desc lang="es">In this zany sequel, time-traveling duo Marty McFly and Dr. Emmett Brown return from saving Marty&amp;apos;s future son from disaster, only to discover their own time transformed. In this nightmarish version of Hill Valley, Marty&amp;apos;s father has been murdered and Biff Tannen, Marty&amp;apos;s nemesis, has profited. After uncovering the secret to Biff&amp;apos;s success -- a sports almanac from the future -- Marty and the Doc embark on a quest to repair the space-time continuum.</desc>
-  </programme>
   <programme start="20260416050000 +0200" stop="20260416062900 +0200" channel="AMC.us">
     <title lang="es">The Audacity</title>
     <desc lang="es">Duncan, almost tech titan, must prove he and his company are F-able; JoAnne provides therapy with benefits; Orson lands from Baltimore; the party for Dr. Green ends in a cat burglary.</desc>
@@ -1196,10 +1188,6 @@
     <title lang="es">Forrest Gump</title>
     <desc lang="es">Slow-witted Forrest Gump (Tom Hanks) has never thought of himself as disadvantaged, and thanks to his supportive mother (Sally Field), he leads anything but a restricted life. Whether dominating on the gridiron as a college football star, fighting in Vietnam or captaining a shrimp boat, Forrest inspires people with his childlike optimism. But one person Forrest cares about most may be the most difficult to save -- his childhood love, the sweet but troubled Jenny (Robin Wright).</desc>
   </programme>
-  <programme start="20260416022600 +0200" stop="20260416043800 +0200" channel="AMCThrillers.us">
-    <title lang="es">Knives and Skin</title>
-    <desc lang="es">In the wake of a high school student&amp;apos;s mysterious disappearance, a collective awakening seems to overcome the town&amp;apos;s teenage girls -- gathering in force until it can no longer be contained.</desc>
-  </programme>
   <programme start="20260416043800 +0200" stop="20260416063400 +0200" channel="AMCThrillers.us">
     <title lang="es">#Horror</title>
     <desc lang="es">Preteen girls face a night of terror when their obsession with a disturbing online game goes too far.</desc>
@@ -1296,9 +1284,9 @@
     <title lang="es">Phobia</title>
     <desc lang="es">Jonathan suffers from agoraphobia after his wife dies in a car accident. As his self-loathing escalates, he is haunted by twisted visions that tear away his sanity.</desc>
   </programme>
-  <programme start="20260416023000 +0200" stop="20260416031500 +0200" channel="Antena3.es">
-    <title lang="es">Sportium Game Show</title>
-    <desc lang="es">Espacio conducido por Sofía Del Prado que repasa las mejores apuestas y cuotas deportivas.</desc>
+  <programme start="20260418022600 +0200" stop="20260418040400 +0200" channel="AMCThrillers.us">
+    <title lang="es">The Invoking 2</title>
+    <desc lang="es">Waking nightmares, bloodthirsty spirits, demonic forces, and vengeful poltergeists visit horror upon their victims in this anthology.</desc>
   </programme>
   <programme start="20260416031500 +0200" stop="20260416041500 +0200" channel="Antena3.es">
     <title lang="es">Galería del coleccionista</title>
@@ -1464,9 +1452,9 @@
     <title lang="es">Tu cara me suena</title>
     <desc lang="es">Recopilación de mejores momentos de anteriores ediciones de Tu cara me suena.</desc>
   </programme>
-  <programme start="20260416030000 +0200" stop="20260416043000 +0200" channel="BigTenNetwork.us">
-    <title lang="es">B1G Plus Encore</title>
-    <desc lang="es">Replays of the best action from Big Ten contests.</desc>
+  <programme start="20260418023000 +0200" stop="20260418031500 +0200" channel="Antena3.es">
+    <title lang="es">Sportium Game Show</title>
+    <desc lang="es">Espacio conducido por Sofía Del Prado que repasa las mejores apuestas y cuotas deportivas.</desc>
   </programme>
   <programme start="20260416043000 +0200" stop="20260416050000 +0200" channel="BigTenNetwork.us">
     <title lang="es">B1G Women&amp;apos;s Sports Report</title>
@@ -1680,10 +1668,6 @@
     <title lang="es">Live: Men&amp;apos;s College Lacrosse</title>
     <desc lang="es">From SHI Stadium in Piscataway, N.J.</desc>
   </programme>
-  <programme start="20260416030000 +0200" stop="20260416040000 +0200" channel="CBSSportsNetwork.us">
-    <title lang="es">Inside College Football</title>
-    <desc lang="es">Adam Zucker, Rick Neuheisel and Brian Jones discuss college football news and preview the SEC game of the week.</desc>
-  </programme>
   <programme start="20260416040000 +0200" stop="20260416050000 +0200" channel="CBSSportsNetwork.us">
     <title lang="es">Inside College Football</title>
     <desc lang="es">Adam Zucker, Rick Neuheisel and Brian Jones discuss college football news and preview the SEC game of the week.</desc>
@@ -1820,9 +1804,13 @@
     <title lang="es">Soccer Over Here/Football Over There</title>
     <desc lang="es">A look at the unique ownership challenges of Kevin Nagle, who owns Sacramento Republic FC and Huddersfield Town, two clubs with vastly different histories, traditions, cultures and fan bases.</desc>
   </programme>
-  <programme start="20260416030000 +0200" stop="20260416040000 +0200" channel="CNBC.us">
-    <title lang="es">Shark Tank</title>
-    <desc lang="es">A way to decorate Easter eggs without the mess; a reusable tape invention; efficient transportation device; a digital tool turns loose change into effortless money; an update on Fidgetland, a company that designs toys to help stimulate the mind.</desc>
+  <programme start="20260418023000 +0200" stop="20260418030000 +0200" channel="CBSSportsNetwork.us">
+    <title lang="es">Champions League Weekly</title>
+    <desc lang="es">A weekly show dedicated to action from the Champions League.</desc>
+  </programme>
+  <programme start="20260418030000 +0200" stop="20260418050000 +0200" channel="CBSSportsNetwork.us">
+    <title lang="es">Live: Women&amp;apos;s Rugby</title>
+    <desc lang="es">From CPKC Stadium in Kansas City, Mo.</desc>
   </programme>
   <programme start="20260416040000 +0200" stop="20260416050000 +0200" channel="CNBC.us">
     <title lang="es">American Greed</title>
@@ -1987,6 +1975,10 @@
   <programme start="20260418020000 +0200" stop="20260418030000 +0200" channel="CNBC.us">
     <title lang="es">Shark Tank</title>
     <desc lang="es">Kids&amp;apos; shoes designed to be fashionable and save money; a fashion line for people who want to match their best friends; an interesting kitchen tool; a family introduces their &amp;quot;freak shakes.&amp;quot;</desc>
+  </programme>
+  <programme start="20260418030000 +0200" stop="20260418040000 +0200" channel="CNBC.us">
+    <title lang="es">Shark Tank</title>
+    <desc lang="es">A new take on a traditional snack food; a single-serve all-in-one portable coffee product; a beverage line made from real herbs, fruits and flowers; a patented design that makes taking care of newborns easier.</desc>
   </programme>
   <programme start="20260416040000 +0200" stop="20260416050000 +0200" channel="CNBCWorld.us">
     <title lang="es">Live: The China Connection</title>
@@ -2252,13 +2244,9 @@
     <title lang="es">Back in the Game</title>
     <desc lang="es">Alex Rodriguez gives financial advice to Olympic swimmer Ryan Lochte who is living paycheck to paycheck after becoming embroiled in a scandal during the 2016 Summer Olympics held in Rio de Janeiro.</desc>
   </programme>
-  <programme start="20260416023000 +0200" stop="20260416030000 +0200" channel="CheddarNews.us">
-    <title lang="es">Who Knew?</title>
-    <desc lang="es">A thematic series of stories from &amp;quot;Cheddar News Originals&amp;apos; Explains, Explores and Examines.&amp;quot;</desc>
-  </programme>
-  <programme start="20260416030000 +0200" stop="20260416033000 +0200" channel="CheddarNews.us">
-    <title lang="es">NYC Revealed</title>
-    <desc lang="es">From garbage trucks to power plants, giving viewers a rare behind-the-scenes look into the sprawling network of infrastructure systems that keep New York City breathing.</desc>
+  <programme start="20260418030000 +0200" stop="20260418040000 +0200" channel="CNBCWorld.us">
+    <title lang="es">Back in the Game</title>
+    <desc lang="es">Ever since he foolishly walked away from a lucrative job as co-host of American Idol, Brian Dunkleman has been struggling and is now a full time Uber driver trying to support his young son.</desc>
   </programme>
   <programme start="20260416033000 +0200" stop="20260416040000 +0200" channel="CheddarNews.us">
     <title lang="es">NYC Revealed</title>
@@ -2604,6 +2592,14 @@
     <title lang="es">NYC Revealed</title>
     <desc lang="es">From garbage trucks to power plants, giving viewers a rare behind-the-scenes look into the sprawling network of infrastructure systems that keep New York City breathing.</desc>
   </programme>
+  <programme start="20260418023000 +0200" stop="20260418030000 +0200" channel="CheddarNews.us">
+    <title lang="es">NYC Revealed</title>
+    <desc lang="es">From garbage trucks to power plants, giving viewers a rare behind-the-scenes look into the sprawling network of infrastructure systems that keep New York City breathing.</desc>
+  </programme>
+  <programme start="20260418030000 +0200" stop="20260418033000 +0200" channel="CheddarNews.us">
+    <title lang="es">NYC Revealed</title>
+    <desc lang="es">From garbage trucks to power plants, giving viewers a rare behind-the-scenes look into the sprawling network of infrastructure systems that keep New York City breathing.</desc>
+  </programme>
   <programme start="20260416041100 +0200" stop="20260416053100 +0200" channel="Cinemax.us">
     <title lang="es">Open Water</title>
     <desc lang="es">Daniel (Daniel Travis) and Susan (Blanchard Ryan) embark on a tropical vacation with their scuba-diving certifications in tow. During a group dive, the two separate themselves from the others to dive a little deeper. An incorrect head-count suggests the entire group has returned, so the boat departs. When the pair surfaces, they make out a vessel in the distance, but it does not immediately set in that they have been left behind. With sharks lurking beneath, their survival chances grow smaller.</desc>
@@ -2712,9 +2708,9 @@
     <title lang="es">The Watch</title>
     <desc lang="es">In Glenview, Ohio, four pals, Evan, Bob, Franklin and Jamarcus, form a neighborhood watch group. Armed with flashlights, walkie-talkies and spiffy new jackets, the guys try to take their mission seriously, even if they spend a little time goofing off now and then. But when they discover aliens living among them and no one believes their story, they learn that they have to kick things up a notch to save the world from annihilation.</desc>
   </programme>
-  <programme start="20260416023200 +0200" stop="20260416034600 +0200" channel="ClanTVE.es">
-    <title lang="es">Cuéntame cómo pasó</title>
-    <desc lang="es">Para los Alcántara, 1987 es un año de crecimiento. La familia se ha hecho más grande.</desc>
+  <programme start="20260418025400 +0200" stop="20260418051800 +0200" channel="Cinemax.us">
+    <title lang="es">Maze Runner: The Death Cure</title>
+    <desc lang="es">Thomas leads some escaped Gladers on their final and most dangerous mission yet. To save their friends, they must break into the legendary Last City, a WCKD-controlled labyrinth that may turn out to be the deadliest maze of all. Anyone who makes it out alive will get answers to the questions that the Gladers have been asking since they arrived in the maze.</desc>
   </programme>
   <programme start="20260416034600 +0200" stop="20260416050200 +0200" channel="ClanTVE.es">
     <title lang="es">Guante blanco</title>
@@ -3256,6 +3252,10 @@
     <title lang="es">Cuéntame cómo pasó</title>
     <desc lang="es">Para los Alcántara, 1987 es un año de crecimiento. La familia se ha hecho más grande.</desc>
   </programme>
+  <programme start="20260418030600 +0200" stop="20260418042600 +0200" channel="ClanTVE.es">
+    <title lang="es">Águila Roja</title>
+    <desc lang="es">Gonzalo de Montalvo decide vengar la muerte de su mujer. En la búsqueda del culpable acaba convirtiéndose en un secreto héroe justiciero, al que se conocerá como Águila roja.</desc>
+  </programme>
   <programme start="20260416033000 +0200" stop="20260416044500 +0200" channel="Cuatro.es">
     <title lang="es">En el punto de mira</title>
     <desc lang="es">Cada año se denuncian más que 90.000 robos en España. El programa aborda diversos casos en los que los ladrones son personas cercanas a las víctimas, gente de la misma localidad o incluso de la misma comunidad.</desc>
@@ -3411,6 +3411,10 @@
   <programme start="20260418003000 +0200" stop="20260418025000 +0200" channel="Cuatro.es">
     <title lang="es">Cine</title>
     <desc lang="es">Estudio crítico de la historia del cine basado en el libro homónimo. Comparada a las &quot;Histoire(s) du Cinema&quot; de Jean Luc Godard, Cousins aborda visualmente la historia del cine desde su creación hasta nuestros días a través de 15 episodios y cientos de fragmentos cinematográficos desde la creación del cine hasta el último &quot;blockbuster&quot; norteamericano. En ellos encontramos decenas de entrevistas con los principales maestros de nuestro tiempo. Un documental producido por Film 4 para Gran Bretaña. Ha sido emitido con éxito en Reino Unido a través de Channel 4, y fue estrenado íntegro en el Festival de Toronto, además de haber sido proyectado en el MoMA de Nueva York.</desc>
+  </programme>
+  <programme start="20260418025000 +0200" stop="20260418035500 +0200" channel="Cuatro.es">
+    <title lang="es">En el punto de mira</title>
+    <desc lang="es">Programa de investigación en el que se muestran todas las caras de temas de actualidad.</desc>
   </programme>
   <programme start="20260416060000 +0200" stop="20260416130000 +0200" channel="DAZN1.es">
     <title lang="es">Disfruta de DAZN en Movistar Plus+</title>
@@ -3688,9 +3692,13 @@
     <title lang="es">Mundial F1 - GP de España</title>
     <desc lang="es">Los pilotos afrontarán un apasionante Gran Premio en el circuito de Montmeló, y buscarán hacer frente al líder de la clasificación actual, el australiano Oscar Piastri (161 puntos), seguido muy de cerca por Lando Norris (158) y Max Verstappen (136).</desc>
   </programme>
-  <programme start="20260416024000 +0200" stop="20260416032000 +0200" channel="Divinity.es">
-    <title lang="es">Castle</title>
-    <desc lang="es">El asesino en serie que quiere matar a Kate Beckett, está cada vez más cerca de cumplir su objetivo. Para evitarlo, la policía y el FBI deben perfeccionar su trabajo para detener al psicópata, que está dispuesto a matar quien sea para llegar a Becket..</desc>
+  <programme start="20260418023500 +0200" stop="20260418030500 +0200" channel="DAZNF1.es">
+    <title lang="es">Código F1</title>
+    <desc lang="es">Descubrimos todos los detalles del Campeonato Mundial de Fórmula 1, conocemos con profundidad a sus protagonistas y repasamos los mejores momentos de la competición.</desc>
+  </programme>
+  <programme start="20260418030500 +0200" stop="20260418051500 +0200" channel="DAZNF1.es">
+    <title lang="es">Mundial de Fórmula 1</title>
+    <desc lang="es">Vuelven las rectas frenéticas, las curvas imposibles y los adelantamientos al límite: ya está aquí el Mundial de Fórmula 1. La temporada 2024 promete más emoción y espectáculo que nunca.</desc>
   </programme>
   <programme start="20260416032000 +0200" stop="20260416040000 +0200" channel="Divinity.es">
     <title lang="es">La luz de mi vida</title>
@@ -3920,9 +3928,9 @@
     <title lang="es">Elementary</title>
     <desc lang="es">El dúo moderno Holmes y Watson resuelve los casos más complicados de la Policía de Nueva York.</desc>
   </programme>
-  <programme start="20260416030000 +0200" stop="20260416040000 +0200" channel="ESPN.us">
-    <title lang="es">Live: Baseball Tonight</title>
-    <desc lang="es">If you&amp;apos;re a fan of baseball, then you won&amp;apos;t want to miss this show featuring highlights of all the games and updates of ones still in progress. Regularly hosted by Karl Ravech, he&amp;apos;s joined by a rotating panel of analysts that includes former players and managers, plus reporters such as Tim Kurkjian and Buster Olney. Other hosts include Adnan Virk and Jon Sciambi.</desc>
+  <programme start="20260418024000 +0200" stop="20260418032000 +0200" channel="Divinity.es">
+    <title lang="es">Elementary</title>
+    <desc lang="es">El dúo moderno Holmes y Watson resuelve los casos más complicados de la Policía de Nueva York.</desc>
   </programme>
   <programme start="20260416040000 +0200" stop="20260416070000 +0200" channel="ESPN.us">
     <title lang="es">Live: MLB Baseball</title>
@@ -4071,10 +4079,6 @@
   <programme start="20260418010000 +0200" stop="20260418040000 +0200" channel="ESPN.us">
     <title lang="es">Live: College Baseball</title>
     <desc lang="es">From Alex Box Stadium in Baton Rouge, La.</desc>
-  </programme>
-  <programme start="20260416023000 +0200" stop="20260416031500 +0200" channel="Energy.es">
-    <title lang="es">Ncis</title>
-    <desc lang="es">Kensi y Deeks anuncian que se van a vivir juntos, pero les asignan proteger al ex de ella.</desc>
   </programme>
   <programme start="20260416031500 +0200" stop="20260416040000 +0200" channel="Energy.es">
     <title lang="es">Ncis</title>
@@ -4300,10 +4304,6 @@
     <title lang="es">Csi</title>
     <desc lang="es">Un equipo de forenses del sur de Florida utiliza los métodos más modernos de investigación para resolver todo tipo de crímenes.</desc>
   </programme>
-  <programme start="20260416030000 +0200" stop="20260416050000 +0200" channel="Eurosport1.es">
-    <title lang="es">Abierto de Gales de snooker</title>
-    <desc lang="es">El Venue Cymru de Llandudno alberga la disputa del Abierto de Gales del 23 de febrero al 1 de marzo, un torneo englobado en las Home Nations Series. El inglés Mark Selby es el defensor del título. El snooker es la modalidad del billar más profesional..</desc>
-  </programme>
   <programme start="20260416050000 +0200" stop="20260416050000 +0200" channel="Eurosport1.es">
     <title lang="es">O Gran Camiño</title>
     <desc lang="es">Por quinto año consecutivo, Galicia presume de una vuelta ciclista por etapas en la que no faltan los equipos de primer nivel. O Gran Camiño cuenta con cinco jornadas por las carreteras de las cuatro provincias gallegas. Derek Gee-West se impuso en 2..</desc>
@@ -4456,9 +4456,9 @@
     <title lang="es">O Gran Camiño</title>
     <desc lang="es">Por quinto año consecutivo, Galicia presume de una vuelta ciclista por etapas en la que no faltan los equipos de primer nivel. O Gran Camiño cuenta con cinco jornadas por las carreteras de las cuatro provincias gallegas. Derek Gee-West se impuso en 2..</desc>
   </programme>
-  <programme start="20260416030000 +0200" stop="20260416040000 +0200" channel="Eurosport2.es">
-    <title lang="es">O Gran Camiño</title>
-    <desc lang="es">Por quinto año consecutivo, Galicia presume de una vuelta ciclista por etapas en la que no faltan los equipos de primer nivel. O Gran Camiño cuenta con cinco jornadas por las carreteras de las cuatro provincias gallegas. Derek Gee-West se impuso en 2..</desc>
+  <programme start="20260418030000 +0200" stop="20260418050000 +0200" channel="Eurosport1.es">
+    <title lang="es">Mundial de snooker</title>
+    <desc lang="es">El Mundial, el torneo profesional más importante en términos de puntos y de ranking, pone el colofón a la temporada de snooker. Desde 1977, se celebra en el Crucible Theatre de la localidad inglesa de Sheffield. En 2024, el vencedor fue Kyren Wilson.</desc>
   </programme>
   <programme start="20260416040000 +0200" stop="20260416050000 +0200" channel="Eurosport2.es">
     <title lang="es">UCI Europe Tour</title>
@@ -4624,9 +4624,9 @@
     <title lang="es">Mundial de snooker</title>
     <desc lang="es">El Mundial, el torneo profesional más importante en términos de puntos y de ranking, pone el colofón a la temporada de snooker. Desde 1977, se celebra en el Crucible Theatre de la localidad inglesa de Sheffield. En 2024, el vencedor fue Kyren Wilson.</desc>
   </programme>
-  <programme start="20260416030000 +0200" stop="20260416053000 +0200" channel="FX.us">
-    <title lang="es">Thor</title>
-    <desc lang="es">As the son of Odin (Anthony Hopkins), king of the Norse gods, Thor (Chris Hemsworth) will soon inherit the throne of Asgard from his aging father. However, on the day that he is to be crowned, Thor reacts with brutality when the gods&amp;apos; enemies, the Frost Giants, enter the palace in violation of their treaty. As punishment, Odin banishes Thor to Earth. While Loki (Tom Hiddleston), Thor&amp;apos;s brother, plots mischief in Asgard, Thor, now stripped of his powers, faces his greatest threat.</desc>
+  <programme start="20260418030000 +0200" stop="20260418050000 +0200" channel="Eurosport2.es">
+    <title lang="es">24 horas de Le Mans - Mundial de motociclismo de resistencia</title>
+    <desc lang="es">La 49ª edición de las 24 Heures Motos se disputa del 16 al 19 de abril de 2026 en el Circuito Bugatti de Le Mans, inaugurando el Mundial FIM EWC con una parrilla completa de 60 motos y promesa de máxima intensidad día y noche.</desc>
   </programme>
   <programme start="20260416053000 +0200" stop="20260416080000 +0200" channel="FX.us">
     <title lang="es">Thor: The Dark World</title>
@@ -4836,13 +4836,9 @@
     <title lang="es">Ice Age</title>
     <desc lang="es">Twenty-thousand years ago, Earth was a wondrous, prehistoric world filled with great danger, not the least of which is the beginning of the Ice Age. To avoid a terrible frostbite, the planet&amp;apos;s majestic creatures - and a few small, slothful ones - begin migrating south. The story revolves around sub-zero heroes: a woolly mammoth, a saber-toothed tiger, a sloth and a prehistoric combination of a squirrel and rat, known as Scrat.</desc>
   </programme>
-  <programme start="20260416023000 +0200" stop="20260416030000 +0200" channel="FXX.us">
-    <title lang="es">Family Guy</title>
-    <desc lang="es">When Peter hears screams coming from Cleveland and Loretta&amp;apos;s house, he tries to help but discovers Loretta in a compromising position.</desc>
-  </programme>
-  <programme start="20260416030000 +0200" stop="20260416033000 +0200" channel="FXX.us">
-    <title lang="es">Family Guy</title>
-    <desc lang="es">After winning at Trivial Pursuit, Peter claims to be a genius, so Brian asks him to take an IQ test to prove it.</desc>
+  <programme start="20260418023000 +0200" stop="20260418042000 +0200" channel="FXMovieChannel.us">
+    <title lang="es">Ice Age: The Meltdown</title>
+    <desc lang="es">With global warming threatening their once-icy domain with widespread flooding, Manny (Ray Romano), Sid (John Leguizamo) and Diego (Denis Leary) set out to find a safe haven. Along the way, another mammoth (Queen Latifah), who thinks she is an opossum, joins the travelers on their perilous quest.</desc>
   </programme>
   <programme start="20260416033000 +0200" stop="20260416040000 +0200" channel="FXX.us">
     <title lang="es">Family Guy</title>
@@ -5152,9 +5148,13 @@
     <title lang="es">Family Guy</title>
     <desc lang="es">After reading an erotic novel, Peter decides to write one of his own and gets Carter to publish it.</desc>
   </programme>
-  <programme start="20260416030000 +0200" stop="20260416033000 +0200" channel="FoxBusiness.us">
-    <title lang="es">American Built</title>
-    <desc lang="es">The improbable launch site that won the space race.</desc>
+  <programme start="20260418023000 +0200" stop="20260418030000 +0200" channel="FXX.us">
+    <title lang="es">Family Guy</title>
+    <desc lang="es">Brian becomes a crazed activist when Mayor West bans gay marriage after Jasper announces he wants to marry his partner at the Griffin home.</desc>
+  </programme>
+  <programme start="20260418030000 +0200" stop="20260418033000 +0200" channel="FXX.us">
+    <title lang="es">Family Guy</title>
+    <desc lang="es">Peter discovers an American Indian burial ground in the backyard; Stewie gets sucked into the television.</desc>
   </programme>
   <programme start="20260416033000 +0200" stop="20260416040000 +0200" channel="FoxBusiness.us">
     <title lang="es">American Built</title>
@@ -5412,9 +5412,13 @@
     <title lang="es">Cops</title>
     <desc lang="es">A man flees from officers when they roll up on a notorious dealer hotspot; cops surprise a jaywalker when they find suspicious items in his jacket; a woman takes the heat for her boyfriend.</desc>
   </programme>
-  <programme start="20260416030000 +0200" stop="20260416050000 +0200" channel="FoxDeportes.us">
-    <title lang="es">Fútbol Mexicano Primera División</title>
-    <desc lang="es">Acción de la fecha 14 del Clausura 2026. Tigres busca mantenerse en liguilla y Chivas retener el liderato.</desc>
+  <programme start="20260418023000 +0200" stop="20260418030000 +0200" channel="FoxBusiness.us">
+    <title lang="es">Cops</title>
+    <desc lang="es">The boat unit deals with an unruly suspect and his unpredictable dogs; two burglary suspects claim car trouble; a meth addict is caught by officers.</desc>
+  </programme>
+  <programme start="20260418030000 +0200" stop="20260418033000 +0200" channel="FoxBusiness.us">
+    <title lang="es">Cops</title>
+    <desc lang="es">A robbery suspect leads officers on a chase through backyards; a man drops a bag of meth and swears he has only seen the drug on TV; a domestic violence suspect tries to claim self-defense.</desc>
   </programme>
   <programme start="20260416050000 +0200" stop="20260416070000 +0200" channel="FoxDeportes.us">
     <title lang="es">El Chiringuito de Jugones</title>
@@ -5604,10 +5608,6 @@
     <title lang="es">Live: Fútbol Americano UFL</title>
     <desc lang="es">Cobertura de la liga de fútbol americana de primavera con la UFL.</desc>
   </programme>
-  <programme start="20260416030000 +0200" stop="20260416040000 +0200" channel="FoxNews.us">
-    <title lang="es">Live: Hannity</title>
-    <desc lang="es">Sean Hannity interviews political figures and newsmakers and offers his own conservative perspective on events.</desc>
-  </programme>
   <programme start="20260416040000 +0200" stop="20260416050000 +0200" channel="FoxNews.us">
     <title lang="es">Gutfeld!</title>
     <desc lang="es">Greg Gutfeld looks at the news of the day through a satiric lens fused with pop culture and features his takes on the day&amp;apos;s headlines.</desc>
@@ -5796,9 +5796,9 @@
     <title lang="es">Live: Jesse Watters Primetime</title>
     <desc lang="es">Jesse Watters speaks with newsmakers from across America to present news with a clear and direct approach.</desc>
   </programme>
-  <programme start="20260416030000 +0200" stop="20260416050000 +0200" channel="FoxSoccerPlus.us">
-    <title lang="es">CONMEBOL Women&amp;apos;s Nations League</title>
-    <desc lang="es">From Pascual Guerrero Stadium in Cali, Valle del Cauca, Colombia.</desc>
+  <programme start="20260418030000 +0200" stop="20260418040000 +0200" channel="FoxNews.us">
+    <title lang="es">Live: Hannity</title>
+    <desc lang="es">Sean Hannity interviews political figures and newsmakers and offers his own conservative perspective on events.</desc>
   </programme>
   <programme start="20260416050000 +0200" stop="20260416070000 +0200" channel="FoxSoccerPlus.us">
     <title lang="es">Saudi League Soccer</title>
@@ -5908,13 +5908,9 @@
     <title lang="es">Italian Serie B Soccer</title>
     <desc lang="es">From Luigi Ferraris Stadium in Genoa, Liguria, Italy.</desc>
   </programme>
-  <programme start="20260416023000 +0200" stop="20260416030000 +0200" channel="FoxSports1.us">
-    <title lang="es">FIFA World Cup 2026 Stories From the Cities</title>
-    <desc lang="es">Houston is known for its vibrant music scene and its role in man&amp;apos;s exploration of space but this upcoming summer, its energy will be devoted to the 2026 FIFA World Cup.</desc>
-  </programme>
-  <programme start="20260416030000 +0200" stop="20260416050000 +0200" channel="FoxSports1.us">
-    <title lang="es">Live: Concacaf Champions Cup</title>
-    <desc lang="es">Quarterfinal, 2nd Leg.</desc>
+  <programme start="20260418030000 +0200" stop="20260418050000 +0200" channel="FoxSoccerPlus.us">
+    <title lang="es">Rugby Super League</title>
+    <desc lang="es">From LNER Community Stadium in York, England, United Kingdom.</desc>
   </programme>
   <programme start="20260416050000 +0200" stop="20260416053000 +0200" channel="FoxSports1.us">
     <title lang="es">Live: Concacaf Champions Cup Match Day</title>
@@ -6056,9 +6052,9 @@
     <title lang="es">Behind the Broadcast: Indy 500</title>
     <desc lang="es">Behind the scenes look at FOX Sports&amp;apos; epic coverage of the Indianapolis 500.</desc>
   </programme>
-  <programme start="20260416030000 +0200" stop="20260416033000 +0200" channel="FoxSports2.us">
-    <title lang="es">Kevin Harvick&amp;apos;s Happy Hour</title>
-    <desc lang="es">NASCAR legend Kevin Harvick shares his expert opinion on NASCAR news and interviews the biggest names in sports and the racing world.</desc>
+  <programme start="20260418023000 +0200" stop="20260418033000 +0200" channel="FoxSports1.us">
+    <title lang="es">Road to the IndyCar Championship</title>
+    <desc lang="es">Palou dominates with 5 wins in 6 races, eyeing the championship; 26 rivals, led by Kirkwood, aim to end his historic run as Team Penske battles scandal and McLaughlin fights to rebound.</desc>
   </programme>
   <programme start="20260416033000 +0200" stop="20260416060000 +0200" channel="FoxSports2.us">
     <title lang="es">The American Rodeo</title>
@@ -6173,6 +6169,10 @@
     <desc lang="es">Four-time Super Bowl champion Rob Gronkowski makes it a family affair, as his dad steps in to make a crucial play; poker pro Antonio Esfandiari and sports broadcaster Nick Wright continue to trade blows.</desc>
   </programme>
   <programme start="20260418013000 +0200" stop="20260418023000 +0200" channel="FoxSports2.us">
+    <title lang="es">The American Rodeo</title>
+    <desc lang="es">All the action from rodeo competitions.</desc>
+  </programme>
+  <programme start="20260418023000 +0200" stop="20260418033000 +0200" channel="FoxSports2.us">
     <title lang="es">The American Rodeo</title>
     <desc lang="es">All the action from rodeo competitions.</desc>
   </programme>
@@ -6432,9 +6432,9 @@
     <title lang="es">Live: LPGA Tour Golf</title>
     <desc lang="es">From El Caballero Country Club in Tarzana, Calif.</desc>
   </programme>
-  <programme start="20260416030400 +0200" stop="20260416052000 +0200" channel="HBO.us">
-    <title lang="es">Christy</title>
-    <desc lang="es">Christy Martin never imagined life beyond her small-town roots in West Virginia, until she discovered a knack for punching people. Fueled by grit, raw determination, and an unshakable desire to win, she charges into the world of boxing under the guidance of her trainer and manager-turned-husband, Jim. Flaunting a fiery persona in the ring, her toughest battles start to unfold outside it as she confronts family, identity, and a relationship that just might become life-or-death.</desc>
+  <programme start="20260418030000 +0200" stop="20260418040000 +0200" channel="GolfChannel.us">
+    <title lang="es">Live: Golf Central</title>
+    <desc lang="es">Golf Channel&amp;apos;s flagship news program, the nightly &amp;quot;Golf Central&amp;quot; presents highlights from the major golf tours and world events, plus reports and features from tournament sites.</desc>
   </programme>
   <programme start="20260416052000 +0200" stop="20260416061800 +0200" channel="HBO.us">
     <title lang="es">DTF St. Louis</title>
@@ -6600,9 +6600,9 @@
     <title lang="es">Mountainhead</title>
     <desc lang="es">Four friends reunite during worldwide economic turmoil.</desc>
   </programme>
-  <programme start="20260416023300 +0200" stop="20260416035900 +0200" channel="HBOComedy.us">
-    <title lang="es">My Blind Brother</title>
-    <desc lang="es">Bill has always lived in the shadow of his overachieving brother Robbie, an arrogant athlete and local celebrity who happens to be blind. After years of thanklessly helping Robbie achieve one goal after another, Bill finally catches a break when he finds a connection with the charming Rose, who is dealing with her own crisis. But when Rose starts dating Robbie, Bill must decide if he can finally put his own happiness over his brother&amp;apos;s and compete for the ultimate prize.</desc>
+  <programme start="20260418030000 +0200" stop="20260418040500 +0200" channel="HBO.us">
+    <title lang="es">Ramy Youssef: In Love</title>
+    <desc lang="es">Ramy playfully engages with the audience as he approaches a vast spectrum of personal topics, both hilariously relatable and genuinely serious, all while doing so with the belief that you can find light and hope in all things if you just try to see them through a lens of love. Whether it&amp;apos;s his marriage, being a dog parent, AI, or religion, Ramy comes at everything with his own brand of heart and humor.</desc>
   </programme>
   <programme start="20260416035900 +0200" stop="20260416054000 +0200" channel="HBOComedy.us">
     <title lang="es">Game Night</title>
@@ -6812,10 +6812,6 @@
     <title lang="es">The LEGO Batman Movie</title>
     <desc lang="es">There are big changes brewing in Gotham, but if Batman (Will Arnett) wants to save the city from the Joker&amp;apos;s (Zach Galifianakis) hostile takeover, he may have to drop the lone vigilante thing, try to work with others and maybe, just maybe, learn to lighten up. Maybe his superhero sidekick Robin (Michael Cera) and loyal butler Alfred (Ralph Fiennes) can show him a thing or two.</desc>
   </programme>
-  <programme start="20260416030400 +0200" stop="20260416052000 +0200" channel="HBOLatino.us">
-    <title lang="es">Christy</title>
-    <desc lang="es">Christy Martin nunca imaginó una vida más allá de sus raíces en un pequeño pueblo de Virginia Occidental, hasta que descubre su habilidad para golpear a la gente. Impulsada por la determinación y el deseo de ganar, se adentra en el mundo del boxeo bajo la guía de su entrenador, mánager y esposo Jim. Con una personalidad fogosa en el ring, sus batallas más duras comienzan fuera de él mientras se enfrenta a la familia, la identidad y una relación peligrosa.</desc>
-  </programme>
   <programme start="20260416052000 +0200" stop="20260416061800 +0200" channel="HBOLatino.us">
     <title lang="es">DTF St. Louis</title>
     <desc lang="es">Un triángulo amoroso entre tres adultos que sufren de crisis de la mediana edad termina con la muerte de uno de ellos.</desc>
@@ -6979,6 +6975,10 @@
   <programme start="20260418010700 +0200" stop="20260418030000 +0200" channel="HBOLatino.us">
     <title lang="es">Mountainhead</title>
     <desc lang="es">Un grupo de cuatro amigos multimillonarios se reencuentran en el marco de una crisis económica mundial.</desc>
+  </programme>
+  <programme start="20260418030000 +0200" stop="20260418050400 +0200" channel="HBOLatino.us">
+    <title lang="es">The Lobster</title>
+    <desc lang="es">En una sociedad distópica, las personas solteras se ven obligadas a encontrar pareja en 45 días para no ser transformadas en animales.</desc>
   </programme>
   <programme start="20260416053500 +0200" stop="20260416065800 +0200" channel="HBOSignature.us">
     <title lang="es">Frankenstein 1970</title>
@@ -7164,13 +7164,9 @@
     <title lang="es">Game of Thrones</title>
     <desc lang="es">Cersei and Jaime adjust to a world without Tywin; Varys reveals a conspiracy to Tyrion; Dany faces a new threat; Jon is caught between two kings.</desc>
   </programme>
-  <programme start="20260416023000 +0200" stop="20260416030000 +0200" channel="HLN.us">
-    <title lang="es">Forensic Files</title>
-    <desc lang="es">When a 9-year-old girl vanishes on her way to school, the entire community helps with the search; detectives believe her mother may be involved, and a hidden fingerprint seals the case.</desc>
-  </programme>
-  <programme start="20260416030000 +0200" stop="20260416033000 +0200" channel="HLN.us">
-    <title lang="es">Forensic Files</title>
-    <desc lang="es">The investigation of a murder case in New Jersey is stalled until a similar attack occurs on a state trooper in Maine.</desc>
+  <programme start="20260418023400 +0200" stop="20260418033000 +0200" channel="HBOSignature.us">
+    <title lang="es">Game of Thrones</title>
+    <desc lang="es">Arya arrives in Braavos; Brienne runs into trouble on the road; Cersei fears for her daughter&amp;apos;s safety in Dorne; Ellaria Sand seeks revenge; Stannis tempts Jon.</desc>
   </programme>
   <programme start="20260416033000 +0200" stop="20260416040000 +0200" channel="HLN.us">
     <title lang="es">Forensic Files</title>
@@ -7523,6 +7519,14 @@
   <programme start="20260418020000 +0200" stop="20260418023000 +0200" channel="HLN.us">
     <title lang="es">Forensic Files</title>
     <desc lang="es">A family suspects their teenage daughter&amp;apos;s new friends were involved in her disappearance.</desc>
+  </programme>
+  <programme start="20260418023000 +0200" stop="20260418030000 +0200" channel="HLN.us">
+    <title lang="es">Forensic Files</title>
+    <desc lang="es">When a 62-year-old man opens a car restoration business and becomes seriously ill, his doctors cannot find the cause, but forensics can; identification of a highly toxic metal in the victim&amp;apos;s blood leads to his poisoner.</desc>
+  </programme>
+  <programme start="20260418030000 +0200" stop="20260418033000 +0200" channel="HLN.us">
+    <title lang="es">Forensic Files</title>
+    <desc lang="es">When a 6-year-old disappears, her father becomes the prime suspect; he fails a polygraph test and even confesses, but 10 years later, the investigation gets turned on its head.</desc>
   </programme>
   <programme start="20260416040000 +0200" stop="20260416043000 +0200" channel="Hallmark.us">
     <title lang="es">The Golden Girls</title>
@@ -7932,14 +7936,6 @@
     <title lang="es">Garage Sale Mysteries</title>
     <desc lang="es">Antiques guru Jennifer Shannon investigates a murder after an old college friend becomes the prime suspect.</desc>
   </programme>
-  <programme start="20260416023000 +0200" stop="20260416030000 +0200" channel="IndependentFilmChannel.us">
-    <title lang="es">Two and a Half Men</title>
-    <desc lang="es">Alan takes Charlie&amp;apos;s suggestion of a jog on the beach to cure his insomnia; Jake pleads with Charlie not to date the mother of a girl he likes.</desc>
-  </programme>
-  <programme start="20260416030000 +0200" stop="20260416033000 +0200" channel="IndependentFilmChannel.us">
-    <title lang="es">Two and a Half Men</title>
-    <desc lang="es">Charlie and Alan go on a double date, leaving Jake home alone for the first time.</desc>
-  </programme>
   <programme start="20260416033000 +0200" stop="20260416040000 +0200" channel="IndependentFilmChannel.us">
     <title lang="es">Two and a Half Men</title>
     <desc lang="es">Charlie must choose between his girlfriend and his housekeeper; Alan looks to sell Kandi&amp;apos;s condo, but sex keeps getting in the way.</desc>
@@ -8308,10 +8304,6 @@
     <title lang="es">Noticias 24H</title>
     <desc lang="es">Noticias de los servicios informativos del Canal 24 Horas. Producido por Televisión Española, este canal está dedicado íntegramente a ofrecer información de actualidad y es el más antiguo de los canales de este tipo en España.</desc>
   </programme>
-  <programme start="20260416024000 +0200" stop="20260416032500 +0200" channel="LA2.es">
-    <title lang="es">Grand Designs</title>
-    <desc lang="es">Kevin McCloud presenta a gente que ambiciona construir las casas de sus sueños con sus propias manos de principio a fin.</desc>
-  </programme>
   <programme start="20260416032500 +0200" stop="20260416035000 +0200" channel="LA2.es">
     <title lang="es">Escala humana</title>
     <desc lang="es">Una mirada a los edificios y espacios urbanos desde otra perspectiva.</desc>
@@ -8556,14 +8548,6 @@
     <title lang="es">Anatomía de un instante</title>
     <desc lang="es">El 23 de febrero de 1981 el teniente coronel Tejero irrumpe en el Congreso acompañado de un grupo de guardia civiles armados. Solo Suárez, Carrillo y Gutiérrez Mellado se mantienen en sus asientos mientras el resto se agacha para ponerse a salvo.</desc>
   </programme>
-  <programme start="20260416024500 +0200" stop="20260416030000 +0200" channel="LaSexta.es">
-    <title lang="es">La ruleta de la suerte noche</title>
-    <desc lang="es">Presentado por Jorge Fernández y Laura Moure, tres concursantes se enfrentan a un panel en blanco en el que deben adivinar las letras correctas con la ayuda de una ruleta.</desc>
-  </programme>
-  <programme start="20260416030000 +0200" stop="20260416033000 +0200" channel="LaSexta.es">
-    <title lang="es">Galería del coleccionista</title>
-    <desc lang="es">Espacio comercial.</desc>
-  </programme>
   <programme start="20260416033000 +0200" stop="20260416033000 +0200" channel="LaSexta.es">
     <title lang="es">Venta Prime</title>
     <desc lang="es">Espacio de televenta.</desc>
@@ -8704,6 +8688,10 @@
     <title lang="es">Equipo de investigación</title>
     <desc lang="es">Gloria Serra presenta este programa semanal que ofrece diferentes reportajes de investigación periodística centrados en temas de actualidad.</desc>
   </programme>
+  <programme start="20260418023000 +0200" stop="20260418031000 +0200" channel="LaSexta.es">
+    <title lang="es">Pokerstars casino</title>
+    <desc lang="es">El programa trae cada día toda la emoción de su ruleta en vivo, Spin &amp;amp; Win, una versión exclusiva del clásico juego de casino.</desc>
+  </programme>
   <programme start="20260416033000 +0200" stop="20260416043000 +0200" channel="MLBNetwork.us">
     <title lang="es">Live: MLB Big Inning</title>
     <desc lang="es">Get live look-ins, breaking highlights and big moments on MLB&amp;apos;s Big Inning.</desc>
@@ -8843,10 +8831,6 @@
   <programme start="20260418003000 +0200" stop="20260418033000 +0200" channel="MLBNetwork.us">
     <title lang="es">Live: MLB Baseball</title>
     <desc lang="es">From Citizens Bank Park in Philadelphia.</desc>
-  </programme>
-  <programme start="20260416024500 +0200" stop="20260416033000 +0200" channel="Mega.es">
-    <title lang="es">Sportium Game Show</title>
-    <desc lang="es">Espacio conducido por Sofía Del Prado que repasa las mejores apuestas y cuotas deportivas.</desc>
   </programme>
   <programme start="20260416033000 +0200" stop="20260416044000 +0200" channel="Mega.es">
     <title lang="es">Venta Prime</title>
@@ -9052,9 +9036,9 @@
     <title lang="es">Forjado a fuego</title>
     <desc lang="es">Espacio que convierte la artesanía, la leyenda y la emoción de la creación de armas en una batalla de ingenio a contrarreloj. En cada emisión, cuatro competidores tratarán de demostrar que pueden construir cualquier arma mejor que los demás.</desc>
   </programme>
-  <programme start="20260416030000 +0200" stop="20260416060000 +0200" channel="NFLNetwork.us">
-    <title lang="es">NFL Football</title>
-    <desc lang="es">From Nov. 9, 2025.</desc>
+  <programme start="20260418023000 +0200" stop="20260418031000 +0200" channel="Mega.es">
+    <title lang="es">Jokerbet</title>
+    <desc lang="es">Programa de casino y apuestas deportivas.</desc>
   </programme>
   <programme start="20260416060000 +0200" stop="20260416070000 +0200" channel="NFLNetwork.us">
     <title lang="es">Path to the Draft</title>
@@ -9172,9 +9156,9 @@
     <title lang="es">Path to the Draft</title>
     <desc lang="es">Preview the 2026 NFL Draft with in-depth analysis of the prospects and breakdowns of each team&amp;apos;s needs.</desc>
   </programme>
-  <programme start="20260416023000 +0200" stop="20260416031000 +0200" channel="Neox.es">
-    <title lang="es">La Noche de Casino Pause &amp;amp; Play</title>
-    <desc lang="es">El programa trae cada día toda la emoción de los juegos de casino.</desc>
+  <programme start="20260418030000 +0200" stop="20260418060000 +0200" channel="NFLNetwork.us">
+    <title lang="es">NFL Football</title>
+    <desc lang="es">From Oct. 9, 2025.</desc>
   </programme>
   <programme start="20260416031000 +0200" stop="20260416035000 +0200" channel="Neox.es">
     <title lang="es">Sportium Game Show</title>
@@ -9248,9 +9232,13 @@
     <title lang="es">Cine</title>
     <desc lang="es">Estudio crítico de la historia del cine basado en el libro homónimo. Comparada a las &quot;Histoire(s) du Cinema&quot; de Jean Luc Godard, Cousins aborda visualmente la historia del cine desde su creación hasta nuestros días a través de 15 episodios y cientos de fragmentos cinematográficos desde la creación del cine hasta el último &quot;blockbuster&quot; norteamericano. En ellos encontramos decenas de entrevistas con los principales maestros de nuestro tiempo. Un documental producido por Film 4 para Gran Bretaña. Ha sido emitido con éxito en Reino Unido a través de Channel 4, y fue estrenado íntegro en el Festival de Toronto, además de haber sido proyectado en el MoMA de Nueva York.</desc>
   </programme>
-  <programme start="20260416030000 +0200" stop="20260416040000 +0200" channel="Newsmax.us">
-    <title lang="es">Live: Greg Kelly Reports</title>
-    <desc lang="es">Greg Kelly gives hardest-hitting reports and analysis from L.A. to N.Y., from Beltway to Rust Belt, talking with you and for you!</desc>
+  <programme start="20260418023000 +0200" stop="20260418030000 +0200" channel="Neox.es">
+    <title lang="es">Pokerstars casino</title>
+    <desc lang="es">El programa trae cada día toda la emoción de su ruleta en vivo, Spin &amp;amp; Win, una versión exclusiva del clásico juego de casino.</desc>
+  </programme>
+  <programme start="20260418030000 +0200" stop="20260418034500 +0200" channel="Neox.es">
+    <title lang="es">Sportium Game Show</title>
+    <desc lang="es">Espacio conducido por Sofía Del Prado que repasa las mejores apuestas y cuotas deportivas.</desc>
   </programme>
   <programme start="20260416040000 +0200" stop="20260416050000 +0200" channel="Newsmax.us">
     <title lang="es">Live: The Right Squad</title>
@@ -9400,17 +9388,9 @@
     <title lang="es">Live: Finnerty</title>
     <desc lang="es">Rob Finnerty gives straight talk on the biggest issues facing America and the world!</desc>
   </programme>
-  <programme start="20260416023000 +0200" stop="20260416024500 +0200" channel="Nova.es">
-    <title lang="es">Pazy</title>
-    <desc lang="es">Pazy: Que te recuerden como has vivido.</desc>
-  </programme>
-  <programme start="20260416024500 +0200" stop="20260416030000 +0200" channel="Nova.es">
-    <title lang="es">Juwelo</title>
-    <desc lang="es">Programa de televenta directa de joyería.</desc>
-  </programme>
-  <programme start="20260416030000 +0200" stop="20260416043000 +0200" channel="Nova.es">
-    <title lang="es">Crimen en los Alpes</title>
-    <desc lang="es">Un grupo de agentes pertenecientes a una unidad especial de la policía, deben resolver inquietantes y complicados casos ocurridos alrededor de las bellas montañas de los Alpes.</desc>
+  <programme start="20260418030000 +0200" stop="20260418040000 +0200" channel="Newsmax.us">
+    <title lang="es">Live: Greg Kelly Reports</title>
+    <desc lang="es">Greg Kelly gives hardest-hitting reports and analysis from L.A. to N.Y., from Beltway to Rust Belt, talking with you and for you!</desc>
   </programme>
   <programme start="20260416043000 +0200" stop="20260416044500 +0200" channel="Nova.es">
     <title lang="es">Juwelo</title>
@@ -9543,6 +9523,14 @@
   <programme start="20260417231500 +0200" stop="20260418023400 +0200" channel="Nova.es">
     <title lang="es">Hermanos</title>
     <desc lang="es">Cuatro hermanos viven con los bolsillos vacíos. Mientras un empresario trata de escapar.</desc>
+  </programme>
+  <programme start="20260418023400 +0200" stop="20260418025400 +0200" channel="Nova.es">
+    <title lang="es">Pazy</title>
+    <desc lang="es">Pazy: Que te recuerden como has vivido.</desc>
+  </programme>
+  <programme start="20260418025400 +0200" stop="20260418031100 +0200" channel="Nova.es">
+    <title lang="es">Juwelo</title>
+    <desc lang="es">Programa de televenta directa de joyería.</desc>
   </programme>
   <programme start="20260416043000 +0200" stop="20260416090000 +0200" channel="ParamountNetwork.us">
     <title lang="es">Titanic</title>
@@ -9692,6 +9680,10 @@
     <title lang="es">Top Gun: Maverick</title>
     <desc lang="es">After more than 30 years of service as one of the Navy&amp;apos;s top aviators, Pete &amp;quot;Maverick&amp;quot; Mitchell is where he belongs, pushing the envelope as a courageous test pilot and dodging the advancement in rank that would ground him. Training a detachment of graduates for a special assignment, Maverick must confront the ghosts of his past and his deepest fears, culminating in a mission that demands the ultimate sacrifice from those who choose to fly it.</desc>
   </programme>
+  <programme start="20260418030000 +0200" stop="20260418061900 +0200" channel="ParamountNetwork.us">
+    <title lang="es">The Departed</title>
+    <desc lang="es">South Boston cop Billy Costigan (Leonardo DiCaprio) goes undercover to infiltrate the organization of gangland chief Frank Costello (Jack Nicholson). As Billy gains the mobster&amp;apos;s trust, a career criminal named Colin Sullivan (Matt Damon) infiltrates the police department and reports on its activities to his syndicate bosses. When both organizations learn they have a mole in their midst, Billy and Colin must figure out each other&amp;apos;s identities to save their own lives.</desc>
+  </programme>
   <programme start="20260416035800 +0200" stop="20260416052000 +0200" channel="RetroPlex.us">
     <title lang="es">Borderland</title>
     <desc lang="es">Hopalong Cassidy (William Boyd) fools even his partner (James Ellison) by acting like a badman to catch a gang of badmen.</desc>
@@ -9807,10 +9799,6 @@
   <programme start="20260418020000 +0200" stop="20260418033900 +0200" channel="RetroPlex.us">
     <title lang="es">The von Trapp Family: A Life of Music</title>
     <desc lang="es">Agathe, the eldest daughter of a famous musical family, overcomes obstacles to pursue a career in music in the United States.</desc>
-  </programme>
-  <programme start="20260416030000 +0200" stop="20260416040000 +0200" channel="SECNetwork.us">
-    <title lang="es">SEC Now</title>
-    <desc lang="es">News &amp;amp; information show hosted by either Peter Burns, Dari Nowkhah or Alyssa Lang, joined by various network analysts, discussing all the SEC news of the day.</desc>
   </programme>
   <programme start="20260416033000 +0200" stop="20260416040000 +0200" channel="SECNetwork.us">
     <title lang="es">SEC Inside</title>
@@ -9967,6 +9955,10 @@
   <programme start="20260417233000 +0200" stop="20260418023000 +0200" channel="SECNetwork.us">
     <title lang="es">Live: College Baseball</title>
     <desc lang="es">From Condron Ballpark in Gainesville, Fla.</desc>
+  </programme>
+  <programme start="20260418023000 +0200" stop="20260418043000 +0200" channel="SECNetwork.us">
+    <title lang="es">Live: College Softball</title>
+    <desc lang="es">From Davis Diamond in College Station, Texas.</desc>
   </programme>
   <programme start="20260416051500 +0200" stop="20260416070000 +0200" channel="Showtime.us">
     <title lang="es">Along Came a Spider</title>
@@ -10268,10 +10260,6 @@
     <title lang="es">Reindeer Games</title>
     <desc lang="es">Just released from prison, all Rudy Duncan (Ben Affleck) wants is to start a new life with Ashley (Charlize Theron), the girl of his dreams, whom he met through pen pal letters in prison. But between them and happiness stands her crazy brother, Gabriel (Gary Sinise), and his motley crue of deadly criminals who think Rudy has some inside information about a casino where he once had a job -- a casino Gabriel and his short-fused posse plan to take down.</desc>
   </programme>
-  <programme start="20260416030000 +0200" stop="20260416050000 +0200" channel="ShowtimeFamilyZone.us">
-    <title lang="es">Runaway Bride</title>
-    <desc lang="es">(CC) Catch Her If You Can. &amp;apos;Roberts and Gere confirm their status as an eternal screen team&amp;apos; in this delightful laugh-filled romantic comedy. Roberts plays small-town girl Maggie Carpenter, whose marches down the aisle become a series of near Mrs. when she bolts before saying &amp;apos;I do.&amp;apos; Gere is Ike Graham, a cynical, big-city newspaper columnist eager to write a tell-all story about Maggie. But the more Ike finds out about the skittish Maggie, the more he finds he&amp;apos;s falling in love.</desc>
-  </programme>
   <programme start="20260416050000 +0200" stop="20260416070000 +0200" channel="ShowtimeFamilyZone.us">
     <title lang="es">Steel Magnolias</title>
     <desc lang="es">M&amp;apos;Lynn (Sally Field) is the mother of bride-to-be Shelby Eatenton (Julia Roberts), and as friend Truvy Jones (Dolly Parton) fixes the women&amp;apos;s hair for the ceremony, they welcome a helping hand from aspiring beautician Annelle Dupuy DeSoto (Daryl Hannah). Diabetic Shelby has a health scare, which is averted but doesn&amp;apos;t bode well for her hopes of having children. Time passes, and the women and their friends encounter tragedy and good fortune, growing stronger and closer in the process.</desc>
@@ -10380,10 +10368,6 @@
     <title lang="es">Titanic</title>
     <desc lang="es">Two young lovers from different backgrounds meet and fall in love on the ill-fated maiden voyage of the unsinkable R.M.S. Titanic.</desc>
   </programme>
-  <programme start="20260416030000 +0200" stop="20260416044500 +0200" channel="ShowtimeNext.us">
-    <title lang="es">Regarding Us</title>
-    <desc lang="es">After losing her teaching career in the Catholic school system, a transgender woman has a profound impact on the lives of two children, one with two fathers in marital strife, and the other a recent transplant from a conservative household. When the children form a unique bond, new questions and old prejudices erupt.</desc>
-  </programme>
   <programme start="20260416044500 +0200" stop="20260416061000 +0200" channel="ShowtimeNext.us">
     <title lang="es">The Argument</title>
     <desc lang="es">When a couple argue about a party and neither will back down, they decide to re-create the evening to determine who is right.</desc>
@@ -10487,6 +10471,10 @@
   <programme start="20260418004500 +0200" stop="20260418030000 +0200" channel="ShowtimeNext.us">
     <title lang="es">Almost Famous</title>
     <desc lang="es">Set in 1973, it chronicles the funny and often poignant coming of age of 15-year-old William, an unabashed music fan who is inspired by the seminal bands of the time. When his love of music lands him an assignment from Rolling Stone Magazine to interview the up-and-coming band Stillwater -- fronted by lead guitar Russell Hammond and lead singer Jeff Bebe, William embarks on an eye-opening journey with the band&amp;apos;s tour, despite the objections of his protective mother.</desc>
+  </programme>
+  <programme start="20260418030000 +0200" stop="20260418050000 +0200" channel="ShowtimeNext.us">
+    <title lang="es">Baby Driver</title>
+    <desc lang="es">Talented getaway driver Baby relies on the beat of his personal soundtrack to be the best in the game. After meeting the woman of his dreams, he sees a chance to ditch his shady lifestyle and make a clean break. Coerced into working for a crime boss, Baby must face the music as a doomed heist threatens his life, love and freedom.</desc>
   </programme>
   <programme start="20260416034000 +0200" stop="20260416052000 +0200" channel="ShowtimeShowcase.us">
     <title lang="es">Another 48 Hrs.</title>
@@ -10592,6 +10580,10 @@
     <title lang="es">Old Henry</title>
     <desc lang="es">A quiet man and his son take in a wounded stranger near his homestead, along with a bag full of cash. The stranger claims he&amp;apos;s a sheriff being pursued by outlaws, but the man can&amp;apos;t be sure.</desc>
   </programme>
+  <programme start="20260418030000 +0200" stop="20260418050000 +0200" channel="ShowtimeShowcase.us">
+    <title lang="es">Day of the Fight</title>
+    <desc lang="es">On the day of his first fight since his release from prison, a former boxing champion reconnects with his trainer, ex-wife, childhood friend, and abusive father in a quest for forgiveness and closure.</desc>
+  </programme>
   <programme start="20260416034500 +0200" stop="20260416053000 +0200" channel="ShowtimeWomen.us">
     <title lang="es">Pretty in Pink</title>
     <desc lang="es">Andie is an outcast at her Chicago high school, hanging out either with her older boss, who owns the record store where she works. When one of the rich and popular kids at school, Blane, asks Andie out, it seems too good to be true. As Andie starts falling for Blane, she begins to realize that dating someone from a different social sphere is not easy.</desc>
@@ -10691,10 +10683,6 @@
   <programme start="20260418020000 +0200" stop="20260418041500 +0200" channel="ShowtimeWomen.us">
     <title lang="es">Terms of Endearment</title>
     <desc lang="es">Widow Aurora Greenway (Shirley MacLaine) and her daughter, Emma (Debra Winger), have a strong bond, but Emma marries teacher Flap Horton (Jeff Daniels) against her mother&amp;apos;s wishes. When the marriage grows sour due to Flap&amp;apos;s cheating, Emma eventually splits from him, returning to her mother, who is involved with a former astronaut (Jack Nicholson). Soon, Emma learns that she has terminal cancer. In the hospital, supported by Aurora, she tries to make peace with Flap and her children.</desc>
-  </programme>
-  <programme start="20260416030100 +0200" stop="20260416040300 +0200" channel="Starz.us">
-    <title lang="es">Spartacus: House of Ashur</title>
-    <desc lang="es">Achillia prepares for her return to the arena, while Ashur faces a devastating setback.</desc>
   </programme>
   <programme start="20260416040300 +0200" stop="20260416045800 +0200" channel="Starz.us">
     <title lang="es">Spartacus: House of Ashur</title>
@@ -10805,6 +10793,10 @@
     <desc lang="es">The Frasers and the MacKenzies recover after their respective battles and consider their next steps; Ian and Rachel meet someone who they hope can help them find Emily.</desc>
   </programme>
   <programme start="20260418020000 +0200" stop="20260418030100 +0200" channel="Starz.us">
+    <title lang="es">Outlander</title>
+    <desc lang="es">After serving as a British Army nurse in World War II, Claire Randall is enjoying a second honeymoon in Scotland when she is transported to 1743; dealing with a mysterious world where her freedom and life are threatened.</desc>
+  </programme>
+  <programme start="20260418030100 +0200" stop="20260418040200 +0200" channel="Starz.us">
     <title lang="es">Outlander</title>
     <desc lang="es">After serving as a British Army nurse in World War II, Claire Randall is enjoying a second honeymoon in Scotland when she is transported to 1743; dealing with a mysterious world where her freedom and life are threatened.</desc>
   </programme>
@@ -10928,6 +10920,10 @@
     <title lang="es">Outlander</title>
     <desc lang="es">The Frasers and the MacKenzies recover after their respective battles and consider their next steps; Ian and Rachel meet someone who they hope can help them find Emily.</desc>
   </programme>
+  <programme start="20260418023000 +0200" stop="20260418040000 +0200" channel="StarzCinema.us">
+    <title lang="es">The Limey</title>
+    <desc lang="es">The Limey follows Wilson (Terence Stamp), a tough English ex-con who travels to Los Angeles to avenge his daughter&amp;apos;s death. Upon arrival, Wilson goes to task battling Valentine (Peter Fonda) and an army of L.A.&amp;apos;s toughest criminals, hoping to find clues and piece together what happened. After surviving a near-death beating, getting thrown from a building and being chased down a dangerous mountain road, the Englishman decides to dole out some bodily harm of his own.</desc>
+  </programme>
   <programme start="20260416051800 +0200" stop="20260416070200 +0200" channel="StarzComedy.us">
     <title lang="es">Mr. 3000</title>
     <desc lang="es">Milwaukee Brewers player Stan Ross (Bernie Mac) angers his teammates by retiring during a 1995 playoff game after making the 3,000th base hit required to enter the Baseball Hall of Fame. Nine years later, a clerical error is discovered, invalidating three of the hits and keeping Ross from the ultimate baseball honor. The 47-year-old player convinces the Brewers to let him rejoin the team to make his last three hits, and sheds his selfish nature as he rediscovers his love of the game.</desc>
@@ -11035,10 +11031,6 @@
   <programme start="20260418022300 +0200" stop="20260418041100 +0200" channel="StarzComedy.us">
     <title lang="es">Meet the Parents</title>
     <desc lang="es">Everything that can possibly go wrong for groom-to-be Greg Focker does. The problems begin with Greg&amp;apos;s disastrous first meeting with his girlfriend&amp;apos;s family -- most notably her intimidating father Jack Byrnes, and it&amp;apos;s all downhill from there.</desc>
-  </programme>
-  <programme start="20260416030000 +0200" stop="20260416045600 +0200" channel="StarzEdge.us">
-    <title lang="es">Now You See Me: Now You Don&amp;apos;t</title>
-    <desc lang="es">The Four Horsemen and a new generation of illusionists join forces to steal the world&amp;apos;s largest diamond from a South African mogul who heads an international crime syndicate.</desc>
   </programme>
   <programme start="20260416045600 +0200" stop="20260416063900 +0200" channel="StarzEdge.us">
     <title lang="es">Salt</title>
@@ -11152,6 +11144,10 @@
     <title lang="es">Anchorman: The Legend of Ron Burgundy</title>
     <desc lang="es">Hotshot television anchorman Ron Burgundy welcomes upstart reporter Veronica Corningstone into the male-dominated world of 1970s broadcast news -- that is, until the talented female journalist begins to outshine Burgundy on air. Soon he grows jealous, begins a bitter feud with Veronica and eventually makes a vulgar slip on live TV that ruins his career. However, when an outrageous story breaks at the San Diego Zoo, Ron may get a chance to redeem himself.</desc>
   </programme>
+  <programme start="20260418030000 +0200" stop="20260418050200 +0200" channel="StarzEdge.us">
+    <title lang="es">Anchorman 2: The Legend Continues</title>
+    <desc lang="es">Seven years after capturing the heart of co-anchor Veronica Corningstone (Christina Applegate), newsman Ron Burgundy (Will Ferrell) is offered the chance of a lifetime: a spot on the world&amp;apos;s first 24-hour global cable news network. Ron quickly assembles his team: Champ Kind (David Koechner), Brian Fantana (Paul Rudd) and Brick Tamland (Steve Carell). Challenged by his tough female boss, a network owner and a popular anchor, Ron and his pals must find their own way to the top of the ratings.</desc>
+  </programme>
   <programme start="20260416040000 +0200" stop="20260416060300 +0200" channel="StarzEncore.us">
     <title lang="es">Anchorman 2: The Legend Continues</title>
     <desc lang="es">Seven years after capturing the heart of co-anchor Veronica Corningstone (Christina Applegate), newsman Ron Burgundy (Will Ferrell) is offered the chance of a lifetime: a spot on the world&amp;apos;s first 24-hour global cable news network. Ron quickly assembles his team: Champ Kind (David Koechner), Brian Fantana (Paul Rudd) and Brick Tamland (Steve Carell). Challenged by his tough female boss, a network owner and a popular anchor, Ron and his pals must find their own way to the top of the ratings.</desc>
@@ -11259,6 +11255,10 @@
   <programme start="20260418010700 +0200" stop="20260418030000 +0200" channel="StarzEncore.us">
     <title lang="es">Friends With Benefits</title>
     <desc lang="es">Jamie is a New York-based executive recruiter who entices Dylan, an art director from Los Angeles, to take a job at the New York office of GQ magazine. Feeling jaded by a number of broken romances, Dylan and Jamie decide that they are ready to quit looking for true love and focus on having fun. However, complications unfold when the two best pals add sex to their relationship.</desc>
+  </programme>
+  <programme start="20260418030000 +0200" stop="20260418045000 +0200" channel="StarzEncore.us">
+    <title lang="es">The Break-Up</title>
+    <desc lang="es">When Brooke (Jennifer Aniston), an art dealer, and Gary (Vince Vaughn), a tour-bus driver, finally call it quits in their relationship, neither is willing to move out of their shared condo. With their friends suggesting a series of underhanded tactics that fail to get either Brooke or Gary to cave in, the only solution is to become hostile roommates.</desc>
   </programme>
   <programme start="20260416034200 +0200" stop="20260416051300 +0200" channel="StarzEncoreAction.us">
     <title lang="es">Cleaner</title>
@@ -11600,6 +11600,10 @@
     <title lang="es">Win a Date With Tad Hamilton!</title>
     <desc lang="es">Pete (Topher Grace), the quirky, self-deprecating manager of a grocery store, is madly in love with his best friend, Rosalee (Kate Bosworth). Unfortunately, she has absolutely no idea. When Rosalee wins a date with her favorite actor, the smarmy Tad Hamilton (Josh Duhamel), Pete delays admitting his feelings to her. And when the scheming Hamilton relocates to their small town to pursue Rosalee in the wake of their initial meeting, a horrified Pete must struggle to win her heart.</desc>
   </programme>
+  <programme start="20260418030500 +0200" stop="20260418044600 +0200" channel="StarzEncoreClassics.us">
+    <title lang="es">Salt</title>
+    <desc lang="es">When Evelyn Salt (Angelina Jolie) became a CIA officer, she swore an oath to duty, honor and country. But, when a defector accuses her of being a Russian spy, Salt&amp;apos;s oath is put to the test. Now a fugitive, Salt must use every skill gained from years of training and experience to evade capture, but the more she tries to prove her innocence, the more guilty she seems.</desc>
+  </programme>
   <programme start="20260416033400 +0200" stop="20260416051100 +0200" channel="StarzEncoreFamily.us">
     <title lang="es">Win a Date With Tad Hamilton!</title>
     <desc lang="es">Pete (Topher Grace), the quirky, self-deprecating manager of a grocery store, is madly in love with his best friend, Rosalee (Kate Bosworth). Unfortunately, she has absolutely no idea. When Rosalee wins a date with her favorite actor, the smarmy Tad Hamilton (Josh Duhamel), Pete delays admitting his feelings to her. And when the scheming Hamilton relocates to their small town to pursue Rosalee in the wake of their initial meeting, a horrified Pete must struggle to win her heart.</desc>
@@ -11723,10 +11727,6 @@
   <programme start="20260418014700 +0200" stop="20260418032300 +0200" channel="StarzEncoreFamily.us">
     <title lang="es">Tarzan</title>
     <desc lang="es">Tarzan and Jane face a mercenary army dispatched by the evil CEO of Greystoke Energies.</desc>
-  </programme>
-  <programme start="20260416025400 +0200" stop="20260416034400 +0200" channel="StarzEncoreWesterns.us">
-    <title lang="es">Maverick</title>
-    <desc lang="es">Bart and a girl combine talents to add plenty of danger to an otherwise peaceful trip.</desc>
   </programme>
   <programme start="20260416034400 +0200" stop="20260416050400 +0200" channel="StarzEncoreWesterns.us">
     <title lang="es">The Brass Legend</title>
@@ -11912,6 +11912,10 @@
     <title lang="es">Maverick</title>
     <desc lang="es">When Bart is robbed of $1500 during a stage holdup, he becomes suspicious of a pretty passenger.</desc>
   </programme>
+  <programme start="20260418025300 +0200" stop="20260418034300 +0200" channel="StarzEncoreWesterns.us">
+    <title lang="es">Maverick</title>
+    <desc lang="es">Beau Maverick shakes the whole state of Texas to its roots with the startling announcement of his intention to marry.</desc>
+  </programme>
   <programme start="20260416032800 +0200" stop="20260416051300 +0200" channel="StarzKidsFamily.us">
     <title lang="es">The Legend of Catclaws Mountain</title>
     <desc lang="es">Mindy adopts Angel, a high-spirited pony that according to legend will lead its owner to gold hidden in the nearby mountains. When Angel is kidnapped by a mad treasure hunter, Mindy and her school friends head into the hills to rescue the pony and hunt for the lost gold.</desc>
@@ -12039,10 +12043,6 @@
   <programme start="20260418021400 +0200" stop="20260418041400 +0200" channel="StarzKidsFamily.us">
     <title lang="es">Instant Family</title>
     <desc lang="es">When Pete and Ellie decide to start a family, they stumble into the world of foster care adoption. They hope to take in one small child, but when they meet three siblings, including a rebellious 15-year-old girl, they find themselves speeding from zero to three kids overnight. Now, Pete and Ellie must try to learn the ropes of instant parenthood in the hope of becoming a family.</desc>
-  </programme>
-  <programme start="20260416030000 +0200" stop="20260416040000 +0200" channel="SundanceTV.us">
-    <title lang="es">Law &amp;amp; Order</title>
-    <desc lang="es">The probe of a woman&amp;apos;s attempt on her husband&amp;apos;s life leads to a fertility doctor with a high rate of success.</desc>
   </programme>
   <programme start="20260416040000 +0200" stop="20260416050000 +0200" channel="SundanceTV.us">
     <title lang="es">Law &amp;amp; Order</title>
@@ -12280,10 +12280,6 @@
     <title lang="es">Heartbreak Ridge</title>
     <desc lang="es">Marine Sgt. Thomas Highway (Clint Eastwood) is a decorated veteran of two wars. On his last posting before retirement, he is surrounded by officers with no combat experience who view him as an odd, even dangerous, holdover. Highway is assigned to train a group of undisciplined recruits including Cpl. Stitch Jones (Mario Van Peebles), a slick hustler who has previously encountered Highway. As the old soldier prepares his men for a war they don&amp;apos;t believe will come, the U.S. invades Grenada.</desc>
   </programme>
-  <programme start="20260416024000 +0200" stop="20260416032500 +0200" channel="SyFy.es">
-    <title lang="es">Embrujadas</title>
-    <desc lang="es">Prue y Phoebe están buscando a un demonio cuando se topan con un ejecutivo que está hablando con el Mensajero.</desc>
-  </programme>
   <programme start="20260416032500 +0200" stop="20260416040800 +0200" channel="SyFy.es">
     <title lang="es">Embrujadas</title>
     <desc lang="es">Las hermanas descubren la existencia de la Hermandad del Espino. Para poder destruirla, Cole deberá infiltrarse como demonio.</desc>
@@ -12487,6 +12483,10 @@
   <programme start="20260418021600 +0200" stop="20260418030300 +0200" channel="SyFy.es">
     <title lang="es">Embrujadas</title>
     <desc lang="es">La Fuente sabe que si Paige se une a las Embrujadas, el Poder de Tres será más fuerte que nunca.Tiene 48 horas para atraerla.</desc>
+  </programme>
+  <programme start="20260418030300 +0200" stop="20260418034800 +0200" channel="SyFy.es">
+    <title lang="es">Embrujadas</title>
+    <desc lang="es">Piper ha decidido empezar a buscar demonios para destruirlos antes de que ellos las ataquen.</desc>
   </programme>
   <programme start="20260416034500 +0200" stop="20260416052500 +0200" channel="TCM.es">
     <title lang="es">Una terapia peligrosa</title>
@@ -12692,10 +12692,6 @@
     <title lang="es">The Woman in Black</title>
     <desc lang="es">Arthur Kipps, a lawyer, is recently widowed and grieving the loss of his wife when he is sent to a remote village to put a deceased eccentric&amp;apos;s affairs in order. Soon after his arrival, it becomes clear that the villagers are hiding a terrible secret. Kipps discovers that his late client&amp;apos;s house is haunted by the spirit of a woman who is trying to find someone and something she lost, and that no one -- not even the children -- is safe from her terrible wrath.</desc>
   </programme>
-  <programme start="20260416023000 +0200" stop="20260416050000 +0200" channel="TUDN.us">
-    <title lang="es">Live: Fútbol Copa de Campeones Concacaf</title>
-    <desc lang="es">Acción del partido de vuelta de los cuartos de final de la Copa de Campeones de la Concacaf 2026. LA Galaxy busca remontar el marcador 4-2 en casa y aprovechar los goles de visiante.</desc>
-  </programme>
   <programme start="20260416050000 +0200" stop="20260416053000 +0200" channel="TUDN.us">
     <title lang="es">Live: Fútbol central</title>
     <desc lang="es">El programa elemental para los fans, el cual les indica qué buscar y esperar en la cancha en los próximos partidos y campeonatos.</desc>
@@ -12876,13 +12872,9 @@
     <title lang="es">Live: Fútbol central</title>
     <desc lang="es">El programa elemental para los fans, el cual les indica qué buscar y esperar en la cancha en los próximos partidos y campeonatos.</desc>
   </programme>
-  <programme start="20260416022500 +0200" stop="20260416024500 +0200" channel="Telecinco.es">
-    <title lang="es">El rey del mando</title>
-    <desc lang="es">Programa de zapping.</desc>
-  </programme>
-  <programme start="20260416024500 +0200" stop="20260416031500 +0200" channel="Telecinco.es">
-    <title lang="es">Love Shopping TV</title>
-    <desc lang="es">Espacio de teletienda en el que se ofrecen demostraciones de productos, que se pueden adquirir llamando por teléfono.</desc>
+  <programme start="20260418023000 +0200" stop="20260418050000 +0200" channel="TUDN.us">
+    <title lang="es">Live: Fútbol Mexicano Primera División</title>
+    <desc lang="es">Desde Estadio de Mazatlán, en Sinaloa, México.</desc>
   </programme>
   <programme start="20260416031500 +0200" stop="20260416034500 +0200" channel="Telecinco.es">
     <title lang="es">Love Shopping TV</title>
@@ -13044,9 +13036,13 @@
     <title lang="es">Gran Madrid Show</title>
     <desc lang="es">Programa nocturno para que los espectadores puedan conectarse al Casino Gran Madrid desde casa.</desc>
   </programme>
-  <programme start="20260416030000 +0200" stop="20260416030000 +0200" channel="Teledeporte.es">
-    <title lang="es">Teledeporte</title>
-    <desc lang="es">Conexión con la programación del canal deportivo de TVE, Teledeporte.</desc>
+  <programme start="20260418023000 +0200" stop="20260418024700 +0200" channel="Telecinco.es">
+    <title lang="es">El rey del mando</title>
+    <desc lang="es">Programa de zapping.</desc>
+  </programme>
+  <programme start="20260418024700 +0200" stop="20260418031700 +0200" channel="Telecinco.es">
+    <title lang="es">Love Shopping TV</title>
+    <desc lang="es">Espacio de teletienda en el que se ofrecen demostraciones de productos, que se pueden adquirir llamando por teléfono.</desc>
   </programme>
   <programme start="20260416070000 +0200" stop="20260416110000 +0200" channel="Teledeporte.es">
     <title lang="es">Teledeporte</title>
@@ -13089,6 +13085,10 @@
     <desc lang="es">Conexión con la programación del canal deportivo de TVE, Teledeporte.</desc>
   </programme>
   <programme start="20260417230000 +0200" stop="20260418030000 +0200" channel="Teledeporte.es">
+    <title lang="es">Teledeporte</title>
+    <desc lang="es">Conexión con la programación del canal deportivo de TVE, Teledeporte.</desc>
+  </programme>
+  <programme start="20260418030000 +0200" stop="20260418030000 +0200" channel="Teledeporte.es">
     <title lang="es">Teledeporte</title>
     <desc lang="es">Conexión con la programación del canal deportivo de TVE, Teledeporte.</desc>
   </programme>
@@ -13912,9 +13912,13 @@
     <title lang="es">FIBA 3x3 Basketball</title>
     <desc lang="es">Coverage of 3x3 basketball competitions from around the world.</desc>
   </programme>
-  <programme start="20260416030000 +0200" stop="20260416040000 +0200" channel="cnn.us">
-    <title lang="es">The Source With Kaitlan Collins</title>
-    <desc lang="es">Kaitlan Collins is chasing the facts, asking the tough questions and connecting with her sources.</desc>
+  <programme start="20260418023000 +0200" stop="20260418030000 +0200" channel="beINSports.us">
+    <title lang="es">FIBA 3x3 Basketball</title>
+    <desc lang="es">Coverage of 3x3 basketball competitions from around the world.</desc>
+  </programme>
+  <programme start="20260418030000 +0200" stop="20260418033000 +0200" channel="beINSports.us">
+    <title lang="es">FIBA 3x3 Basketball</title>
+    <desc lang="es">Coverage of 3x3 basketball competitions from around the world.</desc>
   </programme>
   <programme start="20260416040000 +0200" stop="20260416050000 +0200" channel="cnn.us">
     <title lang="es">CNN NewsNight With Abby Phillip</title>
@@ -14104,9 +14108,9 @@
     <title lang="es">Anderson Cooper 360</title>
     <desc lang="es">Anderson Cooper goes beyond the headlines with in-depth reporting and investigations; Anderson keeps his commitment to holding those in power accountable; joining him are guests that frequently include political and legal analysts.</desc>
   </programme>
-  <programme start="20260416030000 +0200" stop="20260416040000 +0200" channel="msnbc.us">
-    <title lang="es">The Briefing With Jen Psaki</title>
-    <desc lang="es">Jen Psaki tackles the issues of the week and features one-on-one interviews with newsmakers.</desc>
+  <programme start="20260418030000 +0200" stop="20260418040000 +0200" channel="cnn.us">
+    <title lang="es">The Source With Kaitlan Collins</title>
+    <desc lang="es">Kaitlan Collins is chasing the facts, asking the tough questions and connecting with her sources.</desc>
   </programme>
   <programme start="20260416040000 +0200" stop="20260416050000 +0200" channel="msnbc.us">
     <title lang="es">The Last Word With Lawrence O&amp;apos;Donnell</title>
@@ -14240,6 +14244,10 @@
     <title lang="es">All in With Chris Hayes</title>
     <desc lang="es">Chris Hayes reports on some of the biggest news and political stories of the day with a commitment to in-depth reporting that seeks to hold the nation&amp;apos;s leaders accountable for their actions.</desc>
   </programme>
+  <programme start="20260418030000 +0200" stop="20260418040000 +0200" channel="msnbc.us">
+    <title lang="es">The Briefing With Jen Psaki</title>
+    <desc lang="es">Jen Psaki tackles the issues of the week and features one-on-one interviews with newsmakers.</desc>
+  </programme>
   <programme start="20260416075000 +0200" stop="20260416092400 +0200" channel="AMC.es">
     <title lang="es">Circuito cerrado</title>
     <desc lang="es">Martin y Claudia, dos abogados y antiguos amantes, se encuentran de repente en una posición delicada tras decidir defender a un peligroso terrorista internacional sospechoso de poner una bomba. Para su primera aventura estadounidense, el irlandés John Crowley (&amp;apos;&amp;apos;¿Hay alguien ahí?&amp;apos;&amp;apos;, &amp;apos;&amp;apos;Intermission&amp;apos;&amp;apos;) decidió llevar a la gran pantalla una historia de Steven Knight, un reputado guionista responsable de los libretos de filmes como &amp;apos;&amp;apos;Locke&amp;apos;&amp;apos; o &amp;apos;&amp;apos;Promesas del Este&amp;apos;&amp;apos;. Se trata de un thriller criminal sobre el mundo de las conspiraciones, interpretado por Eric Bana (&amp;apos;&amp;apos;Hulk&amp;apos;&amp;apos;) y Rebecca Hall (&amp;apos;&amp;apos;Iron Man 3&amp;apos;&amp;apos;). Les acompañan un veterano Jim Broadbent (oscarizado por &amp;apos;&amp;apos;Iris&amp;apos;&amp;apos;) y Ciarán Hinds, quien ya había coincidido con Bana en &amp;apos;&amp;apos;Munich&amp;apos;&amp;apos;.</desc>
@@ -14303,6 +14311,10 @@
   <programme start="20260418015400 +0200" stop="20260418024000 +0200" channel="AMC.es">
     <title lang="es">Asesinatos en Reikiavik</title>
     <desc lang="es">El detective Huldar y la psicóloga infantil Freyja tienen poco en común, salvo la niña que ha dejado de hablar tras presenciar el asesinato de su madre.</desc>
+  </programme>
+  <programme start="20260418024000 +0200" stop="20260418032500 +0200" channel="AMC.es">
+    <title lang="es">Asesinatos en Reikiavik</title>
+    <desc lang="es">Mientras Freyja sigue al cuidado de la hija de la víctima, el detective Huldar continúa desconcertado con los números que aparecieron en la escena del crimen.</desc>
   </programme>
   <programme start="20260416031500 +0200" stop="20260416040000 +0200" channel="Antena3.es">
     <title lang="es">Sportium Game Show</title>
@@ -15028,14 +15040,6 @@
     <title lang="es">Puro Cuatro</title>
     <desc lang="es">Espacio que actúa a modo de escaparate de la música que suena en los programas de Cuatro.</desc>
   </programme>
-  <programme start="20260416022500 +0200" stop="20260416030500 +0200" channel="Divinity.es">
-    <title lang="es">Castle</title>
-    <desc lang="es">Castle y Beckett se unen a un Investigador Federal para encontrar a un astuto y escurridizo asesino en serie.</desc>
-  </programme>
-  <programme start="20260416030500 +0200" stop="20260416034500 +0200" channel="Divinity.es">
-    <title lang="es">Castle</title>
-    <desc lang="es">El asesino en serie que quiere matar a Kate Beckett, está cada vez más cerca de cumplir su objetivo. Para evitarlo, la policía y el FBI deben perfeccionar su trabajo para detener al psicópata, que está dispuesto a matar quien sea para llegar a Becket..</desc>
-  </programme>
   <programme start="20260416034500 +0200" stop="20260416042500 +0200" channel="Divinity.es">
     <title lang="es">La luz de mi vida</title>
     <desc lang="es">Tras la muerte de su marido, Elif descubre que llevaba una doble vida, tenía otra familia y era padre de una niña de la que a partir de ahora tendrá que hacerse cargo.</desc>
@@ -15228,10 +15232,6 @@
     <title lang="es">Fútbol Mexicano Primera División</title>
     <desc lang="es">Acción de la fecha 14 del Clausura 2026. Tigres busca mantenerse en liguilla y Chivas retener el liderato.</desc>
   </programme>
-  <programme start="20260416025500 +0200" stop="20260416032000 +0200" channel="LA2.es">
-    <title lang="es">Escala humana</title>
-    <desc lang="es">Una mirada a los edificios y espacios urbanos desde otra perspectiva.</desc>
-  </programme>
   <programme start="20260416032000 +0200" stop="20260416035000 +0200" channel="LA2.es">
     <title lang="es">Escala humana</title>
     <desc lang="es">Una mirada a los edificios y espacios urbanos desde otra perspectiva.</desc>
@@ -15279,10 +15279,6 @@
   <programme start="20260418001500 +0200" stop="20260418031500 +0200" channel="SundanceTV.us">
     <title lang="es">Apollo 13</title>
     <desc lang="es">This Hollywood drama is based on the events of the Apollo 13 lunar mission, astronauts Jim Lovell (Tom Hanks), Fred Haise (Bill Paxton) and Jack Swigert (Kevin Bacon) find everything going according to plan after leaving Earth&amp;apos;s orbit. However, when an oxygen tank explodes, the scheduled moon landing is called off. Subsequent tensions within the crew and numerous technical problems threaten both the astronauts&amp;apos; survival and their safe return to Earth.</desc>
-  </programme>
-  <programme start="20260416023300 +0200" stop="20260416031600 +0200" channel="SyFy.es">
-    <title lang="es">Embrujadas</title>
-    <desc lang="es">Prue y Phoebe están buscando a un demonio cuando se topan con un ejecutivo que está hablando con el Mensajero.</desc>
   </programme>
   <programme start="20260416031600 +0200" stop="20260416040200 +0200" channel="SyFy.es">
     <title lang="es">Embrujadas</title>
@@ -15379,6 +15375,10 @@
   <programme start="20260418004000 +0200" stop="20260418024300 +0200" channel="DAZNF1.es">
     <title lang="es">Mundial F1 - GP de España</title>
     <desc lang="es">Los pilotos afrontarán un apasionante Gran Premio en el circuito de Montmeló, y buscarán hacer frente al líder de la clasificación actual, el australiano Oscar Piastri (161 puntos), seguido muy de cerca por Lando Norris (158) y Max Verstappen (136).</desc>
+  </programme>
+  <programme start="20260418024300 +0200" stop="20260418031000 +0200" channel="DAZNF1.es">
+    <title lang="es">Código F1</title>
+    <desc lang="es">Descubrimos todos los detalles del Campeonato Mundial de Fórmula 1, conocemos con profundidad a sus protagonistas y repasamos los mejores momentos de la competición.</desc>
   </programme>
   <programme start="20260416071000 +0200" stop="20260416075000 +0200" channel="Divinity.es">
     <title lang="es">Tres veces Ana</title>
@@ -15660,6 +15660,10 @@
     <title lang="es">Csi</title>
     <desc lang="es">En este primer episodio que tiene dos partes, Horatio se ve de nuevo involucrado con su ex, Julia.</desc>
   </programme>
+  <programme start="20260418023000 +0200" stop="20260418031000 +0200" channel="Energy.es">
+    <title lang="es">Csi</title>
+    <desc lang="es">Horatio ha de tratar con su pasado, mientras el resto de equipo trabaja para rescatar a Calleigh de sus secuestradores.</desc>
+  </programme>
   <programme start="20260417173000 +0200" stop="20260417181500 +0200" channel="Eurosport1.es">
     <title lang="es">UCI World Tour</title>
     <desc lang="es">La París-Roubaix es una de las clásicas más duras del calendario ciclista. No en vano, es conocida como el infierno del norte por su recorrido adoquinado. Tras 122 ediciones, nunca la ha ganado un español. Mathieu van der Poel encadena tres triunfos.</desc>
@@ -15681,6 +15685,10 @@
     <desc lang="es">Four-time Super Bowl champion Rob Gronkowski makes it a family affair, as his dad steps in to make a crucial play; poker pro Antonio Esfandiari and sports broadcaster Nick Wright continue to trade blows.</desc>
   </programme>
   <programme start="20260418020000 +0200" stop="20260418030000 +0200" channel="FoxSports2.us">
+    <title lang="es">The American Rodeo</title>
+    <desc lang="es">All the action from rodeo competitions.</desc>
+  </programme>
+  <programme start="20260418030000 +0200" stop="20260418040000 +0200" channel="FoxSports2.us">
     <title lang="es">The American Rodeo</title>
     <desc lang="es">All the action from rodeo competitions.</desc>
   </programme>
@@ -15827,6 +15835,10 @@
   <programme start="20260418011000 +0200" stop="20260418023500 +0200" channel="LA2.es">
     <title lang="es">El Love Feroz o cuando los hijos juegan al amor</title>
     <desc lang="es">Un matrimonio tradicional ve trastocada su rutina cuando sus hijos despiertan en lo amoroso e ideológico, desafiando la moral conservadora familiar.</desc>
+  </programme>
+  <programme start="20260418023500 +0200" stop="20260418034500 +0200" channel="LA2.es">
+    <title lang="es">Las noches del Monumental</title>
+    <desc lang="es">Emisión de conciertos en vivo de música clásica, jazz, flamenco y copla, entre otros géneros, desde el Teatro Monumental, con grupos de la Orquesta y Coro RTVE y artistas de reconocido prestigio.</desc>
   </programme>
   <programme start="20260416042000 +0200" stop="20260416064500 +0200" channel="LaSexta.es">
     <title lang="es">Venta Prime</title>
@@ -16036,6 +16048,10 @@
     <title lang="es">Mercancía peligrosa</title>
     <desc lang="es">El líder de una poderosa organización criminal culpa a una seductora ladrona llamada Karen de un golpe fallido. En un intento de recuperar la confianza del mafioso, esta recurre a Jack, su examante y reputado colega de profesión.</desc>
   </programme>
+  <programme start="20260418023000 +0200" stop="20260418030000 +0200" channel="Neox.es">
+    <title lang="es">Campeonato Europeo de Póquer</title>
+    <desc lang="es">Emisión de las partidas más emocionantes del Campeonato Europeo de Póquer que enfrenta a los jugadores más selectos y expertos del panorama internacional de este deporte.</desc>
+  </programme>
   <programme start="20260416084600 +0200" stop="20260416093000 +0200" channel="SyFy.es">
     <title lang="es">Arcadia</title>
     <desc lang="es">Hanna se mete en problemas con la resistencia; Alex comienza a trabajar como espía para el visir; Luz conoce al padre del regulador Simons; Milly recibe malas noticias.</desc>
@@ -16188,6 +16204,10 @@
     <title lang="es">Embrujadas</title>
     <desc lang="es">La Fuente sabe que si Paige se une a las Embrujadas, el Poder de Tres será más fuerte que nunca.Tiene 48 horas para atraerla.</desc>
   </programme>
+  <programme start="20260418025800 +0200" stop="20260418034400 +0200" channel="SyFy.es">
+    <title lang="es">Embrujadas</title>
+    <desc lang="es">Piper ha decidido empezar a buscar demonios para destruirlos antes de que ellos las ataquen.</desc>
+  </programme>
   <programme start="20260416072800 +0200" stop="20260416081100 +0200" channel="TCM.es">
     <title lang="es">África en Cinecicleta</title>
     <desc lang="es">Documental de producción propia que acompaña en un viaje por África al proyecto Cinecicleta, encargados de proyectar películas en aldeas a donde el cine nunca antes ha llegado.</desc>
@@ -16239,6 +16259,14 @@
   <programme start="20260418020000 +0200" stop="20260418022500 +0200" channel="Telecinco.es">
     <title lang="es">Gran Madrid Show</title>
     <desc lang="es">Programa nocturno para que los espectadores puedan conectarse al Casino Gran Madrid desde casa.</desc>
+  </programme>
+  <programme start="20260418022500 +0200" stop="20260418024500 +0200" channel="Telecinco.es">
+    <title lang="es">El rey del mando</title>
+    <desc lang="es">Programa de zapping.</desc>
+  </programme>
+  <programme start="20260418024500 +0200" stop="20260418031500 +0200" channel="Telecinco.es">
+    <title lang="es">Love Shopping TV</title>
+    <desc lang="es">Espacio de teletienda en el que se ofrecen demostraciones de productos, que se pueden adquirir llamando por teléfono.</desc>
   </programme>
   <programme start="20260416041000 +0200" stop="20260416060500 +0200" channel="Teledeporte.es">
     <title lang="es">Copa del mundo de tiro con arco</title>
