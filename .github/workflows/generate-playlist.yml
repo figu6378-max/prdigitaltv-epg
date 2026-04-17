@@ -1,0 +1,49 @@
+name: Generate Filtered Playlist
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'config/channels-allowlist.json'
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Sync with latest main
+        run: |
+          git config user.name "EPG Bot"
+          git config user.email "epg-bot@prdigitaltv.com"
+          git pull --rebase origin main
+
+      - name: Setup Node.js 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Generate filtered playlist
+        env:
+          PROVIDER_M3U_URL: ${{ secrets.PROVIDER_M3U_URL }}
+        run: node src/generate-playlist.js
+
+      - name: Commit playlist
+        run: |
+          git add playlist.m3u
+          if git diff --staged --quiet; then
+            echo "No changes to playlist.m3u"
+          else
+            git commit -m "chore: update playlist.m3u [$(date -u '+%Y-%m-%d %H:%M UTC')]"
+            git push || (git pull --rebase origin main && git push)
+          fi
