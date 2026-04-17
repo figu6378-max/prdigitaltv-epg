@@ -9,16 +9,25 @@
   ],
   "secondary": [
     {
+      "name": "open-epg",
+      "url": "https://www.open-epg.com/generate/VchmwyY7n2.xml",
+      "enabled": true,
+      "gzip": false,
+      "_comment": "Priority 1 — PR+US full coverage with descriptions"
+    },
+    {
+      "name": "iptv-epg-us",
+      "url": "https://iptv-epg.org/files/epg-us.xml.gz",
+      "enabled": true,
+      "gzip": true,
+      "_comment": "Priority 2 — 40k+ additional titles beyond open-epg"
+    },
+    {
       "name": "epg-pw-us",
       "url": "https://epg.pw/xmltv/epg_US.xml.gz",
       "enabled": true,
-      "gzip": true
-    },
-    {
-      "name": "epg-pw-es",
-      "url": "https://epg.pw/xmltv/epg_ES.xml.gz",
-      "enabled": true,
-      "gzip": true
+      "gzip": true,
+      "_comment": "Priority 3 — 20k additional titles"
     }
   ]
 }

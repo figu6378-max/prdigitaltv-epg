@@ -41,14 +41,19 @@ export function extractTitleAndYear(title) {
 
 /**
  * Format a TheSportsDB event object into a Spanish-style description string.
- * @param {{ strHomeTeam, strAwayTeam, strLeague, strSport }} event
+ * @param {{ strHomeTeam, strAwayTeam, strLeague, strSport, strVenue, strSeason, intHomeScore, intAwayScore }} event
  * @returns {string}
  */
 export function formatSportsDescription(event) {
-  if (event.strHomeTeam && event.strAwayTeam) {
-    return `${event.strHomeTeam} vs ${event.strAwayTeam} \u2014 ${event.strLeague}`;
+  if (!event.strHomeTeam && !event.strAwayTeam) {
+    return event.strLeague || event.strSport || '';
   }
-  return event.strLeague || event.strSport || '';
+  const score = (event.intHomeScore != null && event.intAwayScore != null)
+    ? ` (${event.intHomeScore}-${event.intAwayScore})`
+    : '';
+  const venue = event.strVenue ? ` | ${event.strVenue}` : '';
+  const season = event.strSeason ? ` | Temporada ${event.strSeason}` : '';
+  return `${event.strHomeTeam} vs ${event.strAwayTeam}${score} \u2014 ${event.strLeague}${venue}${season}`;
 }
 
 /**
@@ -99,7 +104,7 @@ export async function lookupSportsDescription(title, xmltvStart) {
 }
 
 /**
- * Look up Spanish movie description from TMDB API.
+ * Look up Spanish movie description + rating from TMDB API.
  * @param {string} title
  * @param {string|null} year
  * @param {string} apiKey
@@ -114,9 +119,13 @@ export async function lookupMovieDescription(title, year, apiKey) {
     const params = { api_key: apiKey, query: title, language: 'es-419' };
     if (year) params.year = year;
     const res = await axios.get(`${TMDB_BASE}/search/movie`, { params, timeout: 10000 });
-    const overview = res.data?.results?.[0]?.overview || '';
-    tmdbCache.set(cacheKey, overview);
-    return overview;
+    const result = res.data?.results?.[0];
+    if (!result) { tmdbCache.set(cacheKey, ''); return ''; }
+    const overview = result.overview || '';
+    const rating = result.vote_average ? ` ★ ${result.vote_average.toFixed(1)}/10` : '';
+    const desc = overview ? `${overview}${rating}` : '';
+    tmdbCache.set(cacheKey, desc);
+    return desc;
   } catch {
     tmdbCache.set(cacheKey, '');
     return '';
@@ -124,7 +133,7 @@ export async function lookupMovieDescription(title, year, apiKey) {
 }
 
 /**
- * Look up Spanish TV series description from TMDB API.
+ * Look up Spanish TV series description + rating from TMDB API.
  * @param {string} title
  * @param {string} apiKey
  * @returns {Promise<string>}
@@ -140,9 +149,13 @@ export async function lookupTvDescription(title, apiKey) {
       params: { api_key: apiKey, query: showName, language: 'es-419' },
       timeout: 10000,
     });
-    const overview = res.data?.results?.[0]?.overview || '';
-    tmdbCache.set(cacheKey, overview);
-    return overview;
+    const result = res.data?.results?.[0];
+    if (!result) { tmdbCache.set(cacheKey, ''); return ''; }
+    const overview = result.overview || '';
+    const rating = result.vote_average ? ` ★ ${result.vote_average.toFixed(1)}/10` : '';
+    const desc = overview ? `${overview}${rating}` : '';
+    tmdbCache.set(cacheKey, desc);
+    return desc;
   } catch {
     tmdbCache.set(cacheKey, '');
     return '';
