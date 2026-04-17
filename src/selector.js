@@ -4,34 +4,52 @@ import { exec } from 'node:child_process';
 import { downloadXmltvUrl, parseXmltvString } from './fetch.js';
 
 const PORT = 3737;
-const ALLOWLIST_PATH = 'config/channels-allowlist.json';
-const SELECTED_PATH  = 'config/channels-selected.json';
+const ALLOWLIST_PATH   = 'config/channels-allowlist.json';
+const SELECTED_PATH    = 'config/channels-selected.json';
+const DISCOVERED_PATH  = 'config/channels-discovered.json';
 
 // ─── Main ────────────────────────────────────────────────────────────────────
 
 async function main() {
-  const epgUrl = process.env.PROVIDER_EPG_URL;
-  if (!epgUrl) {
-    console.error('ERROR: PROVIDER_EPG_URL env var not set');
-    console.error('Usage: PROVIDER_EPG_URL="http://host/xmltv.php?username=X&password=Y" node src/selector.js');
-    process.exit(1);
+  let channels;
+
+  if (existsSync(DISCOVERED_PATH)) {
+    // Offline mode — load from channels-discovered.json (committed by Discover Channels workflow)
+    console.log(`[selector] Loading from ${DISCOVERED_PATH}...`);
+    const discovered = JSON.parse(readFileSync(DISCOVERED_PATH, 'utf8'));
+    const raw = discovered.channels || discovered;
+    channels = raw
+      .filter(ch => ch['tvg-id'])
+      .map(ch => ({
+        tvgId:       ch['tvg-id'],
+        tvgName:     ch.displayName || ch['tvg-id'],
+        tvgLogo:     '',
+        groupTitle:  inferGroup(ch['tvg-id'], ch.displayName || ''),
+        displayName: ch.displayName || ch['tvg-id'],
+      }));
+    console.log(`[selector] ${channels.length} channels loaded from discovered file`);
+  } else {
+    // Online mode — fetch from provider EPG URL
+    const epgUrl = process.env.PROVIDER_EPG_URL;
+    if (!epgUrl) {
+      console.error('ERROR: config/channels-discovered.json not found and PROVIDER_EPG_URL not set.');
+      console.error('Run the "Discover Channels" GitHub Actions workflow first, then git pull.');
+      process.exit(1);
+    }
+    console.log('[selector] Fetching provider EPG...');
+    const xml = await downloadXmltvUrl(epgUrl, false);
+    const { channels: epgChannels } = parseXmltvString(xml);
+    channels = epgChannels
+      .filter(ch => ch.id)
+      .map(ch => ({
+        tvgId:       ch.id,
+        tvgName:     ch.displayName || ch.id,
+        tvgLogo:     ch.icon || '',
+        groupTitle:  inferGroup(ch.id, ch.displayName || ''),
+        displayName: ch.displayName || ch.id,
+      }));
+    console.log(`[selector] ${channels.length} channels loaded from provider EPG`);
   }
-
-  console.log('[selector] Fetching provider EPG...');
-  const xml = await downloadXmltvUrl(epgUrl, false);
-  const { channels: epgChannels } = parseXmltvString(xml);
-  console.log(`[selector] Parsed ${epgChannels.length} channels`);
-
-  // Normalize to UI channel format
-  const channels = epgChannels
-    .filter(ch => ch.id)
-    .map(ch => ({
-      tvgId:      ch.id,
-      tvgName:    ch.displayName || ch.id,
-      tvgLogo:    ch.icon || '',
-      groupTitle: inferGroup(ch.id, ch.displayName || ''),
-      displayName: ch.displayName || ch.id,
-    }));
 
   // Sort by group then name
   channels.sort((a, b) => a.groupTitle.localeCompare(b.groupTitle) || a.tvgName.localeCompare(b.tvgName));
