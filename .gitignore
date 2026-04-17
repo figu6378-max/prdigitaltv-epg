@@ -1,3 +1,6 @@
 node_modules/
 config/channels-discovered.json
+config/channels-selected.json
+output/playlist.m3u
+output/epg.xml
 .env

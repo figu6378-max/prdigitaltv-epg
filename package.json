@@ -7,6 +7,7 @@
   "scripts": {
     "start": "node src/index.js",
     "discover": "node src/index.js --discover",
+    "select": "node src/selector.js",
     "test": "node --test tests/*.test.js"
   },
   "dependencies": {

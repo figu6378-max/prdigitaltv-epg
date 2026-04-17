@@ -16,6 +16,12 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      - name: Sync with latest main
+        run: |
+          git config user.name "EPG Bot"
+          git config user.email "epg-bot@prdigitaltv.com"
+          git pull --rebase origin main
+
       - name: Setup Node.js 20
         uses: actions/setup-node@v4
         with:
@@ -33,15 +39,11 @@ jobs:
 
       - name: Commit updated EPG
         run: |
-          git config user.name "EPG Bot"
-          git config user.email "epg-bot@prdigitaltv.com"
           cp output/epg.xml epg.xml
           git add epg.xml
           if git diff --staged --quiet; then
             echo "No changes to epg.xml"
           else
             git commit -m "chore: update epg.xml [$(date -u '+%Y-%m-%d %H:%M UTC')]"
-            git checkout -- output/epg.xml
-            git pull --rebase origin main
             git push
           fi
