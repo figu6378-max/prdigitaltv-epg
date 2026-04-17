@@ -9,11 +9,14 @@ export async function downloadM3u(url) {
   const res = await axios.get(url, {
     responseType: 'text',
     timeout: 60000,
-    headers: { 'User-Agent': 'PRDigitalTV-Selector/1.0' },
+    headers: { 'User-Agent': 'okhttp/4.9.0' },
     validateStatus: () => true,  // accept any status — some IPTV providers return non-2xx with valid M3U body
   });
   if (!String(res.data).trimStart().startsWith('#EXTM3U')) {
-    throw new Error(`Provider returned status ${res.status} and no M3U content. Response: ${String(res.data).slice(0, 200)}`);
+    console.error(`[m3u] Status: ${res.status}`);
+    console.error(`[m3u] Response body: ${JSON.stringify(String(res.data).slice(0, 500))}`);
+    console.error(`[m3u] Response headers:`, res.headers);
+    throw new Error(`Provider returned status ${res.status} and no M3U content`);
   }
   return res.data;
 }
