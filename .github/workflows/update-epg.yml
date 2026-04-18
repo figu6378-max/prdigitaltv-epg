@@ -48,3 +48,17 @@ jobs:
             git commit -m "chore: update epg.xml [$(date -u '+%Y-%m-%d %H:%M UTC')]"
             git push || (git pull --rebase origin main && git push)
           fi
+
+      - name: Notify admin via GHL SMS
+        if: success()
+        env:
+          GHL_API_KEY: ${{ secrets.GHL_API_KEY }}
+        run: |
+          TS=$(date -u '+%Y-%m-%d %H:%M UTC')
+          MSG="✅ EPG PRDigitalTV actualizado en GitHub Pages. Canales: 496 | Programas: ~28k | $TS"
+          curl -s -X POST "https://services.leadconnectorhq.com/conversations/messages" \
+            -H "Authorization: Bearer $GHL_API_KEY" \
+            -H "Version: 2021-04-15" \
+            -H "Content-Type: application/json" \
+            -d "{\"type\":\"SMS\",\"contactId\":\"RjYtXl1iCGx8v9pzvlNd\",\"message\":\"$MSG\"}" \
+            || echo "GHL notification failed (non-blocking)"
