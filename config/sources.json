@@ -13,21 +13,28 @@
       "url": "https://www.open-epg.com/generate/VchmwyY7n2.xml",
       "enabled": true,
       "gzip": false,
-      "_comment": "Priority 1 — PR+US full coverage with descriptions"
+      "_comment": "Priority 1 — PR channels, overrides everything"
+    },
+    {
+      "name": "epg2-curated",
+      "url": "https://github.com/ferteque/Curated-M3U-Repository/raw/refs/heads/main/epg2.xml.gz",
+      "enabled": true,
+      "gzip": true,
+      "_comment": "Priority 2 — curated US/Canada, 4118 channels, 196k programmes"
     },
     {
       "name": "iptv-epg-us",
       "url": "https://iptv-epg.org/files/epg-us.xml.gz",
       "enabled": true,
       "gzip": true,
-      "_comment": "Priority 2 — 40k+ additional titles beyond open-epg"
+      "_comment": "Priority 3 — fill gaps not in epg2"
     },
     {
       "name": "epg-pw-us",
       "url": "https://epg.pw/xmltv/epg_US.xml.gz",
       "enabled": true,
       "gzip": true,
-      "_comment": "Priority 3 — 20k additional titles"
+      "_comment": "Priority 4 — additional fill"
     }
   ]
 }

@@ -24,14 +24,14 @@
     "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/8332.png?53229"
   },
   "nationalgeographic": {
-    "tvgId": "NatGeo.us",
-    "displayName": ": NATIONAL GEOGRAPHIC HD",
+    "tvgId": "natgeo.es",
+    "displayName": "NATIONAL GEOGRAPHIC ᴿᴬᵂ",
     "groupTitle": "general",
     "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14619.PNG?ver=97781"
   },
   "nationalgeographicwild": {
-    "tvgId": "NatGeoWild.us",
-    "displayName": ": NATIONAL GEOGRAPHIC WILD HD",
+    "tvgId": "NatGeoWild.es",
+    "displayName": "NATIONAL GEOGRAPHIC WILD ᵁᴴᴰ",
     "groupTitle": "general",
     "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/1395.png?40753"
   },
@@ -150,13 +150,13 @@
     "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14619.PNG?ver=97781"
   },
   "adultswim": {
-    "tvgId": "AdultSwim.us",
+    "tvgId": "AdultSwim.ca",
     "displayName": "ADULT SWIM HD",
     "groupTitle": "general",
     "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/3837.jpg?8033"
   },
   "animalplanet": {
-    "tvgId": "animalplanet.us",
+    "tvgId": "AnimalPlanet.ca",
     "displayName": "ANIMAL PLANET HD",
     "groupTitle": "general",
     "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14545.PNG?ver=52669"
@@ -204,8 +204,8 @@
     "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/8291.jpg?93571"
   },
   "bet": {
-    "tvgId": "BET.us",
-    "displayName": "BET HD",
+    "tvgId": "BET.ca",
+    "displayName": "BET",
     "groupTitle": "general",
     "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14619.PNG?ver=97781"
   },
@@ -276,9 +276,9 @@
     "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/9761.jpg?14917"
   },
   "cartoonnetwork": {
-    "tvgId": "CartoonNetwork.us",
+    "tvgId": "CartoonNetwork.ca",
     "displayName": "CARTOON NETWORK HD",
-    "groupTitle": "general",
+    "groupTitle": "kids",
     "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14545.PNG?ver=52669"
   },
   "cbswafbbatonrouge": {
@@ -642,8 +642,8 @@
     "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14545.PNG?ver=52669"
   },
   "comedycentral": {
-    "tvgId": "ComedyCentral.us",
-    "displayName": "COMEDY CENTRAL HD",
+    "tvgId": "comedycentral.es",
+    "displayName": "COMEDY CENTRAL ᴿᴬᵂ",
     "groupTitle": "general",
     "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14619.PNG?ver=97781"
   },
@@ -654,8 +654,8 @@
     "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14619.PNG?ver=97781"
   },
   "cookingchannel": {
-    "tvgId": "CookingChannel.us",
-    "displayName": "COOKING CHANNEL HD",
+    "tvgId": "CookingChannel.ca",
+    "displayName": "COOKING CHANNEL",
     "groupTitle": "general",
     "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14619.PNG?ver=97781"
   },
@@ -798,8 +798,8 @@
     "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/6308.jpg?18025"
   },
   "discovery": {
-    "tvgId": "DiscoveryChannel.us",
-    "displayName": "DISCOVERY HD",
+    "tvgId": "discoverychannel.es",
+    "displayName": "DISCOVERY ᴿᴬᵂ",
     "groupTitle": "general",
     "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14619.PNG?ver=97781"
   },
@@ -816,9 +816,9 @@
     "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14619.PNG?ver=97781"
   },
   "disneyxd": {
-    "tvgId": "DisneyXD.us",
+    "tvgId": "DisneyXD.ca",
     "displayName": "DISNEY XD HD",
-    "groupTitle": "general",
+    "groupTitle": "kids",
     "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14619.PNG?ver=97781"
   },
   "dogtv": {
@@ -858,7 +858,7 @@
     "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14619.PNG?ver=97781"
   },
   "foodnetwork": {
-    "tvgId": "FoodNetwork.us",
+    "tvgId": "FoodNetwork.ca",
     "displayName": "FOOD NETWORK HD",
     "groupTitle": "general",
     "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14619.PNG?ver=97781"
@@ -1188,9 +1188,9 @@
     "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14619.PNG?ver=97781"
   },
   "fxx": {
-    "tvgId": "FXX.us",
+    "tvgId": "FXX.ca",
     "displayName": "FXX HD",
-    "groupTitle": "general",
+    "groupTitle": "movies",
     "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14619.PNG?ver=97781"
   },
   "fyi": {
@@ -1206,8 +1206,8 @@
     "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/7701.png?2212"
   },
   "goltv": {
-    "tvgId": "GolTVEnglish.us",
-    "displayName": "GOL TV HD",
+    "tvgId": "gol.es",
+    "displayName": "GOL TV ᴴᴰ",
     "groupTitle": "general",
     "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/3312.png?10185"
   },
@@ -1230,20 +1230,20 @@
     "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14619.PNG?ver=97781"
   },
   "hgtv": {
-    "tvgId": "hgtv.us",
-    "displayName": "HGTV HD",
+    "tvgId": "HGTV.ca",
+    "displayName": "HGTV",
     "groupTitle": "general",
     "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14619.PNG?ver=97781"
   },
   "history": {
-    "tvgId": "HistoryChannel.us",
+    "tvgId": "HistoryChannel.ca",
     "displayName": "HISTORY HD",
     "groupTitle": "general",
     "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14619.PNG?ver=97781"
   },
   "hln": {
-    "tvgId": "HLN.us",
-    "displayName": "HLN HD",
+    "tvgId": "HLN.ca",
+    "displayName": "HLN",
     "groupTitle": "general",
     "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14619.PNG?ver=97781"
   },
@@ -1350,14 +1350,14 @@
     "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/11061.jpg?38667"
   },
   "mtv2": {
-    "tvgId": "MTV2.us",
-    "displayName": "MTV 2 HD",
+    "tvgId": "MTV2.ca",
+    "displayName": "MTV 2",
     "groupTitle": "general",
     "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14619.PNG?ver=97781"
   },
   "mtv": {
-    "tvgId": "MTV.us",
-    "displayName": "MTV HD",
+    "tvgId": "mtv.es",
+    "displayName": "MTV ᴿᴬᵂ",
     "groupTitle": "general",
     "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14619.PNG?ver=97781"
   },
@@ -1452,9 +1452,9 @@
     "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14619.PNG?ver=97781"
   },
   "nickelodeon": {
-    "tvgId": "Nickelodeon.us",
-    "displayName": "NICKELODEON HD",
-    "groupTitle": "general",
+    "tvgId": "nickelodeon.es",
+    "displayName": "NICKELODEON ᴿᴬᵂ",
+    "groupTitle": "kids",
     "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/743.png?12640"
   },
   "outdoorchannel": {
@@ -1734,8 +1734,8 @@
     "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/8298.jpg?40083"
   },
   "amc": {
-    "tvgId": "AMC.us",
-    "displayName": "AMC HD",
+    "tvgId": "amc.es",
+    "displayName": "AMC ᴿᴬᵂ",
     "groupTitle": "movies",
     "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14619.PNG?ver=97781"
   },
@@ -1974,8 +1974,8 @@
     "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14619.PNG?ver=97781"
   },
   "syfy": {
-    "tvgId": "Syfy.us",
-    "displayName": "SYFY HD",
+    "tvgId": "syfy.es",
+    "displayName": "SYFY ᴴᴰ",
     "groupTitle": "movies",
     "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14619.PNG?ver=97781"
   },
@@ -2010,7 +2010,7 @@
     "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14619.PNG?ver=97781"
   },
   "msnbc": {
-    "tvgId": "msnbc.us",
+    "tvgId": "MSNBC.ca",
     "displayName": "MSNBC HD",
     "groupTitle": "news",
     "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14619.PNG?ver=97781"
@@ -2350,5 +2350,293 @@
     "displayName": "WWE HD",
     "groupTitle": "sports",
     "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/8088.jpg?91127"
+  },
+  "e": {
+    "tvgId": "EEntertainment.ca",
+    "displayName": "E! HD",
+    "groupTitle": "movies",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14619.PNG?ver=97781"
+  },
+  "bbcworldnews": {
+    "tvgId": "BBCWorld.ca",
+    "displayName": "BBC WORLD NEWS HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/192.png?ver=81217"
+  },
+  "cbccalgary": {
+    "tvgId": "CBRT.ca",
+    "displayName": "CBC CALGARY HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/8363.jpg?19676"
+  },
+  "cbccharlottetown": {
+    "tvgId": "CBCT.ca",
+    "displayName": "CBC CHARLOTTETOWN (HD)",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/2331.jpg?55365"
+  },
+  "cbcfredericton": {
+    "tvgId": "CBAT.ca",
+    "displayName": "CBC FREDERICTON (HD)",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/2331.jpg?55365"
+  },
+  "cbchalifax": {
+    "tvgId": "CBHT.ca",
+    "displayName": "CBC HALIFAX HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/2331.jpg?59153"
+  },
+  "cbcottawa": {
+    "tvgId": "CBCOttawa.ca",
+    "displayName": "CBC OTTAWA HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/8363.jpg?22163"
+  },
+  "cbcregina": {
+    "tvgId": "CBKT.ca",
+    "displayName": "CBC REGINA(HD)",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/2331.jpg?55365"
+  },
+  "cbctoronto": {
+    "tvgId": "CBC.ca",
+    "displayName": "CBC TORONTO HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/8363.jpg?22163"
+  },
+  "cbcvancouver": {
+    "tvgId": "CBUT.ca",
+    "displayName": "CBC VANCOUVER HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/8363.jpg?22163"
+  },
+  "cbcwinnipeg": {
+    "tvgId": "CBWT.ca",
+    "displayName": "CBC WINNIPEG HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/2331.jpg?43760"
+  },
+  "cbcyellowknife": {
+    "tvgId": "CFYK.ca",
+    "displayName": "CBC YELLOWKNIFE",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/8363.jpg?4003"
+  },
+  "citytvtoronto": {
+    "tvgId": "CityTVToronto.ca",
+    "displayName": "CITYTV TORONTO HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/3325.jpg?90393"
+  },
+  "ctvcalgary": {
+    "tvgId": "ctvcalgary.ca",
+    "displayName": "CTV CALGARY",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/929.jpg?39673"
+  },
+  "ctvkitchener": {
+    "tvgId": "ctvkitchener.ca",
+    "displayName": "CTV KITCHENER HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/929.jpg?39673"
+  },
+  "ctvottawa": {
+    "tvgId": "CTVOH.ca",
+    "displayName": "CTV OTTAWA HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/929.jpg?61312"
+  },
+  "ctvsudbury": {
+    "tvgId": "ctvsudbury.ca",
+    "displayName": "CTV Sudbury HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/6382.jpg?7869"
+  },
+  "ctvwinnipeg": {
+    "tvgId": "ctvwinnipeg.ca",
+    "displayName": "CTV WINNIPEG HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/6453.png?53317"
+  },
+  "ctv2atlantic": {
+    "tvgId": "ASN.ca",
+    "displayName": "CTV2 ATLANTIC HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/8414.jpg?82972"
+  },
+  "ctv2barrie": {
+    "tvgId": "CKVR.ca",
+    "displayName": "CTV2 BARRIE HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/6061.png?88580"
+  },
+  "disneyjunior": {
+    "tvgId": "disneyjunior.es",
+    "displayName": "DISNEY JUNIOR ᴿᴬᵂ",
+    "groupTitle": "kids",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14545.PNG?ver=52669"
+  },
+  "globalnewsregina": {
+    "tvgId": "GlobalNewsBC1.ca",
+    "displayName": "GLOBAL NEWS REGINA HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/3029.png?96943"
+  },
+  "globaltoronto": {
+    "tvgId": "globaltoronto.ca",
+    "displayName": "GLOBAL TORONTO HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/3029.png?96943"
+  },
+  "paramountnetwork": {
+    "tvgId": "ParamountNetwork.ca",
+    "displayName": "PARAMOUNT NETWORK",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14619.PNG?ver=97781"
+  },
+  "sportsman": {
+    "tvgId": "SportsmanChannel.ca",
+    "displayName": "SPORTSMAN HD",
+    "groupTitle": "sports",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/12263.png?46913"
+  },
+  "sportsnet360": {
+    "tvgId": "Sportsnet360.ca",
+    "displayName": "SPORTSNET 360 4K",
+    "groupTitle": "sports",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/13797.png?ver=39230"
+  },
+  "sportsneteast": {
+    "tvgId": "SportsnetEast.ca",
+    "displayName": "SPORTSNET EAST",
+    "groupTitle": "sports",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/13797.png?ver=39230"
+  },
+  "sportsnetone": {
+    "tvgId": "SportsnetOne.ca",
+    "displayName": "SPORTSNET ONE 4K",
+    "groupTitle": "sports",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/13797.png?ver=39230"
+  },
+  "sportsnetontario": {
+    "tvgId": "SportsnetOntario.ca",
+    "displayName": "SPORTSNET ONTARIO",
+    "groupTitle": "sports",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/13797.png?ver=39230"
+  },
+  "sportsnetpacific": {
+    "tvgId": "SportsnetPacific.ca",
+    "displayName": "SPORTSNET PACIFIC HD",
+    "groupTitle": "sports",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/13797.png?ver=39230"
+  },
+  "sportsnetwest": {
+    "tvgId": "SportsnetWest.ca",
+    "displayName": "SPORTSNET WEST HD",
+    "groupTitle": "sports",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/13797.png?ver=39230"
+  },
+  "sportsnetworld": {
+    "tvgId": "SportsnetWorld.ca",
+    "displayName": "SPORTSNET WORLD HD",
+    "groupTitle": "sports",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/13748.png?96938"
+  },
+  "tsn1": {
+    "tvgId": "TSN1.ca",
+    "displayName": "TSN 1",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/13797.png?ver=39230"
+  },
+  "tsn2": {
+    "tvgId": "TSN2.ca",
+    "displayName": "TSN 2",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/13797.png?ver=39230"
+  },
+  "tsn3": {
+    "tvgId": "TSN3.ca",
+    "displayName": "TSN 3",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/13797.png?ver=39230"
+  },
+  "tsn4": {
+    "tvgId": "TSN4.ca",
+    "displayName": "TSN 4",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/13797.png?ver=39230"
+  },
+  "tsn5": {
+    "tvgId": "TSN5.ca",
+    "displayName": "TSN 5",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/13797.png?ver=39230"
+  },
+  "cbcmontreal": {
+    "tvgId": "CBMT.ca",
+    "displayName": "CBC MONTREAL HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/8363.jpg?22163"
+  },
+  "rds": {
+    "tvgId": "RDS.ca",
+    "displayName": "RDS HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/13797.png?ver=39230"
+  },
+  "ctv2ottawa": {
+    "tvgId": "CHRO.ca",
+    "displayName": "CTV 2 OTTAWA",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/929.jpg?31230"
+  },
+  "ctvmontreal": {
+    "tvgId": "CFCF.ca",
+    "displayName": "CTV MONTREAL HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/10739.png?1909"
+  },
+  "gametv": {
+    "tvgId": "GameTV.ca",
+    "displayName": "GAMETV",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/1962.jpg?20194"
+  },
+  "tvasports": {
+    "tvgId": "TVASports.ca",
+    "displayName": "TVA SPORTS",
+    "groupTitle": "sports",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/10179.jpg?62861"
+  },
+  "discoverychannel": {
+    "tvgId": "DiscoveryChannel.es",
+    "displayName": "DISCOVERY CHANNEL ᵁᴴᴰ",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/13797.png?ver=39230"
+  },
+  "sundancetv": {
+    "tvgId": "sundance.es",
+    "displayName": "SUNDANCE TV ᴴᴰ",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/13797.png?ver=39230"
+  },
+  "natgeowild": {
+    "tvgId": "natgeowild.es",
+    "displayName": "NAT GEO WILD ᴿᴬᵂ",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14619.PNG?ver=97781"
+  },
+  "nickjr": {
+    "tvgId": "nickjr.es",
+    "displayName": "NICK JR ᴿᴬᵂ",
+    "groupTitle": "kids",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14619.PNG?ver=97781"
+  },
+  "fox": {
+    "tvgId": "fox.es",
+    "displayName": "FOX ᴴᴰ",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/3263.png?4746"
   }
 }
