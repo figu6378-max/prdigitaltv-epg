@@ -2536,6 +2536,10 @@
     <title lang="es">The Fifth Element</title>
     <desc lang="es">The Earth is about to be destroyed by a huge ball of fire racing toward the planet. Cornelius, an old monk, knows how to stop the burning sphere with the help of Korben Dallas, a taxi driver and former secret agent and a woman named Leeloo.</desc>
   </programme>
+  <programme start="20260419151500 +0200" stop="20260419174500 +0200" channel="AMC.ca">
+    <title lang="es">I Am Number Four</title>
+    <desc lang="es">John Smith (Alex Pettyfer) seems like an ordinary teenager, but he is an alien on the run from merciless enemies hunting him and the eight others like him. Always changing his identity and moving to different towns with his guardian, Henri (Timothy Olyphant), John has no real past and no true home. However, in the small Ohio town where he now lives, he discovers love, powerful new abilities, and a connection to others of his kind.</desc>
+  </programme>
   <programme start="20260417153000 +0200" stop="20260417190000 +0200" channel="AMC.us">
     <title lang="es">Armageddon</title>
     <desc lang="es">When an asteroid threatens to collide with Earth, NASA honcho Dan Truman (Billy Bob Thornton) determines the only way to stop it is to drill into its surface and detonate a nuclear bomb. This leads him to renowned driller Harry Stamper (Bruce Willis), who agrees to helm the dangerous space mission provided he can bring along his own hotshot crew. Among them is the cocksure A.J. (Ben Affleck), who Harry thinks isn&amp;apos;t good enough for his daughter (Liv Tyler), until the mission proves otherwise.</desc>
@@ -2603,6 +2607,10 @@
   <programme start="20260419121500 +0200" stop="20260419151500 +0200" channel="AMC.us">
     <title lang="es">The Fifth Element</title>
     <desc lang="es">The Earth is about to be destroyed by a huge ball of fire racing toward the planet. Cornelius, an old monk, knows how to stop the burning sphere with the help of Korben Dallas, a taxi driver and former secret agent and a woman named Leeloo.</desc>
+  </programme>
+  <programme start="20260419151500 +0200" stop="20260419174500 +0200" channel="AMC.us">
+    <title lang="es">I Am Number Four</title>
+    <desc lang="es">John Smith (Alex Pettyfer) seems like an ordinary teenager, but he is an alien on the run from merciless enemies hunting him and the eight others like him. Always changing his identity and moving to different towns with his guardian, Henri (Timothy Olyphant), John has no real past and no true home. However, in the small Ohio town where he now lives, he discovers love, powerful new abilities, and a connection to others of his kind.</desc>
   </programme>
   <programme start="20260417165300 +0200" stop="20260417183000 +0200" channel="AMCThrillers.us">
     <title lang="es">The Invoking</title>
@@ -2986,7 +2994,7 @@
   </programme>
   <programme start="20260417190000 +0200" stop="20260417193000 +0200" channel="AWealthofEntertainment.us">
     <title lang="es">A Taste of Travel (Asia)</title>
-    <desc lang="es">Lynton Tapp navigates the chaotic, colorful and exciting streets of Delhi, India, before exploring the city&apos;s numerous temples and monuments.</desc>
+    <desc lang="es">A Taste of Travel (Asia).</desc>
   </programme>
   <programme start="20260417193000 +0200" stop="20260417200000 +0200" channel="AWealthofEntertainment.us">
     <title lang="es">Facing Waves</title>
@@ -3098,7 +3106,7 @@
   </programme>
   <programme start="20260418120000 +0200" stop="20260418123000 +0200" channel="AWealthofEntertainment.us">
     <title lang="es">A Taste of Travel (Asia)</title>
-    <desc lang="es">Lynton Tapp navigates the chaotic, colorful and exciting streets of Delhi, India, before exploring the city&apos;s numerous temples and monuments.</desc>
+    <desc lang="es">A Taste of Travel (Asia).</desc>
   </programme>
   <programme start="20260418123000 +0200" stop="20260418130000 +0200" channel="AWealthofEntertainment.us">
     <title lang="es">Top Travel</title>
@@ -3150,7 +3158,7 @@
   </programme>
   <programme start="20260418190000 +0200" stop="20260418193000 +0200" channel="AWealthofEntertainment.us">
     <title lang="es">A Taste of Travel (Asia)</title>
-    <desc lang="es">Lynton Tapp navigates the chaotic, colorful and exciting streets of Delhi, India, before exploring the city&apos;s numerous temples and monuments.</desc>
+    <desc lang="es">A Taste of Travel (Asia).</desc>
   </programme>
   <programme start="20260418193000 +0200" stop="20260418200000 +0200" channel="AWealthofEntertainment.us">
     <title lang="es">Facing Waves</title>
@@ -4882,7 +4890,9 @@
   </programme>
   <programme start="20260417211500 +0200" stop="20260417214500 +0200" channel="AltitudeSports.us">
     <title lang="es">Behind The A</title>
-    <desc lang="es">Behind The A</desc>
+    <desc lang="es">Cómo se crea una atracción es una serie documental que explora la sorprendente y rica historia de los parques de atracciones de Disney mediante imágenes y fotografías de archivo nunca antes vistas para revelar cómo surgieron algunas de las más icónicas de las atracciones de los parques y cómo han sido mejorados a lo largo de los años a medida que surgen nuevas ideas.
+
+Mediante entrevistas con  Imagineers (ingenieros que se dedican a construir las atracciones de los parques) del pasado y del presente o Leyendas Disney, como Bob Weis, Scott Trowbridge, Tom Fitzgerald, Carmen Smith o Joe Rohde, se revelan secretos privilegiados de los parques más famosos e icónicos de Disney. ★ 7.2/10</desc>
   </programme>
   <programme start="20260417214500 +0200" stop="20260417220000 +0200" channel="AltitudeSports.us">
     <title lang="es">Altitude Extra</title>
@@ -5410,15 +5420,15 @@
   </programme>
   <programme start="20260418160000 +0200" stop="20260418174500 +0200" channel="Antena3.es">
     <title lang="es">Cine</title>
-    <desc lang="es">Cine</desc>
+    <desc lang="es">Estudio crítico de la historia del cine basado en el libro homónimo. Comparada a las &quot;Histoire(s) du Cinema&quot; de Jean Luc Godard, Cousins aborda visualmente la historia del cine desde su creación hasta nuestros días a través de 15 episodios y cientos de fragmentos cinematográficos desde la creación del cine hasta el último &quot;blockbuster&quot; norteamericano. En ellos encontramos decenas de entrevistas con los principales maestros de nuestro tiempo. Un documental producido por Film 4 para Gran Bretaña. Ha sido emitido con éxito en Reino Unido a través de Channel 4, y fue estrenado íntegro en el Festival de Toronto, además de haber sido proyectado en el MoMA de Nueva York. ★ 7.7/10</desc>
   </programme>
   <programme start="20260418174500 +0200" stop="20260418192000 +0200" channel="Antena3.es">
     <title lang="es">Cine</title>
-    <desc lang="es">Cine</desc>
+    <desc lang="es">Estudio crítico de la historia del cine basado en el libro homónimo. Comparada a las &quot;Histoire(s) du Cinema&quot; de Jean Luc Godard, Cousins aborda visualmente la historia del cine desde su creación hasta nuestros días a través de 15 episodios y cientos de fragmentos cinematográficos desde la creación del cine hasta el último &quot;blockbuster&quot; norteamericano. En ellos encontramos decenas de entrevistas con los principales maestros de nuestro tiempo. Un documental producido por Film 4 para Gran Bretaña. Ha sido emitido con éxito en Reino Unido a través de Channel 4, y fue estrenado íntegro en el Festival de Toronto, además de haber sido proyectado en el MoMA de Nueva York. ★ 7.7/10</desc>
   </programme>
   <programme start="20260418192000 +0200" stop="20260418210000 +0200" channel="Antena3.es">
     <title lang="es">Cine</title>
-    <desc lang="es">Cine</desc>
+    <desc lang="es">Estudio crítico de la historia del cine basado en el libro homónimo. Comparada a las &quot;Histoire(s) du Cinema&quot; de Jean Luc Godard, Cousins aborda visualmente la historia del cine desde su creación hasta nuestros días a través de 15 episodios y cientos de fragmentos cinematográficos desde la creación del cine hasta el último &quot;blockbuster&quot; norteamericano. En ellos encontramos decenas de entrevistas con los principales maestros de nuestro tiempo. Un documental producido por Film 4 para Gran Bretaña. Ha sido emitido con éxito en Reino Unido a través de Channel 4, y fue estrenado íntegro en el Festival de Toronto, además de haber sido proyectado en el MoMA de Nueva York. ★ 7.7/10</desc>
   </programme>
   <programme start="20260418210000 +0200" stop="20260418214500 +0200" channel="Antena3.es">
     <title lang="es">Antena 3 Noticias noche  (Fin de semana)</title>
@@ -7630,19 +7640,19 @@
   </programme>
   <programme start="20260418120000 +0200" stop="20260418123000 +0200" channel="BabyFirstTV.us">
     <title lang="es">Rise &amp;amp; Shine</title>
-    <desc lang="es">Stay informed with the latest breaking news and headlines.</desc>
+    <desc lang="es">Rise &amp;amp; Shine</desc>
   </programme>
   <programme start="20260418123000 +0200" stop="20260418130000 +0200" channel="BabyFirstTV.us">
     <title lang="es">Rise &amp;amp; Shine</title>
-    <desc lang="es">Stay informed with the latest breaking news and headlines.</desc>
+    <desc lang="es">Rise &amp;amp; Shine</desc>
   </programme>
   <programme start="20260418130000 +0200" stop="20260418133000 +0200" channel="BabyFirstTV.us">
     <title lang="es">Rise &amp;amp; Shine</title>
-    <desc lang="es">Stay informed with the latest breaking news and headlines.</desc>
+    <desc lang="es">Rise &amp;amp; Shine</desc>
   </programme>
   <programme start="20260418133000 +0200" stop="20260418140000 +0200" channel="BabyFirstTV.us">
     <title lang="es">Rise &amp;amp; Shine</title>
-    <desc lang="es">Stay informed with the latest breaking news and headlines.</desc>
+    <desc lang="es">Rise &amp;amp; Shine</desc>
   </programme>
   <programme start="20260418140000 +0200" stop="20260418143000 +0200" channel="BabyFirstTV.us">
     <title lang="es">Twice the Fun</title>
@@ -7814,19 +7824,19 @@
   </programme>
   <programme start="20260419120000 +0200" stop="20260419123000 +0200" channel="BabyFirstTV.us">
     <title lang="es">Rise &amp;amp; Shine</title>
-    <desc lang="es">Stay informed with the latest breaking news and headlines.</desc>
+    <desc lang="es">Rise &amp;amp; Shine</desc>
   </programme>
   <programme start="20260419123000 +0200" stop="20260419130000 +0200" channel="BabyFirstTV.us">
     <title lang="es">Rise &amp;amp; Shine</title>
-    <desc lang="es">Stay informed with the latest breaking news and headlines.</desc>
+    <desc lang="es">Rise &amp;amp; Shine</desc>
   </programme>
   <programme start="20260419130000 +0200" stop="20260419133000 +0200" channel="BabyFirstTV.us">
     <title lang="es">Rise &amp;amp; Shine</title>
-    <desc lang="es">Stay informed with the latest breaking news and headlines.</desc>
+    <desc lang="es">Rise &amp;amp; Shine</desc>
   </programme>
   <programme start="20260419133000 +0200" stop="20260419140000 +0200" channel="BabyFirstTV.us">
     <title lang="es">Rise &amp;amp; Shine</title>
-    <desc lang="es">Stay informed with the latest breaking news and headlines.</desc>
+    <desc lang="es">Rise &amp;amp; Shine</desc>
   </programme>
   <programme start="20260419140000 +0200" stop="20260419143000 +0200" channel="BabyFirstTV.us">
     <title lang="es">Twice the Fun</title>
@@ -8351,10 +8361,6 @@
   <programme start="20260419140000 +0200" stop="20260419160000 +0200" channel="BlazeTV.us">
     <title lang="es">Fearless With Jason Whitlock</title>
     <desc lang="es">Jason Whitlock and his cast of &amp;quot;Fearless Soldiers&amp;quot; protect the realm of common sense and challenge groupthink mandated by elites; the most fearless conversation at the cross section of culture, faith, sports and comedy.</desc>
-  </programme>
-  <programme start="20260417151500 +0200" stop="20260417153000 +0200" channel="Boomerang.us">
-    <title lang="es">Summer Camp Island</title>
-    <desc lang="es">Oscar and Hedgehog get an unsettling glimpse into the future.</desc>
   </programme>
   <programme start="20260417153000 +0200" stop="20260417160000 +0200" channel="Boomerang.us">
     <title lang="es">The Flintstones</title>
@@ -8980,6 +8986,10 @@
     <title lang="es">Tom &amp;amp; Jerry</title>
     <desc lang="es">Jerry accidentally becomes invisible when he falls into a pot of invisible ink; he gets back at Tom.</desc>
   </programme>
+  <programme start="20260419152000 +0200" stop="20260419153000 +0200" channel="Boomerang.us">
+    <title lang="es">Tom &amp;amp; Jerry</title>
+    <desc lang="es">A troublesome little woodpecker believes Jerry to be its mother.</desc>
+  </programme>
   <programme start="20260417153000 +0200" stop="20260417160000 +0200" channel="BounceTV.us">
     <title lang="es">Couples Court With the Cutlers</title>
     <desc lang="es">Lisa Wu, formerly of &amp;quot;The Real Housewives of Atlanta,&amp;quot; weighs in on the case of a Mississippi newlywed accusing his bride of cheating.</desc>
@@ -9306,7 +9316,8 @@
   </programme>
   <programme start="20260419140000 +0200" stop="20260419150000 +0200" channel="Bravo.us">
     <title lang="es">The Real Housewives Of Beverly Hills</title>
-    <desc lang="es">Kyle&apos;s daughter has a carnival-themed birthday party; Kyle&apos;s and Adrienne&apos;s husbands walk a mile in high heels for charity.</desc>
+    <desc lang="es">S03 E02 The Higher the Heel, the Closer to God
+Kyle&apos;s daughter has a carnival-themed birthday party; Kyle&apos;s and Adrienne&apos;s husbands walk a mile in high heels for charity.</desc>
   </programme>
   <programme start="20260419150000 +0200" stop="20260419160000 +0200" channel="Bravo.us">
     <title lang="es">The Real Housewives Of Beverly Hills</title>
@@ -9706,7 +9717,7 @@
   </programme>
   <programme start="20260418153000 +0200" stop="20260418160000 +0200" channel="BuzzrTV.us">
     <title lang="es">Rare Silver &amp;amp; Gold Coins</title>
-    <desc lang="es">Rare Collectibles TV offers viewers the ability to learn about historic silver and gold coins.</desc>
+    <desc lang="es">Rare Silver &amp;amp; Gold Coins</desc>
   </programme>
   <programme start="20260418160000 +0200" stop="20260418163000 +0200" channel="BuzzrTV.us">
     <title lang="es">Science Now</title>
@@ -9879,14 +9890,6 @@
   <programme start="20260419150000 +0200" stop="20260419153000 +0200" channel="BuzzrTV.us">
     <title lang="es">Paid Programming</title>
     <desc lang="es">Paid programming.</desc>
-  </programme>
-  <programme start="20260417152100 +0200" stop="20260417152500 +0200" channel="CBAT.ca">
-    <title lang="es">Mighty Express</title>
-    <desc lang="es">When Farmer Faye can&amp;apos;t bring the animals to the snow, she brings the snow to the animals.</desc>
-  </programme>
-  <programme start="20260417152500 +0200" stop="20260417152800 +0200" channel="CBAT.ca">
-    <title lang="es">Playing With Stu</title>
-    <desc lang="es">Stu gets quite the surprise when he goes fishing.</desc>
   </programme>
   <programme start="20260417152800 +0200" stop="20260417153800 +0200" channel="CBAT.ca">
     <title lang="es">Mittens &amp;amp; Pants</title>
@@ -10308,10 +10311,6 @@
     <title lang="es">Coronation Street</title>
     <desc lang="es">Theo stuns Todd by suggesting they get married right away, Bernie experiences divided loyalties to her son and husband, and Will struggles with being the focus of local gossip.</desc>
   </programme>
-  <programme start="20260417152400 +0200" stop="20260417153400 +0200" channel="CBC.ca">
-    <title lang="es">It&amp;apos;s Andrew!</title>
-    <desc lang="es">A magical, self-emptying compost bin - a gift for Dasha, causes mayhem at Andrew&amp;apos;s house.</desc>
-  </programme>
   <programme start="20260417153400 +0200" stop="20260417153900 +0200" channel="CBC.ca">
     <title lang="es">Go Togo</title>
     <desc lang="es">With Hub out for repairs, Sparks is left in charge; being the leader makes him nervous, and he gives out wrong instructions; Wheeler speaks up to help Sparks!</desc>
@@ -10704,10 +10703,6 @@
     <title lang="es">Coronation Street</title>
     <desc lang="es">Theo ensures that Todd misses his marathon; Will refuses to join his family in condemning Megan; Adam suffers a loss of business; Bernie and Dev find Mal waiting upon their return from vacation.</desc>
   </programme>
-  <programme start="20260417152400 +0200" stop="20260417153400 +0200" channel="CBCOttawa.ca">
-    <title lang="es">It&amp;apos;s Andrew!</title>
-    <desc lang="es">A magical, self-emptying compost bin - a gift for Dasha, causes mayhem at Andrew&amp;apos;s house.</desc>
-  </programme>
   <programme start="20260417153400 +0200" stop="20260417153900 +0200" channel="CBCOttawa.ca">
     <title lang="es">Go Togo</title>
     <desc lang="es">With Hub out for repairs, Sparks is left in charge; being the leader makes him nervous and he gives out wrong instructions; Wheeler speaks up to help Sparks!</desc>
@@ -11099,10 +11094,6 @@
   <programme start="20260419150000 +0200" stop="20260419153000 +0200" channel="CBCOttawa.ca">
     <title lang="es">Coronation Street</title>
     <desc lang="es">Theo ensures that Todd misses his marathon; Will refuses to join his family in condemning Megan; Adam suffers a loss of business; Bernie and Dev find Mal waiting upon their return from vacation.</desc>
-  </programme>
-  <programme start="20260417151800 +0200" stop="20260417153000 +0200" channel="CBCT.ca">
-    <title lang="es">Gary&amp;apos;s Magic Fort</title>
-    <desc lang="es">When Gary crashes Sir Cushington&amp;apos;s pillow mobile, the gang teams up to fix the pillow mobile in time for the Pillow Mobile Parade.</desc>
   </programme>
   <programme start="20260417153000 +0200" stop="20260417154500 +0200" channel="CBCT.ca">
     <title lang="es">Molly of Denali</title>
@@ -11520,10 +11511,6 @@
     <title lang="es">Coronation Street</title>
     <desc lang="es">Theo stuns Todd by suggesting they get married right away, Bernie experiences divided loyalties to her son and husband, and Will struggles with being the focus of local gossip.</desc>
   </programme>
-  <programme start="20260417151800 +0200" stop="20260417153000 +0200" channel="CBHT.ca">
-    <title lang="es">Gary&amp;apos;s Magic Fort</title>
-    <desc lang="es">When Gary crashes Sir Cushington&amp;apos;s pillow mobile, the gang teams up to fix the pillow mobile in time for the Pillow Mobile Parade.</desc>
-  </programme>
   <programme start="20260417153000 +0200" stop="20260417154500 +0200" channel="CBHT.ca">
     <title lang="es">Molly of Denali</title>
     <desc lang="es">Molly embarks on a mission to find Grandpa&amp;apos;s drum and return his lost songs to him.</desc>
@@ -11940,10 +11927,6 @@
     <title lang="es">Coronation Street</title>
     <desc lang="es">Theo stuns Todd by suggesting they get married right away, Bernie experiences divided loyalties to her son and husband, and Will struggles with being the focus of local gossip.</desc>
   </programme>
-  <programme start="20260417152700 +0200" stop="20260417153000 +0200" channel="CBKT.ca">
-    <title lang="es">Super Why&amp;apos;s Comic Book Adventures</title>
-    <desc lang="es">Power Paige and Wonder Red are about to play baseball when The Eraser takes their hats and bat; they need to get their equipment back by spelling words that end in at.</desc>
-  </programme>
   <programme start="20260417153000 +0200" stop="20260417154300 +0200" channel="CBKT.ca">
     <title lang="es">Dino Ranch: Island Explorers</title>
     <desc lang="es">Jon and Miguel must protect some baby giant turtles while Min helps fix their mother&amp;apos;s injured fin.</desc>
@@ -12332,9 +12315,9 @@
     <title lang="es">Hop</title>
     <desc lang="es">Benny and Penny get stuck together just before Penny&amp;apos;s dance-off.</desc>
   </programme>
-  <programme start="20260417152400 +0200" stop="20260417153400 +0200" channel="CBMT.ca">
-    <title lang="es">It&amp;apos;s Andrew!</title>
-    <desc lang="es">A magical, self-emptying compost bin - a gift for Dasha, causes mayhem at Andrew&amp;apos;s house.</desc>
+  <programme start="20260419152400 +0200" stop="20260419152900 +0200" channel="CBKT.ca">
+    <title lang="es">Go Togo</title>
+    <desc lang="es">Togo learns how to count backwards, and drive backwards.</desc>
   </programme>
   <programme start="20260417153400 +0200" stop="20260417153900 +0200" channel="CBMT.ca">
     <title lang="es">Go Togo</title>
@@ -12732,10 +12715,6 @@
     <title lang="es">Coronation Street</title>
     <desc lang="es">Theo ensures that Todd misses his marathon; Will refuses to join his family in condemning Megan; Adam suffers a loss of business; Bernie and Dev find Mal waiting upon their return from vacation.</desc>
   </programme>
-  <programme start="20260417152700 +0200" stop="20260417153000 +0200" channel="CBRT.ca">
-    <title lang="es">Super Why&amp;apos;s Comic Book Adventures</title>
-    <desc lang="es">Power Paige and Wonder Red are about to play baseball when The Eraser takes their hats and bat; they need to get their equipment back by spelling words that end in at.</desc>
-  </programme>
   <programme start="20260417153000 +0200" stop="20260417154300 +0200" channel="CBRT.ca">
     <title lang="es">Dino Ranch: Island Explorers</title>
     <desc lang="es">Jon and Miguel must protect some baby giant turtles while Min helps fix their mother&amp;apos;s injured fin.</desc>
@@ -13123,6 +13102,10 @@
   <programme start="20260419151200 +0200" stop="20260419152400 +0200" channel="CBRT.ca">
     <title lang="es">Hop</title>
     <desc lang="es">Benny and Penny get stuck together just before Penny&amp;apos;s dance-off.</desc>
+  </programme>
+  <programme start="20260419152400 +0200" stop="20260419152900 +0200" channel="CBRT.ca">
+    <title lang="es">Go Togo</title>
+    <desc lang="es">Togo learns how to count backwards, and drive backwards.</desc>
   </programme>
   <programme start="20260417160000 +0200" stop="20260417180000 +0200" channel="CBSSportsNetwork.us">
     <title lang="es">Equestrian</title>
@@ -13604,9 +13587,13 @@
     <title lang="es">Kiri and Lou</title>
     <desc lang="es">Kiri sings a song about how wonderful it is to have your very own body.</desc>
   </programme>
-  <programme start="20260417152400 +0200" stop="20260417153600 +0200" channel="CBWT.ca">
-    <title lang="es">Rusty Rivets</title>
-    <desc lang="es">When the comic book action figures Rusty created for Liam come alive, they behave just as if they&amp;apos;re conquering dangerous characters.</desc>
+  <programme start="20260419151700 +0200" stop="20260419152400 +0200" channel="CBUT.ca">
+    <title lang="es">Lu &amp;amp; the Bally Bunch</title>
+    <desc lang="es">Lu has trouble waiting for her turn to play with a toy.</desc>
+  </programme>
+  <programme start="20260419152400 +0200" stop="20260419153200 +0200" channel="CBUT.ca">
+    <title lang="es">Lu &amp;amp; the Bally Bunch</title>
+    <desc lang="es">Lu accidentally breaks Barnaby&amp;apos;s special twig and realizes how much it means to him.</desc>
   </programme>
   <programme start="20260417153600 +0200" stop="20260417153800 +0200" channel="CBWT.ca">
     <title lang="es">Super Agent Jon Le Bon!</title>
@@ -14268,10 +14255,6 @@
     <title lang="es">Comfort Food With Spencer Watts</title>
     <desc lang="es">Spencer provides some twists on a few originals including his version of meat tourtiere pies, a Newfoundland-inspired bunt pan figgy duff with maple syrup liqueur, and west coast salmon rolls.</desc>
   </programme>
-  <programme start="20260417152700 +0200" stop="20260417153000 +0200" channel="CFYK.ca">
-    <title lang="es">Super Why&amp;apos;s Comic Book Adventures</title>
-    <desc lang="es">Power Paige and Wonder Red are about to play baseball when The Eraser takes their hats and bat; they need to get their equipment back by spelling words that end in at.</desc>
-  </programme>
   <programme start="20260417153000 +0200" stop="20260417154300 +0200" channel="CFYK.ca">
     <title lang="es">Dino Ranch: Island Explorers</title>
     <desc lang="es">Jon and Miguel must protect some baby giant turtles while Min helps fix their mother&amp;apos;s injured fin.</desc>
@@ -14663,6 +14646,10 @@
   <programme start="20260419151200 +0200" stop="20260419152400 +0200" channel="CFYK.ca">
     <title lang="es">Hop</title>
     <desc lang="es">Benny and Penny get stuck together just before Penny&amp;apos;s dance-off.</desc>
+  </programme>
+  <programme start="20260419152400 +0200" stop="20260419152900 +0200" channel="CFYK.ca">
+    <title lang="es">Go Togo</title>
+    <desc lang="es">Togo learns how to count backwards, and drive backwards.</desc>
   </programme>
   <programme start="20260417153000 +0200" stop="20260417160000 +0200" channel="CHRO.ca">
     <title lang="es">The Littlest Hobo</title>
@@ -18620,10 +18607,6 @@
     <title lang="es">NYC Revealed</title>
     <desc lang="es">From garbage trucks to power plants, giving viewers a rare behind-the-scenes look into the sprawling network of infrastructure systems that keep New York City breathing.</desc>
   </programme>
-  <programme start="20260417151400 +0200" stop="20260417163400 +0200" channel="Cinemax.us">
-    <title lang="es">Mortal Kombat Legends: Battle of the Realms</title>
-    <desc lang="es">The heroes must travel to Outworld to defend Earthrealm as Scorpion searches for the ancient Kamidogu before it&amp;apos;s used to resurrect the One Being.</desc>
-  </programme>
   <programme start="20260417163400 +0200" stop="20260417175600 +0200" channel="Cinemax.us">
     <title lang="es">Mortal Kombat Legends: Snow Blind</title>
     <desc lang="es">When Kano and Black Dragon mercenaries become determined to take over Earthrealm, undisciplined Kenshi seeks tutelage from retired Kuai Liang to stop Kano from decimating all of Earthrealm.</desc>
@@ -18727,6 +18710,10 @@
   <programme start="20260419132200 +0200" stop="20260419152300 +0200" channel="Cinemax.us">
     <title lang="es">Shot Caller</title>
     <desc lang="es">Recently released from prison, a gang member finds himself forced by his leaders to orchestrate a major crime with a rival gang.</desc>
+  </programme>
+  <programme start="20260419152300 +0200" stop="20260419170200 +0200" channel="Cinemax.us">
+    <title lang="es">Hitchcock</title>
+    <desc lang="es">Following his great success with &amp;quot;North by Northwest,&amp;quot; director Alfred Hitchcock makes a daring choice for his next project: an adaptation of Robert Bloch&amp;apos;s novel &amp;quot;Psycho.&amp;quot; When the studio refuses to back the picture, Hitchcock decides to pay for it himself in exchange for a percentage of the profits. His wife, Alma Reville, has serious reservations about the film but supports him nonetheless. Still, the production strains the couple&amp;apos;s marriage.</desc>
   </programme>
   <programme start="20260417163000 +0200" stop="20260417180500 +0200" channel="Cinepop.ca">
     <title lang="es">Course Express</title>
@@ -19706,7 +19693,7 @@
   </programme>
   <programme start="20260417153000 +0200" stop="20260417170000 +0200" channel="ComedyCentral.es">
     <title lang="es">Cine</title>
-    <desc lang="es">Cine</desc>
+    <desc lang="es">Estudio crítico de la historia del cine basado en el libro homónimo. Comparada a las &quot;Histoire(s) du Cinema&quot; de Jean Luc Godard, Cousins aborda visualmente la historia del cine desde su creación hasta nuestros días a través de 15 episodios y cientos de fragmentos cinematográficos desde la creación del cine hasta el último &quot;blockbuster&quot; norteamericano. En ellos encontramos decenas de entrevistas con los principales maestros de nuestro tiempo. Un documental producido por Film 4 para Gran Bretaña. Ha sido emitido con éxito en Reino Unido a través de Channel 4, y fue estrenado íntegro en el Festival de Toronto, además de haber sido proyectado en el MoMA de Nueva York. ★ 7.7/10</desc>
   </programme>
   <programme start="20260417170000 +0200" stop="20260417173000 +0200" channel="ComedyCentral.es">
     <title lang="es">Brooklyn Nine-Nine</title>
@@ -19754,7 +19741,7 @@
   </programme>
   <programme start="20260417220500 +0200" stop="20260417234500 +0200" channel="ComedyCentral.es">
     <title lang="es">Cine</title>
-    <desc lang="es">Cine</desc>
+    <desc lang="es">Estudio crítico de la historia del cine basado en el libro homónimo. Comparada a las &quot;Histoire(s) du Cinema&quot; de Jean Luc Godard, Cousins aborda visualmente la historia del cine desde su creación hasta nuestros días a través de 15 episodios y cientos de fragmentos cinematográficos desde la creación del cine hasta el último &quot;blockbuster&quot; norteamericano. En ellos encontramos decenas de entrevistas con los principales maestros de nuestro tiempo. Un documental producido por Film 4 para Gran Bretaña. Ha sido emitido con éxito en Reino Unido a través de Channel 4, y fue estrenado íntegro en el Festival de Toronto, además de haber sido proyectado en el MoMA de Nueva York. ★ 7.7/10</desc>
   </programme>
   <programme start="20260417234500 +0200" stop="20260418000500 +0200" channel="ComedyCentral.es">
     <title lang="es">Brooklyn Nine-Nine</title>
@@ -19882,23 +19869,23 @@
   </programme>
   <programme start="20260418152500 +0200" stop="20260418170500 +0200" channel="ComedyCentral.es">
     <title lang="es">Cine</title>
-    <desc lang="es">Cine</desc>
+    <desc lang="es">Estudio crítico de la historia del cine basado en el libro homónimo. Comparada a las &quot;Histoire(s) du Cinema&quot; de Jean Luc Godard, Cousins aborda visualmente la historia del cine desde su creación hasta nuestros días a través de 15 episodios y cientos de fragmentos cinematográficos desde la creación del cine hasta el último &quot;blockbuster&quot; norteamericano. En ellos encontramos decenas de entrevistas con los principales maestros de nuestro tiempo. Un documental producido por Film 4 para Gran Bretaña. Ha sido emitido con éxito en Reino Unido a través de Channel 4, y fue estrenado íntegro en el Festival de Toronto, además de haber sido proyectado en el MoMA de Nueva York. ★ 7.7/10</desc>
   </programme>
   <programme start="20260418170500 +0200" stop="20260418184500 +0200" channel="ComedyCentral.es">
     <title lang="es">Cine</title>
-    <desc lang="es">Cine</desc>
+    <desc lang="es">Estudio crítico de la historia del cine basado en el libro homónimo. Comparada a las &quot;Histoire(s) du Cinema&quot; de Jean Luc Godard, Cousins aborda visualmente la historia del cine desde su creación hasta nuestros días a través de 15 episodios y cientos de fragmentos cinematográficos desde la creación del cine hasta el último &quot;blockbuster&quot; norteamericano. En ellos encontramos decenas de entrevistas con los principales maestros de nuestro tiempo. Un documental producido por Film 4 para Gran Bretaña. Ha sido emitido con éxito en Reino Unido a través de Channel 4, y fue estrenado íntegro en el Festival de Toronto, además de haber sido proyectado en el MoMA de Nueva York. ★ 7.7/10</desc>
   </programme>
   <programme start="20260418184500 +0200" stop="20260418202500 +0200" channel="ComedyCentral.es">
     <title lang="es">Cine</title>
-    <desc lang="es">Cine</desc>
+    <desc lang="es">Estudio crítico de la historia del cine basado en el libro homónimo. Comparada a las &quot;Histoire(s) du Cinema&quot; de Jean Luc Godard, Cousins aborda visualmente la historia del cine desde su creación hasta nuestros días a través de 15 episodios y cientos de fragmentos cinematográficos desde la creación del cine hasta el último &quot;blockbuster&quot; norteamericano. En ellos encontramos decenas de entrevistas con los principales maestros de nuestro tiempo. Un documental producido por Film 4 para Gran Bretaña. Ha sido emitido con éxito en Reino Unido a través de Channel 4, y fue estrenado íntegro en el Festival de Toronto, además de haber sido proyectado en el MoMA de Nueva York. ★ 7.7/10</desc>
   </programme>
   <programme start="20260418202500 +0200" stop="20260418220500 +0200" channel="ComedyCentral.es">
     <title lang="es">Cine</title>
-    <desc lang="es">Cine</desc>
+    <desc lang="es">Estudio crítico de la historia del cine basado en el libro homónimo. Comparada a las &quot;Histoire(s) du Cinema&quot; de Jean Luc Godard, Cousins aborda visualmente la historia del cine desde su creación hasta nuestros días a través de 15 episodios y cientos de fragmentos cinematográficos desde la creación del cine hasta el último &quot;blockbuster&quot; norteamericano. En ellos encontramos decenas de entrevistas con los principales maestros de nuestro tiempo. Un documental producido por Film 4 para Gran Bretaña. Ha sido emitido con éxito en Reino Unido a través de Channel 4, y fue estrenado íntegro en el Festival de Toronto, además de haber sido proyectado en el MoMA de Nueva York. ★ 7.7/10</desc>
   </programme>
   <programme start="20260418220500 +0200" stop="20260418235000 +0200" channel="ComedyCentral.es">
     <title lang="es">Cine</title>
-    <desc lang="es">Cine</desc>
+    <desc lang="es">Estudio crítico de la historia del cine basado en el libro homónimo. Comparada a las &quot;Histoire(s) du Cinema&quot; de Jean Luc Godard, Cousins aborda visualmente la historia del cine desde su creación hasta nuestros días a través de 15 episodios y cientos de fragmentos cinematográficos desde la creación del cine hasta el último &quot;blockbuster&quot; norteamericano. En ellos encontramos decenas de entrevistas con los principales maestros de nuestro tiempo. Un documental producido por Film 4 para Gran Bretaña. Ha sido emitido con éxito en Reino Unido a través de Channel 4, y fue estrenado íntegro en el Festival de Toronto, además de haber sido proyectado en el MoMA de Nueva York. ★ 7.7/10</desc>
   </programme>
   <programme start="20260418235000 +0200" stop="20260419001000 +0200" channel="ComedyCentral.es">
     <title lang="es">South Park</title>
@@ -20031,6 +20018,10 @@
   <programme start="20260419144200 +0200" stop="20260419152500 +0200" channel="ComedyCentral.es">
     <title lang="es">Malcolm in the Middle</title>
     <desc lang="es">Hal y los chicos están en la feria de novias, dejando a Lois con Francis en casa, donde se llevarán dos sorpresas: una inesperada visita de la abuela Ida y el hecho de que Lois rompa aguas.</desc>
+  </programme>
+  <programme start="20260419152500 +0200" stop="20260419170500 +0200" channel="ComedyCentral.es">
+    <title lang="es">Cine</title>
+    <desc lang="es">Estudio crítico de la historia del cine basado en el libro homónimo. Comparada a las &quot;Histoire(s) du Cinema&quot; de Jean Luc Godard, Cousins aborda visualmente la historia del cine desde su creación hasta nuestros días a través de 15 episodios y cientos de fragmentos cinematográficos desde la creación del cine hasta el último &quot;blockbuster&quot; norteamericano. En ellos encontramos decenas de entrevistas con los principales maestros de nuestro tiempo. Un documental producido por Film 4 para Gran Bretaña. Ha sido emitido con éxito en Reino Unido a través de Channel 4, y fue estrenado íntegro en el Festival de Toronto, además de haber sido proyectado en el MoMA de Nueva York. ★ 7.7/10</desc>
   </programme>
   <programme start="20260417153500 +0200" stop="20260417161000 +0200" channel="ComedyCentral.us">
     <title lang="es">South Park</title>
@@ -20466,7 +20457,7 @@
   </programme>
   <programme start="20260418153000 +0200" stop="20260418160000 +0200" channel="Comet.us">
     <title lang="es">Rare Silver &amp;amp; Gold Coins</title>
-    <desc lang="es">Rare Collectibles TV offers viewers the ability to learn about historic silver and gold coins.</desc>
+    <desc lang="es">Rare Silver &amp;amp; Gold Coins</desc>
   </programme>
   <programme start="20260418160000 +0200" stop="20260418163000 +0200" channel="Comet.us">
     <title lang="es">Paid Programming</title>
@@ -23242,7 +23233,8 @@
   </programme>
   <programme start="20260417180000 +0200" stop="20260417183000 +0200" channel="DisneyJunior.us">
     <title lang="es">Magicampers</title>
-    <desc lang="es">Loomis makes a mess of Daryl&apos;s map; Pipsqueaks invade the picnic party.</desc>
+    <desc lang="es">S01 E07 Bake Off and Away; Fierce or Fabulous
+Magicampers</desc>
   </programme>
   <programme start="20260417183000 +0200" stop="20260417190000 +0200" channel="DisneyJunior.us">
     <title lang="es">Bluey</title>
@@ -23298,7 +23290,8 @@
   </programme>
   <programme start="20260418001500 +0200" stop="20260418004000 +0200" channel="DisneyJunior.us">
     <title lang="es">Magicampers</title>
-    <desc lang="es">Loomis makes a mess of Daryl&apos;s map; Pipsqueaks invade the picnic party.</desc>
+    <desc lang="es">S01 E07 Bake Off and Away; Fierce or Fabulous
+Magicampers</desc>
   </programme>
   <programme start="20260418004000 +0200" stop="20260418010500 +0200" channel="DisneyJunior.us">
     <title lang="es">Mickey Mouse Clubhouse+</title>
@@ -23438,7 +23431,8 @@
   </programme>
   <programme start="20260418154000 +0200" stop="20260418161000 +0200" channel="DisneyJunior.us">
     <title lang="es">Magicampers</title>
-    <desc lang="es">Loomis makes a mess of Daryl&apos;s map; Pipsqueaks invade the picnic party.</desc>
+    <desc lang="es">S01 E07 Bake Off and Away; Fierce or Fabulous
+Magicampers</desc>
   </programme>
   <programme start="20260418161000 +0200" stop="20260418165500 +0200" channel="DisneyJunior.us">
     <title lang="es">Bluey</title>
@@ -23482,7 +23476,8 @@
   </programme>
   <programme start="20260418210000 +0200" stop="20260418212500 +0200" channel="DisneyJunior.us">
     <title lang="es">Magicampers</title>
-    <desc lang="es">Loomis makes a mess of Daryl&apos;s map; Pipsqueaks invade the picnic party.</desc>
+    <desc lang="es">S01 E07 Bake Off and Away; Fierce or Fabulous
+Magicampers</desc>
   </programme>
   <programme start="20260418212500 +0200" stop="20260418215000 +0200" channel="DisneyJunior.us">
     <title lang="es">Sofia the First</title>
@@ -24894,7 +24889,7 @@
   </programme>
   <programme start="20260418160000 +0200" stop="20260418173000 +0200" channel="ESPNNews.us">
     <title lang="es">Polo</title>
-    <desc lang="es">Polo</desc>
+    <desc lang="es">Esta apasionante docuserie se adentra en los entresijos del polo profesional para ofrecer un retrato sin precedentes de las vidas de los jugadores, dentro y fuera del campo. ★ 5.9/10</desc>
   </programme>
   <programme start="20260418173000 +0200" stop="20260418180000 +0200" channel="ESPNNews.us">
     <title lang="es">NHRL Prime Time Robot Fighting</title>
@@ -25327,6 +25322,10 @@
   <programme start="20260419140000 +0200" stop="20260419152000 +0200" channel="EWTN.us">
     <title lang="es">Sunday Mass</title>
     <desc lang="es">The Franciscan Missionaries of the Eternal Word celebrate the Holy Sacrifice of the Mass each Sunday from Our Lady of the Angels Chapel.</desc>
+  </programme>
+  <programme start="20260419152000 +0200" stop="20260419153000 +0200" channel="EWTN.us">
+    <title lang="es">Litany of the Sacred Heart</title>
+    <desc lang="es">The Franciscan Missionaries of the Eternal Word pray the Litany of the Sacred Heart.</desc>
   </programme>
   <programme start="20260417173000 +0200" stop="20260417200000 +0200" channel="FX.us">
     <title lang="es">Bad Boys for Life</title>
@@ -26187,10 +26186,6 @@
   <programme start="20260419150000 +0200" stop="20260419153000 +0200" channel="FXX.us">
     <title lang="es">King of the Hill</title>
     <desc lang="es">Kahn&amp;apos;s bouts of manic depression threaten to derail Hank&amp;apos;s plan to build a tricked-out barbecue grill for an upcoming Strickland event.</desc>
-  </programme>
-  <programme start="20260417152000 +0200" stop="20260417155500 +0200" channel="FamilyEntertainment.us">
-    <title lang="es">Hazel</title>
-    <desc lang="es">Harry Noll buys the house next door, much to George&amp;apos;s disgust.</desc>
   </programme>
   <programme start="20260417155500 +0200" stop="20260417163000 +0200" channel="FamilyEntertainment.us">
     <title lang="es">Hazel</title>
@@ -29298,7 +29293,8 @@
   </programme>
   <programme start="20260417213000 +0200" stop="20260417220000 +0200" channel="GameTV.ca">
     <title lang="es">Chain Reaction</title>
-    <desc lang="es">Two teams of three compete to complete a chain of words after the first and last words in the chain are revealed.</desc>
+    <desc lang="es">S02 E35 Florida Friends vs. Boss Ladies
+&amp;quot;Chain Reaction&amp;quot; is back with fan-favorite Dylan Lane returning as host of the popular word puzzle game in which players compete to form chains composed of two-word phrases.</desc>
   </programme>
   <programme start="20260417220000 +0200" stop="20260417223000 +0200" channel="GameTV.ca">
     <title lang="es">The All-New Let&amp;apos;s Make a Deal</title>
@@ -29422,7 +29418,8 @@
   </programme>
   <programme start="20260418213000 +0200" stop="20260418220000 +0200" channel="GameTV.ca">
     <title lang="es">Chain Reaction</title>
-    <desc lang="es">Two teams of three compete to complete a chain of words after the first and last words in the chain are revealed.</desc>
+    <desc lang="es">S02 E35 Florida Friends vs. Boss Ladies
+&amp;quot;Chain Reaction&amp;quot; is back with fan-favorite Dylan Lane returning as host of the popular word puzzle game in which players compete to form chains composed of two-word phrases.</desc>
   </programme>
   <programme start="20260418220000 +0200" stop="20260418223000 +0200" channel="GameTV.ca">
     <title lang="es">Who Wants to Be a Millionaire</title>
@@ -30066,7 +30063,7 @@
   </programme>
   <programme start="20260418113000 +0200" stop="20260418120000 +0200" channel="GolTVEnglish.us">
     <title lang="es">Go Go Goal</title>
-    <desc lang="es">Los mejores goles de la semana, desde todos los ángulos, de las mejores ligas del mundo.</desc>
+    <desc lang="es">Go Go Goal</desc>
   </programme>
   <programme start="20260418120000 +0200" stop="20260418123000 +0200" channel="GolTVEnglish.us">
     <title lang="es">Paid Programming</title>
@@ -30162,7 +30159,7 @@
   </programme>
   <programme start="20260419113000 +0200" stop="20260419120000 +0200" channel="GolTVEnglish.us">
     <title lang="es">Go Go Goal</title>
-    <desc lang="es">Los mejores goles de la semana, desde todos los ángulos, de las mejores ligas del mundo.</desc>
+    <desc lang="es">Go Go Goal</desc>
   </programme>
   <programme start="20260419120000 +0200" stop="20260419123000 +0200" channel="GolTVEnglish.us">
     <title lang="es">Paid Programming</title>
@@ -30338,7 +30335,7 @@
   </programme>
   <programme start="20260418100000 +0200" stop="20260418103000 +0200" channel="Grit.us">
     <title lang="es">Rare Silver &amp;amp; Gold Coins</title>
-    <desc lang="es">Rare Collectibles TV offers viewers the ability to learn about historic silver and gold coins.</desc>
+    <desc lang="es">Rare Silver &amp;amp; Gold Coins</desc>
   </programme>
   <programme start="20260418103000 +0200" stop="20260418110000 +0200" channel="Grit.us">
     <title lang="es">Inogen Portable Oxygen - No More Tanks!</title>
@@ -30784,10 +30781,6 @@
     <title lang="es">One Battle After Another</title>
     <desc lang="es">Bob is a washed-up revolutionary who lives in a state of stoned paranoia, surviving off-grid with his spirited and self-reliant daughter, Willa. When his evil nemesis resurfaces and Willa goes missing, the former radical scrambles to find her as both father and daughter battle the consequences of their pasts.</desc>
   </programme>
-  <programme start="20260417152500 +0200" stop="20260417165500 +0200" channel="HBO2.ca">
-    <title lang="es">Imperfect High</title>
-    <desc lang="es">Suffering from anxiety disorder, Hanna worries about fitting in at high school after moving to a new town. She soon finds herself in grave danger when she befriends two students - a bad boy with a heart of gold, and a wealthy kid.</desc>
-  </programme>
   <programme start="20260417165500 +0200" stop="20260417185000 +0200" channel="HBO2.ca">
     <title lang="es">Walkout</title>
     <desc lang="es">A teacher becomes a mentor to Chicano high-school students protesting injustices in public schools in 1968.</desc>
@@ -31070,7 +31063,8 @@
   </programme>
   <programme start="20260417155500 +0200" stop="20260417165800 +0200" channel="HBOLatino.us">
     <title lang="es">The Dark Wizard</title>
-    <desc lang="es">S01 E01 The Death Consequence Dean Potter connects with a community of like-minded people seeking the sport&amp;apos;s freedom and adrenaline; Dean&amp;apos;s restless energy compels him to pioneer new ascents and forge new world records.</desc>
+    <desc lang="es">S01 E01 The Death Consequence
+Dean Potter connects with a community of like-minded people seeking the sport&apos;s freedom and adrenaline; Dean&apos;s restless energy compels him to pioneer new ascents and forge new world records.</desc>
   </programme>
   <programme start="20260417165800 +0200" stop="20260417180400 +0200" channel="HBOLatino.us">
     <title lang="es">Euphoria</title>
@@ -31150,7 +31144,8 @@
   </programme>
   <programme start="20260418134100 +0200" stop="20260418144200 +0200" channel="HBOLatino.us">
     <title lang="es">The Dark Wizard</title>
-    <desc lang="es">S01 E01 The Death Consequence Dean Potter connects with a community of like-minded people seeking the sport&amp;apos;s freedom and adrenaline; Dean&amp;apos;s restless energy compels him to pioneer new ascents and forge new world records.</desc>
+    <desc lang="es">S01 E01 The Death Consequence
+Dean Potter connects with a community of like-minded people seeking the sport&apos;s freedom and adrenaline; Dean&apos;s restless energy compels him to pioneer new ascents and forge new world records.</desc>
   </programme>
   <programme start="20260418144200 +0200" stop="20260418154200 +0200" channel="HBOLatino.us">
     <title lang="es">Habla Women</title>
@@ -31198,7 +31193,7 @@
   </programme>
   <programme start="20260419020000 +0200" stop="20260419035000 +0200" channel="HBOLatino.us">
     <title lang="es">Dust Bunny</title>
-    <desc lang="es">Ten-year-old Aurora asks a hit man to kill the monster she believes ate her entire family. To protect her, he&amp;apos;ll need to battle an onslaught of assassins while accepting the fact that some monsters are real.</desc>
+    <desc lang="es">Ten-year-old Aurora asks a hit man to kill the monster she believes ate her entire family. To protect her, he&apos;ll need to battle an onslaught of assassins while accepting the fact that some monsters are real.</desc>
   </programme>
   <programme start="20260419035000 +0200" stop="20260419045400 +0200" channel="HBOLatino.us">
     <title lang="es">Euphoria</title>
@@ -31247,10 +31242,6 @@
   <programme start="20260419150200 +0200" stop="20260419174500 +0200" channel="HBOLatino.us">
     <title lang="es">Una batalla tras otra</title>
     <desc lang="es">Bob, un revolucionario fracasado, adicto y paranoico, sobrevive desconectado de la realidad con su hija, Willa. Un día, Willa desaparece y el ex-radical hará todo por encontrarla mientras lidia con las consecuencias de su pasado.</desc>
-  </programme>
-  <programme start="20260417152600 +0200" stop="20260417162900 +0200" channel="HBOSignature.us">
-    <title lang="es">Game of Thrones</title>
-    <desc lang="es">Joffrey challenges Tywin; Bran tells a ghost story; Daenerys waits to see if she is a conqueror or a liberator.</desc>
   </programme>
   <programme start="20260417162900 +0200" stop="20260417172800 +0200" channel="HBOSignature.us">
     <title lang="es">Game of Thrones</title>
@@ -31431,6 +31422,10 @@
   <programme start="20260419125200 +0200" stop="20260419151500 +0200" channel="HBOSignature.us">
     <title lang="es">Man of Steel</title>
     <desc lang="es">With the imminent destruction of Krypton, their home planet, Jor-El (Russell Crowe) and his wife seek to preserve their race by sending their infant son to Earth. The child&amp;apos;s spacecraft lands at the farm of Jonathan (Kevin Costner) and Martha (Diane Lane) Kent, who name him Clark and raise him as their own son. Though his extraordinary abilities have led to the adult Clark (Henry Cavill) living on the fringe of society, he finds he must become a hero to save those he loves from a dire threat.</desc>
+  </programme>
+  <programme start="20260419151500 +0200" stop="20260419165700 +0200" channel="HBOSignature.us">
+    <title lang="es">John Wick</title>
+    <desc lang="es">Legendary assassin John Wick (Keanu Reeves) retired from his violent career after marrying the love of his life. Her sudden death leaves John in deep mourning. When sadistic mobster Iosef Tarasov (Alfie Allen) and his thugs steal John&amp;apos;s prized car and kill the puppy that was a last gift from his wife, John unleashes the remorseless killing machine within and seeks vengeance. Meanwhile, Iosef&amp;apos;s father (Michael Nyqvist) -- John&amp;apos;s former colleague -- puts a huge bounty on John&amp;apos;s head.</desc>
   </programme>
   <programme start="20260417153000 +0200" stop="20260417160000 +0200" channel="HGTV.ca">
     <title lang="es">Disaster Decks</title>
@@ -33010,7 +33005,7 @@
   </programme>
   <programme start="20260419120000 +0200" stop="20260419123000 +0200" channel="HeroesAndIconsTV.us">
     <title lang="es">Science Max</title>
-    <desc lang="es">The science of everyday, and some not-so-everyday, things. On a full range of subjects, including ecology, biology, chemistry and physics.</desc>
+    <desc lang="es">Science Max</desc>
   </programme>
   <programme start="20260419123000 +0200" stop="20260419130000 +0200" channel="HeroesAndIconsTV.us">
     <title lang="es">Think Big</title>
@@ -33022,7 +33017,8 @@
   </programme>
   <programme start="20260419133000 +0200" stop="20260419140000 +0200" channel="HeroesAndIconsTV.us">
     <title lang="es">Animal DNA</title>
-    <desc lang="es">Decoding the mysteries about fascinating cousins, the primates and learning the key attributes that differentiate them from monkeys and from one another.</desc>
+    <desc lang="es">Birds
+Animal DNA</desc>
   </programme>
   <programme start="20260419140000 +0200" stop="20260419143000 +0200" channel="HeroesAndIconsTV.us">
     <title lang="es">Hearts of Heroes</title>
@@ -33703,7 +33699,7 @@ Stories of Hope</desc>
   </programme>
   <programme start="20260418063000 +0200" stop="20260418070000 +0200" channel="HopeChannel.us">
     <title lang="es">The Great Outdoors</title>
-    <desc lang="es">It&amp;apos;s vacation time for outdoorsy Chicago man Chet Ripley (John Candy), along with his wife, Connie (Stephanie Faracy), and their two kids, Buck (Chris Young) and Ben (Ian Giatti). But a serene weekend of fishing at a Wisconsin lakeside cabin gets crashed by Connie&amp;apos;s obnoxious brother-in-law, Roman Craig (Dan Aykroyd), his wife, Kate (Annette Bening), and the couple&amp;apos;s two daughters. As the excursion wears on, the Ripleys find themselves at odds with the stuffy Craig family.</desc>
+    <desc lang="es">A Chicago man (John Candy) and his family go camping with his obnoxious brother-in-law (Dan Aykroyd) and his family.</desc>
   </programme>
   <programme start="20260418070000 +0200" stop="20260418080000 +0200" channel="HopeChannel.us">
     <title lang="es">Hope Sabbath School</title>
@@ -33716,7 +33712,8 @@ Breath of Life With Debleaire Snell</desc>
   </programme>
   <programme start="20260418083000 +0200" stop="20260418090000 +0200" channel="HopeChannel.us">
     <title lang="es">Tracing The Footsteps of Jesus</title>
-    <desc lang="es">Journey through the footsteps of Jesus.</desc>
+    <desc lang="es">Born in the House of the Baker
+Tracing The Footsteps of Jesus</desc>
   </programme>
   <programme start="20260418090000 +0200" stop="20260418095900 +0200" channel="HopeChannel.us">
     <title lang="es">Cross Connection</title>
@@ -33813,11 +33810,13 @@ Stories of Hope</desc>
   </programme>
   <programme start="20260419030000 +0200" stop="20260419033000 +0200" channel="HopeChannel.us">
     <title lang="es">Lifestyle Magazine</title>
-    <desc lang="es">A close look at health, family, and socially challenging issues.</desc>
+    <desc lang="es">Menopause Unmasked with Dr Tamika C. Henry
+Lifestyle Magazine</desc>
   </programme>
   <programme start="20260419033000 +0200" stop="20260419050000 +0200" channel="HopeChannel.us">
     <title lang="es">Family Reunion</title>
-    <desc lang="es">One of our greatest celebrations as Christians is when a sinner finds his/her way to Jesus. ...We want to sing and shout the Good News!</desc>
+    <desc lang="es">Classic Praise
+Family Reunion</desc>
   </programme>
   <programme start="20260419050000 +0200" stop="20260419060000 +0200" channel="HopeChannel.us">
     <title lang="es">Hope at Night</title>
@@ -33829,7 +33828,8 @@ Stories of Hope</desc>
   </programme>
   <programme start="20260419063000 +0200" stop="20260419070000 +0200" channel="HopeChannel.us">
     <title lang="es">Lifestyle Magazine</title>
-    <desc lang="es">A close look at health, family, and socially challenging issues.</desc>
+    <desc lang="es">Menopause Unmasked with Dr Tamika C. Henry
+Lifestyle Magazine</desc>
   </programme>
   <programme start="20260419070000 +0200" stop="20260419080000 +0200" channel="HopeChannel.us">
     <title lang="es">Hope Channel Classics</title>
@@ -33855,7 +33855,8 @@ Hope Channel Classics</desc>
   </programme>
   <programme start="20260419110000 +0200" stop="20260419113000 +0200" channel="HopeChannel.us">
     <title lang="es">Journeys</title>
-    <desc lang="es">Jan, an athiest and a former militant environmentalist intent on saving the planet, meets some Christians; it reminds him of all the wrongs done by believers in the name of religion; soon he is presented with some ideas that shake his certainties.</desc>
+    <desc lang="es">S01 E03 Searching for the Meaning of Life: Dan&apos;s Journey
+Dan has achieved his dream of working at a blue chip company as a mechatronics engineer, making good money, yet still feels empty.</desc>
   </programme>
   <programme start="20260419113000 +0200" stop="20260419120000 +0200" channel="HopeChannel.us">
     <title lang="es">CreationScapes</title>
@@ -35572,7 +35573,7 @@ Faith and Life</desc>
   </programme>
   <programme start="20260418110000 +0200" stop="20260418113000 +0200" channel="KATV.us">
     <title lang="es">On the Water</title>
-    <desc lang="es">Enjoy the waterways of the Lowcountry by boat! Presented by Hilton Head Boathouse.</desc>
+    <desc lang="es">On the Water</desc>
   </programme>
   <programme start="20260418113000 +0200" stop="20260418120000 +0200" channel="KATV.us">
     <title lang="es">Teen Kids News</title>
@@ -36696,7 +36697,7 @@ Faith and Life</desc>
   </programme>
   <programme start="20260418103000 +0200" stop="20260418110000 +0200" channel="KBOI.us">
     <title lang="es">Country Fix</title>
-    <desc lang="es">Country music videos and superstars, as well as up and coming artists and legendary greats.</desc>
+    <desc lang="es">Country music news, videos and features, hosted by the artists themselves.</desc>
   </programme>
   <programme start="20260418110000 +0200" stop="20260418113000 +0200" channel="KBOI.us">
     <title lang="es">Cars.TV</title>
@@ -36820,7 +36821,7 @@ Faith and Life</desc>
   </programme>
   <programme start="20260419093400 +0200" stop="20260419100300 +0200" channel="KBOI.us">
     <title lang="es">Country Fix</title>
-    <desc lang="es">Country music videos and superstars, as well as up and coming artists and legendary greats.</desc>
+    <desc lang="es">Country music news, videos and features, hosted by the artists themselves.</desc>
   </programme>
   <programme start="20260419100300 +0200" stop="20260419103200 +0200" channel="KBOI.us">
     <title lang="es">The Armstrong Williams Show</title>
@@ -42572,7 +42573,7 @@ Faith and Life</desc>
   </programme>
   <programme start="20260419020000 +0200" stop="20260419023000 +0200" channel="KOBI.us">
     <title lang="es">RVing Today</title>
-    <desc lang="es">An outdoor &amp;amp; RV&amp;apos;ing lifestyle series.</desc>
+    <desc lang="es">RVing Today</desc>
   </programme>
   <programme start="20260419023000 +0200" stop="20260419030000 +0200" channel="KOBI.us">
     <title lang="es">NBC Nightly News With Tom Llamas</title>
@@ -46028,7 +46029,7 @@ Faith and Life</desc>
   </programme>
   <programme start="20260418113000 +0200" stop="20260418123000 +0200" channel="KSAZ.us">
     <title lang="es">Rare Silver &amp;amp; Gold Coins</title>
-    <desc lang="es">Rare Collectibles TV offers viewers the ability to learn about historic silver and gold coins.</desc>
+    <desc lang="es">Rare Silver &amp;amp; Gold Coins</desc>
   </programme>
   <programme start="20260418123000 +0200" stop="20260418130000 +0200" channel="KSAZ.us">
     <title lang="es">Pain Relief Revealed</title>
@@ -46272,7 +46273,7 @@ Faith and Life</desc>
   </programme>
   <programme start="20260418110000 +0200" stop="20260418130000 +0200" channel="KSLA.us">
     <title lang="es">Inspiration Ministries</title>
-    <desc lang="es">A powerful time of worship to help viewers experience the breakthrough they have been praying for.</desc>
+    <desc lang="es">Religious programming.</desc>
   </programme>
   <programme start="20260418130000 +0200" stop="20260418150000 +0200" channel="KSLA.us">
     <title lang="es">CBS Saturday Morning</title>
@@ -53598,7 +53599,7 @@ RACER Weekly</desc>
   </programme>
   <programme start="20260417183000 +0200" stop="20260417190000 +0200" channel="NBCSportsBayArea.us">
     <title lang="es">Rare Silver &amp;amp; Gold Coins</title>
-    <desc lang="es">Rare Collectibles TV offers viewers the ability to learn about historic silver and gold coins.</desc>
+    <desc lang="es">Rare Silver &amp;amp; Gold Coins</desc>
   </programme>
   <programme start="20260417190000 +0200" stop="20260417193000 +0200" channel="NBCSportsBayArea.us">
     <title lang="es">Healthy Joints for Life With Rich Diana</title>
@@ -54686,7 +54687,7 @@ RACER Weekly</desc>
   </programme>
   <programme start="20260418143000 +0200" stop="20260418150000 +0200" channel="NatGeo.us">
     <title lang="es">Rare Silver &amp;amp; Gold Coins</title>
-    <desc lang="es">Rare Collectibles TV offers viewers the ability to learn about historic silver and gold coins.</desc>
+    <desc lang="es">Rare Silver &amp;amp; Gold Coins</desc>
   </programme>
   <programme start="20260418150000 +0200" stop="20260418160000 +0200" channel="NatGeo.us">
     <title lang="es">Inside the CIA: Secrets &amp;amp; Spies</title>
@@ -54799,10 +54800,6 @@ RACER Weekly</desc>
   <programme start="20260419150000 +0200" stop="20260419160000 +0200" channel="NatGeo.us">
     <title lang="es">To Catch a Smuggler</title>
     <desc lang="es">HSI performs an undercover drug sting; CBP finds cocaine in Rio Grande Valley.</desc>
-  </programme>
-  <programme start="20260417152000 +0200" stop="20260417161000 +0200" channel="NatGeoWild.es">
-    <title lang="es">El club de la lucha animal</title>
-    <desc lang="es">En un episodio repleto de adrenalina descubriremos qué sucede cuando los animales se enfrentan a mordiscos en la más cruenta de las batallas. Este episodio contiene imágenes grabadas por aficionados y otras de los mejores documentalistas.</desc>
   </programme>
   <programme start="20260417161000 +0200" stop="20260417170500 +0200" channel="NatGeoWild.es">
     <title lang="es">El club de la lucha animal</title>
@@ -55041,6 +55038,10 @@ RACER Weekly</desc>
     <desc lang="es">Un fenómeno climático extremo azota el remoto e inaccesible Parque Nacional Katavi en el sur de Tanzania. Las poderosas tribus locales de hipopótamos, leones y cocodrilos luchan por sobrevivir mientras defienden su territorio de los intrusos.</desc>
   </programme>
   <programme start="20260419142500 +0200" stop="20260419152000 +0200" channel="NatGeoWild.es">
+    <title lang="es">Katavi</title>
+    <desc lang="es">Un fenómeno climático extremo azota el remoto e inaccesible Parque Nacional Katavi en el sur de Tanzania. Las poderosas tribus locales de hipopótamos, leones y cocodrilos luchan por sobrevivir mientras defienden su territorio de los intrusos.</desc>
+  </programme>
+  <programme start="20260419152000 +0200" stop="20260419161000 +0200" channel="NatGeoWild.es">
     <title lang="es">Katavi</title>
     <desc lang="es">Un fenómeno climático extremo azota el remoto e inaccesible Parque Nacional Katavi en el sur de Tanzania. Las poderosas tribus locales de hipopótamos, leones y cocodrilos luchan por sobrevivir mientras defienden su territorio de los intrusos.</desc>
   </programme>
@@ -55590,7 +55591,7 @@ RACER Weekly</desc>
   </programme>
   <programme start="20260418060000 +0200" stop="20260418063000 +0200" channel="NewEnglandCableNews.us">
     <title lang="es">Rare Silver &amp;amp; Gold Coins</title>
-    <desc lang="es">Rare Collectibles TV offers viewers the ability to learn about historic silver and gold coins.</desc>
+    <desc lang="es">Rare Silver &amp;amp; Gold Coins</desc>
   </programme>
   <programme start="20260418063000 +0200" stop="20260418070000 +0200" channel="NewEnglandCableNews.us">
     <title lang="es">Best Mattress Topper Ever!</title>
@@ -55618,7 +55619,7 @@ RACER Weekly</desc>
   </programme>
   <programme start="20260418100000 +0200" stop="20260418110000 +0200" channel="NewEnglandCableNews.us">
     <title lang="es">Rare Silver &amp;amp; Gold Coins</title>
-    <desc lang="es">Rare Collectibles TV offers viewers the ability to learn about historic silver and gold coins.</desc>
+    <desc lang="es">Rare Silver &amp;amp; Gold Coins</desc>
   </programme>
   <programme start="20260418110000 +0200" stop="20260418113000 +0200" channel="NewEnglandCableNews.us">
     <title lang="es">The HUB Today</title>
@@ -55642,7 +55643,7 @@ RACER Weekly</desc>
   </programme>
   <programme start="20260418133000 +0200" stop="20260418140000 +0200" channel="NewEnglandCableNews.us">
     <title lang="es">Rare Silver &amp;amp; Gold Coins</title>
-    <desc lang="es">Rare Collectibles TV offers viewers the ability to learn about historic silver and gold coins.</desc>
+    <desc lang="es">Rare Silver &amp;amp; Gold Coins</desc>
   </programme>
   <programme start="20260418140000 +0200" stop="20260418143000 +0200" channel="NewEnglandCableNews.us">
     <title lang="es">The HUB Today</title>
@@ -55662,7 +55663,7 @@ RACER Weekly</desc>
   </programme>
   <programme start="20260418163000 +0200" stop="20260418173000 +0200" channel="NewEnglandCableNews.us">
     <title lang="es">Rare Silver &amp;amp; Gold Coins</title>
-    <desc lang="es">Rare Collectibles TV offers viewers the ability to learn about historic silver and gold coins.</desc>
+    <desc lang="es">Rare Silver &amp;amp; Gold Coins</desc>
   </programme>
   <programme start="20260418173000 +0200" stop="20260418180000 +0200" channel="NewEnglandCableNews.us">
     <title lang="es">George to the Rescue</title>
@@ -55694,7 +55695,7 @@ RACER Weekly</desc>
   </programme>
   <programme start="20260418210000 +0200" stop="20260418213000 +0200" channel="NewEnglandCableNews.us">
     <title lang="es">Country Fix</title>
-    <desc lang="es">Country music videos and superstars, as well as up and coming artists and legendary greats.</desc>
+    <desc lang="es">Country music news, videos and features, hosted by the artists themselves.</desc>
   </programme>
   <programme start="20260418213000 +0200" stop="20260418220000 +0200" channel="NewEnglandCableNews.us">
     <title lang="es">George to the Rescue</title>
@@ -55766,7 +55767,7 @@ RACER Weekly</desc>
   </programme>
   <programme start="20260419063000 +0200" stop="20260419070000 +0200" channel="NewEnglandCableNews.us">
     <title lang="es">Rare Silver &amp;amp; Gold Coins</title>
-    <desc lang="es">Rare Collectibles TV offers viewers the ability to learn about historic silver and gold coins.</desc>
+    <desc lang="es">Rare Silver &amp;amp; Gold Coins</desc>
   </programme>
   <programme start="20260419070000 +0200" stop="20260419073000 +0200" channel="NewEnglandCableNews.us">
     <title lang="es">Men&amp;apos;s Health - All-Natural Secret for Prostate Health</title>
@@ -55774,7 +55775,7 @@ RACER Weekly</desc>
   </programme>
   <programme start="20260419073000 +0200" stop="20260419080000 +0200" channel="NewEnglandCableNews.us">
     <title lang="es">Rare Silver &amp;amp; Gold Coins</title>
-    <desc lang="es">Rare Collectibles TV offers viewers the ability to learn about historic silver and gold coins.</desc>
+    <desc lang="es">Rare Silver &amp;amp; Gold Coins</desc>
   </programme>
   <programme start="20260419080000 +0200" stop="20260419090000 +0200" channel="NewEnglandCableNews.us">
     <title lang="es">Ready for a safer shower? Enjoy a one-day bath remodel with Jacuzzi.</title>
@@ -55866,7 +55867,7 @@ RACER Weekly</desc>
   </programme>
   <programme start="20260418000000 +0200" stop="20260418003000 +0200" channel="NewEnglandSportsNetwork.us">
     <title lang="es">The WooSox Report</title>
-    <desc lang="es">Triple-A Worcester Red Sox team news, highlights, player profiles and more.</desc>
+    <desc lang="es">The WooSox Report</desc>
   </programme>
   <programme start="20260418003000 +0200" stop="20260418010000 +0200" channel="NewEnglandSportsNetwork.us">
     <title lang="es">Behind the B</title>
@@ -56110,19 +56111,23 @@ RACER Weekly</desc>
   </programme>
   <programme start="20260418090000 +0200" stop="20260418093000 +0200" channel="NewEnglandSportsNetworkPlus.us">
     <title lang="es">Pocket Money</title>
-    <desc lang="es">Season 2, Episode 7 Pocket Money</desc>
+    <desc lang="es">Season 2, Episode 3
+Pocket Money</desc>
   </programme>
   <programme start="20260418093000 +0200" stop="20260418100000 +0200" channel="NewEnglandSportsNetworkPlus.us">
     <title lang="es">Pocket Money</title>
-    <desc lang="es">Season 2, Episode 7 Pocket Money</desc>
+    <desc lang="es">Season 2, Episode 3
+Pocket Money</desc>
   </programme>
   <programme start="20260418100000 +0200" stop="20260418103000 +0200" channel="NewEnglandSportsNetworkPlus.us">
     <title lang="es">Pocket Money</title>
-    <desc lang="es">Season 2, Episode 7 Pocket Money</desc>
+    <desc lang="es">Season 2, Episode 3
+Pocket Money</desc>
   </programme>
   <programme start="20260418103000 +0200" stop="20260418110000 +0200" channel="NewEnglandSportsNetworkPlus.us">
     <title lang="es">Pocket Money</title>
-    <desc lang="es">Season 2, Episode 7 Pocket Money</desc>
+    <desc lang="es">Season 2, Episode 3
+Pocket Money</desc>
   </programme>
   <programme start="20260418110000 +0200" stop="20260418113000 +0200" channel="NewEnglandSportsNetworkPlus.us">
     <title lang="es">Dining Playbook With Billy and Jenny</title>
@@ -56142,7 +56147,7 @@ RACER Weekly</desc>
   </programme>
   <programme start="20260418130000 +0200" stop="20260418133000 +0200" channel="NewEnglandSportsNetworkPlus.us">
     <title lang="es">RVing Today</title>
-    <desc lang="es">An outdoor &amp;amp; RV&amp;apos;ing lifestyle series.</desc>
+    <desc lang="es">RVing Today</desc>
   </programme>
   <programme start="20260418133000 +0200" stop="20260418140000 +0200" channel="NewEnglandSportsNetworkPlus.us">
     <title lang="es">A Fishing Story With Ronnie Green</title>
@@ -56182,7 +56187,7 @@ RACER Weekly</desc>
   </programme>
   <programme start="20260418233000 +0200" stop="20260419000000 +0200" channel="NewEnglandSportsNetworkPlus.us">
     <title lang="es">The WooSox Report</title>
-    <desc lang="es">Triple-A Worcester Red Sox team news, highlights, player profiles and more.</desc>
+    <desc lang="es">The WooSox Report</desc>
   </programme>
   <programme start="20260419000000 +0200" stop="20260419030000 +0200" channel="NewEnglandSportsNetworkPlus.us">
     <title lang="es">Live: Minor League Baseball</title>
@@ -56202,19 +56207,23 @@ RACER Weekly</desc>
   </programme>
   <programme start="20260419090000 +0200" stop="20260419093000 +0200" channel="NewEnglandSportsNetworkPlus.us">
     <title lang="es">NESN Next Producer</title>
-    <desc lang="es">S01 E01 Rise of Johnny Hockey; Free Rider NESN Next Producer</desc>
+    <desc lang="es">S01 E01 Rise of Johnny Hockey; Free Rider
+NESN Next Producer</desc>
   </programme>
   <programme start="20260419093000 +0200" stop="20260419100000 +0200" channel="NewEnglandSportsNetworkPlus.us">
     <title lang="es">NESN Next Producer</title>
-    <desc lang="es">S01 E01 Rise of Johnny Hockey; Free Rider NESN Next Producer</desc>
+    <desc lang="es">S01 E01 Rise of Johnny Hockey; Free Rider
+NESN Next Producer</desc>
   </programme>
   <programme start="20260419100000 +0200" stop="20260419103000 +0200" channel="NewEnglandSportsNetworkPlus.us">
     <title lang="es">NESN Next Producer</title>
-    <desc lang="es">S01 E01 Rise of Johnny Hockey; Free Rider NESN Next Producer</desc>
+    <desc lang="es">S01 E01 Rise of Johnny Hockey; Free Rider
+NESN Next Producer</desc>
   </programme>
   <programme start="20260419103000 +0200" stop="20260419110000 +0200" channel="NewEnglandSportsNetworkPlus.us">
     <title lang="es">NESN Next Producer</title>
-    <desc lang="es">S01 E01 Rise of Johnny Hockey; Free Rider NESN Next Producer</desc>
+    <desc lang="es">S01 E01 Rise of Johnny Hockey; Free Rider
+NESN Next Producer</desc>
   </programme>
   <programme start="20260419110000 +0200" stop="20260419113000 +0200" channel="NewEnglandSportsNetworkPlus.us">
     <title lang="es">Dining Playbook With Billy and Jenny</title>
@@ -57558,7 +57567,7 @@ RACER Weekly</desc>
   </programme>
   <programme start="20260419123000 +0200" stop="20260419130000 +0200" channel="Newsmax.us">
     <title lang="es">Harvest With Greg Laurie</title>
-    <desc lang="es">Join Pastor Greg Laurie for a time of encouragement, worship, and Bible study.</desc>
+    <desc lang="es">Harvest With Greg Laurie</desc>
   </programme>
   <programme start="20260419130000 +0200" stop="20260419160000 +0200" channel="Newsmax.us">
     <title lang="es">Live: Wake Up America Weekend</title>
@@ -59426,7 +59435,7 @@ RACER Weekly</desc>
   </programme>
   <programme start="20260419140000 +0200" stop="20260419150000 +0200" channel="OutsideTV.us">
     <title lang="es">Maine</title>
-    <desc lang="es">Maine</desc>
+    <desc lang="es">Después de haber dejado el waterpolo en la escuela, una promesa lleva a Minato Kiyomizu a regresar al deporte como estudiante de secundaria. ★ 6.7/10</desc>
   </programme>
   <programme start="20260419150000 +0200" stop="20260419153000 +0200" channel="OutsideTV.us">
     <title lang="es">What If Feeling Small Is Good For You?</title>
@@ -61154,7 +61163,8 @@ RACER Weekly</desc>
   </programme>
   <programme start="20260418060000 +0200" stop="20260418070000 +0200" channel="RDS.ca">
     <title lang="es">SailGP</title>
-    <desc lang="es">Transmisión de la segunda jornada de actividades del Sail GP Auckland, desde Nueva Zelanda.</desc>
+    <desc lang="es">Sail GP San Francisco 2023 International Highlights
+Coverage from the annual sailing league for fast, cutting-edge 50-foot catamarans.</desc>
   </programme>
   <programme start="20260418070000 +0200" stop="20260418073000 +0200" channel="RDS.ca">
     <title lang="es">Dans une classe à part</title>
@@ -62573,6 +62583,10 @@ The Jimmy Sturr Show</desc>
   <programme start="20260419134500 +0200" stop="20260419152500 +0200" channel="ScreenPixAction.us">
     <title lang="es">Shattered</title>
     <desc lang="es">Dan Merrick (Tom Berenger) and his wife, Judith (Greta Scacchi), have a car accident. Judith is thrown free, but Dan is injured, his face disfigured. He comes out of a coma with amnesia, full of general knowledge but completely ignorant of his own family life. Slowly, he begins to put the pieces back together, but there are troubling memories that don&amp;apos;t mesh with the stories he&amp;apos;s being told, and he hires private detective Gus Klein (Bob Hoskins) to help unravel the mystery of his past.</desc>
+  </programme>
+  <programme start="20260419152500 +0200" stop="20260419170500 +0200" channel="ScreenPixAction.us">
+    <title lang="es">Midnight Heat</title>
+    <desc lang="es">Banker John Gray (Brian Bosworth) is hit by a car, and he awakens days later having lost his memory. He goes through the motions of his plush Arizona lifestyle but keeps having momentary visions of a violent past and a sinister figure he identifies as Thomas Payne (Brad Dourif). After his wife, whom he barely knows, is killed, Gray travels to Los Angeles and explores the criminal underworld, hoping to discover the truth about his identity -- and to confront Payne.</desc>
   </programme>
   <programme start="20260417161500 +0200" stop="20260417174500 +0200" channel="ScreenPixVoices.us">
     <title lang="es">Sheba, Baby</title>
@@ -67486,10 +67500,6 @@ The Jimmy Sturr Show</desc>
     <title lang="es">Young Guns</title>
     <desc lang="es">John Tunstall (Terence Stamp), a distinguished British gentleman, employs downtrodden youths to tend his herd on the New Mexican frontier. When Tunstall is gunned down by the crooked Lawrence G. Murphy (Jack Palance), a ragtag group of cow hands -- including Doc Scurlock (Kiefer Sutherland), Richard Brewer (Charlie Sheen) and young William &amp;quot;Billy the Kid&amp;quot; Bonney (Emilio Estevez) -- ride forth in search of bloody vengeance for the death of their beloved mentor.</desc>
   </programme>
-  <programme start="20260417152600 +0200" stop="20260417172200 +0200" channel="SyFy.es">
-    <title lang="es">Invasión a la Tierra</title>
-    <desc lang="es">Durante años ha habido casos documentados de avistamientos de ovnis en todo el mundo. Pero en 2011, lo que hasta ese momento habían sido simples avistamientos se convierten en una terrible realidad cuando la Tierra es atacada por fuerzas desconocidas..</desc>
-  </programme>
   <programme start="20260417172200 +0200" stop="20260417192100 +0200" channel="SyFy.es">
     <title lang="es">Paycheck</title>
     <desc lang="es">Un hombre al que le borran la memoria al terminar proyectos de alto secreto busca respuestas.</desc>
@@ -67896,7 +67906,7 @@ The Jimmy Sturr Show</desc>
   </programme>
   <programme start="20260418020000 +0200" stop="20260418030000 +0200" channel="TBN.us">
     <title lang="es">God With Us: Rethinking the End By Going Back to the Beginning</title>
-    <desc lang="es">God With Us: Rethinking the End by Going Back to the Beginning invites believers to rediscover the hope-filled vision of God&apos;s Kingdom.</desc>
+    <desc lang="es">God With Us: Rethinking the End By Going Back to the Beginning</desc>
   </programme>
   <programme start="20260418030000 +0200" stop="20260418040000 +0200" channel="TBN.us">
     <title lang="es">God With Us: Rethinking The End By Going Back to the Beginning</title>
@@ -67904,7 +67914,7 @@ The Jimmy Sturr Show</desc>
   </programme>
   <programme start="20260418040000 +0200" stop="20260418050000 +0200" channel="TBN.us">
     <title lang="es">God With Us: Rethinking the End By Going Back to the Beginning</title>
-    <desc lang="es">God With Us: Rethinking the End by Going Back to the Beginning invites believers to rediscover the hope-filled vision of God&apos;s Kingdom.</desc>
+    <desc lang="es">God With Us: Rethinking the End By Going Back to the Beginning</desc>
   </programme>
   <programme start="20260418050000 +0200" stop="20260418060000 +0200" channel="TBN.us">
     <title lang="es">God With Us: Rethinking The End By Going Back to the Beginning</title>
@@ -68141,10 +68151,6 @@ The Jimmy Sturr Show</desc>
   <programme start="20260419150000 +0200" stop="20260419153000 +0200" channel="TBN.us">
     <title lang="es">Kingdom Connection With Jentezen Franklin</title>
     <desc lang="es">A mission to share the profound truths of God&amp;apos;s Word; with each episode, viewers are inspired by Franklin Jentezen&amp;apos;s words, which echo the timeless wisdom of the scriptures.</desc>
-  </programme>
-  <programme start="20260417152500 +0200" stop="20260417171500 +0200" channel="TMC.us">
-    <title lang="es">Star Trek III: The Search for Spock</title>
-    <desc lang="es">Adm. James T. Kirk (William Shatner) has defeated his archenemy but at great cost. His friend Spock has apparently been killed, the USS Enterprise is being scrapped, and starship physician Dr. Leonard &amp;quot;Bones&amp;quot; McCoy (DeForest Kelley) has taken ill. McCoy&amp;apos;s odd behavior is evidence he&amp;apos;s harboring Spock&amp;apos;s katra, or animating spirit, and Kirk seeks to take the Enterprise back to the Genesis Planet and find his friend. Rebuffed, Kirk takes dramatic action that results in war with deadly Klingons.</desc>
   </programme>
   <programme start="20260417171500 +0200" stop="20260417191500 +0200" channel="TMC.us">
     <title lang="es">Star Trek IV: The Voyage Home</title>
@@ -70852,7 +70858,7 @@ The Jimmy Sturr Show</desc>
   </programme>
   <programme start="20260419123000 +0200" stop="20260419130000 +0200" channel="TheCowboyChannel.us">
     <title lang="es">In Search of the Lords Way</title>
-    <desc lang="es">Bringing a timely Bible-based message each week, join Phil Sanders In Search of the Lord&amp;apos;s Way.</desc>
+    <desc lang="es">In Search of the Lords Way</desc>
   </programme>
   <programme start="20260419130000 +0200" stop="20260419143000 +0200" channel="TheCowboyChannel.us">
     <title lang="es">Angelina Benefit Rodeo</title>
@@ -73268,7 +73274,7 @@ The Jimmy Sturr Show</desc>
   </programme>
   <programme start="20260418110000 +0200" stop="20260418113000 +0200" channel="WBFS.us">
     <title lang="es">Staycation</title>
-    <desc lang="es">Discover global luxury rentals in locations like Hawaii, the California Coast, Telluride, San Diego, the Bahamas, Turks and Caicos and more!</desc>
+    <desc lang="es">Staycation</desc>
   </programme>
   <programme start="20260418113000 +0200" stop="20260418120000 +0200" channel="WBFS.us">
     <title lang="es">Great Escapes</title>
@@ -73556,7 +73562,7 @@ The Jimmy Sturr Show</desc>
   </programme>
   <programme start="20260418123000 +0200" stop="20260418130000 +0200" channel="WBKI.us">
     <title lang="es">Country Fix</title>
-    <desc lang="es">Country music videos and superstars, as well as up and coming artists and legendary greats.</desc>
+    <desc lang="es">Country music news, videos and features, hosted by the artists themselves.</desc>
   </programme>
   <programme start="20260418130000 +0200" stop="20260418133000 +0200" channel="WBKI.us">
     <title lang="es">DragonFlyTV</title>
@@ -75140,7 +75146,7 @@ The Jimmy Sturr Show</desc>
   </programme>
   <programme start="20260418183000 +0200" stop="20260418190000 +0200" channel="WCHSDT2.us">
     <title lang="es">Rare Silver &amp;amp; Gold Coins</title>
-    <desc lang="es">Rare Collectibles TV offers viewers the ability to learn about historic silver and gold coins.</desc>
+    <desc lang="es">Rare Silver &amp;amp; Gold Coins</desc>
   </programme>
   <programme start="20260418190000 +0200" stop="20260418193000 +0200" channel="WCHSDT2.us">
     <title lang="es">Paid Programming</title>
@@ -77088,7 +77094,7 @@ The Jimmy Sturr Show</desc>
   </programme>
   <programme start="20260418120000 +0200" stop="20260418123000 +0200" channel="WFLD.us">
     <title lang="es">Rare Silver &amp;amp; Gold Coins</title>
-    <desc lang="es">Rare Collectibles TV offers viewers the ability to learn about historic silver and gold coins.</desc>
+    <desc lang="es">Rare Silver &amp;amp; Gold Coins</desc>
   </programme>
   <programme start="20260418123000 +0200" stop="20260418130000 +0200" channel="WFLD.us">
     <title lang="es">Coffee With America</title>
@@ -77128,7 +77134,7 @@ The Jimmy Sturr Show</desc>
   </programme>
   <programme start="20260418183000 +0200" stop="20260418193000 +0200" channel="WFLD.us">
     <title lang="es">Rare Silver &amp;amp; Gold Coins</title>
-    <desc lang="es">Rare Collectibles TV offers viewers the ability to learn about historic silver and gold coins.</desc>
+    <desc lang="es">Rare Silver &amp;amp; Gold Coins</desc>
   </programme>
   <programme start="20260418193000 +0200" stop="20260418220000 +0200" channel="WFLD.us">
     <title lang="es">Live: LIV Golf League</title>
@@ -77164,7 +77170,7 @@ The Jimmy Sturr Show</desc>
   </programme>
   <programme start="20260419073000 +0200" stop="20260419080000 +0200" channel="WFLD.us">
     <title lang="es">Rare Silver &amp;amp; Gold Coins</title>
-    <desc lang="es">Rare Collectibles TV offers viewers the ability to learn about historic silver and gold coins.</desc>
+    <desc lang="es">Rare Silver &amp;amp; Gold Coins</desc>
   </programme>
   <programme start="20260419080000 +0200" stop="20260419083000 +0200" channel="WFLD.us">
     <title lang="es">Pain Relief Revealed</title>
@@ -80354,6 +80360,10 @@ The Jimmy Sturr Show</desc>
     <title lang="es">Live: IPL Cricket</title>
     <desc lang="es">From Eden Gardens in Kolkata, West Bengal, India.</desc>
   </programme>
+  <programme start="20260419152000 +0200" stop="20260419155000 +0200" channel="WILLX.us">
+    <title lang="es">Live: Cricket Review</title>
+    <desc lang="es">Action from cricket matches around the world.</desc>
+  </programme>
   <programme start="20260417160000 +0200" stop="20260417170000 +0200" channel="WISC.us">
     <title lang="es">News 3 Now This Morning</title>
     <desc lang="es">The News 3 Now Team delivers live, local morning news for Southern Wisconsin plus the latest state/national headlines and the area&amp;apos;s most accurate weather forecast.</desc>
@@ -80584,7 +80594,7 @@ The Jimmy Sturr Show</desc>
   </programme>
   <programme start="20260419120000 +0200" stop="20260419123000 +0200" channel="WISC.us">
     <title lang="es">Building Wisconsin</title>
-    <desc lang="es">Join host Stuart Keith as he visits building projects around Wisconsin.</desc>
+    <desc lang="es">Building Wisconsin</desc>
   </programme>
   <programme start="20260419123000 +0200" stop="20260419130000 +0200" channel="WISC.us">
     <title lang="es">Time of Grace With Pastor Mike Novotny</title>
@@ -82788,7 +82798,7 @@ The Jimmy Sturr Show</desc>
   </programme>
   <programme start="20260418110000 +0200" stop="20260418113000 +0200" channel="WLVI.us">
     <title lang="es">The Backstage Experience</title>
-    <desc lang="es">An exclusive look at the world of movies, gaming and more with prominent Hollywood stars.</desc>
+    <desc lang="es">News for the entire Orlando area.</desc>
   </programme>
   <programme start="20260418113000 +0200" stop="20260418120000 +0200" channel="WLVI.us">
     <title lang="es">LOST IN</title>
@@ -83696,7 +83706,7 @@ The Jimmy Sturr Show</desc>
   </programme>
   <programme start="20260418203000 +0200" stop="20260418210000 +0200" channel="WNLO.us">
     <title lang="es">Rare Silver &amp;amp; Gold Coins</title>
-    <desc lang="es">Rare Collectibles TV offers viewers the ability to learn about historic silver and gold coins.</desc>
+    <desc lang="es">Rare Silver &amp;amp; Gold Coins</desc>
   </programme>
   <programme start="20260418210000 +0200" stop="20260418220000 +0200" channel="WNLO.us">
     <title lang="es">Deep Water Salvage</title>
@@ -87300,7 +87310,7 @@ The Jimmy Sturr Show</desc>
   </programme>
   <programme start="20260418113000 +0200" stop="20260418120000 +0200" channel="WSYM.us">
     <title lang="es">The Pulse</title>
-    <desc lang="es">This weekly news magazine focuses on everything from pop culture to international crime.</desc>
+    <desc lang="es">The newsmagazine features investigative reports and interviews.</desc>
   </programme>
   <programme start="20260418120000 +0200" stop="20260418130000 +0200" channel="WSYM.us">
     <title lang="es">FOX 47 Saturday Morning News at 6a</title>
@@ -87424,7 +87434,7 @@ The Jimmy Sturr Show</desc>
   </programme>
   <programme start="20260419123000 +0200" stop="20260419130000 +0200" channel="WSYM.us">
     <title lang="es">The Pulse</title>
-    <desc lang="es">This weekly news magazine focuses on everything from pop culture to international crime.</desc>
+    <desc lang="es">The newsmagazine features investigative reports and interviews.</desc>
   </programme>
   <programme start="20260419130000 +0200" stop="20260419140000 +0200" channel="WSYM.us">
     <title lang="es">FOX 47 Sunday Morning News at 7am</title>
@@ -91256,7 +91266,7 @@ The Jimmy Sturr Show</desc>
   </programme>
   <programme start="20260419060000 +0200" stop="20260419063000 +0200" channel="WVNY.us">
     <title lang="es">Country Fix</title>
-    <desc lang="es">Country music videos and superstars, as well as up and coming artists and legendary greats.</desc>
+    <desc lang="es">Country music news, videos and features, hosted by the artists themselves.</desc>
   </programme>
   <programme start="20260419063000 +0200" stop="20260419070000 +0200" channel="WVNY.us">
     <title lang="es">Bluegrass Ridge</title>
@@ -92420,7 +92430,7 @@ The Jimmy Sturr Show</desc>
   </programme>
   <programme start="20260419100000 +0200" stop="20260419103000 +0200" channel="WWJ.us">
     <title lang="es">Staycation</title>
-    <desc lang="es">Discover global luxury rentals in locations like Hawaii, the California Coast, Telluride, San Diego, the Bahamas, Turks and Caicos and more!</desc>
+    <desc lang="es">Staycation</desc>
   </programme>
   <programme start="20260419103000 +0200" stop="20260419110000 +0200" channel="WWJ.us">
     <title lang="es">Great Escapes</title>
@@ -94628,7 +94638,7 @@ The Jimmy Sturr Show</desc>
   </programme>
   <programme start="20260418130000 +0200" stop="20260418133000 +0200" channel="WZTVDT2.us">
     <title lang="es">The Morning Blend</title>
-    <desc lang="es">Stay informed with the latest breaking news and headlines.</desc>
+    <desc lang="es">The Morning Blend</desc>
   </programme>
   <programme start="20260418133000 +0200" stop="20260418140000 +0200" channel="WZTVDT2.us">
     <title lang="es">America&amp;apos;s Heartland</title>
@@ -94760,7 +94770,7 @@ The Jimmy Sturr Show</desc>
   </programme>
   <programme start="20260419113000 +0200" stop="20260419120000 +0200" channel="WZTVDT2.us">
     <title lang="es">Country Fix</title>
-    <desc lang="es">Country music videos and superstars, as well as up and coming artists and legendary greats.</desc>
+    <desc lang="es">Country music news, videos and features, hosted by the artists themselves.</desc>
   </programme>
   <programme start="20260419120000 +0200" stop="20260419123000 +0200" channel="WZTVDT2.us">
     <title lang="es">Paid Programming</title>
@@ -95109,6 +95119,10 @@ The Jimmy Sturr Show</desc>
   <programme start="20260419120000 +0200" stop="20260419152000 +0200" channel="WillowCricket.us">
     <title lang="es">Live: IPL Cricket</title>
     <desc lang="es">From Eden Gardens in Kolkata, West Bengal, India.</desc>
+  </programme>
+  <programme start="20260419152000 +0200" stop="20260419155000 +0200" channel="WillowCricket.us">
+    <title lang="es">Live: Cricket Review</title>
+    <desc lang="es">Action from cricket matches around the world.</desc>
   </programme>
   <programme start="20260417163000 +0200" stop="20260417200000 +0200" channel="YESNetwork.us">
     <title lang="es">MLB Baseball</title>
@@ -97386,10 +97400,6 @@ The Jimmy Sturr Show</desc>
     <title lang="es">Employment Law Show</title>
     <desc lang="es">Host Lior Samfiru answers questions about employment rights and tackles the most important facets of employment law that are often overlooked by both employer and employee.</desc>
   </programme>
-  <programme start="20260417151500 +0200" stop="20260417161500 +0200" channel="arenasport1.cz">
-    <title lang="es">Motoring</title>
-    <desc lang="es">Motoring</desc>
-  </programme>
   <programme start="20260417161500 +0200" stop="20260417163000 +0200" channel="arenasport1.cz">
     <title lang="es">ENDURO magazín</title>
     <desc lang="es">ENDURO magazín</desc>
@@ -99074,6 +99084,10 @@ Le père du jeune Tsarévitch est mourant. Seules trois prunes d&amp;apos;or mag
     <title lang="es">Malcolm</title>
     <desc lang="es">Hal lleva a los chicos a una exposición de trajes de novia; la madre de Lois quiere ir a vivir con la familia; ofrecen a Malcolm un puesto en una prestigiosa escuela privada.</desc>
   </programme>
+  <programme start="20260419152500 +0200" stop="20260419170500 +0200" channel="comedycentral.es">
+    <title lang="es">Cine</title>
+    <desc lang="es">Cine.</desc>
+  </programme>
   <programme start="20260417153500 +0200" stop="20260417160500 +0200" channel="discoverychannel.es">
     <title lang="es">Así se hace</title>
     <desc lang="es">Descubre cómo se construyen los robots educativos, los soportes de radar para barcos y los radiadores europeos.</desc>
@@ -99333,6 +99347,10 @@ Le père du jeune Tsarévitch est mourant. Seules trois prunes d&amp;apos;or mag
   <programme start="20260419145500 +0200" stop="20260419152500 +0200" channel="discoverychannel.es">
     <title lang="es">Así se hace</title>
     <desc lang="es">Descubre cómo se fabrican las gafas de motorista, los juegos de afeitar de peltre y las gramolas.</desc>
+  </programme>
+  <programme start="20260419152500 +0200" stop="20260419155000 +0200" channel="discoverychannel.es">
+    <title lang="es">Así se hace</title>
+    <desc lang="es">Descubre cómo se construyen las tapas de los picos, las láminas de las vallas, los calentadores de agua a medida y los barcos eléctricos.</desc>
   </programme>
   <programme start="20260417153500 +0200" stop="20260417160000 +0200" channel="disneyjunior.es">
     <title lang="es">Vuelven los Magos de Waverly Place</title>
@@ -100242,10 +100260,6 @@ Le père du jeune Tsarévitch est mourant. Seules trois prunes d&amp;apos;or mag
     <title lang="es">Directo Gol</title>
     <desc lang="es">El plató de Gol sirve de introducción del mejor fútbol. Las previas de los partidos, los resúmenes, las clasificaciones, las imágenes más divertidas.</desc>
   </programme>
-  <programme start="20260417151900 +0200" stop="20260417154100 +0200" channel="mtv.es">
-    <title lang="es">Vergüenza ajena</title>
-    <desc lang="es">En un nuevo episodio de «Vergüenza ajena», Rob, Steelo y Carly Aquilino saltan por unas RAMPAS FLOJUCHAS, pasan miedo en un CASTILLO HINCHABLE DE LOS HORRORES y dominan en DEMASIADO BUENO PARA ESTA LIGA.</desc>
-  </programme>
   <programme start="20260417154100 +0200" stop="20260417160400 +0200" channel="mtv.es">
     <title lang="es">Vergüenza ajena</title>
     <desc lang="es">En un nuevo episodio de «Vergüenza ajena», Rob y Steelo reciben a Carly Aquilino para tirarse DE CABEZA CON POCA AGUA, ven qué patosos pueden ser LOS GATOS MÁS TORPES y se ponen cómodos con ENFRENTAMIENTOS SALVAJES.</desc>
@@ -100598,10 +100612,6 @@ Le père du jeune Tsarévitch est mourant. Seules trois prunes d&amp;apos;or mag
     <title lang="es">Catfish: mentiras en la red</title>
     <desc lang="es">Después de 7 años de drama, Gemini está desesperada por encontrar a Myranda. Pero el guión cambia cuando Nev y Kamie terminan siendo los que buscan ayuda, ¡ya que organizan su primera intervención!</desc>
   </programme>
-  <programme start="20260417152000 +0200" stop="20260417161000 +0200" channel="natgeowild.es">
-    <title lang="es">El club de la lucha animal</title>
-    <desc lang="es">En un episodio repleto de adrenalina descubriremos qué sucede cuando los animales se enfrentan a mordiscos en la más cruenta de las batallas. Este episodio, que contiene imágenes grabadas por aficionados y otras de los mejores documentalistas, arroja nueva luz sobre las peleas más feroces del reino animal, y además nos enseña que algunos animales no saben cuándo conviene rendirse.</desc>
-  </programme>
   <programme start="20260417161000 +0200" stop="20260417170500 +0200" channel="natgeowild.es">
     <title lang="es">El club de la lucha animal</title>
     <desc lang="es">El club de la lucha animal presenta otra asombrosa aventura a través de los paisajes congelados de Escandinavia, de las selvas prehistóricas de Madagascar a los mortales desiertos de África. En estos terrenos traicioneros es matar o ser matado cuando los elefantes enojados salen en estampida, los cocodrilos hambrientos luchan contra leones despiadados y los enjambres de hormigas mortales luchan para desmembrarse vivos.</desc>
@@ -100842,6 +100852,10 @@ Le père du jeune Tsarévitch est mourant. Seules trois prunes d&amp;apos;or mag
     <title lang="es">Katavi: Santuario de vida</title>
     <desc lang="es">Un fenómeno climático extremo azota el remoto e inaccesible Parque Nacional Katavi en el sur de Tanzania. Las poderosas tribus locales de hipopótamos, leones y cocodrilos luchan por sobrevivir mientras defienden su territorio de los intrusos.</desc>
   </programme>
+  <programme start="20260419152000 +0200" stop="20260419161000 +0200" channel="natgeowild.es">
+    <title lang="es">Katavi: Santuario de vida</title>
+    <desc lang="es">Un fenómeno climático extremo azota el remoto e inaccesible Parque Nacional Katavi en el sur de Tanzania. Las poderosas tribus locales de hipopótamos, leones y cocodrilos luchan por sobrevivir mientras defienden su territorio de los intrusos.</desc>
+  </programme>
   <programme start="20260417160000 +0200" stop="20260417170000 +0200" channel="natgeo.es">
     <title lang="es">Mayday: Catástrofes aéreas</title>
     <desc lang="es">Tras despegar en medio de una gran tormenta, un flamante 737 se estrella sobre África occidental, y un grupo internacional de expertos se desplaza a Camerún poco después para investigar el accidente. Sumergido en barro y agua, el vuelo 507 de Kenya Airlines se ha estrellado en un manglar, matando a todos los que iban a bordo. Cuando los investigadores finalmente localizan el error fatal que desencadenó la tragedia, también desvelan una cascada letal de problemas que provocaron que el jet de pasajeros cayera a tierra de manera descontrolada.</desc>
@@ -101077,10 +101091,6 @@ Le père du jeune Tsarévitch est mourant. Seules trois prunes d&amp;apos;or mag
   <programme start="20260419150000 +0200" stop="20260419160000 +0200" channel="natgeo.es">
     <title lang="es">Mayday: catástrofes aéreas</title>
     <desc lang="es">El 11 de septiembre de 2001, los secuestradores entran en la cabina del vuelo 77 de American Airlines que acababa de despegar de Washington DC y lo dirigen hacia el Pentágono. El símbolo del ejército de los Estados Unidos está ardiendo. Mientras, en Nueva York, dos aviones han impactado contra las torres del World Trade Center. El país está siendo atacado, hay casi tres mil muertos, y el FBI pone en marcha la mayor investigación de su historia.</desc>
-  </programme>
-  <programme start="20260417152200 +0200" stop="20260417154200 +0200" channel="nickjr.es">
-    <title lang="es">Dora</title>
-    <desc lang="es">Botas se prueba botas nuevas que ha inventado Tico. / Los mellizos van a su primera fiesta piñata, pero esta no se abre.</desc>
   </programme>
   <programme start="20260417154200 +0200" stop="20260417154700 +0200" channel="nickjr.es">
     <title lang="es">Peppa Pig</title>
@@ -101617,6 +101627,10 @@ Le père du jeune Tsarévitch est mourant. Seules trois prunes d&amp;apos;or mag
   <programme start="20260419145200 +0200" stop="20260419152200 +0200" channel="nickjr.es">
     <title lang="es">Dora</title>
     <desc lang="es">Ahora hay más que explorar con DORA. Únete a la emblemática exploradora en aventuras fantásticas con amigos antiguos y nuevos en su recorrido por el maravilloso y extravagante Bosque Tropical al lado de Botas, su mejor amigo.</desc>
+  </programme>
+  <programme start="20260419152200 +0200" stop="20260419154200 +0200" channel="nickjr.es">
+    <title lang="es">Dora single story</title>
+    <desc lang="es">Dora ayuda a Botas a buscar su mantita plátano antes de que sea hora de dormir en su fiesta de pijamas.</desc>
   </programme>
   <programme start="20260417153000 +0200" stop="20260417155900 +0200" channel="nickelodeon.es">
     <title lang="es">Los Pitufos</title>
@@ -102217,10 +102231,6 @@ Le père du jeune Tsarévitch est mourant. Seules trois prunes d&amp;apos;or mag
   <programme start="20260419142800 +0200" stop="20260419160700 +0200" channel="sundance.es">
     <title lang="es">Habemus Papam</title>
     <desc lang="es">El recién elegido Papa sufre un ataque de pánico justo antes de aparecer en el balcón de San Pedro en el Vaticano, para saludar a los fieles.</desc>
-  </programme>
-  <programme start="20260417152600 +0200" stop="20260417172200 +0200" channel="syfy.es">
-    <title lang="es">Invasión a la Tierra: Batalla Los Ángeles</title>
-    <desc lang="es">Durante años ha habido casos documentados de avistamientos de ovnis en todo el mundo. Pero en 2011, lo que hasta ese momento habían sido simples avistamientos se convierten en una terrible realidad cuando la Tierra es atacada por fuerzas desconocidas. Mientras el mundo es testigo de cómo caen las grandes ciudades, Los Ángeles se convierte en el último bastión de la humanidad en una batalla que nadie esperaba. Un sargento de la Marina y su división son los que tendrán que definir los límites frente a un enemigo como jamás se habían encontrado.Mucha acción en una película de ciencia ficción en la que los militares de la Tierra tienen que enfrentarse a un ejército mucho más poderoso, el de unos alienígenas que hace mucho tiempo que comenzaron a preparar la invasión.El sudafricano Jonathan Liebesman, hasta ese momento más centrado en el cine de terror, dirige esta película protagonizada por Aaron Eckhart, Michelle Rodriguez, Bridget Moynahan y Ramon Rodriguez.</desc>
   </programme>
   <programme start="20260417172200 +0200" stop="20260417192100 +0200" channel="syfy.es">
     <title lang="es">Paycheck</title>
@@ -105264,7 +105274,7 @@ Le père du jeune Tsarévitch est mourant. Seules trois prunes d&amp;apos;or mag
   </programme>
   <programme start="20260418130000 +0200" stop="20260418133000 +0200" channel="zeetv.us">
     <title lang="es">Ganga</title>
-    <desc lang="es">Ganga</desc>
+    <desc lang="es">Una mujer extraterrestre llamada Maya aterriza en la Tierra. Su planeta  natal fue destruido por los Blasters, una cruel raza alienígena que roba  los recursos naturales de otros planetas. Ella se enamora de un  científico y da a luz a un niño humano llamado Kentaro. Cuando los  Blasters comienzan a invadir la Tierra, Kentaro tendrá que defenderla  con un robot de metal viviente llamado Astroganger. ★ 5.0/10</desc>
   </programme>
   <programme start="20260418133000 +0200" stop="20260418143000 +0200" channel="zeetv.us">
     <title lang="es">Ramayan</title>
@@ -105420,7 +105430,7 @@ Le père du jeune Tsarévitch est mourant. Seules trois prunes d&amp;apos;or mag
   </programme>
   <programme start="20260419130000 +0200" stop="20260419133000 +0200" channel="zeetv.us">
     <title lang="es">Ganga</title>
-    <desc lang="es">Ganga</desc>
+    <desc lang="es">Una mujer extraterrestre llamada Maya aterriza en la Tierra. Su planeta  natal fue destruido por los Blasters, una cruel raza alienígena que roba  los recursos naturales de otros planetas. Ella se enamora de un  científico y da a luz a un niño humano llamado Kentaro. Cuando los  Blasters comienzan a invadir la Tierra, Kentaro tendrá que defenderla  con un robot de metal viviente llamado Astroganger. ★ 5.0/10</desc>
   </programme>
   <programme start="20260419133000 +0200" stop="20260419143000 +0200" channel="zeetv.us">
     <title lang="es">Ramayan</title>
@@ -105745,10 +105755,6 @@ Le père du jeune Tsarévitch est mourant. Seules trois prunes d&amp;apos;or mag
   <programme start="20260419060000 +0200" stop="20260419080000 +0200" channel="CheddarNews.us">
     <title lang="es">National Havoc Robot League</title>
     <desc lang="es">Welcome to the NHRL. The world&amp;apos;s best robot fighting league. NHRL host robot fights from the best competitors all over the world.</desc>
-  </programme>
-  <programme start="20260417151500 +0200" stop="20260417164600 +0200" channel="ComedyCentral.es">
-    <title lang="es">Perfectos desconocidos</title>
-    <desc lang="es">Noche de verano, noche de luna llena… y noche de eclipse. Para disfrutar del espectáculo, cuatro parejas se reúnen en torno a una mesa para cenar, beber… y olvidar sus pequeños problemas por un rato.</desc>
   </programme>
   <programme start="20260417164600 +0200" stop="20260417171300 +0200" channel="ComedyCentral.es">
     <title lang="es">Futurama</title>
@@ -106694,10 +106700,6 @@ Le père du jeune Tsarévitch est mourant. Seules trois prunes d&amp;apos;or mag
     <title lang="es">Ilimitado</title>
     <desc lang="es">Un inventor multimillonario se pone en contacto con Grey Trace, después de la muerte de su esposa en un brutal atraco que también lo deja paralizado, para ofrecerle una cura que «mejorará» su cuerpo.</desc>
   </programme>
-  <programme start="20260417151500 +0200" stop="20260417164600 +0200" channel="comedycentral.es">
-    <title lang="es">Perfectos desconocidos</title>
-    <desc lang="es">Alfonso y Eva están nerviosos. Han invitado a cenar a otras dos parejas y a un amigo soltero que afirma que su novia está enferma y no va a poder acudir y la cena aún no está preparada.Tercera película más taquillera en España en 2017, y primera española, con casi 21 millones de euros de recaudación. &amp;quot;Perfectos desconocidos&amp;quot; es una comedia dramática con más comedia que drama dirigida por Álex de la Iglesia, quien realiza un &amp;apos;remake&amp;apos; de la exitosa comedia italiana &amp;quot;Perfetti sconosciuti&amp;quot;.Con guion del propio De la Iglesia y de su colaborador habitual, Jorge Guerricaechevarría, la película sigue a anfitriones e invitados mientras ponen en práctica una idea que parece divertida... pero que quizá no lo sea tanto: ¿qué pasaría si dejaran sus teléfonos móviles encima de la mesa, al alcance de todos? Llamadas, mensajes, chats, notificaciones de redes sociales, su vida entera compartida al instante. ¿Podrá soportar el grupo semejante grado de sinceridad, aunque sólo sea por una noche?</desc>
-  </programme>
   <programme start="20260417164600 +0200" stop="20260417171300 +0200" channel="comedycentral.es">
     <title lang="es">Futurama</title>
     <desc lang="es">En la nueva Las Vegas marciana, Fry obtiene el poder de leer la mente y compite en un torneo de póquer. Bender tiene un romance con la esposa cabaretera de Donbot.</desc>
@@ -107308,7 +107310,7 @@ Le père du jeune Tsarévitch est mourant. Seules trois prunes d&amp;apos;or mag
   </programme>
   <programme start="20260417180000 +0200" stop="20260417183000 +0200" channel="PlutoBounceXL.us">
     <title lang="es">Family Feud Favorites</title>
-    <desc lang="es">&amp;quot;Family Feud&amp;quot; has seen some crazy moments over the years, so buckle up as we revisit these fan favorites.</desc>
+    <desc lang="es">S01 E73 &amp;quot;Family Feud&amp;quot; has seen some crazy moments over the years, so buckle up as we revisit these fan favorites.</desc>
   </programme>
   <programme start="20260417183000 +0200" stop="20260417220000 +0200" channel="PlutoBounceXL.us">
     <title lang="es">Bounce XL</title>
@@ -107365,10 +107367,6 @@ Le père du jeune Tsarévitch est mourant. Seules trois prunes d&amp;apos;or mag
   <programme start="20260418010000 +0200" stop="20260418030000 +0200" channel="SportsnetWest.ca">
     <title lang="es">Blue Jays in 30: Best of the Season</title>
     <desc lang="es">Looking back at the best games of 2026.</desc>
-  </programme>
-  <programme start="20260417152400 +0200" stop="20260417172100 +0200" channel="SyFy.es">
-    <title lang="es">Invasión a la Tierra</title>
-    <desc lang="es">Durante años ha habido casos documentados de avistamientos de ovnis en todo el mundo. Pero en 2011, lo que hasta ese momento habían sido simples avistamientos se convierten en una terrible realidad cuando la Tierra es atacada por fuerzas desconocidas..</desc>
   </programme>
   <programme start="20260417172100 +0200" stop="20260417192100 +0200" channel="SyFy.es">
     <title lang="es">Paycheck</title>
@@ -107792,10 +107790,6 @@ Le père du jeune Tsarévitch est mourant. Seules trois prunes d&amp;apos;or mag
     <title lang="es">Boxeo: combate Kid Gavilán vs Johnny Bratton</title>
     <desc lang="es">El 13 de noviembre de 1953, Kid Gavilán y Johnny Bratton se enfrentaron por tercera vez en el Chicago Stadium. Este combate fue significativo ya que consolidó la reputación de Gavilán, cuyo nombre real era Gerardo González como uno de los mejores boxeadores de su época.</desc>
   </programme>
-  <programme start="20260417151800 +0200" stop="20260417154000 +0200" channel="mtv.es">
-    <title lang="es">Vergüenza ajena</title>
-    <desc lang="es">En un nuevo episodio de «Vergüenza ajena», Rob, Steelo y Carly Aquilino saltan por unas RAMPAS FLOJUCHAS, pasan miedo en un CASTILLO HINCHABLE DE LOS HORRORES y dominan en DEMASIADO BUENO PARA ESTA LIGA.</desc>
-  </programme>
   <programme start="20260417154000 +0200" stop="20260417160200 +0200" channel="mtv.es">
     <title lang="es">Vergüenza ajena</title>
     <desc lang="es">En un nuevo episodio de «Vergüenza ajena», Rob y Steelo reciben a Carly Aquilino para tirarse DE CABEZA CON POCA AGUA, ven qué patosos pueden ser LOS GATOS MÁS TORPES y se ponen cómodos con ENFRENTAMIENTOS SALVAJES.</desc>
@@ -107919,10 +107913,6 @@ Le père du jeune Tsarévitch est mourant. Seules trois prunes d&amp;apos;or mag
   <programme start="20260417210000 +0200" stop="20260417223000 +0200" channel="sundance.es">
     <title lang="es">The Old Man &amp;amp; the Gun</title>
     <desc lang="es">Basada en la historia real de Forrest Tucker, un apuesto ladrón de bancos que en sus 80 años de vida logró escaparse 18 veces de prisión.</desc>
-  </programme>
-  <programme start="20260417152400 +0200" stop="20260417172100 +0200" channel="syfy.es">
-    <title lang="es">Invasión a la Tierra: Batalla Los Ángeles</title>
-    <desc lang="es">Durante años ha habido casos documentados de avistamientos de ovnis en todo el mundo. Pero en 2011, lo que hasta ese momento habían sido simples avistamientos se convierten en una terrible realidad cuando la Tierra es atacada por fuerzas desconocidas. Mientras el mundo es testigo de cómo caen las grandes ciudades, Los Ángeles se convierte en el último bastión de la humanidad en una batalla que nadie esperaba. Un sargento de la Marina y su división son los que tendrán que definir los límites frente a un enemigo como jamás se habían encontrado.Mucha acción en una película de ciencia ficción en la que los militares de la Tierra tienen que enfrentarse a un ejército mucho más poderoso, el de unos alienígenas que hace mucho tiempo que comenzaron a preparar la invasión.El sudafricano Jonathan Liebesman, hasta ese momento más centrado en el cine de terror, dirige esta película protagonizada por Aaron Eckhart, Michelle Rodriguez, Bridget Moynahan y Ramon Rodriguez.</desc>
   </programme>
   <programme start="20260417172100 +0200" stop="20260417192100 +0200" channel="syfy.es">
     <title lang="es">Paycheck</title>
@@ -108787,10 +108777,6 @@ Petrolicious -- Homologated Series</desc>
     <title lang="es">Ciencia para aficionados</title>
     <desc lang="es">En este episodio descubrimos la cantidad de maneras en que uno puede quedar en ridículo y lesionarse dándole a un balón con la cabeza, haciendo puenting o jugando al espiro.</desc>
   </programme>
-  <programme start="20260417152300 +0200" stop="20260417155200 +0200" channel="Nickelodeon.es">
-    <title lang="es">Los Pitufos</title>
-    <desc lang="es">Dwayne se convierte en un perro rastreador que ayuda a su tío a atrapar a los pitufos porque le ha prometido una Snap. Y gracias a su olfato, hasta encuentra la Aldea Pitufa. Gargamel embruja el tambor de Cometa e hipnotiza a los pitufos.</desc>
-  </programme>
   <programme start="20260417155200 +0200" stop="20260417162100 +0200" channel="Nickelodeon.es">
     <title lang="es">Bob Esponja</title>
     <desc lang="es">Bob Esponja hace cualquier cosa con tal de engañar a Gary y llevarlo a la veterinaria. Bob Esponja se desespera cuando queda preso por accidente en una máquina de ejercicios y debe esperar a que le ayuden.</desc>
@@ -108885,7 +108871,7 @@ Petrolicious -- Homologated Series</desc>
   </programme>
   <programme start="20260417183000 +0200" stop="20260417190000 +0200" channel="PlutoBounceXL.us">
     <title lang="es">Family Feud Favorites</title>
-    <desc lang="es">&amp;quot;Family Feud&amp;quot; has seen some crazy moments over the years, so buckle up as we revisit these fan favorites.</desc>
+    <desc lang="es">S01 E73 &amp;quot;Family Feud&amp;quot; has seen some crazy moments over the years, so buckle up as we revisit these fan favorites.</desc>
   </programme>
   <programme start="20260417190000 +0200" stop="20260417200000 +0200" channel="PlutoBounceXL.us">
     <title lang="es">In the Heat of the Night</title>
@@ -109503,10 +109489,6 @@ Petrolicious -- Homologated Series</desc>
     <title lang="es">Central de Cómicos Express</title>
     <desc lang="es">Central de Cómicos es el principal programa de stand-up de Comedy Central, en el que los cómicos más destacados del panorama nacional hacen monólogos cargados de ingenio e ironía.</desc>
   </programme>
-  <programme start="20260417152000 +0200" stop="20260417161500 +0200" channel="fox.es">
-    <title lang="es">Bull</title>
-    <desc lang="es">Bull trata de ganarse el apoyo de un jurado federal sin el uso de pruebas contundentes cuando TAC representa a Hank Alston, un agente de recuperación de menores acusado de fraude por no tener pruebas documentadas de su trabajo encubierto. Además, Izzy quiere que Benny considere devolverle el golpe a su oponente en la carrera por la fiscalía del distrito cuando el otro candidato se involucra en un conflicto antes de un debate importante.</desc>
-  </programme>
   <programme start="20260417161500 +0200" stop="20260417181000 +0200" channel="fox.es">
     <title lang="es">El mañana nunca muere</title>
     <desc lang="es">James Bond desbarata una operación de intercambio de armas atómicas, pero no puede impedir que un terrorista tecnológico escape con un temporizador atómico que pone en peligro la seguridad mundial.   Pierce Brosnan se mete por segunda vez en la piel de James Bond en &amp;quot;El mañana nunca muere&amp;quot;, decimoctava entrega de la saga oficial -la producida por Eon- del agente 007.   En esta aventura, Bond cuenta con el apoyo de la agente especial china Wai Lin, con quien forma un tándem perfecto. La encargada de darle vida es la estrella del cine asiático Michelle Yeoh, mientras que el papel de supervillano corre a cargo de un actor de carácter de la talla de Jonathan Pryce, casado en &amp;quot;El mañana nunca muere&amp;quot; con Teri Hatcher y aliado de Ricky Jay.   Respaldando a Bond en la sede del MI6, los habituales M (Judi Dench), Q (Desmond Llewelyn, que intervino en 17 filmes de la saga antes de su muerte en 1999) y  Moneypenny (Samantha Bond).</desc>
@@ -110111,10 +110093,6 @@ Petrolicious -- Homologated Series</desc>
     <title lang="es">Ciencia para aficionados</title>
     <desc lang="es">En este episodio descubrimos la cantidad de maneras en que uno puede quedar en ridículo y lesionarse dándole a un balón con la cabeza, haciendo puenting o jugando al espiro.</desc>
   </programme>
-  <programme start="20260417151900 +0200" stop="20260417153800 +0200" channel="nickjr.es">
-    <title lang="es">Dora</title>
-    <desc lang="es">Botas se prueba botas nuevas que ha inventado Tico. / Los mellizos van a su primera fiesta piñata, pero esta no se abre.</desc>
-  </programme>
   <programme start="20260417153800 +0200" stop="20260417154300 +0200" channel="nickjr.es">
     <title lang="es">Peppa Pig</title>
     <desc lang="es">Madame Gazelle hace que Peppa y sus amigos de la guardería bailen al ritmo de diferentes estilos musicales.</desc>
@@ -110174,10 +110152,6 @@ Petrolicious -- Homologated Series</desc>
   <programme start="20260418051400 +0200" stop="20260418053700 +0200" channel="nickjr.es">
     <title lang="es">Barbapapa - ¡Una gran familia!</title>
     <desc lang="es">Los gemelos visitan la habitación de Barbabrillo. Si fueras multimillonario, ¿qué harías para alcanzar tus sueños.</desc>
-  </programme>
-  <programme start="20260417152300 +0200" stop="20260417155200 +0200" channel="nickelodeon.es">
-    <title lang="es">Los Pitufos</title>
-    <desc lang="es">Dwayne se convierte en un perro rastreador que ayuda a su tío a atrapar a los pitufos porque le ha prometido una Snap. Y gracias a su olfato, hasta encuentra la Aldea Pitufa. // Gargamel embruja el tambor de Cometa e hipnotiza a los pitufos.</desc>
   </programme>
   <programme start="20260417155200 +0200" stop="20260417162100 +0200" channel="nickelodeon.es">
     <title lang="es">Bob Esponja</title>
@@ -110941,7 +110915,7 @@ Petrolicious -- Homologated Series</desc>
   </programme>
   <programme start="20260418103000 +0200" stop="20260418110000 +0200" channel="PlutoBounceXL.us">
     <title lang="es">Family Feud Favorites</title>
-    <desc lang="es">&amp;quot;Family Feud&amp;quot; has seen some crazy moments over the years, so buckle up as we revisit these fan favorites.</desc>
+    <desc lang="es">S01 E73 &amp;quot;Family Feud&amp;quot; has seen some crazy moments over the years, so buckle up as we revisit these fan favorites.</desc>
   </programme>
   <programme start="20260418110000 +0200" stop="20260418113000 +0200" channel="PlutoBounceXL.us">
     <title lang="es">Mann &amp;amp; Wife</title>
@@ -111013,19 +110987,19 @@ Petrolicious -- Homologated Series</desc>
   </programme>
   <programme start="20260418190000 +0200" stop="20260418193000 +0200" channel="PlutoBounceXL.us">
     <title lang="es">Family Feud Favorites</title>
-    <desc lang="es">&amp;quot;Family Feud&amp;quot; has seen some crazy moments over the years, so buckle up as we revisit these fan favorites.</desc>
+    <desc lang="es">S01 E73 &amp;quot;Family Feud&amp;quot; has seen some crazy moments over the years, so buckle up as we revisit these fan favorites.</desc>
   </programme>
   <programme start="20260418193000 +0200" stop="20260418200000 +0200" channel="PlutoBounceXL.us">
     <title lang="es">Family Feud Favorites</title>
-    <desc lang="es">&amp;quot;Family Feud&amp;quot; has seen some crazy moments over the years, so buckle up as we revisit these fan favorites.</desc>
+    <desc lang="es">S01 E73 &amp;quot;Family Feud&amp;quot; has seen some crazy moments over the years, so buckle up as we revisit these fan favorites.</desc>
   </programme>
   <programme start="20260418200000 +0200" stop="20260418203000 +0200" channel="PlutoBounceXL.us">
     <title lang="es">Family Feud Favorites</title>
-    <desc lang="es">&amp;quot;Family Feud&amp;quot; has seen some crazy moments over the years, so buckle up as we revisit these fan favorites.</desc>
+    <desc lang="es">S01 E73 &amp;quot;Family Feud&amp;quot; has seen some crazy moments over the years, so buckle up as we revisit these fan favorites.</desc>
   </programme>
   <programme start="20260418203000 +0200" stop="20260418210000 +0200" channel="PlutoBounceXL.us">
     <title lang="es">Family Feud Favorites</title>
-    <desc lang="es">&amp;quot;Family Feud&amp;quot; has seen some crazy moments over the years, so buckle up as we revisit these fan favorites.</desc>
+    <desc lang="es">S01 E73 &amp;quot;Family Feud&amp;quot; has seen some crazy moments over the years, so buckle up as we revisit these fan favorites.</desc>
   </programme>
   <programme start="20260418210000 +0200" stop="20260418213000 +0200" channel="PlutoBounceXL.us">
     <title lang="es">Whoopi</title>
@@ -111433,7 +111407,7 @@ Petrolicious -- Homologated Series</desc>
   </programme>
   <programme start="20260418223000 +0200" stop="20260418230000 +0200" channel="WZTVDT2.us">
     <title lang="es">Country Fix</title>
-    <desc lang="es">Country music videos and superstars, as well as up and coming artists and legendary greats.</desc>
+    <desc lang="es">Country music news, videos and features, hosted by the artists themselves.</desc>
   </programme>
   <programme start="20260418230000 +0200" stop="20260418233000 +0200" channel="WZTVDT2.us">
     <title lang="es">The Conners</title>
@@ -112202,6 +112176,10 @@ Cette semaine, Antoine traverse la Manche avec Philippe Croizon et Marie-Castill
   <programme start="20260419145100 +0200" stop="20260419152100 +0200" channel="nickjr.es">
     <title lang="es">Dora</title>
     <desc lang="es">Ahora hay más que explorar con DORA. Únete a la emblemática exploradora en aventuras fantásticas con amigos antiguos y nuevos en su recorrido por el maravilloso y extravagante Bosque Tropical al lado de Botas, su mejor amigo.</desc>
+  </programme>
+  <programme start="20260419152100 +0200" stop="20260419154100 +0200" channel="nickjr.es">
+    <title lang="es">Dora single story</title>
+    <desc lang="es">Dora ayuda a Botas a buscar su mantita plátano antes de que sea hora de dormir en su fiesta de pijamas.</desc>
   </programme>
   <programme start="20260418105500 +0200" stop="20260418112300 +0200" channel="nickelodeon.es">
     <title lang="es">Una casa de locos</title>
