@@ -2,9 +2,11 @@ name: Generate Filtered Playlist
 
 on:
   workflow_dispatch:
-  push:
-    paths:
-      - 'config/channels-allowlist.json'
+  # Disabled: playlist is now served per-client via Cloudflare Worker (worker/playlist.js)
+  # which uses player_api.php. The get.php M3U URL returns HTTP 884 (CDN block).
+  # push:
+  #   paths:
+  #     - 'config/channels-allowlist.json'
 
 permissions:
   contents: write
