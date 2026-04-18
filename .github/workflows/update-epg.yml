@@ -60,5 +60,5 @@ jobs:
             -H "Authorization: Bearer $GHL_API_KEY" \
             -H "Version: 2021-04-15" \
             -H "Content-Type: application/json" \
-            -d "{\"type\":\"SMS\",\"contactId\":\"RjYtXl1iCGx8v9pzvlNd\",\"message\":\"$MSG\"}" \
+            -d "{\"type\":\"SMS\",\"contactId\":\"25gHD3dCGOCNf7ZrqxUq\",\"message\":\"$MSG\"}" \
             || echo "GHL notification failed (non-blocking)"
