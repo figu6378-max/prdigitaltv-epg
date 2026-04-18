@@ -1,0 +1,2354 @@
+{
+  "ctvdramachannel": {
+    "tvgId": "CTVDrama.ca",
+    "displayName": "CTV Drama Channel",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/8460.jpg?49894"
+  },
+  "ctvnewsregina": {
+    "tvgId": "CKCK.ca",
+    "displayName": "CTV News Regina HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/10739.png?1909"
+  },
+  "fox39rockfordilwqr": {
+    "tvgId": "WQRF.us",
+    "displayName": "FOX 39 ROCKFORD IL (WQRF) HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/750.jpg?ver=56209"
+  },
+  "lafftv": {
+    "tvgId": "Laff.us",
+    "displayName": "LAFF TV  HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/8332.png?53229"
+  },
+  "nationalgeographic": {
+    "tvgId": "NatGeo.us",
+    "displayName": ": NATIONAL GEOGRAPHIC HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14619.PNG?ver=97781"
+  },
+  "nationalgeographicwild": {
+    "tvgId": "NatGeoWild.us",
+    "displayName": ": NATIONAL GEOGRAPHIC WILD HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/1395.png?40753"
+  },
+  "7newsbostonwhdh": {
+    "tvgId": "news7whdh.us",
+    "displayName": "7NEWS BOSTON (WHDH) HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/11493.png?ver=91054"
+  },
+  "ae": {
+    "tvgId": "AandE.us",
+    "displayName": "A&amp;E HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14619.PNG?ver=97781"
+  },
+  "abc10wplgmiamia": {
+    "tvgId": "WPLG.us",
+    "displayName": "ABC 10 (WPLG) Miami (A) HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/13621.png?91942"
+  },
+  "abc11louisvillekywhas": {
+    "tvgId": "WHAS.us",
+    "displayName": "ABC 11 LOUISVILLE KY (WHAS) HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/13621.png?ver=501"
+  },
+  "abc13ktrkhouston": {
+    "tvgId": "KTRK.us",
+    "displayName": "ABC 13 (KTRK) HOUSTON HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/13621.png?ver=501"
+  },
+  "abc13whamrochester": {
+    "tvgId": "WHAM.us",
+    "displayName": "ABC 13 (WHAM) ROCHESTER",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/13621.png?ver=501"
+  },
+  "abc15knxvphoenix": {
+    "tvgId": "KNXV.us",
+    "displayName": "ABC 15 (KNXV) PHOENIX HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/13621.png?ver=501"
+  },
+  "abc17rockfordilwtvo": {
+    "tvgId": "WTVO.us",
+    "displayName": "ABC 17 ROCKFORD IL (WTVO) HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/13621.png?ver=501"
+  },
+  "abc22burlington": {
+    "tvgId": "WVNY.us",
+    "displayName": "ABC 22 BURLINGTON HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/13621.png?ver=501"
+  },
+  "abc26hdneworleans": {
+    "tvgId": "abc26wgno.us",
+    "displayName": "ABC 26 HD [NEW ORLEANS]",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/13621.png?ver=501"
+  },
+  "abc33birminghamalwabm": {
+    "tvgId": "WBMA.us",
+    "displayName": "ABC 33 BIRMINGHAM AL (WABM) HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/12623.png?66925"
+  },
+  "abc57wbndsouthbend": {
+    "tvgId": "WBND.us",
+    "displayName": "ABC 57 (WBND) South Bend",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/13621.png?ver=501"
+  },
+  "abc7kmghdenver": {
+    "tvgId": "KMGH.us",
+    "displayName": "ABC 7 (KMGH) DENVER HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/13621.png?ver=501"
+  },
+  "abc7wlschicago": {
+    "tvgId": "WLS.us",
+    "displayName": "ABC 7 (WLS) CHICAGO HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/13621.png?ver=501"
+  },
+  "abc7littlerockarkatv": {
+    "tvgId": "KATV.us",
+    "displayName": "ABC 7 LITTLE ROCK AR (KATV)",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/13621.png?ver=501"
+  },
+  "abc7omahaneketv": {
+    "tvgId": "KETV.us",
+    "displayName": "ABC 7 OMAHA NE (KETV) HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/13621.png?ver=501"
+  },
+  "abc8wfaadallas": {
+    "tvgId": "WFAA.us",
+    "displayName": "ABC 8 (WFAA) DALLAS HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/13621.png?ver=501"
+  },
+  "abcgoodmorningamerica": {
+    "tvgId": "WTVA.us",
+    "displayName": "ABC GOOD MORNING AMERICA",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/13621.png?ver=501"
+  },
+  "accnetwork": {
+    "tvgId": "ACCNetwork.us",
+    "displayName": "ACC NETWORK HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14619.PNG?ver=97781"
+  },
+  "adultswim": {
+    "tvgId": "AdultSwim.us",
+    "displayName": "ADULT SWIM HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/3837.jpg?8033"
+  },
+  "animalplanet": {
+    "tvgId": "animalplanet.us",
+    "displayName": "ANIMAL PLANET HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14545.PNG?ver=52669"
+  },
+  "antennatv": {
+    "tvgId": "AntennaTV.us",
+    "displayName": "ANTENNA TV",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/12454.jpg?13787"
+  },
+  "aspire": {
+    "tvgId": "AspireTV.us",
+    "displayName": "ASPIRE HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14545.PNG?ver=52669"
+  },
+  "awe": {
+    "tvgId": "AWealthofEntertainment.us",
+    "displayName": "AWE HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/8443.jpg?63479"
+  },
+  "axstv": {
+    "tvgId": "AXSTV.us",
+    "displayName": "AXS TV HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14545.PNG?ver=52669"
+  },
+  "babyfirst": {
+    "tvgId": "BabyFirstTV.us",
+    "displayName": "BABY FIRST HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14545.PNG?ver=52669"
+  },
+  "bbcamerica": {
+    "tvgId": "BBCAmerica.us",
+    "displayName": "BBC AMERICA HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14619.PNG?ver=97781"
+  },
+  "betgospel": {
+    "tvgId": "BETGospel.us",
+    "displayName": "BET GOSPEL",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/8291.jpg?93571"
+  },
+  "bet": {
+    "tvgId": "BET.us",
+    "displayName": "BET HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14619.PNG?ver=97781"
+  },
+  "bether": {
+    "tvgId": "BetHer.us",
+    "displayName": "BET HER HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14545.PNG?ver=52669"
+  },
+  "betjams": {
+    "tvgId": "BETjams.us",
+    "displayName": "BET JAMS HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/8291.jpg?93571"
+  },
+  "betsoul": {
+    "tvgId": "BETSoul.us",
+    "displayName": "BET SOUL",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/8291.jpg?93571"
+  },
+  "bigtennetwork": {
+    "tvgId": "BigTenNetwork.us",
+    "displayName": "BIG TEN NETWORK HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14619.PNG?ver=97781"
+  },
+  "blazetv": {
+    "tvgId": "BlazeTV.us",
+    "displayName": "BLAZE TV",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/11264.jpg?88095"
+  },
+  "boomerang": {
+    "tvgId": "Boomerang.us",
+    "displayName": "BOOMERANG HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14619.PNG?ver=97781"
+  },
+  "bouncetv": {
+    "tvgId": "BounceTV.us",
+    "displayName": "BOUNCE TV HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/2338.jpg?1644"
+  },
+  "bouncexl": {
+    "tvgId": "PlutoBounceXL.us",
+    "displayName": "BOUNCE XL",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14619.PNG?ver=97781"
+  },
+  "bravo": {
+    "tvgId": "Bravo.us",
+    "displayName": "BRAVO HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14619.PNG?ver=97781"
+  },
+  "buzzr": {
+    "tvgId": "BuzzrTV.us",
+    "displayName": "BUZZR",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14619.PNG?ver=97781"
+  },
+  "byutv": {
+    "tvgId": "BrighamYoungUniversity.us",
+    "displayName": "BYU TV",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/9761.jpg?14917"
+  },
+  "cartoonnetwork": {
+    "tvgId": "CartoonNetwork.us",
+    "displayName": "CARTOON NETWORK HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14545.PNG?ver=52669"
+  },
+  "cbswafbbatonrouge": {
+    "tvgId": "WAFB.us",
+    "displayName": "CBS (WAFB) BATON ROUGE HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/13622.png?ver=58093"
+  },
+  "cbswformiami": {
+    "tvgId": "WFOR.us",
+    "displayName": "CBS (WFOR) Miami (F) HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/10010.jpg?99385"
+  },
+  "cbswgmeportlandmaine": {
+    "tvgId": "KOIN.us",
+    "displayName": "CBS (WGME) PORTLAND MAINE",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/13622.png?ver=58093"
+  },
+  "cbswncngoldsboronorthcarolina": {
+    "tvgId": "KREX.us",
+    "displayName": "CBS (WNCN) GOLDSBORO NORTH CAROLINA",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/13622.png?ver=58093"
+  },
+  "cbswsbkboston": {
+    "tvgId": "WBZ.us",
+    "displayName": "CBS (WSBK) BOSTON HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/13622.png?ver=58093"
+  },
+  "cbs10kolnlincoln": {
+    "tvgId": "KOLN.us",
+    "displayName": "CBS 10 (KOLN) LINCOLN HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/13622.png?ver=58093"
+  },
+  "cbs10kwtxwaco": {
+    "tvgId": "KWTX.us",
+    "displayName": "CBS 10 (KWTX) WACO HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/13622.png?ver=58093"
+  },
+  "cbs11ktvtfortworth": {
+    "tvgId": "KTVT.us",
+    "displayName": "CBS 11 (KTVT) FORT WORTH HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/13622.png?ver=58093"
+  },
+  "cbs11wtoltoledo": {
+    "tvgId": "WTOL.us",
+    "displayName": "CBS 11 (WTOL) TOLEDO HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/13622.png?ver=58093"
+  },
+  "cbs11coloradospringscokktv": {
+    "tvgId": "KKTV.us",
+    "displayName": "CBS 11 COLORADO SPRINGS CO (KKTV) HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/8283.png?43655"
+  },
+  "cbs11littlerockarkthv": {
+    "tvgId": "KTHV.us",
+    "displayName": "CBS 11 LITTLE ROCK AR (KTHV) HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/8283.png?36631"
+  },
+  "cbs11savannahgawtoc": {
+    "tvgId": "WTOC.us",
+    "displayName": "CBS 11 SAVANNAH GA (WTOC) HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/8283.png?43655"
+  },
+  "cbs12kslashreveport": {
+    "tvgId": "KSLA.us",
+    "displayName": "CBS 12 (KSLA) SHREVEPORT HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/13622.png?ver=58093"
+  },
+  "cbs12wdefchattanooga": {
+    "tvgId": "WDEF.us",
+    "displayName": "CBS 12 (WDEF) CHATTANOOGA HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/13622.png?ver=58093"
+  },
+  "cbs12wpecwestpalmbeach": {
+    "tvgId": "WPEC.us",
+    "displayName": "CBS 12 (WPEC) WEST PALM BEACH HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/13622.png?ver=58093"
+  },
+  "cbs12wpriprovidence": {
+    "tvgId": "WPRI.us",
+    "displayName": "CBS 12 (WPRI) PROVIDENCE HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/13622.png?ver=58093"
+  },
+  "cbs13krqealbuquerque": {
+    "tvgId": "KRQE.us",
+    "displayName": "CBS 13 (KRQE) ALBUQUERQUE HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/13622.png?ver=58093"
+  },
+  "cbs13jeffersoncitymokrcg": {
+    "tvgId": "KRCG.us",
+    "displayName": "CBS 13 JEFFERSON CITY MO (KRCG)",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/13622.png?ver=58093"
+  },
+  "cbs2kboiboise": {
+    "tvgId": "KBOI.us",
+    "displayName": "CBS 2 (KBOI) BOISE HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/13622.png?ver=58093"
+  },
+  "cbs2kdkapittsburgh": {
+    "tvgId": "KDKA.us",
+    "displayName": "CBS 2 (KDKA) PITTSBURGH HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/13622.png?ver=58093"
+  },
+  "cbs2kpsppalmsprings": {
+    "tvgId": "KPSP.us",
+    "displayName": "CBS 2 (KPSP) PALM SPRINGS HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/13622.png?ver=58093"
+  },
+  "cbs2kremspokane": {
+    "tvgId": "KREM.us",
+    "displayName": "CBS 2 (KREM) SPOKANE HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/13622.png?ver=58093"
+  },
+  "cbs2kutvsaltlakecity": {
+    "tvgId": "KUTV.us",
+    "displayName": "CBS 2 (KUTV) SALT LAKE CITY HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/13622.png?ver=58093"
+  },
+  "cbs2wfmygreensboro": {
+    "tvgId": "WFMY.us",
+    "displayName": "CBS 2 (WFMY) GREENSBORO HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/13622.png?ver=58093"
+  },
+  "cbs29kbakbakersfield": {
+    "tvgId": "KBAK.us",
+    "displayName": "CBS 29 (KBAK) BAKERSFIELD HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/13622.png?ver=58093"
+  },
+  "cbs3kmtvomaha": {
+    "tvgId": "KMTV.us",
+    "displayName": "CBS 3 (KMTV) OMAHA HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/13622.png?ver=58093"
+  },
+  "cbs3wcaxburlington": {
+    "tvgId": "WCAX.us",
+    "displayName": "CBS 3 (WCAX) BURLINGTON HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/13622.png?ver=58093"
+  },
+  "cbs3wiscmadison": {
+    "tvgId": "WISC.us",
+    "displayName": "CBS 3 (WISC) MADISON HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/13622.png?ver=58093"
+  },
+  "cbs3wregmemphis": {
+    "tvgId": "WREG.us",
+    "displayName": "CBS 3 (WREG) MEMPHIS HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/13622.png?ver=58093"
+  },
+  "cbs3wwmtkalamazoo": {
+    "tvgId": "WWMT.us",
+    "displayName": "CBS 3 (WWMT) KALAMAZOO HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/13622.png?ver=58093"
+  },
+  "cbs32wlkylouisville": {
+    "tvgId": "WLKY.us",
+    "displayName": "CBS 32 (WLKY) LOUISVILLE HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/13622.png?ver=58093"
+  },
+  "cbs4buffalo": {
+    "tvgId": "WIVB.us",
+    "displayName": "CBS 4 (#) BUFFALO HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/13622.png?ver=58093"
+  },
+  "cbs4kcncdenver": {
+    "tvgId": "KCNC.us",
+    "displayName": "CBS 4 (KCNC) DENVER HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/13622.png?ver=58093"
+  },
+  "cbs4wttvindianapolis": {
+    "tvgId": "WTTV.us",
+    "displayName": "CBS 4 (WTTV) INDIANAPOLIS HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/13622.png?ver=58093"
+  },
+  "cbs4wwlneworleans": {
+    "tvgId": "WWL.us",
+    "displayName": "CBS 4 (WWL) NEW ORLEANS HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/13622.png?ver=58093"
+  },
+  "cbs42birminghamalwiat": {
+    "tvgId": "WIAT.us",
+    "displayName": "CBS 42 BIRMINGHAM AL (WIAT) HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/8283.png?43655"
+  },
+  "cbs44wevvevansville": {
+    "tvgId": "WEVV.us",
+    "displayName": "CBS 44 (WEVV) EVANSVILLE HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/13622.png?ver=58093"
+  },
+  "cbs46wgclatlanta": {
+    "tvgId": "WANF.us",
+    "displayName": "CBS 46 (WGCL) ATLANTA HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/13622.png?ver=58093"
+  },
+  "cbs47kgpefresno": {
+    "tvgId": "KGPE.us",
+    "displayName": "CBS 47 (KGPE) FRESNO HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/13622.png?ver=58093"
+  },
+  "cbs47wjaxjacksonville": {
+    "tvgId": "WJAX.us",
+    "displayName": "CBS 47 (WJAX) JACKSONVILLE HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/13622.png?ver=58093"
+  },
+  "cbs5kctvkansascity": {
+    "tvgId": "KCTV.us",
+    "displayName": "CBS 5 (KCTV) KANSAS CITY HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/13622.png?ver=58093"
+  },
+  "cbs5kfsmfortsmith": {
+    "tvgId": "KFSM.us",
+    "displayName": "CBS 5 (KFSM) FORT SMITH HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/13622.png?ver=58093"
+  },
+  "cbs5kphophoenix": {
+    "tvgId": "KPHO.us",
+    "displayName": "CBS 5 (KPHO) PHOENIX HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/13622.png?ver=58093"
+  },
+  "cbs5kpixsanfrancisco": {
+    "tvgId": "KPIX.us",
+    "displayName": "CBS 5 (KPIX) SAN FRANCISCO HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/13622.png?ver=58093"
+  },
+  "cbs6kauzwichitafalls": {
+    "tvgId": "KAUZ.us",
+    "displayName": "CBS 6 (KAUZ) WICHITA FALLS HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/13622.png?ver=58093"
+  },
+  "cbs6wlnslansing": {
+    "tvgId": "WLNS.us",
+    "displayName": "CBS 6 (WLNS) LANSING HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/13622.png?ver=58093"
+  },
+  "cbs62wwjdetroit": {
+    "tvgId": "WWJ.us",
+    "displayName": "CBS 62 (WWJ) DETROIT HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/13622.png?ver=58093"
+  },
+  "cbs7whiodayton": {
+    "tvgId": "WHIO.us",
+    "displayName": "CBS 7 (WHIO) DAYTON HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/13622.png?ver=58093"
+  },
+  "cbs8wrocrochester": {
+    "tvgId": "WROC.us",
+    "displayName": "CBS 8 (WROC) ROCHESTER HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/13622.png?ver=58093"
+  },
+  "cbs8wvltknoxville": {
+    "tvgId": "WVLT.us",
+    "displayName": "CBS 8 (WVLT) KNOXVILLE HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/13622.png?ver=58093"
+  },
+  "cbs9wwtvcadillac": {
+    "tvgId": "WWTV.us",
+    "displayName": "CBS 9 (WWTV) CADILLAC HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/13622.png?ver=58093"
+  },
+  "cbshartfordwfsb": {
+    "tvgId": "WFSB.us",
+    "displayName": "CBS HARTFORD (WFSB)",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/13622.png?83065"
+  },
+  "cbsphiladelphia": {
+    "tvgId": "KYW.us",
+    "displayName": "CBS PHILADELPHIA",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/13622.png?18808"
+  },
+  "charge": {
+    "tvgId": "ChargeTV.us",
+    "displayName": "CHARGE!",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14619.PNG?ver=97781"
+  },
+  "cheddarbusiness": {
+    "tvgId": "CheddarBusiness.us",
+    "displayName": "CHEDDAR BUSINESS HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/10634.png?18565"
+  },
+  "cheddarnews": {
+    "tvgId": "CheddarNews.us",
+    "displayName": "CHEDDAR NEWS HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14619.PNG?ver=97781"
+  },
+  "cleotv": {
+    "tvgId": "CleoTV.us",
+    "displayName": "CLEO TV 4K",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14545.PNG?ver=52669"
+  },
+  "cmt": {
+    "tvgId": "CMT.us",
+    "displayName": "CMT HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14619.PNG?ver=97781"
+  },
+  "cnbc": {
+    "tvgId": "CNBC.us",
+    "displayName": "CNBC HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14619.PNG?ver=97781"
+  },
+  "cnbcworld": {
+    "tvgId": "CNBCWorld.us",
+    "displayName": "CNBC WORLD HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14545.PNG?ver=52669"
+  },
+  "comedycentral": {
+    "tvgId": "ComedyCentral.us",
+    "displayName": "COMEDY CENTRAL HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14619.PNG?ver=97781"
+  },
+  "comet": {
+    "tvgId": "Comet.us",
+    "displayName": "COMET HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14619.PNG?ver=97781"
+  },
+  "cookingchannel": {
+    "tvgId": "CookingChannel.us",
+    "displayName": "COOKING CHANNEL HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14619.PNG?ver=97781"
+  },
+  "courttv": {
+    "tvgId": "CourtTV.us",
+    "displayName": "COURT TV HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14619.PNG?ver=97781"
+  },
+  "cowboychannel": {
+    "tvgId": "TheCowboyChannel.us",
+    "displayName": "COWBOY CHANNEL",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/2372.png?90102"
+  },
+  "cozi": {
+    "tvgId": "CoziTV.us",
+    "displayName": "COZI",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/8271.jpg?74385"
+  },
+  "crimeinvestigation": {
+    "tvgId": "CrimeInvestigation.us",
+    "displayName": "CRIME &amp; INVESTIGATION HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/3959.jpg?32238"
+  },
+  "cw2kwgnderver": {
+    "tvgId": "KWGN.us",
+    "displayName": "CW 2 (KWGN) DERVER",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/13624.png?40699"
+  },
+  "cw23buffalonywnlo": {
+    "tvgId": "WNLO.us",
+    "displayName": "CW 23 BUFFALO NY (WNLO)",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/13624.png?ver=55205"
+  },
+  "cw39hdmiami": {
+    "tvgId": "WSFL.us",
+    "displayName": "CW 39 HD [MIAMI]",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/13624.png?ver=55205"
+  },
+  "cw44hdsanfrancisco": {
+    "tvgId": "KBCW.us",
+    "displayName": "CW 44 HD [SAN FRANCISCO]",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/13624.png?ver=55205"
+  },
+  "cw46hdfortmyers": {
+    "tvgId": "WXCW.us",
+    "displayName": "CW 46 HD [FORT MYERS]",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/13624.png?ver=55205"
+  },
+  "cw53hdcolumbus": {
+    "tvgId": "WWHO.us",
+    "displayName": "CW 53 HD [COLUMBUS]",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/13624.png?ver=55205"
+  },
+  "cw54hdbaltimore": {
+    "tvgId": "WNUV.us",
+    "displayName": "CW 54 HD [BALTIMORE]",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/13624.png?ver=55205"
+  },
+  "cw56hdboston": {
+    "tvgId": "WLVI.us",
+    "displayName": "CW 56 HD [BOSTON]",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/13624.png?ver=55205"
+  },
+  "cw57philadelphia": {
+    "tvgId": "WPSG.us",
+    "displayName": "CW 57 [PHILADELPHIA]",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/13624.png?ver=55205"
+  },
+  "cw58nashville": {
+    "tvgId": "WZTVDT2.us",
+    "displayName": "CW 58 [NASHVILLE]",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/13624.png?ver=55205"
+  },
+  "cw58hdlouisville": {
+    "tvgId": "WBKI.us",
+    "displayName": "CW 58 HD [LOUISVILLE]",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/13624.png?ver=55205"
+  },
+  "cwpittsburgh": {
+    "tvgId": "WPCW.us",
+    "displayName": "CW PITTSBURGH",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/3273.jpg?52897"
+  },
+  "cwsanfrancisco": {
+    "tvgId": "KMAX.us",
+    "displayName": "CW SAN FRANCISCO HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/3273.jpg?52897"
+  },
+  "cwtampabay": {
+    "tvgId": "KQCW.us",
+    "displayName": "CW TAMPA BAY HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/3273.jpg?52897"
+  },
+  "dabl": {
+    "tvgId": "WKMGDT2.us",
+    "displayName": "DABL",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14258.jpg?49744"
+  },
+  "daystar": {
+    "tvgId": "Daystar.us",
+    "displayName": "DAYSTAR HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14545.PNG?ver=52669"
+  },
+  "decades": {
+    "tvgId": "Decades.us",
+    "displayName": "DECADES",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/8432.png?20435"
+  },
+  "destinationamerica": {
+    "tvgId": "DestinationAmerica.us",
+    "displayName": "DESTINATION AMERICA HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14619.PNG?ver=97781"
+  },
+  "discoveryfamily": {
+    "tvgId": "DiscoveryFamily.us",
+    "displayName": "DISCOVERY FAMILY HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/6308.jpg?18025"
+  },
+  "discovery": {
+    "tvgId": "DiscoveryChannel.us",
+    "displayName": "DISCOVERY HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14619.PNG?ver=97781"
+  },
+  "discoverylife": {
+    "tvgId": "DiscoveryLife.us",
+    "displayName": "DISCOVERY LIFE HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14545.PNG?ver=52669"
+  },
+  "disneyjr": {
+    "tvgId": "DisneyJunior.us",
+    "displayName": "DISNEY JR HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14619.PNG?ver=97781"
+  },
+  "disneyxd": {
+    "tvgId": "DisneyXD.us",
+    "displayName": "DISNEY XD HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14619.PNG?ver=97781"
+  },
+  "dogtv": {
+    "tvgId": "DogTV.us",
+    "displayName": "DOG TV HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14619.PNG?ver=97781"
+  },
+  "eentertainment": {
+    "tvgId": "EEntertainment.us",
+    "displayName": "E! ENTERTAINMENT HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/6000.jpg?14243"
+  },
+  "euronews": {
+    "tvgId": "Euronews.us",
+    "displayName": "EURONEWS",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14619.PNG?ver=97781"
+  },
+  "ewtncatholic": {
+    "tvgId": "EWTN.us",
+    "displayName": "EWTN CATHOLIC",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/11093.jpg?14619"
+  },
+  "fanduelmidwest": {
+    "tvgId": "FanDuelMidwestIndiana.us",
+    "displayName": "FANDUEL MIDWEST",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/3821.jpg?59022"
+  },
+  "fetv": {
+    "tvgId": "FamilyEntertainment.us",
+    "displayName": "FETV",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14619.PNG?ver=97781"
+  },
+  "foodnetwork": {
+    "tvgId": "FoodNetwork.us",
+    "displayName": "FOOD NETWORK HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14619.PNG?ver=97781"
+  },
+  "fox10ksazphoenix": {
+    "tvgId": "KSAZ.us",
+    "displayName": "FOX 10 (KSAZ) PHOENIX HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/750.jpg?ver=56209"
+  },
+  "fox10hdmobile": {
+    "tvgId": "WALA.us",
+    "displayName": "FOX 10 HD [MOBILE]",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/750.jpg?ver=56209"
+  },
+  "fox11kmsbtucson": {
+    "tvgId": "KMSB.us",
+    "displayName": "FOX 11 (KMSB) TUCSON HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/750.jpg?ver=56209"
+  },
+  "fox11wlukgreenbay": {
+    "tvgId": "WLUK.us",
+    "displayName": "FOX 11 (WLUK) GREEN BAY HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/750.jpg?ver=56209"
+  },
+  "fox11wvahcharleston": {
+    "tvgId": "WCHSDT2.us",
+    "displayName": "FOX 11 (WVAH) CHARLESTON HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/750.jpg?ver=56209"
+  },
+  "fox12kptvportland": {
+    "tvgId": "KPTV.us",
+    "displayName": "FOX 12 (KPTV) PORTLAND HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/750.jpg?ver=56209"
+  },
+  "fox13kstusaltlakecity": {
+    "tvgId": "KSTU.us",
+    "displayName": "FOX 13 (KSTU) SALT LAKE CITY HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/750.jpg?ver=56209"
+  },
+  "fox13whbqmemphis": {
+    "tvgId": "WHBQ.us",
+    "displayName": "FOX 13 (WHBQ) MEMPHIS HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/750.jpg?ver=56209"
+  },
+  "fox14kfoxelpaso": {
+    "tvgId": "KFOX.us",
+    "displayName": "FOX 14 (KFOX) EL PASO HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/750.jpg?ver=56209"
+  },
+  "fox15kadnlafayette": {
+    "tvgId": "KADN.us",
+    "displayName": "FOX 15 (KADN) LAFAYETTE HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/750.jpg?ver=56209"
+  },
+  "fox15kvrrfargo": {
+    "tvgId": "KVRR.us",
+    "displayName": "FOX 15 (KVRR) FARGO HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/750.jpg?ver=56209"
+  },
+  "fox16littlerockarklrt": {
+    "tvgId": "KLRT.us",
+    "displayName": "FOX 16 LITTLE ROCK AR (KLRT)",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/750.jpg?ver=56209"
+  },
+  "fox17wxmigrandrapids": {
+    "tvgId": "WXMI.us",
+    "displayName": "FOX 17 (WXMI) GRAND RAPIDS HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/750.jpg?ver=56209"
+  },
+  "fox18kljbdavenport": {
+    "tvgId": "KLJB.us",
+    "displayName": "FOX 18 (KLJB) DAVENPORT HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/750.jpg?ver=56209"
+  },
+  "fox2ktvistlouis": {
+    "tvgId": "KTVI.us",
+    "displayName": "FOX 2 (KTVI) ST. LOUIS HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/750.jpg?ver=56209"
+  },
+  "fox2wjbkdetroit": {
+    "tvgId": "WJBK.us",
+    "displayName": "FOX 2 (WJBK) DETROIT HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/750.jpg?ver=56209"
+  },
+  "fox21kxrmcoloradosprings": {
+    "tvgId": "KXRM.us",
+    "displayName": "FOX 21 (KXRM) COLORADO SPRINGS HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/750.jpg?ver=56209"
+  },
+  "fox23wxxaalbany": {
+    "tvgId": "WXXA.us",
+    "displayName": "FOX 23 (WXXA) ALBANY HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/750.jpg?ver=56209"
+  },
+  "fox24ksaswichita": {
+    "tvgId": "KSAS.us",
+    "displayName": "FOX 24 (KSAS) WICHITA HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/750.jpg?ver=56209"
+  },
+  "fox24wtatcharleston": {
+    "tvgId": "WTAT.us",
+    "displayName": "FOX 24 (WTAT) CHARLESTON HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/750.jpg?ver=56209"
+  },
+  "fox25kokhoklahomacity": {
+    "tvgId": "KOKH.us",
+    "displayName": "FOX 25 (KOKH) OKLAHOMA CITY HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/750.jpg?ver=56209"
+  },
+  "fox25wfxtboston": {
+    "tvgId": "WFXT.us",
+    "displayName": "FOX 25 (WFXT) BOSTON HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/750.jpg?ver=56209"
+  },
+  "fox26kmphfresno": {
+    "tvgId": "KMPH.us",
+    "displayName": "FOX 26 (KMPH) FRESNO HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/750.jpg?ver=56209"
+  },
+  "fox28wttecolumb": {
+    "tvgId": "WTTE.us",
+    "displayName": "FOX 28 (WTTE) COLUMBHD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/750.jpg?ver=56209"
+  },
+  "fox29": {
+    "tvgId": "WUTV.us",
+    "displayName": "FOX 29",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/3263.png?68159"
+  },
+  "fox29wflxwestpalmbeach": {
+    "tvgId": "WFLX.us",
+    "displayName": "FOX 29 (WFLX) WEST PALM BEACH HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/750.jpg?ver=56209"
+  },
+  "fox30wfoxjacksonville": {
+    "tvgId": "WFOX.us",
+    "displayName": "FOX 30 (WFOX) JACKSONVILLE HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/750.jpg?ver=56209"
+  },
+  "fox31kdvrdenver": {
+    "tvgId": "KDVR.us",
+    "displayName": "FOX 31 (KDVR) DENVER HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/750.jpg?ver=56209"
+  },
+  "fox32wfldchicago": {
+    "tvgId": "WFLD.us",
+    "displayName": "FOX 32 (WFLD) CHICAGO HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/750.jpg?ver=56209"
+  },
+  "fox35kcbasalinas": {
+    "tvgId": "KCBA.us",
+    "displayName": "FOX 35 (KCBA) SALINAS HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/750.jpg?ver=56209"
+  },
+  "fox35wrlhrichmond": {
+    "tvgId": "WRLH.us",
+    "displayName": "FOX 35 (WRLH) RICHMOND HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/750.jpg?ver=56209"
+  },
+  "fox36wupwtoledo": {
+    "tvgId": "WUPW.us",
+    "displayName": "FOX 36 (WUPW) TOLEDO HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/750.jpg?ver=56209"
+  },
+  "fox4kdfwdallas": {
+    "tvgId": "KDFI.us",
+    "displayName": "FOX 4 (KDFW) DALLAS HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/750.jpg?ver=56209"
+  },
+  "fox4wdafkansascity": {
+    "tvgId": "WDAF.us",
+    "displayName": "FOX 4 (WDAF) KANSAS CITY HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/750.jpg?ver=56209"
+  },
+  "fox4grandjunctioncokfqx": {
+    "tvgId": "KFQX.us",
+    "displayName": "FOX 4 GRAND JUNCTION CO (KFQX) HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/750.jpg?ver=56209"
+  },
+  "fox40wdbdjackson": {
+    "tvgId": "WDBD.us",
+    "displayName": "FOX 40 (WDBD) JACKSON HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/750.jpg?ver=56209"
+  },
+  "fox41wdrblouisville": {
+    "tvgId": "WDRB.us",
+    "displayName": "FOX 41 (WDRB) LOUISVILLE HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/750.jpg?ver=56209"
+  },
+  "fox43wtnzknoxville": {
+    "tvgId": "WTNZ.us",
+    "displayName": "FOX 43 (WTNZ) KNOXVILLE HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/750.jpg?ver=56209"
+  },
+  "fox43wvbtvirginiabeach": {
+    "tvgId": "WVBT.us",
+    "displayName": "FOX 43 (WVBT) VIRGINIA BEACH HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/750.jpg?ver=56209"
+  },
+  "fox44wfffburlington": {
+    "tvgId": "WFFF.us",
+    "displayName": "FOX 44 (WFFF) BURLINGTON HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/750.jpg?ver=56209"
+  },
+  "fox47wsymlansing": {
+    "tvgId": "WSYM.us",
+    "displayName": "FOX 47 (WSYM) LANSING HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/750.jpg?ver=56209"
+  },
+  "fox51kfxklongview": {
+    "tvgId": "KFXK.us",
+    "displayName": "FOX 51 (KFXK) LONGVIEW HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/750.jpg?ver=56209"
+  },
+  "fox54wxtxcolumbusga": {
+    "tvgId": "WXTX.us",
+    "displayName": "FOX 54 (WXTX) Columbus GA HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/750.jpg?ver=56209"
+  },
+  "fox54wzdxhuntsville": {
+    "tvgId": "WZDX.us",
+    "displayName": "FOX 54 (WZDX) HUNTSVILLE HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/750.jpg?ver=56209"
+  },
+  "fox57wachcolumbia": {
+    "tvgId": "WACH.us",
+    "displayName": "FOX 57 (WACH) COLUMBIA HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/750.jpg?ver=56209"
+  },
+  "fox61hartfordwtic": {
+    "tvgId": "WTIC.us",
+    "displayName": "FOX 61 HARTFORD (WTIC) HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/11234.jpg?78211"
+  },
+  "fox7wsvnmiami": {
+    "tvgId": "fox7wsvn.us",
+    "displayName": "FOX 7 (WSVN) MIAMI HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/750.jpg?ver=56209"
+  },
+  "fox8wjwcleveland": {
+    "tvgId": "WJW.us",
+    "displayName": "FOX 8 (WJW) CLEVELAND HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/750.jpg?ver=56209"
+  },
+  "foxbusinessnetwork": {
+    "tvgId": "foxbusiness.us",
+    "displayName": "FOX BUSINESS NETWORK HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14545.PNG?ver=52669"
+  },
+  "foxhartfordwtic": {
+    "tvgId": "KHON.us",
+    "displayName": "FOX HARTFORD (WTIC)",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/3263.png?60993"
+  },
+  "foxweather": {
+    "tvgId": "FoxWeather.us",
+    "displayName": "FOX WEATHER HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14619.PNG?ver=97781"
+  },
+  "freeformwest": {
+    "tvgId": "Freeform.us",
+    "displayName": "FREEFORM WEST HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/8236.jpg?51099"
+  },
+  "fuse": {
+    "tvgId": "FuseTV.us",
+    "displayName": "FUSE HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14619.PNG?ver=97781"
+  },
+  "fx": {
+    "tvgId": "FX.us",
+    "displayName": "FX HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14619.PNG?ver=97781"
+  },
+  "fxx": {
+    "tvgId": "FXX.us",
+    "displayName": "FXX HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14619.PNG?ver=97781"
+  },
+  "fyi": {
+    "tvgId": "fyi.us",
+    "displayName": "FYI HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14619.PNG?ver=97781"
+  },
+  "gettv": {
+    "tvgId": "GetTV.us",
+    "displayName": "GET TV",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/7701.png?2212"
+  },
+  "goltv": {
+    "tvgId": "GolTVEnglish.us",
+    "displayName": "GOL TV HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/3312.png?10185"
+  },
+  "grit": {
+    "tvgId": "Grit.us",
+    "displayName": "GRIT",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14619.PNG?ver=97781"
+  },
+  "gsn": {
+    "tvgId": "GameShowNetwork.us",
+    "displayName": "GSN HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14545.PNG?ver=52669"
+  },
+  "heroesicons": {
+    "tvgId": "HeroesAndIconsTV.us",
+    "displayName": "HEROES &amp; ICONS",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14619.PNG?ver=97781"
+  },
+  "hgtv": {
+    "tvgId": "hgtv.us",
+    "displayName": "HGTV HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14619.PNG?ver=97781"
+  },
+  "history": {
+    "tvgId": "HistoryChannel.us",
+    "displayName": "HISTORY HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14619.PNG?ver=97781"
+  },
+  "hln": {
+    "tvgId": "HLN.us",
+    "displayName": "HLN HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14619.PNG?ver=97781"
+  },
+  "hopechannel": {
+    "tvgId": "HopeChannel.us",
+    "displayName": "HOPE CHANNEL",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/8453.jpg?27643"
+  },
+  "hsn": {
+    "tvgId": "HomeShoppingNetwork.us",
+    "displayName": "HSN",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14619.PNG?ver=97781"
+  },
+  "idinvestigationdiscovery": {
+    "tvgId": "investigationdiscovery.us",
+    "displayName": "ID INVESTIGATION DISCOVERY HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/622.jpg?59027"
+  },
+  "indieplex": {
+    "tvgId": "IndiePlex.us",
+    "displayName": "INDIEPLEX HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14619.PNG?ver=97781"
+  },
+  "insp": {
+    "tvgId": "INSP.us",
+    "displayName": "INSP HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14619.PNG?ver=97781"
+  },
+  "justicecentral": {
+    "tvgId": "JusticeCentral.us",
+    "displayName": "JUSTICE CENTRAL HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14545.PNG?ver=52669"
+  },
+  "logo": {
+    "tvgId": "Logo.us",
+    "displayName": "LOGO HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14619.PNG?ver=97781"
+  },
+  "magnolianetworkwesty": {
+    "tvgId": "MagnoliaNetwork.us",
+    "displayName": "Magnolia Network West (Y) HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/8469.png?89503"
+  },
+  "mavtv": {
+    "tvgId": "MAVTV.us",
+    "displayName": "MAV TV HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/2351.jpg?11102"
+  },
+  "metvpluswzmehdsp": {
+    "tvgId": "MeTVPlus.us",
+    "displayName": "MeTV Plus (WZME) HD (SP)",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/407.png?9153"
+  },
+  "metvtoons": {
+    "tvgId": "MeTvToons.us",
+    "displayName": "METV TOONS HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14545.PNG?ver=52669"
+  },
+  "militaryhistory": {
+    "tvgId": "MilitaryHistory.us",
+    "displayName": "MILITARY HISTORY",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/621.jpg?2038"
+  },
+  "moremax": {
+    "tvgId": "MoreMax.us",
+    "displayName": "MOREMAX HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/8206.jpg?40681"
+  },
+  "motortrend": {
+    "tvgId": "MotorTrend.us",
+    "displayName": "MOTORTREND HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14619.PNG?ver=97781"
+  },
+  "msg2": {
+    "tvgId": "MadisonSquareGarden2.us",
+    "displayName": "MSG 2 HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/11061.jpg?59789"
+  },
+  "msg": {
+    "tvgId": "MadisonSquareGarden.us",
+    "displayName": "MSG HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14545.PNG?ver=52669"
+  },
+  "msgplus": {
+    "tvgId": "MadisonSquareGardenPlus.us",
+    "displayName": "MSG PLUS HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/11061.jpg?38667"
+  },
+  "mtv2": {
+    "tvgId": "MTV2.us",
+    "displayName": "MTV 2 HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14619.PNG?ver=97781"
+  },
+  "mtv": {
+    "tvgId": "MTV.us",
+    "displayName": "MTV HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14619.PNG?ver=97781"
+  },
+  "mtvlive": {
+    "tvgId": "MTVLive.us",
+    "displayName": "MTV LIVE HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/656.png?11783"
+  },
+  "my33wbfsmiami": {
+    "tvgId": "WBFS.us",
+    "displayName": "MY 33 (WBFS) Miami (F) HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/12787.png?82416"
+  },
+  "nbc12richmondvawwbt": {
+    "tvgId": "WWBT.us",
+    "displayName": "NBC 12 RICHMOND VA (WWBT) HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/13623.png?83152"
+  },
+  "nbc13birminghamalwvtm": {
+    "tvgId": "WVTM.us",
+    "displayName": "NBC 13 BIRMINGHAM AL (WVTM) HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/3321.png?27464"
+  },
+  "nbc4littlerockarkark": {
+    "tvgId": "KARK.us",
+    "displayName": "NBC 4 LITTLE ROCK AR (KARK)",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/3321.png?61186"
+  },
+  "nbc5alexandrialakalb": {
+    "tvgId": "KALB.us",
+    "displayName": "NBC 5 ALEXANDRIA LA (KALB) HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/13623.png?83152"
+  },
+  "nbc5medfordorkobi": {
+    "tvgId": "KOBI.us",
+    "displayName": "NBC 5 MEDFORD OR (KOBI) HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/13623.png?83152"
+  },
+  "nbc5memphistnwmc": {
+    "tvgId": "WMC.us",
+    "displayName": "NBC 5 MEMPHIS TN (WMC) HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/13623.png?83152"
+  },
+  "nbc5stlouismoksdk": {
+    "tvgId": "KSDK.us",
+    "displayName": "NBC 5 ST LOUIS MO (KSDK) HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/13623.png?83152"
+  },
+  "nbc6wtvjmiamia": {
+    "tvgId": "WTVJ.us",
+    "displayName": "NBC 6 (WTVJ) Miami (A) HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/13623.png?ver=41451"
+  },
+  "necn": {
+    "tvgId": "NewEnglandCableNews.us",
+    "displayName": "NECN HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/8195.jpg?98755"
+  },
+  "news12brooklyn": {
+    "tvgId": "News12Brooklyn.us",
+    "displayName": "NEWS 12 BROOKLYN",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/8192.png?8622"
+  },
+  "news12connecticut": {
+    "tvgId": "News12CT.us",
+    "displayName": "NEWS 12 CONNECTICUT",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/8192.png?79825"
+  },
+  "news12thebronx": {
+    "tvgId": "News12Bronx.us",
+    "displayName": "NEWS 12 THE BRONX 4K",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/8192.png?89341"
+  },
+  "nicktoons": {
+    "tvgId": "Nicktoons.us",
+    "displayName": "NICK TOONS HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14619.PNG?ver=97781"
+  },
+  "nickelodeon": {
+    "tvgId": "Nickelodeon.us",
+    "displayName": "NICKELODEON HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/743.png?12640"
+  },
+  "outdoorchannel": {
+    "tvgId": "OutdoorChannel.us",
+    "displayName": "OUTDOOR CHANNEL HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14619.PNG?ver=97781"
+  },
+  "outermax": {
+    "tvgId": "OuterMax.us",
+    "displayName": "OUTERMAX HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/7744.jpg?14030"
+  },
+  "outsidetv": {
+    "tvgId": "OutsideTV.us",
+    "displayName": "OUTSIDE TV HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14619.PNG?ver=97781"
+  },
+  "ovation": {
+    "tvgId": "Ovation.us",
+    "displayName": "OVATION HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14545.PNG?ver=52669"
+  },
+  "oxygen": {
+    "tvgId": "Oxygen.us",
+    "displayName": "OXYGEN HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/8181.jpg?93487"
+  },
+  "paramount": {
+    "tvgId": "ParamountNetwork.us",
+    "displayName": "PARAMOUNT HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/766.png?7092"
+  },
+  "pbskids": {
+    "tvgId": "PBSKids.us",
+    "displayName": "PBS KIDS",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/13797.png?ver=39230"
+  },
+  "pixl": {
+    "tvgId": "PixLTV.us",
+    "displayName": "PIXL HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14619.PNG?ver=97781"
+  },
+  "pursuitchannel": {
+    "tvgId": "PursuitChannel.us",
+    "displayName": "PURSUIT CHANNEL HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14545.PNG?ver=52669"
+  },
+  "qvc2": {
+    "tvgId": "QVCPlus.us",
+    "displayName": "QVC 2 HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14545.PNG?ver=52669"
+  },
+  "qvc": {
+    "tvgId": "QVC.us",
+    "displayName": "QVC HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14619.PNG?ver=97781"
+  },
+  "reelzfamus": {
+    "tvgId": "reelzchannel.us",
+    "displayName": "REELZ FAMUS HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/8131.jpg?80047"
+  },
+  "retrotv": {
+    "tvgId": "RetroTV.us",
+    "displayName": "RETRO TV",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/7650.png?92583"
+  },
+  "retroplex": {
+    "tvgId": "RetroPlex.us",
+    "displayName": "RETROPLEX HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14619.PNG?ver=97781"
+  },
+  "revolt": {
+    "tvgId": "Revolt.us",
+    "displayName": "REVOLT HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14545.PNG?ver=52669"
+  },
+  "rfdtv": {
+    "tvgId": "RFDTV.us",
+    "displayName": "RFD TV HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14619.PNG?ver=97781"
+  },
+  "screenpixaction": {
+    "tvgId": "ScreenPixAction.us",
+    "displayName": "SCREENPIX ACTION HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/13797.png?ver=39230"
+  },
+  "screenpix": {
+    "tvgId": "ScreenPix.us",
+    "displayName": "SCREENPIX HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/13797.png?ver=39230"
+  },
+  "screenpixvoices": {
+    "tvgId": "ScreenPixVoices.us",
+    "displayName": "SCREENPIX VOICES HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/13797.png?ver=39230"
+  },
+  "secnetwork": {
+    "tvgId": "SECNetwork.us",
+    "displayName": "SEC NETWORK HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14619.PNG?ver=97781"
+  },
+  "smithsonianchannel": {
+    "tvgId": "SmithsonianChannel.us",
+    "displayName": "SMITHSONIAN CHANNEL HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14545.PNG?ver=52669"
+  },
+  "spectrumnews1": {
+    "tvgId": "SpectrumNews13.us",
+    "displayName": "SPECTRUM NEWS 1 HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/13790.png?ver=32687"
+  },
+  "starttv": {
+    "tvgId": "StartTV.us",
+    "displayName": "START TV",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14619.PNG?ver=97781"
+  },
+  "tastemade": {
+    "tvgId": "Tastemade.us",
+    "displayName": "TASTEMADE HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14619.PNG?ver=97781"
+  },
+  "tbn": {
+    "tvgId": "TBN.us",
+    "displayName": "TBN",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14619.PNG?ver=97781"
+  },
+  "theweatherchannel": {
+    "tvgId": "TheWeatherNetwork.ca",
+    "displayName": "THE WEATHER CHANNEL HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14545.PNG?ver=52669"
+  },
+  "tnt": {
+    "tvgId": "TNT.us",
+    "displayName": "TNT HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14619.PNG?ver=97781"
+  },
+  "travelchannel": {
+    "tvgId": "TravelChannel.us",
+    "displayName": "TRAVEL CHANNEL HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14619.PNG?ver=97781"
+  },
+  "trutv": {
+    "tvgId": "truTV.us",
+    "displayName": "TRUTV 4K",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14619.PNG?ver=97781"
+  },
+  "tvland": {
+    "tvgId": "TVLand.us",
+    "displayName": "TV LAND HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14619.PNG?ver=97781"
+  },
+  "tvone": {
+    "tvgId": "TVOne.us",
+    "displayName": "TV ONE HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14619.PNG?ver=97781"
+  },
+  "uptv": {
+    "tvgId": "UpliftingEntertainment.us",
+    "displayName": "UP TV HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14619.PNG?ver=97781"
+  },
+  "usanetwork": {
+    "tvgId": "USANetwork.us",
+    "displayName": "USA NETWORK HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14545.PNG?ver=52669"
+  },
+  "vh1": {
+    "tvgId": "VH1.us",
+    "displayName": "VH 1 HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14619.PNG?ver=97781"
+  },
+  "wetv": {
+    "tvgId": "WeTV.us",
+    "displayName": "WE TV HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14619.PNG?ver=97781"
+  },
+  "wgn9": {
+    "tvgId": "WGN.us",
+    "displayName": "WGN9",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/6141.jpg?93806"
+  },
+  "willowcricketextra": {
+    "tvgId": "WILLX.us",
+    "displayName": "WILLOW CRICKET EXTRA HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/12260.jpg?42580"
+  },
+  "willowcricket": {
+    "tvgId": "WillowCricket.us",
+    "displayName": "WILLOW CRICKET HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14619.PNG?ver=97781"
+  },
+  "yesnetwork": {
+    "tvgId": "YESNetwork.us",
+    "displayName": "YES NETWORK HD",
+    "groupTitle": "general",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14545.PNG?ver=52669"
+  },
+  "zeetv": {
+    "tvgId": "zeetv.us",
+    "displayName": "ZEE TV",
+    "groupTitle": "general",
+    "icon": "https://photo-tmdb.com/stalker_portal/misc/logos/320/10628.jpg?27108"
+  },
+  "hbo1r": {
+    "tvgId": "HBO.ca",
+    "displayName": "HBO 1 (R)",
+    "groupTitle": "movies",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/2279.jpg?63167"
+  },
+  "lifetime": {
+    "tvgId": "LifetimeNetwork.us",
+    "displayName": "LIFETIME HD",
+    "groupTitle": "movies",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14619.PNG?ver=97781"
+  },
+  "cinepop": {
+    "tvgId": "Cinepop.ca",
+    "displayName": "CINEPOP",
+    "groupTitle": "movies",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/3866.jpg?41386"
+  },
+  "hbo2": {
+    "tvgId": "HBO2.us",
+    "displayName": "HBO 2 HD",
+    "groupTitle": "movies",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/13797.png?ver=39230"
+  },
+  "movietime": {
+    "tvgId": "MovieTime.ca",
+    "displayName": "MOVIETIME",
+    "groupTitle": "movies",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/10636.jpg?10954"
+  },
+  "actionmax": {
+    "tvgId": "ActionMax.us",
+    "displayName": "ACTION MAX HD",
+    "groupTitle": "movies",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/8298.jpg?40083"
+  },
+  "amc": {
+    "tvgId": "AMC.us",
+    "displayName": "AMC HD",
+    "groupTitle": "movies",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14619.PNG?ver=97781"
+  },
+  "amcthrillers": {
+    "tvgId": "AMCThrillers.us",
+    "displayName": "AMC THRILLERS 4K",
+    "groupTitle": "movies",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14619.PNG?ver=97781"
+  },
+  "cinemaxwest": {
+    "tvgId": "Cinemax.us",
+    "displayName": "CINEMAX WEST HD",
+    "groupTitle": "movies",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14619.PNG?ver=97781"
+  },
+  "epixdrivein": {
+    "tvgId": "epixdrivein.us",
+    "displayName": "EPIX DRIVE IN",
+    "groupTitle": "movies",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/8204.jpg?6338"
+  },
+  "epix": {
+    "tvgId": "epix.us",
+    "displayName": "EPIX HD",
+    "groupTitle": "movies",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/8204.jpg?46867"
+  },
+  "epixhits": {
+    "tvgId": "EpixHits.us",
+    "displayName": "EPIX HITS",
+    "groupTitle": "movies",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/8204.jpg?6338"
+  },
+  "fxmovies": {
+    "tvgId": "FXMovieChannel.us",
+    "displayName": "FX MOVIES",
+    "groupTitle": "movies",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/8234.jpg?57341"
+  },
+  "hallmarkdrama": {
+    "tvgId": "HallmarkDrama.us",
+    "displayName": "HALLMARK DRAMA HD",
+    "groupTitle": "movies",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/8225.jpg?68352"
+  },
+  "hallmarkmm": {
+    "tvgId": "Hallmark.us",
+    "displayName": "HALLMARK M &amp; M HD",
+    "groupTitle": "movies",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/8225.jpg?50284"
+  },
+  "hallmarkmoviesmysteries": {
+    "tvgId": "HallmarkMoviesMysteries.us",
+    "displayName": "HALLMARK MOVIES/MYSTERIES 4K",
+    "groupTitle": "movies",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/8225.jpg?31549"
+  },
+  "hbocomedy": {
+    "tvgId": "HBOComedy.us",
+    "displayName": "HBO COMEDY HD",
+    "groupTitle": "movies",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14619.PNG?ver=97781"
+  },
+  "hbofamily": {
+    "tvgId": "HBOFamily.us",
+    "displayName": "HBO FAMILY HD",
+    "groupTitle": "movies",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/13797.png?ver=39230"
+  },
+  "hbo": {
+    "tvgId": "HBO.us",
+    "displayName": "HBO HD",
+    "groupTitle": "movies",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/13797.png?ver=39230"
+  },
+  "hbolatino": {
+    "tvgId": "HBOLatino.us",
+    "displayName": "HBO LATINO HD",
+    "groupTitle": "movies",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14619.PNG?ver=97781"
+  },
+  "hbosignature": {
+    "tvgId": "HBOSignature.us",
+    "displayName": "HBO SIGNATURE HD",
+    "groupTitle": "movies",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/13797.png?ver=39230"
+  },
+  "hbozone": {
+    "tvgId": "HBOZone.us",
+    "displayName": "HBO ZONE HD",
+    "groupTitle": "movies",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/13797.png?ver=39230"
+  },
+  "ifc": {
+    "tvgId": "IndependentFilmChannel.us",
+    "displayName": "IFC HD",
+    "groupTitle": "movies",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14619.PNG?ver=97781"
+  },
+  "lifetimemovienetwork": {
+    "tvgId": "LifetimeMovieNetwork.us",
+    "displayName": "LIFETIME MOVIE NETWORK HD",
+    "groupTitle": "movies",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14619.PNG?ver=97781"
+  },
+  "moviemax": {
+    "tvgId": "MovieMax.us",
+    "displayName": "MOVIEMAX HD",
+    "groupTitle": "movies",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/8205.jpg?43144"
+  },
+  "movieplex": {
+    "tvgId": "MoviePlex.us",
+    "displayName": "MOVIEPLEX HD",
+    "groupTitle": "movies",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14619.PNG?ver=97781"
+  },
+  "showtime2": {
+    "tvgId": "Showtime2.us",
+    "displayName": "SHOWTIME 2 HD",
+    "groupTitle": "movies",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14619.PNG?ver=97781"
+  },
+  "showtimeextreme": {
+    "tvgId": "ShowtimeExtreme.us",
+    "displayName": "SHOWTIME EXTREME HD",
+    "groupTitle": "movies",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14619.PNG?ver=97781"
+  },
+  "showtimefamilyzone": {
+    "tvgId": "ShowtimeFamilyZone.us",
+    "displayName": "SHOWTIME FAMILY ZONE HD",
+    "groupTitle": "movies",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14619.PNG?ver=97781"
+  },
+  "showtime": {
+    "tvgId": "Showtime.us",
+    "displayName": "SHOWTIME HD",
+    "groupTitle": "movies",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/13797.png?ver=39230"
+  },
+  "showtimenext": {
+    "tvgId": "ShowtimeNext.us",
+    "displayName": "SHOWTIME NEXT HD",
+    "groupTitle": "movies",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14619.PNG?ver=97781"
+  },
+  "showtimeshowcase": {
+    "tvgId": "ShowtimeShowcase.us",
+    "displayName": "SHOWTIME SHOWCASE HD",
+    "groupTitle": "movies",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14619.PNG?ver=97781"
+  },
+  "showtimewomen": {
+    "tvgId": "ShowtimeWomen.us",
+    "displayName": "SHOWTIME WOMEN HD",
+    "groupTitle": "movies",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14619.PNG?ver=97781"
+  },
+  "sonymoviechannel": {
+    "tvgId": "SonyMovieChannel.us",
+    "displayName": "SONY MOVIE CHANNEL HD",
+    "groupTitle": "movies",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/12196.png?95561"
+  },
+  "starzcinema": {
+    "tvgId": "StarzCinema.us",
+    "displayName": "STARZ CINEMA HD",
+    "groupTitle": "movies",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14619.PNG?ver=97781"
+  },
+  "starzcomedy": {
+    "tvgId": "StarzComedy.us",
+    "displayName": "STARZ COMEDY HD",
+    "groupTitle": "movies",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14619.PNG?ver=97781"
+  },
+  "starzedge": {
+    "tvgId": "StarzEdge.us",
+    "displayName": "STARZ EDGE HD",
+    "groupTitle": "movies",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14619.PNG?ver=97781"
+  },
+  "starzencoreaction": {
+    "tvgId": "StarzEncoreAction.us",
+    "displayName": "STARZ ENCORE ACTION HD",
+    "groupTitle": "movies",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14619.PNG?ver=97781"
+  },
+  "starzencoreblack": {
+    "tvgId": "StarzEncoreBlack.us",
+    "displayName": "STARZ ENCORE BLACK HD",
+    "groupTitle": "movies",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14619.PNG?ver=97781"
+  },
+  "starzencoreclassic": {
+    "tvgId": "StarzEncoreClassics.us",
+    "displayName": "STARZ ENCORE CLASSIC HD",
+    "groupTitle": "movies",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14619.PNG?ver=97781"
+  },
+  "starzencorewest": {
+    "tvgId": "StarzEncore.us",
+    "displayName": "STARZ ENCORE WEST HD",
+    "groupTitle": "movies",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14619.PNG?ver=97781"
+  },
+  "starzencorewesterns": {
+    "tvgId": "StarzEncoreWesterns.us",
+    "displayName": "STARZ ENCORE WESTERNS HD",
+    "groupTitle": "movies",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14619.PNG?ver=97781"
+  },
+  "starzfamily": {
+    "tvgId": "StarzEncoreFamily.us",
+    "displayName": "STARZ FAMILY HD",
+    "groupTitle": "movies",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/8109.jpg?10578"
+  },
+  "starz": {
+    "tvgId": "Starz.us",
+    "displayName": "STARZ HD",
+    "groupTitle": "movies",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14619.PNG?ver=97781"
+  },
+  "starzkidsfamily": {
+    "tvgId": "StarzKidsFamily.us",
+    "displayName": "STARZ KIDS &amp; FAMILY HD",
+    "groupTitle": "movies",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14619.PNG?ver=97781"
+  },
+  "sundance": {
+    "tvgId": "SundanceTV.us",
+    "displayName": "SUNDANCE HD",
+    "groupTitle": "movies",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14619.PNG?ver=97781"
+  },
+  "syfy": {
+    "tvgId": "Syfy.us",
+    "displayName": "SYFY HD",
+    "groupTitle": "movies",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14619.PNG?ver=97781"
+  },
+  "themoviechannel": {
+    "tvgId": "TMC.us",
+    "displayName": "THE MOVIE CHANNEL HD",
+    "groupTitle": "movies",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/10161.jpg?62962"
+  },
+  "abcnews": {
+    "tvgId": "ABCNewsLive.us",
+    "displayName": "ABC NEWS",
+    "groupTitle": "news",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/12623.png?14399"
+  },
+  "cbsnews": {
+    "tvgId": "WCBS.us",
+    "displayName": "CBS NEWS",
+    "groupTitle": "news",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/13622.png?18808"
+  },
+  "cnn": {
+    "tvgId": "cnn.us",
+    "displayName": "CNN HD",
+    "groupTitle": "news",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14619.PNG?ver=97781"
+  },
+  "foxnews": {
+    "tvgId": "foxnews.us",
+    "displayName": "FOX NEWS HD",
+    "groupTitle": "news",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14619.PNG?ver=97781"
+  },
+  "msnbc": {
+    "tvgId": "msnbc.us",
+    "displayName": "MSNBC HD",
+    "groupTitle": "news",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14619.PNG?ver=97781"
+  },
+  "newsmax": {
+    "tvgId": "Newsmax.us",
+    "displayName": "NEWSMAX HD",
+    "groupTitle": "news",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14619.PNG?ver=97781"
+  },
+  "canal11": {
+    "tvgId": "Canal11.pt",
+    "displayName": "Canal 11 4K",
+    "groupTitle": "puerto-rico",
+    "icon": "http://picons.cmshulk.com/picons/logos/CANAL-11.jpeg"
+  },
+  "telemundo47nywnju": {
+    "tvgId": "WNJU.us",
+    "displayName": "TELEMUNDO 47 NY (WNJU)",
+    "groupTitle": "puerto-rico",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/new99527.jpg?88439"
+  },
+  "telemundo51miamiwscv": {
+    "tvgId": "WSCV.us",
+    "displayName": "TELEMUNDO 51 MIAMI (WSCV)",
+    "groupTitle": "puerto-rico",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/new99527.jpg?88439"
+  },
+  "antena3": {
+    "tvgId": "antena3.es",
+    "displayName": "ANTENA 3 ᴿᴬᵂ",
+    "groupTitle": "spain",
+    "icon": "http://picons.cmshulk.com/picons/logos/antena3.png"
+  },
+  "beinsprts1xtra": {
+    "tvgId": "BeinSportsExtra1.qa",
+    "displayName": "beIN Sp⚽rts 1 XTRA 4K",
+    "groupTitle": "sports",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/12782.png?95032"
+  },
+  "beinsprts2xtra": {
+    "tvgId": "BeinSportsExtra2.qa",
+    "displayName": "beIN Sp⚽rts 2 XTRA 4K",
+    "groupTitle": "sports",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/12782.png?95032"
+  },
+  "beinsprts3": {
+    "tvgId": "beINSports3En.qa",
+    "displayName": "beIN Sp⚽rts 3 HEVC",
+    "groupTitle": "sports",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/12782.png?95032"
+  },
+  "beinsprtsnba": {
+    "tvgId": "beINSportsNBA.qa",
+    "displayName": "beIN Sp⚽rts NBA HD",
+    "groupTitle": "sports",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/12782.png?95032"
+  },
+  "beinsprts1english": {
+    "tvgId": "beINSports1En.qa",
+    "displayName": "beIN SP⚽RTS 1 ENGLISH ᴴᴰ ◉",
+    "groupTitle": "sports",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/12782.png?95032"
+  },
+  "nbatv": {
+    "tvgId": "NBATV.ca",
+    "displayName": "NBA TV HD",
+    "groupTitle": "sports",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14619.PNG?ver=97781"
+  },
+  "arenasport1": {
+    "tvgId": "arenasport1.cz",
+    "displayName": "ARENA SPORT 1 ᴿᴬᵂ",
+    "groupTitle": "sports",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/3987.png?26612"
+  },
+  "arenasport2": {
+    "tvgId": "arenasport2.cz",
+    "displayName": "ARENA SPORT 2 ᴿᴬᵂ",
+    "groupTitle": "sports",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/3989.png?67715"
+  },
+  "afnsport": {
+    "tvgId": "AFNSports.us",
+    "displayName": "AFN SPORT HD",
+    "groupTitle": "sports",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/7753.png?45241"
+  },
+  "altitudesports": {
+    "tvgId": "AltitudeSports.us",
+    "displayName": "ALTITUDE SPORTS HD",
+    "groupTitle": "sports",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/8276.jpg?72746"
+  },
+  "attsportsnetpittsburgh": {
+    "tvgId": "ATTSportsNetPittsburgh.us",
+    "displayName": "AT&amp;T SPORTSNET PITTSBURGH HD",
+    "groupTitle": "sports",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/6068.jpg?29759"
+  },
+  "attsportsnetrockymountain": {
+    "tvgId": "ATTSNRM.us",
+    "displayName": "AT&amp;T SPORTSNET ROCKY MOUNTAIN HD",
+    "groupTitle": "sports",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/6068.jpg?29759"
+  },
+  "attsportsnetsouthwest": {
+    "tvgId": "ATTSportsNetHouston.us",
+    "displayName": "AT&amp;T SPORTSNET SOUTHWEST HD",
+    "groupTitle": "sports",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/6068.jpg?53101"
+  },
+  "ballysportsneworleans": {
+    "tvgId": "BallySportsNewOrleans.us",
+    "displayName": "BALLY SPORTS NEW ORLEANS HD",
+    "groupTitle": "sports",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/13620.jpg?ver=73852"
+  },
+  "ballysportssocal": {
+    "tvgId": "BallySPortsSoCal.us",
+    "displayName": "BALLY SPORTS SOCAL HD",
+    "groupTitle": "sports",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/13620.jpg?ver=85302"
+  },
+  "ballysportssouthwestplussanantonio": {
+    "tvgId": "BallySportsSouthwestPlus.us",
+    "displayName": "BALLY SPORTS SOUTHWEST PLUS (SAN ANTONIO) HD",
+    "groupTitle": "sports",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/13620.jpg?ver=73852"
+  },
+  "ballysportssunmiami": {
+    "tvgId": "BallySportsSun.us",
+    "displayName": "BALLY SPORTS SUN (MIAMI) HD",
+    "groupTitle": "sports",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/13620.jpg?ver=73852"
+  },
+  "ballysportswest": {
+    "tvgId": "BallySportsWest.us",
+    "displayName": "BALLY SPORTS WEST HD",
+    "groupTitle": "sports",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/13620.jpg?ver=73852"
+  },
+  "ballysportswisconsin": {
+    "tvgId": "BallySportsWisconsin.us",
+    "displayName": "BALLY SPORTS WISCONSIN HD",
+    "groupTitle": "sports",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/13620.jpg?ver=73852"
+  },
+  "beinsports2": {
+    "tvgId": "beINSports2En.qa",
+    "displayName": "BEIN SPORTS 2 HD",
+    "groupTitle": "sports",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/532.png?36369"
+  },
+  "beinsports4": {
+    "tvgId": "beINSports4En.qa",
+    "displayName": "BEIN SPORTS 4 HD",
+    "groupTitle": "sports",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/540.png?31425"
+  },
+  "beinsports5": {
+    "tvgId": "beINSports5En.qa",
+    "displayName": "BEIN SPORTS 5 HD",
+    "groupTitle": "sports",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/542.png?78938"
+  },
+  "beinsports6": {
+    "tvgId": "beINSports6En.qa",
+    "displayName": "BEIN SPORTS 6 HD",
+    "groupTitle": "sports",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/536.png?19345"
+  },
+  "beinsports7": {
+    "tvgId": "beINSports7En.qa",
+    "displayName": "BEIN SPORTS 7 HD",
+    "groupTitle": "sports",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/537.png?72164"
+  },
+  "beinsports": {
+    "tvgId": "beINSports.us",
+    "displayName": "BEIN SPORTS HD",
+    "groupTitle": "sports",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14619.PNG?ver=97781"
+  },
+  "cbssportsnetwork": {
+    "tvgId": "CBSSportsNetwork.us",
+    "displayName": "CBS SPORTS NETWORK HD",
+    "groupTitle": "sports",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14545.PNG?ver=52669"
+  },
+  "espn": {
+    "tvgId": "ESPN.us",
+    "displayName": "ESPN HD",
+    "groupTitle": "sports",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14619.PNG?ver=97781"
+  },
+  "espnnews": {
+    "tvgId": "ESPNNews.us",
+    "displayName": "ESPN NEWS HD",
+    "groupTitle": "sports",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/8260.png?68747"
+  },
+  "foxdeportes": {
+    "tvgId": "FoxDeportes.us",
+    "displayName": "FOX DEPORTES",
+    "groupTitle": "sports",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/750.jpg?ver=56209"
+  },
+  "foxsoccerplus": {
+    "tvgId": "FoxSoccerPlus.us",
+    "displayName": "FOX SOCCER PLUS HD",
+    "groupTitle": "sports",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/750.jpg?ver=56209"
+  },
+  "foxsports1": {
+    "tvgId": "FoxSports1.us",
+    "displayName": "FOX SPORTS 1 HD",
+    "groupTitle": "sports",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14619.PNG?ver=97781"
+  },
+  "foxsports2": {
+    "tvgId": "FoxSports2.us",
+    "displayName": "FOX SPORTS 2 HD",
+    "groupTitle": "sports",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14619.PNG?ver=97781"
+  },
+  "foxsportswisconsin": {
+    "tvgId": "FOXSports.us",
+    "displayName": "FOX SPORTS WISCONSIN HD",
+    "groupTitle": "sports",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/750.jpg?ver=56209"
+  },
+  "fubosportsnetwork": {
+    "tvgId": "FuboSportsNetwork.us",
+    "displayName": "FUBO SPORTS NETWORK HD",
+    "groupTitle": "sports",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14619.PNG?ver=97781"
+  },
+  "golfchannel": {
+    "tvgId": "GolfChannel.us",
+    "displayName": "GOLF CHANNEL HD",
+    "groupTitle": "sports",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14619.PNG?ver=97781"
+  },
+  "mlbnetwork": {
+    "tvgId": "MLBNetwork.us",
+    "displayName": "MLB NETWORK",
+    "groupTitle": "sports",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14619.PNG?ver=97781"
+  },
+  "monumentalsportsnetwork": {
+    "tvgId": "MonumentalSportsNetwork.us",
+    "displayName": "MONUMENTAL SPORTS NETWORK HD",
+    "groupTitle": "sports",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/12108.png?54161"
+  },
+  "nbcsportsbayarea": {
+    "tvgId": "NBCSportsBayArea.us",
+    "displayName": "NBC SPORTS BAY AREA",
+    "groupTitle": "sports",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/8202.png?22325"
+  },
+  "nbcsportscalifornia": {
+    "tvgId": "NBCSportsCalifornia.us",
+    "displayName": "NBC SPORTS CALIFORNIA",
+    "groupTitle": "sports",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/8202.png?22325"
+  },
+  "nbcsportschicago": {
+    "tvgId": "NBCSportsChicago.us",
+    "displayName": "NBC SPORTS CHICAGO",
+    "groupTitle": "sports",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/8202.png?22325"
+  },
+  "nbcsportsphiladelfia": {
+    "tvgId": "NBCSportsPhiladelphia.us",
+    "displayName": "NBC SPORTS PHILADELFIA",
+    "groupTitle": "sports",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/8202.png?22325"
+  },
+  "nbcsportswashington": {
+    "tvgId": "NBCSportsWashington.us",
+    "displayName": "NBC SPORTS WASHINGTON",
+    "groupTitle": "sports",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/8202.png?22325"
+  },
+  "nesnboston": {
+    "tvgId": "NewEnglandSportsNetwork.us",
+    "displayName": "NESN BOSTON HD",
+    "groupTitle": "sports",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/8194.jpg?93195"
+  },
+  "nesnplus": {
+    "tvgId": "NewEnglandSportsNetworkPlus.us",
+    "displayName": "NESN Plus HD",
+    "groupTitle": "sports",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/3177.png?50298"
+  },
+  "nflnetwork": {
+    "tvgId": "NFLNetwork.us",
+    "displayName": "NFL NETWORK HD",
+    "groupTitle": "sports",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/14619.PNG?ver=97781"
+  },
+  "rootsports": {
+    "tvgId": "RootSportsNorthwest.us",
+    "displayName": "ROOT SPORTS",
+    "groupTitle": "sports",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/11089.png?86044"
+  },
+  "sportsnetladodgers": {
+    "tvgId": "SpectrumSportsNetLA.us",
+    "displayName": "SPORTSNET LA DODGERS HD",
+    "groupTitle": "sports",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/8239.jpg?26011"
+  },
+  "sportsnetnewyork": {
+    "tvgId": "ComcastSportsnet.us",
+    "displayName": "SPORTSNET NEW YORK HD",
+    "groupTitle": "sports",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/8239.jpg?26011"
+  },
+  "tennis": {
+    "tvgId": "TennisChannel.us",
+    "displayName": "TENNIS HD",
+    "groupTitle": "sports",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/12430.jpg?68030"
+  },
+  "tudnzona": {
+    "tvgId": "TUDN.us",
+    "displayName": "TUDN ZONA ᴿᴬᵂ",
+    "groupTitle": "sports",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/7652.jpg?29720"
+  },
+  "wwe": {
+    "tvgId": "WWE.us",
+    "displayName": "WWE HD",
+    "groupTitle": "sports",
+    "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/8088.jpg?91127"
+  }
+}

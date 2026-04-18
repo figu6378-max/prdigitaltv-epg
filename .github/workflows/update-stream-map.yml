@@ -1,0 +1,52 @@
+name: Update Stream EPG Map
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'config/channels-allowlist.json'
+      - 'config/channels-discovered.json'
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Sync with latest main
+        run: |
+          git config user.name "EPG Bot"
+          git config user.email "epg-bot@prdigitaltv.com"
+          git pull --rebase origin main
+
+      - name: Setup Node.js 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Generate stream EPG map
+        env:
+          PROVIDER_HOST: ${{ secrets.PROVIDER_HOST }}
+          PROVIDER_USER: ${{ secrets.PROVIDER_API_USER }}
+          PROVIDER_PASS: ${{ secrets.PROVIDER_API_PASS }}
+        run: node src/generate-stream-map.js
+
+      - name: Commit stream map
+        run: |
+          git add stream-epg-map.json
+          if git diff --staged --quiet; then
+            echo "No changes to stream-epg-map.json"
+          else
+            git commit -m "chore: update stream-epg-map.json [$(date -u '+%Y-%m-%d %H:%M UTC')]"
+            git push || (git pull --rebase origin main && git push)
+          fi
