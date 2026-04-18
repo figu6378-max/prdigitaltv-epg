@@ -11,6 +11,10 @@ function normalize(s) {
     .replace(/(hd|fhd|uhd|4k|hevc)$/, '');
 }
 
+function decodeEntities(s) {
+  return s.replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&quot;/g, '"');
+}
+
 async function getMapping(ctx) {
   const cache = caches.default;
   const cacheKey = new Request(EPG_MAP_URL);
@@ -74,14 +78,19 @@ export default {
       `#EXTM3U url-tvg="${EPG_URL}" refresh="3600"`,
     ];
 
+    const seen = new Set();
     for (const stream of streams) {
       const key = normalize(stream.name);
       const epg = mapping[key];
       if (!epg) continue;
+      if (seen.has(epg.tvgId)) continue;
+      seen.add(epg.tvgId);
 
+      const name = decodeEntities(epg.displayName);
+      const logo = stream.stream_icon || epg.icon || '';
       const streamUrl = `http://${host}/live/${encodeURIComponent(u)}/${encodeURIComponent(p)}/${stream.stream_id}.ts`;
       lines.push(
-        `#EXTINF:-1 tvg-id="${epg.tvgId}" tvg-name="${epg.displayName}" tvg-logo="${epg.icon || stream.stream_icon || ''}" group-title="${epg.groupTitle}",${epg.displayName}`
+        `#EXTINF:-1 tvg-id="${epg.tvgId}" tvg-name="${name}" tvg-logo="${logo}" group-title="${epg.groupTitle}",${name}`
       );
       lines.push(streamUrl);
     }
