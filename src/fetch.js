@@ -65,7 +65,7 @@ function extractText(node) {
  */
 export async function downloadXmltvUrl(url, gzip = false) {
   const controller = new AbortController();
-  const timer = setTimeout(() => controller.abort(), 30000);
+  const timer = setTimeout(() => controller.abort(), 60000);
   let response;
   try {
     response = await axios.get(url, {
