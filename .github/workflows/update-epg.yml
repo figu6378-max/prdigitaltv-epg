@@ -56,9 +56,15 @@ jobs:
         run: |
           TS=$(date -u '+%Y-%m-%d %H:%M UTC')
           MSG="✅ EPG PRDigitalTV actualizado en GitHub Pages. Canales: 496 | Programas: ~28k | $TS"
-          curl -s -X POST "https://services.leadconnectorhq.com/conversations/messages" \
+          echo "Sending SMS notification..."
+          RESPONSE=$(curl -s -w "\n%{http_code}" -X POST "https://services.leadconnectorhq.com/conversations/messages" \
             -H "Authorization: Bearer $GHL_API_KEY" \
-            -H "Version: 2021-04-15" \
+            -H "Version: 2021-07-28" \
             -H "Content-Type: application/json" \
-            -d "{\"type\":\"SMS\",\"contactId\":\"25gHD3dCGOCNf7ZrqxUq\",\"message\":\"$MSG\"}" \
-            || echo "GHL notification failed (non-blocking)"
+            -d "{\"type\":\"SMS\",\"contactId\":\"25gHD3dCGOCNf7ZrqxUq\",\"message\":\"$MSG\"}")
+          HTTP_CODE=$(echo "$RESPONSE" | tail -1)
+          BODY=$(echo "$RESPONSE" | head -1)
+          echo "HTTP $HTTP_CODE: $BODY"
+          if [ "$HTTP_CODE" != "201" ] && [ "$HTTP_CODE" != "200" ]; then
+            echo "WARNING: SMS notification failed with HTTP $HTTP_CODE (non-blocking)"
+          fi
