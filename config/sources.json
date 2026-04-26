@@ -1,6 +1,14 @@
 {
   "primary_additional": [
     {
+      "name": "open-epg-pr",
+      "url": "https://www.open-epg.com/generate/VchmwyY7n2.xml",
+      "enabled": true,
+      "gzip": false,
+      "bypass_filter": true,
+      "_comment": "PR local channels — full schedule merged, all channel IDs bypass allowlist"
+    },
+    {
       "name": "iptv-epg-us",
       "url": "https://iptv-epg.org/files/epg-us.xml.gz",
       "enabled": true,
@@ -13,7 +21,7 @@
       "url": "https://www.open-epg.com/generate/VchmwyY7n2.xml",
       "enabled": true,
       "gzip": false,
-      "_comment": "Priority 1 — PR channels, overrides everything"
+      "_comment": "Priority 1 — PR channel title-based description fallback for provider-covered channels"
     },
     {
       "name": "epg2-curated",

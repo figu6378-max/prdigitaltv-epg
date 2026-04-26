@@ -115,22 +115,22 @@ export async function buildSecondaryDescMap(sources) {
   const descMap = new Map();
   const active = sources.filter(s => s.enabled);
 
-  await Promise.allSettled(
-    active.map(async (source) => {
-      try {
-        const xml = await downloadXmltvUrl(source.url, source.gzip);
-        const { programmes } = parseXmltvString(xml);
-        for (const prog of programmes) {
-          if (!prog.desc || !prog.title) continue;
-          const key = prog.title.toLowerCase().trim();
-          if (!descMap.has(key)) descMap.set(key, prog.desc);
-        }
-        console.log(`[fetch] ${source.name}: ${programmes.length} programmes loaded`);
-      } catch (err) {
-        console.warn(`[fetch] ${source.name} unavailable: ${err.message}`);
+  // Sequential — higher-priority sources (listed first) write first and cannot be overwritten
+  for (const source of active) {
+    try {
+      const xml = await downloadXmltvUrl(source.url, source.gzip);
+      const { programmes } = parseXmltvString(xml);
+      let added = 0;
+      for (const prog of programmes) {
+        if (!prog.desc || !prog.title) continue;
+        const key = prog.title.toLowerCase().trim();
+        if (!descMap.has(key)) { descMap.set(key, prog.desc); added++; }
       }
-    })
-  );
+      console.log(`[fetch] ${source.name}: ${programmes.length} programmes, ${added} new descriptions added`);
+    } catch (err) {
+      console.warn(`[fetch] ${source.name} unavailable: ${err.message}`);
+    }
+  }
 
   return descMap;
 }

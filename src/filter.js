@@ -5,26 +5,30 @@
  * @param {{ channels: Array<{'tvg-id': string, category: string}> }} allowlist
  * @returns {{ channels: Array, programmes: Array }}
  */
-export function filterEpgData(epgData, allowlist) {
+export function filterEpgData(epgData, allowlist, additionalIds = new Set()) {
   const allowedMap = new Map(
     allowlist.channels.map(ch => [ch['tvg-id'], ch.category])
   );
 
-  // Build lookup of channels that exist in the merged EPG data
   const epgChannelMap = new Map(epgData.channels.map(ch => [ch.id, ch]));
 
-  // Include ALL allowlist channels — even those with no EPG source data
-  // (they appear in the output with no programmes, which is correct per user requirement)
+  // Include all allowlist channels (with stub if missing from EPG sources)
   const channels = [...allowedMap.keys()].map(id => {
     if (epgChannelMap.has(id)) {
       return { ...epgChannelMap.get(id), category: allowedMap.get(id) };
     }
-    // Channel in allowlist but absent from all EPG sources — include as stub
     return { id, displayName: id, icon: '', category: allowedMap.get(id) };
   });
 
-  const allowedIds = new Set(allowedMap.keys());
-  const programmes = epgData.programmes.filter(p => allowedIds.has(p.channel));
+  // Also include provider 2 channels not in allowlist (pass-through, no category)
+  for (const id of additionalIds) {
+    if (!allowedMap.has(id) && epgChannelMap.has(id)) {
+      channels.push({ ...epgChannelMap.get(id), category: 'general' });
+    }
+  }
+
+  const allIds = new Set([...allowedMap.keys(), ...additionalIds]);
+  const programmes = epgData.programmes.filter(p => allIds.has(p.channel));
 
   return { channels, programmes };
 }

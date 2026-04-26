@@ -4,3 +4,4 @@ compatibility_date = "2025-01-01"
 
 [vars]
 PROVIDER_HOST = "prdigital.cc"
+PROVIDER_HOST_2 = "line.host-prdigital.cc"

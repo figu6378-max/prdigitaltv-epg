@@ -43,15 +43,25 @@ export default {
       return new Response('ok', { status: 200 });
     }
 
-    // Only handle /playlist
-    if (url.pathname !== '/playlist') {
-      return new Response('Use /playlist?u=USERNAME&p=PASSWORD', { status: 404 });
+    // Handle /playlist/USER/PASS  OR  /playlist2/USER/PASS  OR  /playlist?u=USER&p=PASS
+    let u, p, host;
+    const parts = url.pathname.split('/').filter(Boolean);
+    if (parts.length === 3 && parts[0] === 'playlist') {
+      u = parts[1]; p = parts[2];
+      host = env.PROVIDER_HOST || 'prdigital.cc';
+    } else if (parts.length === 3 && parts[0] === 'playlist2') {
+      u = parts[1]; p = parts[2];
+      host = env.PROVIDER_HOST_2 || 'line.host-prdigital.cc';
+    } else if (url.pathname === '/playlist') {
+      u = url.searchParams.get('u');
+      p = url.searchParams.get('p');
+      host = env.PROVIDER_HOST || 'prdigital.cc';
+    } else {
+      return new Response('Use /playlist/USERNAME/PASSWORD or /playlist2/USERNAME/PASSWORD', { status: 404 });
     }
 
-    const u = url.searchParams.get('u');
-    const p = url.searchParams.get('p');
     if (!u || !p) {
-      return new Response('Missing u or p parameters', { status: 400 });
+      return new Response('Missing credentials', { status: 400 });
     }
 
     let mapping, streams;
@@ -62,12 +72,10 @@ export default {
       return new Response(`EPG map unavailable: ${err.message}`, { status: 502 });
     }
 
-    // Detect provider host from secrets or default
-    const host = env.PROVIDER_HOST || 'prdigital.cc';
-
     try {
       const apiUrl = `http://${host}/player_api.php?username=${encodeURIComponent(u)}&password=${encodeURIComponent(p)}&action=get_live_streams`;
       const res = await fetch(apiUrl, { cf: { cacheTtl: 0 } });
+
       if (!res.ok) return new Response('Invalid credentials or provider error', { status: 401 });
       streams = await res.json();
     } catch (err) {
@@ -78,19 +86,42 @@ export default {
       `#EXTM3U url-tvg="${EPG_URL}" refresh="3600"`,
     ];
 
+    const isProvider2 = parts[0] === 'playlist2';
     const seen = new Set();
-    for (const stream of streams) {
-      const key = normalize(stream.name);
-      const epg = mapping[key];
-      if (!epg) continue;
-      if (seen.has(epg.tvgId)) continue;
-      seen.add(epg.tvgId);
 
-      const name = decodeEntities(epg.displayName);
-      const logo = stream.stream_icon || epg.icon || '';
+    for (const stream of streams) {
+      let tvgId, name, logo, groupTitle;
+
+      if (isProvider2) {
+        // Provider 2: use epg_channel_id directly when set; skip streams without it
+        const epgId = stream.epg_channel_id && stream.epg_channel_id.trim();
+        if (!epgId) continue;
+        if (seen.has(epgId)) continue;
+        seen.add(epgId);
+        tvgId = epgId;
+        // Clean display name: strip leading country prefix like "USA - " or "|XX| "
+        name = stream.name
+          .replace(/^\|[^|]+\|\s*/, '')
+          .replace(/^[A-Z]{2,4}\s*[-–]\s*/i, '')
+          .trim();
+        logo = stream.stream_icon || '';
+        groupTitle = 'general';
+      } else {
+        // Provider 1: use stream-map lookup by normalized name
+        const key = normalize(stream.name);
+        const epg = mapping[key];
+        if (!epg) continue;
+        if (seen.has(epg.tvgId)) continue;
+        seen.add(epg.tvgId);
+        tvgId = epg.tvgId;
+        name = decodeEntities(epg.displayName);
+        logo = stream.stream_icon || epg.icon || '';
+        groupTitle = epg.groupTitle;
+      }
+
       const streamUrl = `http://${host}/live/${encodeURIComponent(u)}/${encodeURIComponent(p)}/${stream.stream_id}.ts`;
       lines.push(
-        `#EXTINF:-1 tvg-id="${epg.tvgId}" tvg-name="${name}" tvg-logo="${logo}" group-title="${epg.groupTitle}",${name}`
+        `#EXTINF:-1 tvg-id="${tvgId}" tvg-name="${name}" tvg-logo="${logo}" group-title="${groupTitle}",${name}`
       );
       lines.push(streamUrl);
     }

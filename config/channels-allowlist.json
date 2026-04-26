@@ -1401,7 +1401,35 @@
       "category": "news"
     },
     {
-      "tvg-id": "Canal11.pt",
+      "tvg-id": "WLII.pr",
+      "category": "puerto-rico"
+    },
+    {
+      "tvg-id": "WLIIDT2.pr",
+      "category": "puerto-rico"
+    },
+    {
+      "tvg-id": "WAPA.pr",
+      "category": "puerto-rico"
+    },
+    {
+      "tvg-id": "WKAQ.pr",
+      "category": "puerto-rico"
+    },
+    {
+      "tvg-id": "WKAQDT2.pr",
+      "category": "puerto-rico"
+    },
+    {
+      "tvg-id": "WIPR.pr",
+      "category": "puerto-rico"
+    },
+    {
+      "tvg-id": "WSTE.pr",
+      "category": "puerto-rico"
+    },
+    {
+      "tvg-id": "MEGDTV.pr",
       "category": "puerto-rico"
     },
     {
