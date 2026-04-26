@@ -6,13 +6,20 @@
       "enabled": true,
       "gzip": false,
       "bypass_filter": true,
-      "_comment": "PR local channels — full schedule merged, all channel IDs bypass allowlist"
+      "_comment": "PR local channels — full schedule merged; bypass keeps long-form DINO channel IDs in output"
     },
     {
       "name": "iptv-epg-us",
       "url": "https://iptv-epg.org/files/epg-us.xml.gz",
       "enabled": true,
       "gzip": true
+    },
+    {
+      "name": "epg-pw-us",
+      "url": "https://epg.pw/xmltv/epg_US.xml.gz",
+      "enabled": true,
+      "gzip": true,
+      "_comment": "Large US EPG — covers Telemundo affiliates (WNJU, WSCV) not in iptv-epg-us"
     }
   ],
   "secondary": [

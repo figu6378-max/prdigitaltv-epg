@@ -2,6 +2,16 @@ const EPG_MAP_URL = 'https://figu6378-max.github.io/prdigitaltv-epg/stream-epg-m
 const EPG_URL = 'https://figu6378-max.github.io/prdigitaltv-epg/epg.xml';
 const CACHE_TTL = 3600; // 1 hour
 
+// Fallback EPG IDs for provider 2 streams that have blank epg_channel_id.
+// Keys are normalize(stream.name) values.
+const PROVIDER2_NAME_FALLBACK = {
+  'latwapa':                       'WAPA.pr',
+  'latwapaamerica':                'WAPA.pr',
+  'lattelemundopuertorico':        'WKAQ.pr',
+  'usatelemundo2wkaqpuertorico':   'WKAQ.pr',
+  'usauniivision11prwlii':         'WLII.pr',
+};
+
 function normalize(s) {
   return s
     .replace(/&amp;/g, '').replace(/&[a-z]+;/gi, '')
@@ -93,12 +103,13 @@ export default {
       let tvgId, name, logo, groupTitle;
 
       if (isProvider2) {
-        // Provider 2: use epg_channel_id directly when set; skip streams without it
+        // Provider 2: use epg_channel_id when set; fall back to name-based map for blank ones
         const epgId = stream.epg_channel_id && stream.epg_channel_id.trim();
-        if (!epgId) continue;
-        if (seen.has(epgId)) continue;
-        seen.add(epgId);
-        tvgId = epgId;
+        const resolvedId = epgId || PROVIDER2_NAME_FALLBACK[normalize(stream.name)] || '';
+        if (!resolvedId) continue;
+        if (seen.has(resolvedId)) continue;
+        seen.add(resolvedId);
+        tvgId = resolvedId;
         // Clean display name: strip leading country prefix like "USA - " or "|XX| "
         name = stream.name
           .replace(/^\|[^|]+\|\s*/, '')
