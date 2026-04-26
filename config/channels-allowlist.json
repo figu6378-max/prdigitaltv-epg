@@ -2011,6 +2011,50 @@
     {
       "tvg-id": "syfy.es",
       "category": "movies"
+    },
+    {
+      "tvg-id": "WLII.pr",
+      "category": "puerto-rico"
+    },
+    {
+      "tvg-id": "WLIIDT2.pr",
+      "category": "puerto-rico"
+    },
+    {
+      "tvg-id": "WAPA.pr",
+      "category": "puerto-rico"
+    },
+    {
+      "tvg-id": "WAPADT2.pr",
+      "category": "puerto-rico"
+    },
+    {
+      "tvg-id": "WKAQ.pr",
+      "category": "puerto-rico"
+    },
+    {
+      "tvg-id": "WKAQDT2.pr",
+      "category": "puerto-rico"
+    },
+    {
+      "tvg-id": "WIPR.pr",
+      "category": "puerto-rico"
+    },
+    {
+      "tvg-id": "WSTE.pr",
+      "category": "puerto-rico"
+    },
+    {
+      "tvg-id": "MEGDTV.pr",
+      "category": "puerto-rico"
+    },
+    {
+      "tvg-id": "WNJU.us",
+      "category": "puerto-rico"
+    },
+    {
+      "tvg-id": "WSCV.us",
+      "category": "puerto-rico"
     }
   ]
 }
