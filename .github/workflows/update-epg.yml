@@ -32,6 +32,37 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Refresh DINO active channel IDs
+        env:
+          PROVIDER_EPG_URL_2: ${{ secrets.PROVIDER_EPG_URL_2 }}
+        run: |
+          python3 - <<'EOF'
+          import os, re, json, urllib.request
+          url2 = os.environ.get('PROVIDER_EPG_URL_2', '')
+          m = re.search(r'username=([^&]+).*password=([^&]+)', url2)
+          if not m:
+              print('WARN: Cannot parse DINO credentials, skipping refresh')
+              exit(0)
+          user, pwd = m.group(1), m.group(2)
+          host_m = re.match(r'https?://([^/]+)', url2)
+          host = host_m.group(1) if host_m else 'line.host-prdigital.cc'
+          api = f'http://{host}/player_api.php?username={user}&password={pwd}&action=get_live_streams'
+          print(f'Fetching DINO stream list from {host}...')
+          try:
+              with urllib.request.urlopen(api, timeout=30) as r:
+                  streams = json.loads(r.read().decode('utf-8', errors='ignore'))
+              ids = sorted(set(
+                  s['epg_channel_id'].strip()
+                  for s in streams
+                  if s.get('epg_channel_id') and isinstance(s['epg_channel_id'], str) and s['epg_channel_id'].strip()
+              ))
+              with open('config/provider2-epg-ids.json', 'w') as f:
+                  json.dump(ids, f)
+              print(f'Saved {len(ids)} active DINO channel IDs')
+          except Exception as e:
+              print(f'WARN: Failed to refresh DINO IDs: {e} (using existing file)')
+          EOF
+
       - name: Run EPG pipeline
         env:
           PROVIDER_EPG_URL: ${{ secrets.PROVIDER_EPG_URL }}

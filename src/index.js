@@ -20,16 +20,22 @@ async function main() {
     ? JSON.parse(readFileSync('config/channels-allowlist.json', 'utf8'))
     : { channels: [] };
 
+  // Load known-active DINO epg_channel_ids (from player_api — only channels with live streams)
+  const provider2ChannelIds = new Set(
+    existsSync('config/provider2-epg-ids.json')
+      ? JSON.parse(readFileSync('config/provider2-epg-ids.json', 'utf8'))
+      : []
+  );
+  console.log(`[pipeline] DINO active channel IDs loaded: ${provider2ChannelIds.size}`);
+
   // FETCH: Primary provider EPG — DINO (PROVIDER_EPG_URL_2) is now primary
   let providerEpg = null;
-  const provider2ChannelIds = new Set(); // DINO channel IDs bypass allowlist
 
   if (providerUrl2) {
     try {
       console.log('[pipeline] Fetching provider EPG (primary: DINO)...');
       const xml2 = await downloadXmltvUrl(providerUrl2, false);
       providerEpg = parseXmltvString(xml2);
-      for (const ch of providerEpg.channels) provider2ChannelIds.add(ch.id);
       console.log(`[pipeline] DINO (primary): ${providerEpg.channels.length} channels, ${providerEpg.programmes.length} programmes`);
     } catch (err) {
       console.error(`[pipeline] ERROR: DINO (primary) EPG unavailable: ${err.message}`);
@@ -118,6 +124,17 @@ async function main() {
   const allBypassIds = new Set([...provider2ChannelIds, ...additionalBypassIds]);
   const filtered = filterEpgData(providerEpg, allowlist, allBypassIds);
   console.log(`[pipeline] After filter: ${filtered.channels.length} channels, ${filtered.programmes.length} programmes`);
+
+  // Deduplicate programmes by channel+start (catches within-source and any gap-fill edge cases)
+  const seenProgs = new Set();
+  const beforeDedup = filtered.programmes.length;
+  filtered.programmes = filtered.programmes.filter(p => {
+    const key = `${p.channel}|${p.start}`;
+    if (seenProgs.has(key)) return false;
+    seenProgs.add(key);
+    return true;
+  });
+  console.log(`[pipeline] After dedup: ${filtered.programmes.length} programmes (removed ${beforeDedup - filtered.programmes.length} duplicates)`);
 
   if (filtered.channels.length === 0) {
     console.warn('[pipeline] WARNING: 0 channels matched allowlist.');
