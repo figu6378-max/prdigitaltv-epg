@@ -100,13 +100,23 @@ async function main() {
         }
       }
 
-      const coveredByProvider = new Set(providerEpg.programmes.map(p => p.channel));
+      const progIndex = new Map(providerEpg.programmes.map((p, i) => [`${p.channel}|${p.start}`, i]));
+      let added = 0, upgraded = 0;
       for (const prog of extra.programmes) {
-        if (!coveredByProvider.has(prog.channel)) {
+        const key = `${prog.channel}|${prog.start}`;
+        if (progIndex.has(key)) {
+          const idx = progIndex.get(key);
+          if (!providerEpg.programmes[idx].desc?.trim() && prog.desc?.trim()) {
+            providerEpg.programmes[idx] = prog;
+            upgraded++;
+          }
+        } else {
+          progIndex.set(key, providerEpg.programmes.length);
           providerEpg.programmes.push(prog);
+          added++;
         }
       }
-      console.log(`[pipeline] After merge: ${providerEpg.channels.length} channels, ${providerEpg.programmes.length} programmes`);
+      console.log(`[pipeline] After merge: ${providerEpg.channels.length} channels, ${providerEpg.programmes.length} programmes (+${added} new, ${upgraded} desc upgrades)`);
     } catch (err) {
       console.warn(`[pipeline] ${source.name} unavailable: ${err.message}`);
     }
