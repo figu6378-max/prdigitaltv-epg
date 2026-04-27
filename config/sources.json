@@ -5,8 +5,7 @@
       "url": "https://www.open-epg.com/generate/VchmwyY7n2.xml",
       "enabled": true,
       "gzip": false,
-      "bypass_filter": true,
-      "_comment": "PR local channels — full schedule merged; bypass keeps long-form DINO channel IDs in output"
+      "_comment": "PR local channels — full schedule merged with desc preference; channel IDs are in allowlist"
     },
     {
       "name": "iptv-epg-us",
