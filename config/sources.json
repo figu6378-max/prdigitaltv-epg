@@ -5,7 +5,8 @@
       "url": "https://www.open-epg.com/generate/VchmwyY7n2.xml",
       "enabled": true,
       "gzip": false,
-      "_comment": "PR local channels — full schedule merged with desc preference; channel IDs are in allowlist"
+      "prefer_desc": true,
+      "_comment": "Primary desc source for all matched channels — open-epg desc wins over provider desc"
     },
     {
       "name": "iptv-epg-us",

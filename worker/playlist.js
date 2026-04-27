@@ -116,7 +116,7 @@ export default {
           .replace(/^[A-Z]{2,4}\s*[-–]\s*/i, '')
           .trim();
         logo = stream.stream_icon || '';
-        groupTitle = 'general';
+        groupTitle = (stream.category_name || 'general').replace(/^\d+[-.\s]+/, '').trim() || 'general';
       } else {
         // Provider 1: use stream-map lookup by normalized name
         const key = normalize(stream.name);

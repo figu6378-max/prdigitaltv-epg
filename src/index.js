@@ -106,7 +106,9 @@ async function main() {
         const key = `${prog.channel}|${prog.start}`;
         if (progIndex.has(key)) {
           const idx = progIndex.get(key);
-          if (!providerEpg.programmes[idx].desc?.trim() && prog.desc?.trim()) {
+          const hasIncomingDesc = prog.desc?.trim();
+          const existingEmpty = !providerEpg.programmes[idx].desc?.trim();
+          if (hasIncomingDesc && (existingEmpty || source.prefer_desc)) {
             providerEpg.programmes[idx] = prog;
             upgraded++;
           }
