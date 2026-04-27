@@ -1409,18 +1409,6 @@
       "category": "puerto-rico"
     },
     {
-      "tvg-id": "WAPA.pr",
-      "category": "puerto-rico"
-    },
-    {
-      "tvg-id": "WKAQ.pr",
-      "category": "puerto-rico"
-    },
-    {
-      "tvg-id": "WKAQDT2.pr",
-      "category": "puerto-rico"
-    },
-    {
       "tvg-id": "WIPR.pr",
       "category": "puerto-rico"
     },
@@ -2026,6 +2014,10 @@
     },
     {
       "tvg-id": "WAPADT2.pr",
+      "category": "puerto-rico"
+    },
+    {
+      "tvg-id": "WAPAAM.pr",
       "category": "puerto-rico"
     },
     {

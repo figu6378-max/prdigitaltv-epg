@@ -6,9 +6,9 @@ const CACHE_TTL = 3600; // 1 hour
 // Keys are normalize(stream.name) values.
 const PROVIDER2_NAME_FALLBACK = {
   'latwapa':                       'WAPA.pr',
-  'latwapaamerica':                'WAPA.pr',
+  'latwapaamerica':                'WAPAAM.pr',
   'lattelemundopuertorico':        'WKAQ.pr',
-  'usatelemundo2wkaqpuertorico':   'WKAQ.pr',
+  'usatelemundo2wkaqpuertorico':   'WKAQDT2.pr',
   'usauniivision11prwlii':         'WLII.pr',
 };
 

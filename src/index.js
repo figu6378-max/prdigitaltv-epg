@@ -151,6 +151,25 @@ async function main() {
     console.warn('[pipeline] Run: npm run discover  to see actual tvg-id values from provider');
   }
 
+  // CHANNEL ALIASES: copy programmes from source to alias when alias has no programmes
+  // Used for DINO channels that share EPG data with a differently-named channel
+  const CHANNEL_ALIASES = {
+    'TelemundoWKAQ.us': 'WKAQ.us',
+  };
+  const progsByChannel = new Map();
+  for (const p of filtered.programmes) {
+    if (!progsByChannel.has(p.channel)) progsByChannel.set(p.channel, []);
+    progsByChannel.get(p.channel).push(p);
+  }
+  const filteredChannelIds = new Set(filtered.channels.map(c => c.id));
+  for (const [alias, source] of Object.entries(CHANNEL_ALIASES)) {
+    if (filteredChannelIds.has(alias) && !progsByChannel.has(alias) && progsByChannel.has(source)) {
+      const copied = progsByChannel.get(source).map(p => ({ ...p, channel: alias }));
+      filtered.programmes.push(...copied);
+      console.log(`[pipeline] Aliased ${copied.length} programmes from ${source} → ${alias}`);
+    }
+  }
+
   // FETCH: Secondary EPG for descriptions
   console.log('[pipeline] Loading secondary EPG sources...');
   const secondaryDescMap = await buildSecondaryDescMap(sources.secondary);
