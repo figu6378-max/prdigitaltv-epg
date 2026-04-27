@@ -82,12 +82,23 @@ export default {
       return new Response(`EPG map unavailable: ${err.message}`, { status: 502 });
     }
 
+    let categoryMap = {};
     try {
-      const apiUrl = `http://${host}/player_api.php?username=${encodeURIComponent(u)}&password=${encodeURIComponent(p)}&action=get_live_streams`;
-      const res = await fetch(apiUrl, { cf: { cacheTtl: 0 } });
+      const base = `http://${host}/player_api.php?username=${encodeURIComponent(u)}&password=${encodeURIComponent(p)}`;
+      const [streamsRes, catsRes] = await Promise.all([
+        fetch(`${base}&action=get_live_streams`, { cf: { cacheTtl: 0 } }),
+        fetch(`${base}&action=get_live_categories`, { cf: { cacheTtl: 300 } }),
+      ]);
 
-      if (!res.ok) return new Response('Invalid credentials or provider error', { status: 401 });
-      streams = await res.json();
+      if (!streamsRes.ok) return new Response('Invalid credentials or provider error', { status: 401 });
+      streams = await streamsRes.json();
+
+      if (catsRes.ok) {
+        const cats = await catsRes.json();
+        if (Array.isArray(cats)) {
+          for (const c of cats) categoryMap[c.category_id] = c.category_name;
+        }
+      }
     } catch (err) {
       return new Response(`Provider unreachable: ${err.message}`, { status: 502 });
     }
@@ -116,7 +127,7 @@ export default {
           .replace(/^[A-Z]{2,4}\s*[-–]\s*/i, '')
           .trim();
         logo = stream.stream_icon || '';
-        groupTitle = (stream.category_name || 'general').replace(/^\d+[-.\s]+/, '').trim() || 'general';
+        groupTitle = (stream.category_name || categoryMap[stream.category_id] || 'general').replace(/^\d+[-.\s]+/, '').trim() || 'general';
       } else {
         // Provider 1: use stream-map lookup by normalized name
         const key = normalize(stream.name);
