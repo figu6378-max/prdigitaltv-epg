@@ -146,6 +146,19 @@ async function main() {
   });
   console.log(`[pipeline] After dedup: ${filtered.programmes.length} programmes (removed ${beforeDedup - filtered.programmes.length} duplicates)`);
 
+  // Purge expired programmes (start time more than 1 hour in the past)
+  const purgeThreshold = Date.now() - 60 * 60 * 1000;
+  const beforePurge = filtered.programmes.length;
+  filtered.programmes = filtered.programmes.filter(p => {
+    const s = p.start; // e.g. "20260427183000 +0000"
+    const [datePart, tzPart = '+0000'] = s.trim().split(/\s+/);
+    const tz = tzPart.replace(/([+-])(\d{2})(\d{2})/, '$1$2:$3');
+    const iso = `${datePart.slice(0,4)}-${datePart.slice(4,6)}-${datePart.slice(6,8)}T${datePart.slice(8,10)}:${datePart.slice(10,12)}:${datePart.slice(12,14)}${tz}`;
+    const dt = new Date(iso);
+    return isNaN(dt.getTime()) || dt.getTime() >= purgeThreshold;
+  });
+  console.log(`[pipeline] After purge: ${filtered.programmes.length} programmes (removed ${beforePurge - filtered.programmes.length} expired)`);
+
   if (filtered.channels.length === 0) {
     console.warn('[pipeline] WARNING: 0 channels matched allowlist.');
     console.warn('[pipeline] Run: npm run discover  to see actual tvg-id values from provider');
