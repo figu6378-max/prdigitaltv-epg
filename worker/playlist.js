@@ -37,8 +37,8 @@ function normalizeGroupTitle(raw, tvgId) {
     .replace(/^\d+[-.\s]+/, '')
     .trim() || 'general';
   if (CONSOLIDATE_SUFFIX.has(suffix)) {
-    if (MOVIE_CAT_RE.test(cat)) return 'movies';
-    if (SPORTS_CAT_RE.test(cat)) return 'sports';
+    if (MOVIE_CAT_RE.test(cat)) return 'MOVIES';
+    if (SPORTS_CAT_RE.test(cat)) return 'SPORTS';
   }
   return cat;
 }
@@ -239,6 +239,8 @@ export default {
         name = decodeEntities(epg.displayName);
         logo = stream.stream_icon || epg.icon || '';
         groupTitle = epg.groupTitle;
+        if (groupTitle === 'movies') groupTitle = 'MOVIES';
+        else if (groupTitle === 'sports') groupTitle = 'SPORTS';
       }
 
       lines.push(
@@ -253,7 +255,7 @@ export default {
       const logo = stream.stream_icon || '';
       const rawCat = stream.category_name || vodCatMap[stream.category_id] || 'movies';
       // All VOD movie categories normalize to 'movies' when they match; keep specific genre otherwise
-      const groupTitle = MOVIE_CAT_RE.test(rawCat) ? 'movies' : rawCat;
+      const groupTitle = MOVIE_CAT_RE.test(rawCat) ? 'MOVIES' : rawCat;
       const ext = stream.container_extension || 'mp4';
       lines.push(
         `#EXTINF:-1 tvg-id="" tvg-name="${name}" tvg-logo="${logo}" group-title="${groupTitle}",${name}`,

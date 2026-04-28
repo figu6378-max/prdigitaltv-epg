@@ -20,6 +20,20 @@
       "enabled": true,
       "gzip": true,
       "_comment": "Large US EPG — covers Telemundo affiliates (WNJU, WSCV) not in iptv-epg-us"
+    },
+    {
+      "name": "epg-pw-es",
+      "url": "https://epg.pw/xmltv/epg_ES.xml.gz",
+      "enabled": true,
+      "gzip": true,
+      "_comment": "Spain EPG — schedule + descriptions for Spain allowlist channels"
+    },
+    {
+      "name": "epg-pw-uk",
+      "url": "https://epg.pw/xmltv/epg_GB.xml.gz",
+      "enabled": true,
+      "gzip": true,
+      "_comment": "UK EPG — schedule + descriptions for UK allowlist channels (Sky Cinema etc)"
     }
   ],
   "secondary": [
