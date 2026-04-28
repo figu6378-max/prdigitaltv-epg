@@ -22,6 +22,24 @@ function normalize(s) {
     .replace(/(hd|fhd|uhd|4k|hevc)$/, ''); // strip quality suffix
 }
 
+async function fetchWithRetry(url, params, retries = 4, delay = 15000) {
+  for (let attempt = 1; attempt <= retries; attempt++) {
+    try {
+      const res = await axios.get(url, { params, timeout: 30000 });
+      return res;
+    } catch (err) {
+      const status = err.response?.status;
+      if (attempt < retries) {
+        console.warn(`[stream-map] Attempt ${attempt} failed (${status ?? err.message}), retrying in ${delay / 1000}s...`);
+        await new Promise(r => setTimeout(r, delay));
+        delay *= 2;
+      } else {
+        throw err;
+      }
+    }
+  }
+}
+
 async function main() {
   const allowlist = JSON.parse(readFileSync('config/channels-allowlist.json', 'utf8'));
   const discovered = JSON.parse(readFileSync('config/channels-discovered.json', 'utf8'));
@@ -29,9 +47,8 @@ async function main() {
   const discMap = new Map(discovered.channels.map(c => [c['tvg-id'], c]));
 
   console.log('[stream-map] Fetching live streams from provider API...');
-  const res = await axios.get(`http://${PROVIDER_HOST}/player_api.php`, {
-    params: { username: PROVIDER_USER, password: PROVIDER_PASS, action: 'get_live_streams' },
-    timeout: 30000,
+  const res = await fetchWithRetry(`http://${PROVIDER_HOST}/player_api.php`, {
+    username: PROVIDER_USER, password: PROVIDER_PASS, action: 'get_live_streams',
   });
   const streams = res.data;
   console.log(`[stream-map] Provider: ${streams.length} streams`);
