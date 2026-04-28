@@ -2183,6 +2183,20 @@
     {
       "tvg-id": "WSCV.us",
       "category": "puerto-rico"
-    }
+    },
+    { "tvg-id": "GAME1.pr",  "category": "sports" },
+    { "tvg-id": "GAME2.pr",  "category": "sports" },
+    { "tvg-id": "GAME3.pr",  "category": "sports" },
+    { "tvg-id": "GAME4.pr",  "category": "sports" },
+    { "tvg-id": "GAME5.pr",  "category": "sports" },
+    { "tvg-id": "GAME6.pr",  "category": "sports" },
+    { "tvg-id": "GAME7.pr",  "category": "sports" },
+    { "tvg-id": "GAME8.pr",  "category": "sports" },
+    { "tvg-id": "GAME9.pr",  "category": "sports" },
+    { "tvg-id": "GME10.pr",  "category": "sports" },
+    { "tvg-id": "GME11.pr",  "category": "sports" },
+    { "tvg-id": "GME12.pr",  "category": "sports" },
+    { "tvg-id": "GME13.pr",  "category": "sports" },
+    { "tvg-id": "GME14.pr",  "category": "sports" }
   ]
 }
