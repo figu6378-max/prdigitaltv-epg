@@ -73,9 +73,10 @@ jobs:
       - name: Commit updated EPG
         run: |
           cp output/epg.xml epg.xml
+          git add -u
           git add epg.xml
           if git diff --staged --quiet; then
-            echo "No changes to epg.xml"
+            echo "No changes to commit"
           else
             git commit -m "chore: update epg.xml [$(date -u '+%Y-%m-%d %H:%M UTC')]"
             git push || (git pull --rebase origin main && git push)
