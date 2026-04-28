@@ -57,6 +57,13 @@
       "enabled": true,
       "gzip": true,
       "_comment": "Priority 5 — Spain channel descriptions"
+    },
+    {
+      "name": "epg-pw-uk",
+      "url": "https://epg.pw/xmltv/epg_GB.xml.gz",
+      "enabled": true,
+      "gzip": true,
+      "_comment": "Priority 6 — UK channel descriptions"
     }
   ]
 }
