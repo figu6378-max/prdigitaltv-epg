@@ -12,6 +12,7 @@ const PROVIDER2_NAME_FALLBACK = {
 
 // Category consolidation for US/CA/UK/ES live channels
 const CONSOLIDATE_SUFFIX = new Set(['us', 'ca', 'uk', 'gb', 'es']);
+const CONSOLIDATE_COUNTRY_RE = /\b(usa?|canada|uk|spain)\b/i;
 const MOVIE_CAT_RE = /pel[ií]culas?|cinema|cine\b|movies?|films?/i;
 const SPORTS_CAT_RE = /deportes?|sports?/i;
 
@@ -36,7 +37,8 @@ function normalizeGroupTitle(raw, tvgId) {
     .replace(/^\|[^|]+\|\s*/, '')
     .replace(/^\d+[-.\s]+/, '')
     .trim() || 'general';
-  if (CONSOLIDATE_SUFFIX.has(suffix)) {
+  const isTarget = CONSOLIDATE_SUFFIX.has(suffix) || CONSOLIDATE_COUNTRY_RE.test(cat);
+  if (isTarget) {
     if (MOVIE_CAT_RE.test(cat)) return 'MOVIES';
     if (SPORTS_CAT_RE.test(cat)) return 'SPORTS';
   }
