@@ -196,11 +196,19 @@ export default {
     const liveStreams = await liveRes.json();
 
     let mapping = {};
-    if (!isProvider2) {
-      try {
-        mapping = await getMapping(ctx);
-      } catch (err) {
-        return new Response(`EPG map unavailable: ${err.message}`, { status: 502 });
+    try {
+      mapping = await getMapping(ctx);
+    } catch (err) {
+      if (!isProvider2) return new Response(`EPG map unavailable: ${err.message}`, { status: 502 });
+      // provider 2 can work without the map; tvgCatMap will be empty
+    }
+
+    // Inverted allowlist lookup: tvgId → groupTitle (from allowlist via stream-epg-map)
+    // Lets provider 2 use allowlist categories instead of provider category names.
+    const tvgCatMap = {};
+    for (const entry of Object.values(mapping)) {
+      if (entry.tvgId && !tvgCatMap[entry.tvgId]) {
+        tvgCatMap[entry.tvgId] = entry.groupTitle;
       }
     }
 
@@ -236,7 +244,13 @@ export default {
           if (seen.has(resolvedId)) continue;
           seen.add(resolvedId);
           tvgId = resolvedId;
-          groupTitle = normalizeGroupTitle(rawCat, tvgId);
+          // Use allowlist category (from stream-epg-map) when available — reliable.
+          // Fall back to provider category name normalization for channels not in map.
+          const allowlistCat = tvgCatMap[resolvedId];
+          if (allowlistCat === 'movies') groupTitle = 'MOVIES';
+          else if (allowlistCat === 'sports') groupTitle = 'SPORTS';
+          else if (allowlistCat) groupTitle = allowlistCat;
+          else groupTitle = normalizeGroupTitle(rawCat, tvgId);
         }
       } else {
         const key = normalize(stream.name);
