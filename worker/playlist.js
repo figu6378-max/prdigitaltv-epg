@@ -218,17 +218,26 @@ export default {
       if (isProvider2) {
         const epgId = stream.epg_channel_id && stream.epg_channel_id.trim();
         const resolvedId = epgId || PROVIDER2_NAME_FALLBACK[normalize(stream.name)] || '';
-        if (!resolvedId) continue;
-        if (seen.has(resolvedId)) continue;
-        seen.add(resolvedId);
-        tvgId = resolvedId;
+        const rawCat = stream.category_name || liveCatMap[stream.category_id] || 'general';
+        const catStripped = rawCat.replace(/^\|[^|]+\|\s*/, '').replace(/^\d+[-.\s]+/, '').trim() || 'general';
         name = stream.name
           .replace(/^\|[^|]+\|\s*/, '')
           .replace(/^[A-Z]{2,4}\s*[-–]\s*/i, '')
           .trim();
         logo = stream.stream_icon || '';
-        const rawCat = stream.category_name || liveCatMap[stream.category_id] || 'general';
-        groupTitle = normalizeGroupTitle(rawCat, tvgId);
+
+        if (!resolvedId) {
+          // No EPG ID — include only if category is movies or sports
+          if (MOVIE_CAT_RE.test(catStripped)) groupTitle = 'MOVIES';
+          else if (SPORTS_CAT_RE.test(catStripped)) groupTitle = 'SPORTS';
+          else continue;
+          tvgId = '';
+        } else {
+          if (seen.has(resolvedId)) continue;
+          seen.add(resolvedId);
+          tvgId = resolvedId;
+          groupTitle = normalizeGroupTitle(rawCat, tvgId);
+        }
       } else {
         const key = normalize(stream.name);
         const epg = mapping[key];
