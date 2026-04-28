@@ -1449,6 +1449,110 @@
       "category": "spain"
     },
     {
+      "tvg-id": "LA1.es",
+      "category": "spain"
+    },
+    {
+      "tvg-id": "LA2.es",
+      "category": "spain"
+    },
+    {
+      "tvg-id": "LaSexta.es",
+      "category": "spain"
+    },
+    {
+      "tvg-id": "LaSexta.sp",
+      "category": "spain"
+    },
+    {
+      "tvg-id": "Cuatro.es",
+      "category": "spain"
+    },
+    {
+      "tvg-id": "Neox.es",
+      "category": "spain"
+    },
+    {
+      "tvg-id": "Nova.es",
+      "category": "spain"
+    },
+    {
+      "tvg-id": "Energy.es",
+      "category": "spain"
+    },
+    {
+      "tvg-id": "ClanTVE.es",
+      "category": "spain"
+    },
+    {
+      "tvg-id": "Divinity.es",
+      "category": "spain"
+    },
+    {
+      "tvg-id": "DKISS.es",
+      "category": "spain"
+    },
+    {
+      "tvg-id": "Dmax.es",
+      "category": "spain"
+    },
+    {
+      "tvg-id": "Ten.es",
+      "category": "spain"
+    },
+    {
+      "tvg-id": "TEN.es",
+      "category": "spain"
+    },
+    {
+      "tvg-id": "13TV.es",
+      "category": "spain"
+    },
+    {
+      "tvg-id": "Trece.es",
+      "category": "spain"
+    },
+    {
+      "tvg-id": "LaOtra.es",
+      "category": "spain"
+    },
+    {
+      "tvg-id": "Hollywood.es",
+      "category": "spain"
+    },
+    {
+      "tvg-id": "Odisea.es",
+      "category": "spain"
+    },
+    {
+      "tvg-id": "Somos.es",
+      "category": "spain"
+    },
+    {
+      "tvg-id": "TCM.es",
+      "category": "spain"
+    },
+    {
+      "tvg-id": "ParamountChannel.es",
+      "category": "spain"
+    },
+    {
+      "tvg-id": "Paramount.es",
+      "category": "spain"
+    },
+    {
+      "tvg-id": "Dmax.es",
+      "category": "spain"
+    },
+    {
+      "tvg-id": "DiscoveryIberia.es",
+      "category": "spain"
+    },
+    {
+      "tvg-id": "TVEIntEu.es",
+      "category": "spain"
+    },
+    {
       "tvg-id": "BeinSportsExtra1.qa",
       "category": "sports"
     },
@@ -1601,6 +1705,10 @@
       "category": "sports"
     },
     {
+      "tvg-id": "MLB Strike Zone - MLBSZ1",
+      "category": "sports"
+    },
+    {
       "tvg-id": "MonumentalSportsNetwork.us",
       "category": "sports"
     },
@@ -1666,6 +1774,22 @@
     },
     {
       "tvg-id": "AbuDhabiSports2En.ae",
+      "category": "sports"
+    },
+    {
+      "tvg-id": "ESPN2.us",
+      "category": "sports"
+    },
+    {
+      "tvg-id": "ESPNU.us",
+      "category": "sports"
+    },
+    {
+      "tvg-id": "NBATV.us",
+      "category": "sports"
+    },
+    {
+      "tvg-id": "WNBA.us",
       "category": "sports"
     },
     {
@@ -2025,6 +2149,14 @@
       "category": "puerto-rico"
     },
     {
+      "tvg-id": "WKAQ.us",
+      "category": "puerto-rico"
+    },
+    {
+      "tvg-id": "TelemundoWKAQ.us",
+      "category": "puerto-rico"
+    },
+    {
       "tvg-id": "WKAQDT2.pr",
       "category": "puerto-rico"
     },
@@ -2038,6 +2170,10 @@
     },
     {
       "tvg-id": "MEGDTV.pr",
+      "category": "puerto-rico"
+    },
+    {
+      "tvg-id": "WAPADeportes.pr",
       "category": "puerto-rico"
     },
     {
