@@ -92,4 +92,12 @@ async function main() {
   console.log('[stream-map] Written stream-epg-map.json');
 }
 
-main().catch(err => { console.error('[stream-map] Fatal:', err.message); process.exit(1); });
+main().catch(err => {
+  const status = err.response?.status;
+  if (status === 513 || status === 884 || status === 403) {
+    console.warn(`[stream-map] Provider blocked (HTTP ${status}) — keeping existing stream-epg-map.json`);
+    process.exit(0);
+  }
+  console.error('[stream-map] Fatal:', err.message);
+  process.exit(1);
+});
