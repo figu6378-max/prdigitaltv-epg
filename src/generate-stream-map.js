@@ -22,6 +22,8 @@ function normalize(s) {
     .replace(/(hd|fhd|uhd|4k|hevc)$/, ''); // strip quality suffix
 }
 
+const PERMANENT_BLOCKS = new Set([513, 884, 403]);
+
 async function fetchWithRetry(url, params, retries = 4, delay = 15000) {
   for (let attempt = 1; attempt <= retries; attempt++) {
     try {
@@ -29,6 +31,7 @@ async function fetchWithRetry(url, params, retries = 4, delay = 15000) {
       return res;
     } catch (err) {
       const status = err.response?.status;
+      if (PERMANENT_BLOCKS.has(status)) throw err;
       if (attempt < retries) {
         console.warn(`[stream-map] Attempt ${attempt} failed (${status ?? err.message}), retrying in ${delay / 1000}s...`);
         await new Promise(r => setTimeout(r, delay));
