@@ -205,12 +205,13 @@ export default {
       // provider 2 can work without the map; tvgCatMap will be empty
     }
 
-    // Inverted allowlist lookup: tvgId → groupTitle (from allowlist via stream-epg-map)
-    // Lets provider 2 use allowlist categories instead of provider category names.
+    // Inverted allowlist lookup: tvgId → groupTitle and displayName (from allowlist via stream-epg-map)
     const tvgCatMap = {};
+    const tvgDisplayMap = {};
     for (const entry of Object.values(mapping)) {
-      if (entry.tvgId && !tvgCatMap[entry.tvgId]) {
-        tvgCatMap[entry.tvgId] = entry.groupTitle;
+      if (entry.tvgId) {
+        if (!tvgCatMap[entry.tvgId]) tvgCatMap[entry.tvgId] = entry.groupTitle;
+        if (!tvgDisplayMap[entry.tvgId] && entry.displayName) tvgDisplayMap[entry.tvgId] = entry.displayName;
       }
     }
 
@@ -230,13 +231,14 @@ export default {
         const resolvedId = epgId || PROVIDER2_NAME_FALLBACK[normalize(stream.name)] || '';
         const rawCat = stream.category_name || liveCatMap[stream.category_id] || 'general';
         const catStripped = rawCat.replace(/^\|[^|]+\|\s*/, '').replace(/^\d+[-.\s]+/, '').trim() || 'general';
-        name = stream.name
+        const streamNameClean = stream.name
           .replace(/^\|[^|]+\|\s*/, '')
           .replace(/^[A-Z]{2,4}\s*[-–]\s*/i, '')
           .trim();
         logo = stream.stream_icon || '';
 
         if (!resolvedId) {
+          name = streamNameClean;
           // No EPG ID — include only if category is movies or sports
           if (MOVIE_CAT_RE.test(catStripped)) groupTitle = 'MOVIES';
           else if (SPORTS_CAT_RE.test(catStripped)) groupTitle = 'SPORTS';
@@ -246,8 +248,7 @@ export default {
           if (seen.has(resolvedId)) continue;
           seen.add(resolvedId);
           tvgId = resolvedId;
-          // Use allowlist category (from stream-epg-map) when available — reliable.
-          // Fall back to provider category name normalization for channels not in map.
+          name = tvgDisplayMap[resolvedId] || streamNameClean;
           const allowlistCat = tvgCatMap[resolvedId];
           if (allowlistCat === 'movies') groupTitle = 'MOVIES';
           else if (allowlistCat === 'sports') groupTitle = 'SPORTS';

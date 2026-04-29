@@ -69,7 +69,7 @@ async function main() {
 
   for (const ch of allowlist.channels) {
     const disc = discMap.get(ch['tvg-id']);
-    const displayName = disc?.displayName || ch['tvg-id'];
+    const displayName = ch.displayName || disc?.displayName || ch['tvg-id'];
     const key = normalize(displayName);
     const stream = streamIndex.get(key);
 

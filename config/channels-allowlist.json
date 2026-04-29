@@ -2,1363 +2,1703 @@
   "channels": [
     {
       "tvg-id": "CTVDrama.ca",
-      "category": "general"
+      "category": "CANADA GENERAL",
+      "displayName": "CTV Drama Channel"
     },
     {
       "tvg-id": "CKCK.ca",
-      "category": "general"
+      "category": "CANADA GENERAL",
+      "displayName": "CTV News Regina HD"
     },
     {
       "tvg-id": "WQRF.us",
-      "category": "general"
+      "category": "ESPAÑA GENERAL",
+      "displayName": "FOX 39 ROCKFORD IL ("
     },
     {
       "tvg-id": "Laff.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "LAFF TV  HD"
     },
     {
       "tvg-id": "NatGeo.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "NATIONAL GEOGRAPHIC"
     },
     {
       "tvg-id": "NatGeoWild.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "NATIONAL GEOGRAPHIC"
     },
     {
       "tvg-id": "news7whdh.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "NEWS BOSTON (WHDH) H"
     },
     {
       "tvg-id": "AandE.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "A&E HD"
     },
     {
       "tvg-id": "WPLG.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "ABC 10 (WPLG) Miami (A) HD"
     },
     {
       "tvg-id": "WHAS.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "ABC 11 LOUISVILLE KY (WHAS) HD"
     },
     {
       "tvg-id": "KTRK.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "ABC 13 (KTRK) HOUSTON HD"
     },
     {
       "tvg-id": "WHAM.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "ABC 13 (WHAM) ROCHESTER"
     },
     {
       "tvg-id": "KNXV.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "ABC 15 (KNXV) PHOENIX HD"
     },
     {
       "tvg-id": "WTVO.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "ABC 17 ROCKFORD IL (WTVO) HD"
     },
     {
       "tvg-id": "WVNY.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "ABC 22 BURLINGTON HD"
     },
     {
       "tvg-id": "abc26wgno.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "ABC 26 HD [NEW ORLEANS]"
     },
     {
       "tvg-id": "WBMA.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "ABC 33 BIRMINGHAM AL (WABM) HD"
     },
     {
       "tvg-id": "WBND.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "ABC 57 (WBND) South Bend"
     },
     {
       "tvg-id": "KMGH.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "ABC 7 (KMGH) DENVER HD"
     },
     {
       "tvg-id": "WLS.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "ABC 7 (WLS) CHICAGO HD"
     },
     {
       "tvg-id": "KATV.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "ABC 7 LITTLE ROCK AR (KATV)"
     },
     {
       "tvg-id": "KETV.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "ABC 7 OMAHA NE (KETV) HD"
     },
     {
       "tvg-id": "WFAA.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "ABC 8 (WFAA) DALLAS HD"
     },
     {
       "tvg-id": "WTVA.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "ABC GOOD MORNING AME"
     },
     {
       "tvg-id": "ACCNetwork.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "CC NETWORK HD"
     },
     {
       "tvg-id": "AdultSwim.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "DULT SWIM HD"
     },
     {
       "tvg-id": "animalplanet.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "NIMAL PLANET HD"
     },
     {
       "tvg-id": "AntennaTV.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "ANTENNA TV"
     },
     {
       "tvg-id": "AspireTV.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "ASPIRE HD"
     },
     {
       "tvg-id": "AWealthofEntertainment.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "AWE HD"
     },
     {
       "tvg-id": "AXSTV.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "AXS TV HD"
     },
     {
       "tvg-id": "BabyFirstTV.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "ABY FIRST HD"
     },
     {
       "tvg-id": "BBCAmerica.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "BBC AMERICA HD"
     },
     {
       "tvg-id": "BETGospel.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "BET GOSPEL"
     },
     {
       "tvg-id": "BET.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "BET HD"
     },
     {
       "tvg-id": "BetHer.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "BET HER HD"
     },
     {
       "tvg-id": "BETjams.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "BET JAMS HD"
     },
     {
       "tvg-id": "BETSoul.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "BET SOUL"
     },
     {
       "tvg-id": "BigTenNetwork.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "BIG TEN NETWORK HD"
     },
     {
       "tvg-id": "BlazeTV.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "BLAZE TV"
     },
     {
       "tvg-id": "Boomerang.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "BOOMERANG HD"
     },
     {
       "tvg-id": "BounceTV.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "BOUNCE TV HD"
     },
     {
       "tvg-id": "PlutoBounceXL.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "BOUNCE XL"
     },
     {
       "tvg-id": "Bravo.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "BRAVO HD"
     },
     {
       "tvg-id": "BuzzrTV.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "BUZZR"
     },
     {
       "tvg-id": "BrighamYoungUniversity.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "BYU TV"
     },
     {
       "tvg-id": "CartoonNetwork.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "CARTOON NETWORK HD"
     },
     {
       "tvg-id": "WAFB.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "CBS (WAFB) BATON ROUGE HD"
     },
     {
       "tvg-id": "WFOR.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "CBS (WFOR) Miami (F) HD"
     },
     {
       "tvg-id": "KOIN.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "CBS (WGME) PORTLAND MAINE"
     },
     {
       "tvg-id": "KREX.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "CBS (WNCN) GOLDSBORO NORTH CAR"
     },
     {
       "tvg-id": "WBZ.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "CBS (WSBK) BOSTON HD"
     },
     {
       "tvg-id": "KOLN.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "CBS 10 (KOLN) LINCOLN HD"
     },
     {
       "tvg-id": "KWTX.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "CBS 10 (KWTX) WACO HD"
     },
     {
       "tvg-id": "KTVT.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "CBS 11 (KTVT) FORT WORTH HD"
     },
     {
       "tvg-id": "WTOL.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "CBS 11 (WTOL) TOLEDO HD"
     },
     {
       "tvg-id": "KKTV.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "CBS 11 COLORADO SPRINGS CO (KK"
     },
     {
       "tvg-id": "KTHV.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "CBS 11 LITTLE ROCK AR (KTHV) H"
     },
     {
       "tvg-id": "WTOC.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "CBS 11 SAVANNAH GA (WTOC) HD"
     },
     {
       "tvg-id": "KSLA.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "CBS 12 (KSLA) SHREVEPORT HD"
     },
     {
       "tvg-id": "WDEF.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "CBS 12 (WDEF) CHATTANOOGA HD"
     },
     {
       "tvg-id": "WPEC.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "CBS 12 (WPEC) WEST PALM BEACH"
     },
     {
       "tvg-id": "WPRI.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "CBS 12 (WPRI) PROVIDENCE HD"
     },
     {
       "tvg-id": "KRQE.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "CBS 13 (KRQE) ALBUQUERQUE HD"
     },
     {
       "tvg-id": "KRCG.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "CBS 13 JEFFERSON CITY MO (KRCG"
     },
     {
       "tvg-id": "KBOI.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "CBS 2 (KBOI) BOISE HD"
     },
     {
       "tvg-id": "KDKA.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "CBS 2 (KDKA) PITTSBURGH HD"
     },
     {
       "tvg-id": "KPSP.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "CBS 2 (KPSP) PALM SPRINGS HD"
     },
     {
       "tvg-id": "KREM.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "CBS 2 (KREM) SPOKANE HD"
     },
     {
       "tvg-id": "KUTV.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "CBS 2 (KUTV) SALT LAKE CITY HD"
     },
     {
       "tvg-id": "WFMY.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "CBS 2 (WFMY) GREENSBORO HD"
     },
     {
       "tvg-id": "KBAK.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "CBS 29 (KBAK) BAKERSFIELD HD"
     },
     {
       "tvg-id": "KMTV.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "CBS 3 (KMTV) OMAHA HD"
     },
     {
       "tvg-id": "WCAX.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "CBS 3 (WCAX) BURLINGTON HD"
     },
     {
       "tvg-id": "WISC.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "CBS 3 (WISC) MADISON HD"
     },
     {
       "tvg-id": "WREG.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "CBS 3 (WREG) MEMPHIS HD"
     },
     {
       "tvg-id": "WWMT.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "CBS 3 (WWMT) KALAMAZOO HD"
     },
     {
       "tvg-id": "WLKY.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "CBS 32 (WLKY) LOUISVILLE HD"
     },
     {
       "tvg-id": "WIVB.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "CBS 4 (#) BUFFALO HD"
     },
     {
       "tvg-id": "KCNC.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "CBS 4 (KCNC) DENVER HD"
     },
     {
       "tvg-id": "WTTV.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "CBS 4 (WTTV) INDIANAPOLIS HD"
     },
     {
       "tvg-id": "WWL.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "CBS 4 (WWL) NEW ORLEANS HD"
     },
     {
       "tvg-id": "WIAT.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "CBS 42 BIRMINGHAM AL (WIAT) HD"
     },
     {
       "tvg-id": "WEVV.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "CBS 44 (WEVV) EVANSVILLE HD"
     },
     {
       "tvg-id": "WANF.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "CBS 46 (WGCL) ATLANTA HD"
     },
     {
       "tvg-id": "KGPE.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "CBS 47 (KGPE) FRESNO HD"
     },
     {
       "tvg-id": "WJAX.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "CBS 47 (WJAX) JACKSONVILLE HD"
     },
     {
       "tvg-id": "KCTV.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "CBS 5 (KCTV) KANSAS CITY HD"
     },
     {
       "tvg-id": "KFSM.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "CBS 5 (KFSM) FORT SMITH HD"
     },
     {
       "tvg-id": "KPHO.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "CBS 5 (KPHO) PHOENIX HD"
     },
     {
       "tvg-id": "KPIX.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "CBS 5 (KPIX) SAN FRANCISCO HD"
     },
     {
       "tvg-id": "KAUZ.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "CBS 6 (KAUZ) WICHITA FALLS HD"
     },
     {
       "tvg-id": "WLNS.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "CBS 6 (WLNS) LANSING HD"
     },
     {
       "tvg-id": "WWJ.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "CBS 62 (WWJ) DETROIT HD"
     },
     {
       "tvg-id": "WHIO.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "CBS 7 (WHIO) DAYTON HD"
     },
     {
       "tvg-id": "WROC.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "CBS 8 (WROC) ROCHESTER HD"
     },
     {
       "tvg-id": "WVLT.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "CBS 8 (WVLT) KNOXVILLE HD"
     },
     {
       "tvg-id": "WWTV.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "CBS 9 (WWTV) CADILLAC HD"
     },
     {
       "tvg-id": "WFSB.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "CBS HARTFORD (WFSB)"
     },
     {
       "tvg-id": "KYW.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "CBS PHILADELPHIA"
     },
     {
       "tvg-id": "ChargeTV.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "CHARGE!"
     },
     {
       "tvg-id": "CheddarBusiness.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "CHEDDAR BUSINESS HD"
     },
     {
       "tvg-id": "CheddarNews.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "CHEDDAR NEWS HD"
     },
     {
       "tvg-id": "CleoTV.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "CLEO TV 4K"
     },
     {
       "tvg-id": "CMT.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "MT HD"
     },
     {
       "tvg-id": "CNBC.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "NBC HD"
     },
     {
       "tvg-id": "CNBCWorld.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "NBC WORLD HD"
     },
     {
       "tvg-id": "ComedyCentral.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "COMEDY CENTRAL HD"
     },
     {
       "tvg-id": "Comet.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "COMET HD"
     },
     {
       "tvg-id": "CookingChannel.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "COOKING CHANNEL HD"
     },
     {
       "tvg-id": "CourtTV.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "COURT TV HD"
     },
     {
       "tvg-id": "TheCowboyChannel.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "COWBOY CHANNEL"
     },
     {
       "tvg-id": "CoziTV.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "COZI"
     },
     {
       "tvg-id": "CrimeInvestigation.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "CRIME &amp; INVESTIGATION HD"
     },
     {
       "tvg-id": "KWGN.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "CW 2 (KWGN) DERVER"
     },
     {
       "tvg-id": "WNLO.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "CW 23 BUFFALO NY (WNLO)"
     },
     {
       "tvg-id": "WSFL.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "CW 39 HD [MIAMI]"
     },
     {
       "tvg-id": "KBCW.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "CW 44 HD [SAN FRANCISCO]"
     },
     {
       "tvg-id": "WXCW.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "CW 46 HD [FORT MYERS]"
     },
     {
       "tvg-id": "WWHO.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "CW 53 HD [COLUMBUS]"
     },
     {
       "tvg-id": "WNUV.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "CW 54 HD [BALTIMORE]"
     },
     {
       "tvg-id": "WLVI.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "CW 56 HD [BOSTON]"
     },
     {
       "tvg-id": "WPSG.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "CW 57 [PHILADELPHIA]"
     },
     {
       "tvg-id": "WZTVDT2.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "CW 58 [NASHVILLE]"
     },
     {
       "tvg-id": "WBKI.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "CW 58 HD [LOUISVILLE]"
     },
     {
       "tvg-id": "WPCW.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "CW PITTSBURGH"
     },
     {
       "tvg-id": "KMAX.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "CW SAN FRANCISCO HD"
     },
     {
       "tvg-id": "KQCW.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "CW TAMPA BAY HD"
     },
     {
       "tvg-id": "WKMGDT2.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "ABL"
     },
     {
       "tvg-id": "Daystar.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "DAYSTAR HD"
     },
     {
       "tvg-id": "Decades.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "ECADES"
     },
     {
       "tvg-id": "DestinationAmerica.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "DESTINATION AMERICA HD"
     },
     {
       "tvg-id": "DiscoveryFamily.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "DISCOVERY FAMILY HD"
     },
     {
       "tvg-id": "DiscoveryChannel.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "DISCOVERY HD"
     },
     {
       "tvg-id": "DiscoveryLife.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "DISCOVERY LIFE HD"
     },
     {
       "tvg-id": "DisneyJunior.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "DISNEY JR HD"
     },
     {
       "tvg-id": "DisneyXD.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "DISNEY XD HD"
     },
     {
       "tvg-id": "DogTV.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "DOG TV HD"
     },
     {
       "tvg-id": "EEntertainment.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "E! ENTERTAINMENT HD"
     },
     {
       "tvg-id": "Euronews.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "EURONEWS"
     },
     {
       "tvg-id": "EWTN.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "EWTN CATHOLIC"
     },
     {
       "tvg-id": "FanDuelMidwestIndiana.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "ANDUEL MIDWEST"
     },
     {
       "tvg-id": "FamilyEntertainment.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "FETV"
     },
     {
       "tvg-id": "FoodNetwork.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "FOOD NETWORK HD"
     },
     {
       "tvg-id": "KSAZ.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "FOX 10 (KSAZ) PHOENIX HD"
     },
     {
       "tvg-id": "WALA.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "FOX 10 HD [MOBILE]"
     },
     {
       "tvg-id": "KMSB.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "FOX 11 (KMSB) TUCSON HD"
     },
     {
       "tvg-id": "WLUK.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "FOX 11 (WLUK) GREEN BAY HD"
     },
     {
       "tvg-id": "WCHSDT2.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "FOX 11 (WVAH) CHARLESTON HD"
     },
     {
       "tvg-id": "KPTV.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "FOX 12 (KPTV) PORTLAND HD"
     },
     {
       "tvg-id": "KSTU.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "FOX 13 (KSTU) SALT LAKE CITY H"
     },
     {
       "tvg-id": "WHBQ.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "FOX 13 (WHBQ) MEMPHIS HD"
     },
     {
       "tvg-id": "KFOX.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "FOX 14 (KFOX) EL PASO HD"
     },
     {
       "tvg-id": "KADN.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "FOX 15 (KADN) LAFAYETTE HD"
     },
     {
       "tvg-id": "KVRR.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "FOX 15 (KVRR) FARGO HD"
     },
     {
       "tvg-id": "KLRT.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "FOX 16 LITTLE ROCK AR (KLRT)"
     },
     {
       "tvg-id": "WXMI.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "FOX 17 (WXMI) GRAND RAPIDS HD"
     },
     {
       "tvg-id": "KLJB.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "FOX 18 (KLJB) DAVENPORT HD"
     },
     {
       "tvg-id": "KTVI.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "FOX 2 (KTVI) ST. LOUIS HD"
     },
     {
       "tvg-id": "WJBK.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "FOX 2 (WJBK) DETROIT HD"
     },
     {
       "tvg-id": "KXRM.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "FOX 21 (KXRM) COLORADO SPRINGS"
     },
     {
       "tvg-id": "WXXA.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "FOX 23 (WXXA) ALBANY HD"
     },
     {
       "tvg-id": "KSAS.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "FOX 24 (KSAS) WICHITA HD"
     },
     {
       "tvg-id": "WTAT.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "FOX 24 (WTAT) CHARLESTON HD"
     },
     {
       "tvg-id": "KOKH.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "FOX 25 (KOKH) OKLAHOMA CITY HD"
     },
     {
       "tvg-id": "WFXT.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "FOX 25 (WFXT) BOSTON HD"
     },
     {
       "tvg-id": "KMPH.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "FOX 26 (KMPH) FRESNO HD"
     },
     {
       "tvg-id": "WTTE.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "FOX 28 (WTTE) COLUMBHD"
     },
     {
       "tvg-id": "WUTV.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "FOX 29"
     },
     {
       "tvg-id": "WFLX.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "FOX 29 (WFLX) WEST PALM BEACH"
     },
     {
       "tvg-id": "WFOX.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "FOX 30 (WFOX) JACKSONVILLE HD"
     },
     {
       "tvg-id": "KDVR.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "FOX 31 (KDVR) DENVER HD"
     },
     {
       "tvg-id": "WFLD.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "FOX 32 (WFLD) CHICAGO HD"
     },
     {
       "tvg-id": "KCBA.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "FOX 35 (KCBA) SALINAS HD"
     },
     {
       "tvg-id": "WRLH.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "FOX 35 (WRLH) RICHMOND HD"
     },
     {
       "tvg-id": "WUPW.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "FOX 36 (WUPW) TOLEDO HD"
     },
     {
       "tvg-id": "KDFI.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "FOX 4 (KDFW) DALLAS HD"
     },
     {
       "tvg-id": "WDAF.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "FOX 4 (WDAF) KANSAS CITY HD"
     },
     {
       "tvg-id": "KFQX.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "FOX 4 GRAND JUNCTION CO (KFQX)"
     },
     {
       "tvg-id": "WDBD.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "FOX 40 (WDBD) JACKSON HD"
     },
     {
       "tvg-id": "WDRB.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "FOX 41 (WDRB) LOUISVILLE HD"
     },
     {
       "tvg-id": "WTNZ.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "FOX 43 (WTNZ) KNOXVILLE HD"
     },
     {
       "tvg-id": "WVBT.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "FOX 43 (WVBT) VIRGINIA BEACH H"
     },
     {
       "tvg-id": "WFFF.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "FOX 44 (WFFF) BURLINGTON HD"
     },
     {
       "tvg-id": "WSYM.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "FOX 47 (WSYM) LANSING HD"
     },
     {
       "tvg-id": "KFXK.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "FOX 51 (KFXK) LONGVIEW HD"
     },
     {
       "tvg-id": "WXTX.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "FOX 54 (WXTX) Columbus GA HD"
     },
     {
       "tvg-id": "WZDX.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "FOX 54 (WZDX) HUNTSVILLE HD"
     },
     {
       "tvg-id": "WACH.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "FOX 57 (WACH) COLUMBIA HD"
     },
     {
       "tvg-id": "WTIC.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "FOX 61 HARTFORD (WTIC) HD"
     },
     {
       "tvg-id": "fox7wsvn.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "FOX 7 (WSVN) MIAMI HD"
     },
     {
       "tvg-id": "WJW.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "FOX 8 (WJW) CLEVELAND HD"
     },
     {
       "tvg-id": "FoxBusiness.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "FOX BUSINESS NETWORK HD"
     },
     {
       "tvg-id": "foxbusiness.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "FOX BUSINESS NETWORK HD"
     },
     {
       "tvg-id": "KHON.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "FOX HARTFORD (WTIC)"
     },
     {
       "tvg-id": "FoxWeather.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "FOX WEATHER HD"
     },
     {
       "tvg-id": "Freeform.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "FREEFORM WEST HD"
     },
     {
       "tvg-id": "FuseTV.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "FUSE HD"
     },
     {
       "tvg-id": "FX.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "FX HD"
     },
     {
       "tvg-id": "FXX.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "FXX HD"
     },
     {
       "tvg-id": "fyi.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "FYI HD"
     },
     {
       "tvg-id": "GetTV.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "GET TV"
     },
     {
       "tvg-id": "GolTVEnglish.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "GOL TV HD"
     },
     {
       "tvg-id": "Grit.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "GRIT"
     },
     {
       "tvg-id": "GameShowNetwork.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "GSN HD"
     },
     {
       "tvg-id": "HeroesAndIconsTV.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "EROES &amp; ICONS"
     },
     {
       "tvg-id": "hgtv.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "GTV HD"
     },
     {
       "tvg-id": "HistoryChannel.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "HISTORY HD"
     },
     {
       "tvg-id": "HLN.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "HLN HD"
     },
     {
       "tvg-id": "HopeChannel.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "HOPE CHANNEL"
     },
     {
       "tvg-id": "HomeShoppingNetwork.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "HSN"
     },
     {
       "tvg-id": "investigationdiscovery.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "D INVESTIGATION DISC"
     },
     {
       "tvg-id": "IndiePlex.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "NDIEPLEX HD"
     },
     {
       "tvg-id": "INSP.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "INSP HD"
     },
     {
       "tvg-id": "JusticeCentral.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "JUSTICE CENTRAL HD"
     },
     {
       "tvg-id": "Logo.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "LOGO HD"
     },
     {
       "tvg-id": "MagnoliaNetwork.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "agnolia Network West"
     },
     {
       "tvg-id": "MAVTV.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "MAV TV HD"
     },
     {
       "tvg-id": "MeTVPlus.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "MeTV Plus (WZME) HD (SP)"
     },
     {
       "tvg-id": "MeTvToons.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "METV TOONS HD"
     },
     {
       "tvg-id": "MilitaryHistory.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "MILITARY HISTORY"
     },
     {
       "tvg-id": "MoreMax.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "MOREMAX HD"
     },
     {
       "tvg-id": "MotorTrend.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "MOTORTREND HD"
     },
     {
       "tvg-id": "MadisonSquareGarden2.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "MSG 2 HD"
     },
     {
       "tvg-id": "MadisonSquareGarden.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "MSG HD"
     },
     {
       "tvg-id": "MadisonSquareGardenPlus.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "MSG PLUS HD"
     },
     {
       "tvg-id": "MTV2.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "MTV 2 HD"
     },
     {
       "tvg-id": "MTV.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "MTV HD"
     },
     {
       "tvg-id": "MTVLive.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "MTV LIVE HD"
     },
     {
       "tvg-id": "WBFS.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "MY 33 (WBFS) Miami (F) HD"
     },
     {
       "tvg-id": "WWBT.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "NBC 12 RICHMOND VA (WWBT) HD"
     },
     {
       "tvg-id": "WVTM.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "NBC 13 BIRMINGHAM AL (WVTM) HD"
     },
     {
       "tvg-id": "KARK.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "NBC 4 LITTLE ROCK AR (KARK)"
     },
     {
       "tvg-id": "KALB.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "NBC 5 ALEXANDRIA LA (KALB) HD"
     },
     {
       "tvg-id": "KOBI.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "NBC 5 MEDFORD OR (KOBI) HD"
     },
     {
       "tvg-id": "WMC.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "NBC 5 MEMPHIS TN (WMC) HD"
     },
     {
       "tvg-id": "KSDK.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "NBC 5 ST LOUIS MO (KSDK) HD"
     },
     {
       "tvg-id": "WTVJ.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "NBC 6 (WTVJ) Miami (A) HD"
     },
     {
       "tvg-id": "NewEnglandCableNews.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "ECN HD"
     },
     {
       "tvg-id": "News12Brooklyn.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "NEWS 12 BROOKLYN"
     },
     {
       "tvg-id": "News12CT.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "NEWS 12 CONNECTICUT"
     },
     {
       "tvg-id": "News12Bronx.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "NEWS 12 THE BRONX 4K"
     },
     {
       "tvg-id": "Nicktoons.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "ICK TOONS HD"
     },
     {
       "tvg-id": "Nickelodeon.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "ICKELODEON HD"
     },
     {
       "tvg-id": "OutdoorChannel.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "OUTDOOR CHANNEL HD"
     },
     {
       "tvg-id": "OuterMax.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "OUTERMAX HD"
     },
     {
       "tvg-id": "OutsideTV.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "OUTSIDE TV HD"
     },
     {
       "tvg-id": "Ovation.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "OVATION HD"
     },
     {
       "tvg-id": "Oxygen.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "OXYGEN HD"
     },
     {
       "tvg-id": "ParamountNetwork.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "PARAMOUNT HD"
     },
     {
       "tvg-id": "PBSKids.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "PBS KIDS"
     },
     {
       "tvg-id": "PixLTV.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "PIXL HD"
     },
     {
       "tvg-id": "PursuitChannel.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "PURSUIT CHANNEL HD"
     },
     {
       "tvg-id": "QVCPlus.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "QVC 2 HD"
     },
     {
       "tvg-id": "QVC.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "QVC HD"
     },
     {
       "tvg-id": "reelzchannel.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "EELZ FAMUS HD"
     },
     {
       "tvg-id": "RetroTV.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "RETRO TV"
     },
     {
       "tvg-id": "RetroPlex.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "RETROPLEX HD"
     },
     {
       "tvg-id": "Revolt.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "REVOLT HD"
     },
     {
       "tvg-id": "RFDTV.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "RFD TV HD"
     },
     {
       "tvg-id": "ScreenPixAction.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "CREENPIX ACTION HD"
     },
     {
       "tvg-id": "ScreenPix.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "CREENPIX HD"
     },
     {
       "tvg-id": "ScreenPixVoices.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "CREENPIX VOICES HD"
     },
     {
       "tvg-id": "SECNetwork.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "EC NETWORK HD"
     },
     {
       "tvg-id": "SmithsonianChannel.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "SMITHSONIAN CHANNEL HD"
     },
     {
       "tvg-id": "SpectrumNews13.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "SPECTRUM NEWS 1 HD"
     },
     {
       "tvg-id": "StartTV.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "TART TV"
     },
     {
       "tvg-id": "Tastemade.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "TASTEMADE HD"
     },
     {
       "tvg-id": "TBN.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "TBN"
     },
     {
       "tvg-id": "TheWeatherNetwork.ca",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "THE WEATHER CHANNEL HD"
     },
     {
       "tvg-id": "TNT.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "TNT HD"
     },
     {
       "tvg-id": "TravelChannel.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "TRAVEL CHANNEL HD"
     },
     {
       "tvg-id": "truTV.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "TRUTV 4K"
     },
     {
       "tvg-id": "TVLand.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "TV LAND HD"
     },
     {
       "tvg-id": "TVOne.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "TV ONE HD"
     },
     {
       "tvg-id": "UpliftingEntertainment.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "UP TV HD"
     },
     {
       "tvg-id": "USANetwork.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "USA NETWORK HD"
     },
     {
       "tvg-id": "VH1.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "H 1 HD"
     },
     {
       "tvg-id": "WeTV.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "E TV HD"
     },
     {
       "tvg-id": "WGN.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "GN9"
     },
     {
       "tvg-id": "WILLX.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "WILLOW CRICKET EXTRA HD"
     },
     {
       "tvg-id": "WillowCricket.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "WILLOW CRICKET HD"
     },
     {
       "tvg-id": "YESNetwork.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "ES NETWORK HD"
     },
     {
       "tvg-id": "zeetv.us",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "EE TV"
     },
     {
       "tvg-id": "HBO.ca",
-      "category": "movies"
+      "category": "MOVIES",
+      "displayName": "HBO 1 (Canada)"
     },
     {
       "tvg-id": "LifetimeTV.ca",
-      "category": "movies"
+      "category": "MOVIES",
+      "displayName": "N: LIFETIME HD"
     },
     {
       "tvg-id": "Cinepop.ca",
-      "category": "movies"
+      "category": "MOVIES",
+      "displayName": "CINEPOP (Canada)"
     },
     {
       "tvg-id": "HBO2.ca",
-      "category": "movies"
+      "category": "MOVIES",
+      "displayName": "HBO 2 (Canada)"
     },
     {
       "tvg-id": "MovieTime.ca",
-      "category": "movies"
+      "category": "MOVIES",
+      "displayName": "MOVIETIME (Canada)"
     },
     {
       "tvg-id": "MovistarCineEspanol.es",
-      "category": "movies"
+      "category": "MOVIES",
+      "displayName": "ES: MOVISTAR CINE ESPA�OL"
     },
     {
       "tvg-id": "MovistarCine.es",
-      "category": "movies"
+      "category": "MOVIES",
+      "displayName": "MOVISTAR ESTRENOS ESPA�A"
     },
     {
       "tvg-id": "skyaction.uk",
-      "category": "movies"
+      "category": "MOVIES",
+      "displayName": "SKY CINEMA ACTION HEVC 4K"
     },
     {
       "tvg-id": "SkyCinemaDrama.uk",
-      "category": "movies"
+      "category": "MOVIES",
+      "displayName": "SKY CINEMA DRAMA 4K"
     },
     {
       "tvg-id": "SkyCinemaFamily.uk",
-      "category": "movies"
+      "category": "MOVIES",
+      "displayName": "SKY CINEMA FAMILY 4K"
     },
     {
       "tvg-id": "SkyCinemaHits.uk",
-      "category": "movies"
+      "category": "MOVIES",
+      "displayName": "SKY CINEMA HITS 4K"
     },
     {
       "tvg-id": "ActionMax.us",
-      "category": "movies"
+      "category": "MOVIES",
+      "displayName": "ACTION MAX HD"
     },
     {
       "tvg-id": "AMC.us",
-      "category": "movies"
+      "category": "MOVIES",
+      "displayName": "AMC HD"
     },
     {
       "tvg-id": "AMCThrillers.us",
-      "category": "movies"
+      "category": "MOVIES",
+      "displayName": "AMC THRILLERS 4K"
     },
     {
       "tvg-id": "Cinemax.us",
-      "category": "movies"
+      "category": "MOVIES",
+      "displayName": "CINEMAX WEST HD"
     },
     {
       "tvg-id": "epixdrivein.us",
-      "category": "movies"
+      "category": "MOVIES",
+      "displayName": "EPIX DRIVE IN"
     },
     {
       "tvg-id": "epix.us",
-      "category": "movies"
+      "category": "MOVIES",
+      "displayName": "EPIX HD"
     },
     {
       "tvg-id": "EpixHits.us",
-      "category": "movies"
+      "category": "MOVIES",
+      "displayName": "EPIX HITS"
     },
     {
       "tvg-id": "FXMovieChannel.us",
-      "category": "movies"
+      "category": "MOVIES",
+      "displayName": "FX MOVIES"
     },
     {
       "tvg-id": "HallmarkDrama.us",
-      "category": "movies"
+      "category": "MOVIES",
+      "displayName": "HALLMARK DRAMA HD"
     },
     {
       "tvg-id": "Hallmark.us",
-      "category": "movies"
+      "category": "MOVIES",
+      "displayName": "HALLMARK M &amp; M HD"
     },
     {
       "tvg-id": "HallmarkMoviesMysteries.us",
-      "category": "movies"
+      "category": "MOVIES",
+      "displayName": "HALLMARK MOVIES/MYSTERIES 4K"
     },
     {
       "tvg-id": "HBO2.us",
-      "category": "movies"
+      "category": "MOVIES",
+      "displayName": "HBO 2 HD"
     },
     {
       "tvg-id": "HBOComedy.us",
-      "category": "movies"
+      "category": "MOVIES",
+      "displayName": "HBO COMEDY HD"
     },
     {
       "tvg-id": "HBOFamily.us",
-      "category": "movies"
+      "category": "MOVIES",
+      "displayName": "HBO FAMILY HD"
     },
     {
       "tvg-id": "HBO.us",
-      "category": "movies"
+      "category": "MOVIES",
+      "displayName": "HBO HD"
     },
     {
       "tvg-id": "HBOLatino.us",
-      "category": "movies"
+      "category": "MOVIES",
+      "displayName": "HBO LATINO HD"
     },
     {
       "tvg-id": "HBOSignature.us",
-      "category": "movies"
+      "category": "MOVIES",
+      "displayName": "HBO SIGNATURE HD"
     },
     {
       "tvg-id": "HBOZone.us",
-      "category": "movies"
+      "category": "MOVIES",
+      "displayName": "HBO ZONE HD"
     },
     {
       "tvg-id": "IndependentFilmChannel.us",
-      "category": "movies"
+      "category": "MOVIES",
+      "displayName": "IFC HD"
     },
     {
       "tvg-id": "LifetimeNetwork.us",
-      "category": "movies"
+      "category": "MOVIES",
+      "displayName": "LIFETIME HD"
     },
     {
       "tvg-id": "LifetimeMovieNetwork.us",
-      "category": "movies"
+      "category": "MOVIES",
+      "displayName": "LIFETIME MOVIE NETWORK HD"
     },
     {
       "tvg-id": "MovieMax.us",
-      "category": "movies"
+      "category": "MOVIES",
+      "displayName": "MOVIEMAX HD"
     },
     {
       "tvg-id": "MoviePlex.us",
-      "category": "movies"
+      "category": "MOVIES",
+      "displayName": "MOVIEPLEX HD"
     },
     {
       "tvg-id": "Showtime2.us",
-      "category": "movies"
+      "category": "MOVIES",
+      "displayName": "SHOWTIME 2 HD"
     },
     {
       "tvg-id": "ShowtimeExtreme.us",
-      "category": "movies"
+      "category": "MOVIES",
+      "displayName": "SHOWTIME EXTREME HD"
     },
     {
       "tvg-id": "ShowtimeFamilyZone.us",
-      "category": "movies"
+      "category": "MOVIES",
+      "displayName": "SHOWTIME FAMILY ZONE HD"
     },
     {
       "tvg-id": "Showtime.us",
-      "category": "movies"
+      "category": "MOVIES",
+      "displayName": "SHOWTIME HD"
     },
     {
       "tvg-id": "ShowtimeNext.us",
-      "category": "movies"
+      "category": "MOVIES",
+      "displayName": "SHOWTIME NEXT HD"
     },
     {
       "tvg-id": "ShowtimeShowcase.us",
-      "category": "movies"
+      "category": "MOVIES",
+      "displayName": "SHOWTIME SHOWCASE HD"
     },
     {
       "tvg-id": "ShowtimeWomen.us",
-      "category": "movies"
+      "category": "MOVIES",
+      "displayName": "SHOWTIME WOMEN HD"
     },
     {
       "tvg-id": "SonyMovieChannel.us",
-      "category": "movies"
+      "category": "MOVIES",
+      "displayName": "SONY MOVIE CHANNEL HD"
     },
     {
       "tvg-id": "StarzCinema.us",
-      "category": "movies"
+      "category": "MOVIES",
+      "displayName": "STARZ CINEMA HD"
     },
     {
       "tvg-id": "StarzComedy.us",
-      "category": "movies"
+      "category": "MOVIES",
+      "displayName": "STARZ COMEDY HD"
     },
     {
       "tvg-id": "StarzEdge.us",
-      "category": "movies"
+      "category": "MOVIES",
+      "displayName": "STARZ EDGE HD"
     },
     {
       "tvg-id": "StarzEncoreAction.us",
-      "category": "movies"
+      "category": "MOVIES",
+      "displayName": "STARZ ENCORE ACTION HD"
     },
     {
       "tvg-id": "StarzEncoreBlack.us",
-      "category": "movies"
+      "category": "MOVIES",
+      "displayName": "STARZ ENCORE BLACK HD"
     },
     {
       "tvg-id": "StarzEncoreClassics.us",
-      "category": "movies"
+      "category": "MOVIES",
+      "displayName": "STARZ ENCORE CLASSIC HD"
     },
     {
       "tvg-id": "StarzEncore.us",
-      "category": "movies"
+      "category": "MOVIES",
+      "displayName": "STARZ ENCORE WEST HD"
     },
     {
       "tvg-id": "StarzEncoreWesterns.us",
-      "category": "movies"
+      "category": "MOVIES",
+      "displayName": "STARZ ENCORE WESTERNS HD"
     },
     {
       "tvg-id": "StarzEncoreFamily.us",
-      "category": "movies"
+      "category": "MOVIES",
+      "displayName": "STARZ FAMILY HD"
     },
     {
       "tvg-id": "Starz.us",
-      "category": "movies"
+      "category": "MOVIES",
+      "displayName": "STARZ HD"
     },
     {
       "tvg-id": "StarzKidsFamily.us",
-      "category": "movies"
+      "category": "MOVIES",
+      "displayName": "STARZ KIDS &amp; FAMILY HD"
     },
     {
       "tvg-id": "SundanceTV.us",
-      "category": "movies"
+      "category": "MOVIES",
+      "displayName": "SUNDANCE HD"
     },
     {
       "tvg-id": "Syfy.us",
-      "category": "movies"
+      "category": "MOVIES",
+      "displayName": "SYFY HD"
     },
     {
       "tvg-id": "TMC.us",
-      "category": "movies"
+      "category": "MOVIES",
+      "displayName": "THE MOVIE CHANNEL HD"
     },
     {
       "tvg-id": "canalpluscinema.fr",
@@ -1374,51 +1714,63 @@
     },
     {
       "tvg-id": "ABCNewsLive.us",
-      "category": "news"
+      "category": "NEWS",
+      "displayName": "ABC NEWS"
     },
     {
       "tvg-id": "WCBS.us",
-      "category": "news"
+      "category": "NEWS",
+      "displayName": "CBS NEWS"
     },
     {
       "tvg-id": "cnn.us",
-      "category": "news"
+      "category": "NEWS",
+      "displayName": "CNN HD"
     },
     {
       "tvg-id": "FoxNews.us",
-      "category": "news"
+      "category": "NEWS",
+      "displayName": "FOX NEWS HD"
     },
     {
       "tvg-id": "foxnews.us",
-      "category": "news"
+      "category": "NEWS",
+      "displayName": "FOX NEWS HD"
     },
     {
       "tvg-id": "msnbc.us",
-      "category": "news"
+      "category": "NEWS",
+      "displayName": "MSNBC HD"
     },
     {
       "tvg-id": "Newsmax.us",
-      "category": "news"
+      "category": "NEWS",
+      "displayName": "NEWSMAX HD"
     },
     {
       "tvg-id": "WLII.pr",
-      "category": "puerto-rico"
+      "category": "PUERTO RICO",
+      "displayName": "Teleonce Puerto Rico"
     },
     {
       "tvg-id": "WLIIDT2.pr",
-      "category": "puerto-rico"
+      "category": "PUERTO RICO",
+      "displayName": "Teleonce-2 Puerto Rico"
     },
     {
       "tvg-id": "WIPR.pr",
-      "category": "puerto-rico"
+      "category": "PUERTO RICO",
+      "displayName": "WIPR TV Canal 6"
     },
     {
       "tvg-id": "WSTE.pr",
-      "category": "puerto-rico"
+      "category": "PUERTO RICO",
+      "displayName": "WSTE PONCE Puerto Rico"
     },
     {
       "tvg-id": "MEGDTV.pr",
-      "category": "puerto-rico"
+      "category": "PUERTO RICO",
+      "displayName": "MegaTV"
     },
     {
       "tvg-id": "WNJU.us",
@@ -1430,35 +1782,43 @@
     },
     {
       "tvg-id": "Antena3.es",
-      "category": "spain"
+      "category": "ESPAÑA GENERAL",
+      "displayName": "ANTENA 3 ESPA�A"
     },
     {
       "tvg-id": "Mega.es",
-      "category": "spain"
+      "category": "ESPAÑA GENERAL",
+      "displayName": "MEGA ESPA�A"
     },
     {
       "tvg-id": "TeleMadrid.es",
-      "category": "spain"
+      "category": "ESPAÑA GENERAL",
+      "displayName": "TELE MADRID ESPA�A"
     },
     {
       "tvg-id": "Telecinco.es",
-      "category": "spain"
+      "category": "ESPAÑA GENERAL",
+      "displayName": "TELECINCO ESPA�A"
     },
     {
       "tvg-id": "antena3.es",
-      "category": "spain"
+      "category": "ESPAÑA GENERAL",
+      "displayName": "ANTENA 3 ᴿᴬᵂ"
     },
     {
       "tvg-id": "LA1.es",
-      "category": "spain"
+      "category": "ESPAÑA GENERAL",
+      "displayName": "LA 1 ESPA�A"
     },
     {
       "tvg-id": "LA2.es",
-      "category": "spain"
+      "category": "ESPAÑA GENERAL",
+      "displayName": "LA 2 ESPA�A"
     },
     {
       "tvg-id": "LaSexta.es",
-      "category": "spain"
+      "category": "ESPAÑA GENERAL",
+      "displayName": "LA SEXTA ESPA�A"
     },
     {
       "tvg-id": "LaSexta.sp",
@@ -1466,39 +1826,48 @@
     },
     {
       "tvg-id": "Cuatro.es",
-      "category": "spain"
+      "category": "ESPAÑA GENERAL",
+      "displayName": "CUATRO ESPA�A"
     },
     {
       "tvg-id": "Neox.es",
-      "category": "spain"
+      "category": "ESPAÑA GENERAL",
+      "displayName": "NEOX ESPA�A"
     },
     {
       "tvg-id": "Nova.es",
-      "category": "spain"
+      "category": "ESPAÑA GENERAL",
+      "displayName": "NOVA ESPA�A"
     },
     {
       "tvg-id": "Energy.es",
-      "category": "spain"
+      "category": "ESPAÑA GENERAL",
+      "displayName": "ENERGY ESPA�A"
     },
     {
       "tvg-id": "ClanTVE.es",
-      "category": "spain"
+      "category": "ESPAÑA GENERAL",
+      "displayName": "CLAN TVE ESPA�A"
     },
     {
       "tvg-id": "Divinity.es",
-      "category": "spain"
+      "category": "ESPAÑA GENERAL",
+      "displayName": "DIVINITY ESPA�A"
     },
     {
       "tvg-id": "DKISS.es",
-      "category": "spain"
+      "category": "ESPAÑA GENERAL",
+      "displayName": "DKISS ESPA�A"
     },
     {
       "tvg-id": "Dmax.es",
-      "category": "spain"
+      "category": "ESPAÑA GENERAL",
+      "displayName": "DMAX ESPA�A"
     },
     {
       "tvg-id": "Ten.es",
-      "category": "spain"
+      "category": "ESPAÑA GENERAL",
+      "displayName": "TEN ESPA�A"
     },
     {
       "tvg-id": "TEN.es",
@@ -1506,7 +1875,8 @@
     },
     {
       "tvg-id": "13TV.es",
-      "category": "spain"
+      "category": "ESPAÑA GENERAL",
+      "displayName": "TRECE TV ESPA�A"
     },
     {
       "tvg-id": "Trece.es",
@@ -1514,34 +1884,36 @@
     },
     {
       "tvg-id": "LaOtra.es",
-      "category": "spain"
+      "category": "ESPAÑA GENERAL",
+      "displayName": "LA OTRA ESPA�A"
     },
     {
       "tvg-id": "Hollywood.es",
-      "category": "spain"
+      "category": "ESPAÑA GENERAL",
+      "displayName": "HOLLYWOOD ESPA�A"
     },
     {
       "tvg-id": "Odisea.es",
-      "category": "spain"
+      "category": "ESPAÑA GENERAL",
+      "displayName": "ODISEA ESPA�A"
     },
     {
       "tvg-id": "Somos.es",
-      "category": "spain"
+      "category": "ESPAÑA GENERAL",
+      "displayName": "SOMOS ESPA�A"
     },
     {
       "tvg-id": "TCM.es",
-      "category": "spain"
+      "category": "ESPAÑA GENERAL",
+      "displayName": "TCM ESPA�A"
     },
     {
       "tvg-id": "ParamountChannel.es",
-      "category": "spain"
+      "category": "ESPAÑA GENERAL",
+      "displayName": "PARAMOUNT CHANNEL ESPA�A"
     },
     {
       "tvg-id": "Paramount.es",
-      "category": "spain"
-    },
-    {
-      "tvg-id": "Dmax.es",
       "category": "spain"
     },
     {
@@ -1574,7 +1946,8 @@
     },
     {
       "tvg-id": "NBATV.ca",
-      "category": "sports"
+      "category": "SPORTS",
+      "displayName": "NBA TV HD (Canada)"
     },
     {
       "tvg-id": "arenasport1.cz",
@@ -1594,47 +1967,58 @@
     },
     {
       "tvg-id": "AFNSports.us",
-      "category": "sports"
+      "category": "SPORTS",
+      "displayName": "AFN SPORT HD"
     },
     {
       "tvg-id": "AltitudeSports.us",
-      "category": "sports"
+      "category": "SPORTS",
+      "displayName": "ALTITUDE SPORTS HD"
     },
     {
       "tvg-id": "ATTSportsNetPittsburgh.us",
-      "category": "sports"
+      "category": "SPORTS",
+      "displayName": "AT&T SPORTSNET PITTSBURGH HD"
     },
     {
       "tvg-id": "ATTSNRM.us",
-      "category": "sports"
+      "category": "SPORTS",
+      "displayName": "AT&T SPORTSNET ROCKY MOUNTAIN HD"
     },
     {
       "tvg-id": "ATTSportsNetHouston.us",
-      "category": "sports"
+      "category": "SPORTS",
+      "displayName": "AT&T SPORTSNET SOUTHWEST HD"
     },
     {
       "tvg-id": "BallySportsNewOrleans.us",
-      "category": "sports"
+      "category": "SPORTS",
+      "displayName": "BALLY SPORTS NEW ORLEANS HD"
     },
     {
       "tvg-id": "BallySPortsSoCal.us",
-      "category": "sports"
+      "category": "SPORTS",
+      "displayName": "BALLY SPORTS SOCAL HD"
     },
     {
       "tvg-id": "BallySportsSouthwestPlus.us",
-      "category": "sports"
+      "category": "SPORTS",
+      "displayName": "BALLY SPORTS SOUTHWEST PLUS (S"
     },
     {
       "tvg-id": "BallySportsSun.us",
-      "category": "sports"
+      "category": "SPORTS",
+      "displayName": "BALLY SPORTS SUN (MIAMI) HD"
     },
     {
       "tvg-id": "BallySportsWest.us",
-      "category": "sports"
+      "category": "SPORTS",
+      "displayName": "BALLY SPORTS WEST HD"
     },
     {
       "tvg-id": "BallySportsWisconsin.us",
-      "category": "sports"
+      "category": "SPORTS",
+      "displayName": "BALLY SPORTS WISCONSIN HD"
     },
     {
       "tvg-id": "beINSports2En.qa",
@@ -1658,51 +2042,63 @@
     },
     {
       "tvg-id": "beINSports.us",
-      "category": "sports"
+      "category": "SPORTS",
+      "displayName": "BEIN SPORTS HD"
     },
     {
       "tvg-id": "CBSSportsNetwork.us",
-      "category": "sports"
+      "category": "SPORTS",
+      "displayName": "CBS SPORTS NETWORK HD"
     },
     {
       "tvg-id": "ESPN.us",
-      "category": "sports"
+      "category": "SPORTS",
+      "displayName": "ESPN HD"
     },
     {
       "tvg-id": "ESPNNews.us",
-      "category": "sports"
+      "category": "SPORTS",
+      "displayName": "ESPN NEWS HD"
     },
     {
       "tvg-id": "FoxDeportes.us",
-      "category": "sports"
+      "category": "SPORTS",
+      "displayName": "FOX DEPORTES"
     },
     {
       "tvg-id": "FoxSoccerPlus.us",
-      "category": "sports"
+      "category": "SPORTS",
+      "displayName": "FOX SOCCER PLUS HD"
     },
     {
       "tvg-id": "FoxSports1.us",
-      "category": "sports"
+      "category": "SPORTS",
+      "displayName": "FOX SPORTS 1 HD"
     },
     {
       "tvg-id": "FoxSports2.us",
-      "category": "sports"
+      "category": "SPORTS",
+      "displayName": "FOX SPORTS 2 HD"
     },
     {
       "tvg-id": "FOXSports.us",
-      "category": "sports"
+      "category": "SPORTS",
+      "displayName": "FOX SPORTS WISCONSIN HD"
     },
     {
       "tvg-id": "FuboSportsNetwork.us",
-      "category": "sports"
+      "category": "SPORTS",
+      "displayName": "FUBO SPORTS NETWORK HD"
     },
     {
       "tvg-id": "GolfChannel.us",
-      "category": "sports"
+      "category": "SPORTS",
+      "displayName": "GOLF CHANNEL HD"
     },
     {
       "tvg-id": "MLBNetwork.us",
-      "category": "sports"
+      "category": "SPORTS",
+      "displayName": "MLB NETWORK"
     },
     {
       "tvg-id": "MLB Strike Zone - MLBSZ1",
@@ -1710,63 +2106,78 @@
     },
     {
       "tvg-id": "MonumentalSportsNetwork.us",
-      "category": "sports"
+      "category": "SPORTS",
+      "displayName": "MONUMENTAL SPORTS NETWORK HD"
     },
     {
       "tvg-id": "NBCSportsBayArea.us",
-      "category": "sports"
+      "category": "SPORTS",
+      "displayName": "NBC SPORTS BAY AREA"
     },
     {
       "tvg-id": "NBCSportsCalifornia.us",
-      "category": "sports"
+      "category": "SPORTS",
+      "displayName": "NBC SPORTS CALIFORNIA"
     },
     {
       "tvg-id": "NBCSportsChicago.us",
-      "category": "sports"
+      "category": "SPORTS",
+      "displayName": "NBC SPORTS CHICAGO"
     },
     {
       "tvg-id": "NBCSportsPhiladelphia.us",
-      "category": "sports"
+      "category": "SPORTS",
+      "displayName": "NBC SPORTS PHILADELFIA"
     },
     {
       "tvg-id": "NBCSportsWashington.us",
-      "category": "sports"
+      "category": "SPORTS",
+      "displayName": "NBC SPORTS WASHINGTON"
     },
     {
       "tvg-id": "NewEnglandSportsNetwork.us",
-      "category": "sports"
+      "category": "SPORTS",
+      "displayName": "NESN BOSTON HD"
     },
     {
       "tvg-id": "NewEnglandSportsNetworkPlus.us",
-      "category": "sports"
+      "category": "SPORTS",
+      "displayName": "NESN Plus HD"
     },
     {
       "tvg-id": "NFLNetwork.us",
-      "category": "sports"
+      "category": "SPORTS",
+      "displayName": "NFL NETWORK HD"
     },
     {
       "tvg-id": "RootSportsNorthwest.us",
-      "category": "sports"
+      "category": "SPORTS",
+      "displayName": "ROOT SPORTS"
     },
     {
       "tvg-id": "SpectrumSportsNetLA.us",
-      "category": "sports"
+      "category": "SPORTS",
+      "displayName": "SPORTSNET LA DODGERS HD"
     },
     {
       "tvg-id": "ComcastSportsnet.us",
-      "category": "sports"
+      "category": "SPORTS",
+      "displayName": "SPORTSNET NEW YORK HD"
     },
     {
       "tvg-id": "TennisChannel.us",
-      "category": "sports"
+      "category": "SPORTS",
+      "displayName": "TENNIS HD"
     },
     {
       "tvg-id": "TUDN.us",
-      "category": "sports"
+      "category": "SPORTS",
+      "displayName": "TUDN ZONA ᴿᴬᵂ"
     },
     {
       "tvg-id": "WWE.us",
-      "category": "sports"
+      "category": "SPORTS",
+      "displayName": "WWE HD"
     },
     {
       "tvg-id": "AbuDhabiSports1En.ae",
@@ -1794,23 +2205,28 @@
     },
     {
       "tvg-id": "EEntertainment.ca",
-      "category": "movies"
+      "category": "MOVIES",
+      "displayName": "E! HD (Canada)"
     },
     {
       "tvg-id": "AdultSwim.ca",
-      "category": "general"
+      "category": "CANADA GENERAL",
+      "displayName": "ADULT SWIM HD"
     },
     {
       "tvg-id": "AMC.ca",
-      "category": "movies"
+      "category": "MOVIES",
+      "displayName": "AMC 4K (Canada)"
     },
     {
       "tvg-id": "AnimalPlanet.ca",
-      "category": "general"
+      "category": "CANADA GENERAL",
+      "displayName": "ANIMAL PLANET HD"
     },
     {
       "tvg-id": "BBCWorld.ca",
-      "category": "general"
+      "category": "CANADA GENERAL",
+      "displayName": "BBC WORLD NEWS HD"
     },
     {
       "tvg-id": "CartoonNetwork.ca",
@@ -1818,79 +2234,98 @@
     },
     {
       "tvg-id": "CBRT.ca",
-      "category": "general"
+      "category": "CANADA GENERAL",
+      "displayName": "CBC CALGARY HD"
     },
     {
       "tvg-id": "CBCT.ca",
-      "category": "general"
+      "category": "CANADA GENERAL",
+      "displayName": "CBC CHARLOTTETOWN (HD)"
     },
     {
       "tvg-id": "CBAT.ca",
-      "category": "general"
+      "category": "CANADA GENERAL",
+      "displayName": "CBC FREDERICTON (HD)"
     },
     {
       "tvg-id": "CBHT.ca",
-      "category": "general"
+      "category": "CANADA GENERAL",
+      "displayName": "CBC HALIFAX HD"
     },
     {
       "tvg-id": "CBCOttawa.ca",
-      "category": "general"
+      "category": "CANADA GENERAL",
+      "displayName": "CBC OTTAWA HD"
     },
     {
       "tvg-id": "CBKT.ca",
-      "category": "general"
+      "category": "CANADA GENERAL",
+      "displayName": "CBC REGINA(HD)"
     },
     {
       "tvg-id": "CBC.ca",
-      "category": "general"
+      "category": "CANADA GENERAL",
+      "displayName": "CBC TORONTO HD"
     },
     {
       "tvg-id": "CBUT.ca",
-      "category": "general"
+      "category": "CANADA GENERAL",
+      "displayName": "CBC VANCOUVER HD"
     },
     {
       "tvg-id": "CBWT.ca",
-      "category": "general"
+      "category": "CANADA GENERAL",
+      "displayName": "CBC WINNIPEG HD"
     },
     {
       "tvg-id": "CFYK.ca",
-      "category": "general"
+      "category": "CANADA GENERAL",
+      "displayName": "CBC YELLOWKNIFE"
     },
     {
       "tvg-id": "CityTVToronto.ca",
-      "category": "general"
+      "category": "CANADA GENERAL",
+      "displayName": "CITYTV TORONTO HD"
     },
     {
       "tvg-id": "ctvcalgary.ca",
-      "category": "general"
+      "category": "CANADA GENERAL",
+      "displayName": "CTV CALGARY"
     },
     {
       "tvg-id": "ctvkitchener.ca",
-      "category": "general"
+      "category": "CANADA GENERAL",
+      "displayName": "CTV KITCHENER HD"
     },
     {
       "tvg-id": "CTVOH.ca",
-      "category": "general"
+      "category": "CANADA GENERAL",
+      "displayName": "CTV OTTAWA HD"
     },
     {
       "tvg-id": "ctvsudbury.ca",
-      "category": "general"
+      "category": "CANADA GENERAL",
+      "displayName": "CTV Sudbury HD"
     },
     {
       "tvg-id": "ctvwinnipeg.ca",
-      "category": "general"
+      "category": "CANADA GENERAL",
+      "displayName": "CTV WINNIPEG HD"
     },
     {
       "tvg-id": "ASN.ca",
-      "category": "general"
+      "category": "CANADA GENERAL",
+      "displayName": "CTV2 ATLANTIC HD"
     },
     {
       "tvg-id": "CKVR.ca",
-      "category": "general"
+      "category": "CANADA GENERAL",
+      "displayName": "CTV2 BARRIE HD"
     },
     {
       "tvg-id": "DiscoveryChannel.ca",
-      "category": "general"
+      "category": "CANADA GENERAL",
+      "displayName": "DISCOVERY HD"
     },
     {
       "tvg-id": "DisneyJunior.ca",
@@ -1902,39 +2337,48 @@
     },
     {
       "tvg-id": "FoodNetwork.ca",
-      "category": "general"
+      "category": "CANADA GENERAL",
+      "displayName": "FOOD NETWORK HD"
     },
     {
       "tvg-id": "FXX.ca",
-      "category": "movies"
+      "category": "MOVIES",
+      "displayName": "FXX HD (Canada)"
     },
     {
       "tvg-id": "GlobalNewsBC1.ca",
-      "category": "general"
+      "category": "CANADA GENERAL",
+      "displayName": "GLOBAL NEWS REGINA HD"
     },
     {
       "tvg-id": "CIII.ca",
-      "category": "general"
+      "category": "CANADA GENERAL",
+      "displayName": "GLOBAL TORONTO HD"
     },
     {
       "tvg-id": "globaltoronto.ca",
-      "category": "general"
+      "category": "CANADA GENERAL",
+      "displayName": "GLOBAL TORONTO HD"
     },
     {
       "tvg-id": "HistoryChannel.ca",
-      "category": "general"
+      "category": "CANADA GENERAL",
+      "displayName": "HISTORY HD"
     },
     {
       "tvg-id": "MSNBC.ca",
-      "category": "news"
+      "category": "NEWS",
+      "displayName": "MSNBC HD"
     },
     {
       "tvg-id": "MTV.ca",
-      "category": "general"
+      "category": "CANADA GENERAL",
+      "displayName": "MTV HD"
     },
     {
       "tvg-id": "NatGeo.ca",
-      "category": "general"
+      "category": "CANADA GENERAL",
+      "displayName": "NATIONAL GEOGRAPHIC HD"
     },
     {
       "tvg-id": "Nickelodeon.ca",
@@ -1942,63 +2386,78 @@
     },
     {
       "tvg-id": "ParamountNetwork.ca",
-      "category": "general"
+      "category": "CANADA GENERAL",
+      "displayName": "PARAMOUNT NETWORK"
     },
     {
       "tvg-id": "SportsmanChannel.ca",
-      "category": "sports"
+      "category": "SPORTS",
+      "displayName": "SPORTSMAN HD (Canada)"
     },
     {
       "tvg-id": "Sportsnet360.ca",
-      "category": "sports"
+      "category": "SPORTS",
+      "displayName": "SPORTSNET 360 4K (Canada)"
     },
     {
       "tvg-id": "SportsnetEast.ca",
-      "category": "sports"
+      "category": "SPORTS",
+      "displayName": "SPORTSNET EAST (Canada)"
     },
     {
       "tvg-id": "SportsnetOne.ca",
-      "category": "sports"
+      "category": "SPORTS",
+      "displayName": "SPORTSNET ONE 4K (Canada)"
     },
     {
       "tvg-id": "SportsnetOntario.ca",
-      "category": "sports"
+      "category": "SPORTS",
+      "displayName": "SPORTSNET ONTARIO (Canada)"
     },
     {
       "tvg-id": "SportsnetPacific.ca",
-      "category": "sports"
+      "category": "SPORTS",
+      "displayName": "SPORTSNET PACIFIC HD (Canada)"
     },
     {
       "tvg-id": "SportsnetWest.ca",
-      "category": "sports"
+      "category": "SPORTS",
+      "displayName": "SPORTSNET WEST HD (Canada)"
     },
     {
       "tvg-id": "SportsnetWorld.ca",
-      "category": "sports"
+      "category": "SPORTS",
+      "displayName": "SPORTSNET WORLD HD (Canada)"
     },
     {
       "tvg-id": "TSN1.ca",
-      "category": "general"
+      "category": "CANADA GENERAL",
+      "displayName": "TSN 1"
     },
     {
       "tvg-id": "TSN2.ca",
-      "category": "general"
+      "category": "CANADA GENERAL",
+      "displayName": "TSN 2"
     },
     {
       "tvg-id": "TSN3.ca",
-      "category": "general"
+      "category": "CANADA GENERAL",
+      "displayName": "TSN 3"
     },
     {
       "tvg-id": "TSN4.ca",
-      "category": "general"
+      "category": "CANADA GENERAL",
+      "displayName": "TSN 4"
     },
     {
       "tvg-id": "TSN5.ca",
-      "category": "general"
+      "category": "CANADA GENERAL",
+      "displayName": "TSN 5"
     },
     {
       "tvg-id": "CBMT.ca",
-      "category": "general"
+      "category": "CANADA GENERAL",
+      "displayName": "CBC MONTREAL HD"
     },
     {
       "tvg-id": "RDS.ca",
@@ -2006,55 +2465,68 @@
     },
     {
       "tvg-id": "BET.ca",
-      "category": "general"
+      "category": "CANADA GENERAL",
+      "displayName": "BET"
     },
     {
       "tvg-id": "CookingChannel.ca",
-      "category": "general"
+      "category": "CANADA GENERAL",
+      "displayName": "COOKING CHANNEL"
     },
     {
       "tvg-id": "CHRO.ca",
-      "category": "general"
+      "category": "CANADA GENERAL",
+      "displayName": "CTV 2 OTTAWA"
     },
     {
       "tvg-id": "CFCF.ca",
-      "category": "general"
+      "category": "CANADA GENERAL",
+      "displayName": "CTV MONTREAL HD"
     },
     {
       "tvg-id": "GameTV.ca",
-      "category": "general"
+      "category": "CANADA GENERAL",
+      "displayName": "AMETV"
     },
     {
       "tvg-id": "HGTV.ca",
-      "category": "general"
+      "category": "CANADA GENERAL",
+      "displayName": "GTV"
     },
     {
       "tvg-id": "HLN.ca",
-      "category": "general"
+      "category": "CANADA GENERAL",
+      "displayName": "HLN"
     },
     {
       "tvg-id": "MTV2.ca",
-      "category": "general"
+      "category": "CANADA GENERAL",
+      "displayName": "MTV 2"
     },
     {
       "tvg-id": "TVASports.ca",
-      "category": "sports"
+      "category": "SPORTS",
+      "displayName": "CA: TVA SPORTS (Canada)"
     },
     {
       "tvg-id": "ComedyCentral.es",
-      "category": "general"
+      "category": "ESPAÑA GENERAL",
+      "displayName": "COMEDY CENTRAL ᵁᴴᴰ"
     },
     {
       "tvg-id": "DiscoveryChannel.es",
-      "category": "general"
+      "category": "ESPAÑA GENERAL",
+      "displayName": "DISCOVERY CHANNEL"
     },
     {
       "tvg-id": "NationalGeographic.es",
-      "category": "general"
+      "category": "ESPAÑA GENERAL",
+      "displayName": "NATIONAL GEOGRAPHIC"
     },
     {
       "tvg-id": "NatGeoWild.es",
-      "category": "general"
+      "category": "ESPAÑA GENERAL",
+      "displayName": "NATIONAL GEOGRAPHIC"
     },
     {
       "tvg-id": "Nickelodeon.es",
@@ -2062,19 +2534,23 @@
     },
     {
       "tvg-id": "SundanceTV.es",
-      "category": "general"
+      "category": "ESPAÑA GENERAL",
+      "displayName": "SUNDANCE TV ᵁᴴᴰ"
     },
     {
       "tvg-id": "SyFy.es",
-      "category": "movies"
+      "category": "MOVIES",
+      "displayName": "SYFY ESPA�A"
     },
     {
       "tvg-id": "comedycentral.es",
-      "category": "general"
+      "category": "ESPAÑA GENERAL",
+      "displayName": "COMEDY CENTRAL ᴿᴬᵂ"
     },
     {
       "tvg-id": "discoverychannel.es",
-      "category": "general"
+      "category": "ESPAÑA GENERAL",
+      "displayName": "DISCOVERY"
     },
     {
       "tvg-id": "disneyjunior.es",
@@ -2082,15 +2558,18 @@
     },
     {
       "tvg-id": "mtv.es",
-      "category": "general"
+      "category": "ESPAÑA GENERAL",
+      "displayName": "MTV ᴿᴬᵂ"
     },
     {
       "tvg-id": "natgeowild.es",
-      "category": "general"
+      "category": "ESPAÑA GENERAL",
+      "displayName": "NAT GEO WILD ᴿᴬ"
     },
     {
       "tvg-id": "natgeo.es",
-      "category": "general"
+      "category": "ESPAÑA GENERAL",
+      "displayName": "NATIONAL GEOGRAPHIC"
     },
     {
       "tvg-id": "nickjr.es",
@@ -2102,43 +2581,33 @@
     },
     {
       "tvg-id": "24horas.es",
-      "category": "movies"
-    },
-    {
-      "tvg-id": "amc.es",
-      "category": "movies"
+      "category": "MOVIES",
+      "displayName": "SYFY ᴿᴬᵂ"
     },
     {
       "tvg-id": "fox.es",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "FOX ᴴᴰ"
     },
     {
       "tvg-id": "gol.es",
-      "category": "general"
+      "category": "USA GENERAL",
+      "displayName": "GOL TV ᴴᴰ"
     },
     {
       "tvg-id": "sundance.es",
-      "category": "general"
-    },
-    {
-      "tvg-id": "syfy.es",
-      "category": "movies"
-    },
-    {
-      "tvg-id": "WLII.pr",
-      "category": "puerto-rico"
-    },
-    {
-      "tvg-id": "WLIIDT2.pr",
-      "category": "puerto-rico"
+      "category": "USA GENERAL",
+      "displayName": "SUNDANCE TV ᴴᴰ"
     },
     {
       "tvg-id": "WAPA.pr",
-      "category": "puerto-rico"
+      "category": "PUERTO RICO",
+      "displayName": "WAPA TV"
     },
     {
       "tvg-id": "WAPADT2.pr",
-      "category": "puerto-rico"
+      "category": "PUERTO RICO",
+      "displayName": "WAPA 2"
     },
     {
       "tvg-id": "WAPAAM.pr",
@@ -2146,7 +2615,8 @@
     },
     {
       "tvg-id": "WKAQ.pr",
-      "category": "puerto-rico"
+      "category": "PUERTO RICO",
+      "displayName": "Telemundo Puerto Rico"
     },
     {
       "tvg-id": "WKAQ.us",
@@ -2158,45 +2628,829 @@
     },
     {
       "tvg-id": "WKAQDT2.pr",
-      "category": "puerto-rico"
-    },
-    {
-      "tvg-id": "WIPR.pr",
-      "category": "puerto-rico"
-    },
-    {
-      "tvg-id": "WSTE.pr",
-      "category": "puerto-rico"
-    },
-    {
-      "tvg-id": "MEGDTV.pr",
-      "category": "puerto-rico"
+      "category": "PUERTO RICO",
+      "displayName": "T2 - Puerto Rico"
     },
     {
       "tvg-id": "WAPADeportes.pr",
       "category": "puerto-rico"
     },
     {
-      "tvg-id": "WNJU.us",
-      "category": "puerto-rico"
+      "tvg-id": "GAME1.pr",
+      "category": "SPORTS",
+      "displayName": "MBL1"
     },
     {
-      "tvg-id": "WSCV.us",
-      "category": "puerto-rico"
+      "tvg-id": "GAME2.pr",
+      "category": "SPORTS",
+      "displayName": "MBL2"
     },
-    { "tvg-id": "GAME1.pr",  "category": "sports" },
-    { "tvg-id": "GAME2.pr",  "category": "sports" },
-    { "tvg-id": "GAME3.pr",  "category": "sports" },
-    { "tvg-id": "GAME4.pr",  "category": "sports" },
-    { "tvg-id": "GAME5.pr",  "category": "sports" },
-    { "tvg-id": "GAME6.pr",  "category": "sports" },
-    { "tvg-id": "GAME7.pr",  "category": "sports" },
-    { "tvg-id": "GAME8.pr",  "category": "sports" },
-    { "tvg-id": "GAME9.pr",  "category": "sports" },
-    { "tvg-id": "GME10.pr",  "category": "sports" },
-    { "tvg-id": "GME11.pr",  "category": "sports" },
-    { "tvg-id": "GME12.pr",  "category": "sports" },
-    { "tvg-id": "GME13.pr",  "category": "sports" },
-    { "tvg-id": "GME14.pr",  "category": "sports" }
+    {
+      "tvg-id": "GAME3.pr",
+      "category": "SPORTS",
+      "displayName": "MBL3"
+    },
+    {
+      "tvg-id": "GAME4.pr",
+      "category": "SPORTS",
+      "displayName": "MBL4"
+    },
+    {
+      "tvg-id": "GAME5.pr",
+      "category": "SPORTS",
+      "displayName": "MBL5"
+    },
+    {
+      "tvg-id": "GAME6.pr",
+      "category": "SPORTS",
+      "displayName": "MBL6"
+    },
+    {
+      "tvg-id": "GAME7.pr",
+      "category": "SPORTS",
+      "displayName": "MBL7"
+    },
+    {
+      "tvg-id": "GAME8.pr",
+      "category": "SPORTS",
+      "displayName": "MBL8"
+    },
+    {
+      "tvg-id": "GAME9.pr",
+      "category": "SPORTS",
+      "displayName": "MBL9"
+    },
+    {
+      "tvg-id": "GME10.pr",
+      "category": "SPORTS",
+      "displayName": "MBL10"
+    },
+    {
+      "tvg-id": "GME11.pr",
+      "category": "SPORTS",
+      "displayName": "MBL11"
+    },
+    {
+      "tvg-id": "GME12.pr",
+      "category": "SPORTS",
+      "displayName": "MBL12"
+    },
+    {
+      "tvg-id": "GME13.pr",
+      "category": "SPORTS",
+      "displayName": "MBL13"
+    },
+    {
+      "tvg-id": "GME14.pr",
+      "category": "SPORTS",
+      "displayName": "MBL14"
+    },
+    {
+      "tvg-id": "AandE.ca",
+      "category": "CANADA GENERAL",
+      "displayName": "A&E CANADA HD"
+    },
+    {
+      "tvg-id": "ABCSpark.ca",
+      "category": "CANADA GENERAL",
+      "displayName": "ABC SPARK"
+    },
+    {
+      "tvg-id": "AMCBreak.es",
+      "category": "ESPA�A GENERAL",
+      "displayName": "AMC BREAK ESPA�A"
+    },
+    {
+      "tvg-id": "AMCCrime.es",
+      "category": "ESPA�A GENERAL",
+      "displayName": "AMC CRIME ESPA�A"
+    },
+    {
+      "tvg-id": "AMC.es",
+      "category": "ESPA�A GENERAL",
+      "displayName": "AMC SD"
+    },
+    {
+      "tvg-id": "AMITV.ca",
+      "category": "CANADA GENERAL",
+      "displayName": "AMI TV HD"
+    },
+    {
+      "tvg-id": "AXN.es",
+      "category": "ESPA�A GENERAL",
+      "displayName": "AXN ESPA�A"
+    },
+    {
+      "tvg-id": "BabyTV.es",
+      "category": "ESPA�A GENERAL",
+      "displayName": "BABY TV SD"
+    },
+    {
+      "tvg-id": "BusinessNewsNetworkBloomberg.ca",
+      "category": "CANADA GENERAL",
+      "displayName": "BNN"
+    },
+    {
+      "tvg-id": "Boing.es",
+      "category": "ESPA�A GENERAL",
+      "displayName": "BOING ESPA�A"
+    },
+    {
+      "tvg-id": "BOMCine.es",
+      "category": "ESPA�A GENERAL",
+      "displayName": "BOM CINE ESPA�OL"
+    },
+    {
+      "tvg-id": "BNNBloomberg.ca",
+      "category": "CANADA GENERAL",
+      "displayName": "BUSINESS NEWS NETWORK HD"
+    },
+    {
+      "tvg-id": "Calle13.es",
+      "category": "ESPA�A GENERAL",
+      "displayName": "CALLE 13 ESPA�A"
+    },
+    {
+      "tvg-id": "CanalCocina.es",
+      "category": "ESPA�A GENERAL",
+      "displayName": "CANAL COCINA ESPA�A"
+    },
+    {
+      "tvg-id": "CanalDecasa.es",
+      "category": "ESPA�A GENERAL",
+      "displayName": "CANAL DECASA ESPA�A"
+    },
+    {
+      "tvg-id": "CanalAndalucia.es",
+      "category": "ESPA�A GENERAL",
+      "displayName": "CANAL SUR ESPA�A"
+    },
+    {
+      "tvg-id": "CazaPesca.es",
+      "category": "ESPA�A GENERAL",
+      "displayName": "CAZA Y PESCA ESPA�A"
+    },
+    {
+      "tvg-id": "CBXT.ca",
+      "category": "CANADA GENERAL",
+      "displayName": "CBC EDMONTON HD"
+    },
+    {
+      "tvg-id": "CBCNews.ca",
+      "category": "CANADA GENERAL",
+      "displayName": "CBC NEWS NETWORK HD"
+    },
+    {
+      "tvg-id": "CBNT.ca",
+      "category": "CANADA GENERAL",
+      "displayName": "CBC ST JOHNS (HD)"
+    },
+    {
+      "tvg-id": "CBET.ca",
+      "category": "CANADA GENERAL",
+      "displayName": "CBC WINDSOR NEWS HD"
+    },
+    {
+      "tvg-id": "CHCH.ca",
+      "category": "CANADA GENERAL",
+      "displayName": "CHCH"
+    },
+    {
+      "tvg-id": "CTVHC.ca",
+      "category": "CANADA GENERAL",
+      "displayName": "CITY CALGARY"
+    },
+    {
+      "tvg-id": "CityTVVancouver.ca",
+      "category": "CANADA GENERAL",
+      "displayName": "CITY TV VANCOUVER"
+    },
+    {
+      "tvg-id": "CityTVMontreal.ca",
+      "category": "CANADA GENERAL",
+      "displayName": "CITYTV MONTREAL"
+    },
+    {
+      "tvg-id": "CMT.ca",
+      "category": "CANADA GENERAL",
+      "displayName": "CMT SD (CA)"
+    },
+    {
+      "tvg-id": "Cosmo.es",
+      "category": "ESPA�A GENERAL",
+      "displayName": "COSMO ESPA�A"
+    },
+    {
+      "tvg-id": "CottageLife.ca",
+      "category": "CANADA GENERAL",
+      "displayName": "COTTAGE LIFE"
+    },
+    {
+      "tvg-id": "Cp24.ca",
+      "category": "CANADA GENERAL",
+      "displayName": "CP24 HD (R)"
+    },
+    {
+      "tvg-id": "CPAC.ca",
+      "category": "CANADA GENERAL",
+      "displayName": "CPAC HD"
+    },
+    {
+      "tvg-id": "Crave1.ca",
+      "category": "CANADA GENERAL",
+      "displayName": "CRAVE1 HD"
+    },
+    {
+      "tvg-id": "Crave2.ca",
+      "category": "CANADA GENERAL",
+      "displayName": "CRAVE2 HD"
+    },
+    {
+      "tvg-id": "Crave3.ca",
+      "category": "CANADA GENERAL",
+      "displayName": "CRAVE3 HD"
+    },
+    {
+      "tvg-id": "Crave4.ca",
+      "category": "CANADA GENERAL",
+      "displayName": "CRAVE4 HD"
+    },
+    {
+      "tvg-id": "CrimeInvestigation.ca",
+      "category": "CANADA GENERAL",
+      "displayName": "CRIME + INVERSTIGATION"
+    },
+    {
+      "tvg-id": "CJCH.ca",
+      "category": "CANADA GENERAL",
+      "displayName": "CTV ATLENTIC (ATV MONCTON)"
+    },
+    {
+      "tvg-id": "CTVComedy.ca",
+      "category": "CANADA GENERAL",
+      "displayName": "CTV Comedy HD"
+    },
+    {
+      "tvg-id": "ctvhalifax.ca",
+      "category": "CANADA GENERAL",
+      "displayName": "CTV HALIFAX"
+    },
+    {
+      "tvg-id": "DiscoveryScience.ca",
+      "category": "CANADA GENERAL",
+      "displayName": "CTV NATURE CANADA"
+    },
+    {
+      "tvg-id": "CTVNC.ca",
+      "category": "CANADA GENERAL",
+      "displayName": "CTV NEWS CHANNEL"
+    },
+    {
+      "tvg-id": "CFQC.ca",
+      "category": "CANADA GENERAL",
+      "displayName": "CTV SASKATOON SASKATCHEWAN HD"
+    },
+    {
+      "tvg-id": "ctvscifichannel.ca",
+      "category": "CANADA GENERAL",
+      "displayName": "CTV SCIFI HD"
+    },
+    {
+      "tvg-id": "CTVHT.ca",
+      "category": "CANADA GENERAL",
+      "displayName": "CTV TORONTO HD (CFTO"
+    },
+    {
+      "tvg-id": "CFPL.ca",
+      "category": "CANADA GENERAL",
+      "displayName": "CTV2 LONDON HD(R)"
+    },
+    {
+      "tvg-id": "KSTW.us",
+      "category": "CANADA GENERAL",
+      "displayName": "CW 11"
+    },
+    {
+      "tvg-id": "Dark.es",
+      "category": "ESPA�A GENERAL",
+      "displayName": "DARK ESPA�OL"
+    },
+    {
+      "tvg-id": "DAZN1.es",
+      "category": "ESPA�A GENERAL",
+      "displayName": "DAZN 1 ESPA�A"
+    },
+    {
+      "tvg-id": "DAZN2.es",
+      "category": "ESPA�A GENERAL",
+      "displayName": "DAZN 2 ESPA�A"
+    },
+    {
+      "tvg-id": "DAZN3.es",
+      "category": "ESPA�A GENERAL",
+      "displayName": "DAZN 3 ESPA�A"
+    },
+    {
+      "tvg-id": "DAZN4.es",
+      "category": "ESPA�A GENERAL",
+      "displayName": "DAZN 4 ESPA�A"
+    },
+    {
+      "tvg-id": "DAZNF1.es",
+      "category": "ESPA�A GENERAL",
+      "displayName": "DAZN F1 ESPA�A"
+    },
+    {
+      "tvg-id": "DaznLaLiga.es",
+      "category": "ESPA�A GENERAL",
+      "displayName": "DAZN LA LIGA ESPA�OLA"
+    },
+    {
+      "tvg-id": "DejaView.ca",
+      "category": "CANADA GENERAL",
+      "displayName": "DEJAVIEW"
+    },
+    {
+      "tvg-id": "discoveryscience.ca",
+      "category": "CANADA GENERAL",
+      "displayName": "DISCOVERY SCIENCE"
+    },
+    {
+      "tvg-id": "DiscoveryVelocity.ca",
+      "category": "CANADA GENERAL",
+      "displayName": "DISCOVERY VELOCITY H"
+    },
+    {
+      "tvg-id": "DisneyJunior.es",
+      "category": "ESPA�A GENERAL",
+      "displayName": "DISNEY JUNIOR SD"
+    },
+    {
+      "tvg-id": "DocumentaryChannel.ca",
+      "category": "CANADA GENERAL",
+      "displayName": "DOCUMENTARY"
+    },
+    {
+      "tvg-id": "Dtour.ca",
+      "category": "CANADA GENERAL",
+      "displayName": "DTOUR HD"
+    },
+    {
+      "tvg-id": "Esport3.es",
+      "category": "ESPA�A GENERAL",
+      "displayName": "ESPORT 3 ᴴᴰ"
+    },
+    {
+      "tvg-id": "ETB2.es",
+      "category": "ESPA�A GENERAL",
+      "displayName": "ETB 2"
+    },
+    {
+      "tvg-id": "Eurosport1.es",
+      "category": "ESPA�A GENERAL",
+      "displayName": "EUROSPORT 1 ESPA�A"
+    },
+    {
+      "tvg-id": "Eurosport2.es",
+      "category": "ESPA�A GENERAL",
+      "displayName": "EUROSPORT 2 ESPA�A"
+    },
+    {
+      "tvg-id": "FamilyChannel.ca",
+      "category": "CANADA GENERAL",
+      "displayName": "FAMILY CHANNEL EAST HD"
+    },
+    {
+      "tvg-id": "CHRGD.ca",
+      "category": "CANADA GENERAL",
+      "displayName": "FAMILY CHRGD"
+    },
+    {
+      "tvg-id": "FamilyJr.ca",
+      "category": "CANADA GENERAL",
+      "displayName": "FAMILY JR"
+    },
+    {
+      "tvg-id": "FightNetwork.ca",
+      "category": "CANADA GENERAL",
+      "displayName": "FIGHT NETWORK"
+    },
+    {
+      "tvg-id": "GINXeSportsTVCanada.ca",
+      "category": "CANADA GENERAL",
+      "displayName": "GINX ESPORTS TV"
+    },
+    {
+      "tvg-id": "CITV.ca",
+      "category": "CANADA GENERAL",
+      "displayName": "GlLOBL EDMONTON"
+    },
+    {
+      "tvg-id": "GlobalBC.ca",
+      "category": "CANADA GENERAL",
+      "displayName": "GLOBAL BC"
+    },
+    {
+      "tvg-id": "GlobalCalgary.ca",
+      "category": "CANADA GENERAL",
+      "displayName": "GLOBAL CALAGRY SD"
+    },
+    {
+      "tvg-id": "CIHF.ca",
+      "category": "CANADA GENERAL",
+      "displayName": "GLOBAL HALIFAX SD"
+    },
+    {
+      "tvg-id": "globalnewsbc1.ca",
+      "category": "CANADA GENERAL",
+      "displayName": "GLOBAL NEWS"
+    },
+    {
+      "tvg-id": "Historia.es",
+      "category": "ESPA�A GENERAL",
+      "displayName": "HISTORIA ESPA�A"
+    },
+    {
+      "tvg-id": "HPItv.ca",
+      "category": "CANADA GENERAL",
+      "displayName": "HPiTV"
+    },
+    {
+      "tvg-id": "IberaliaTV.es",
+      "category": "ESPA�A GENERAL",
+      "displayName": "IBERALIA TV ESPA�A"
+    },
+    {
+      "tvg-id": "Explora.ca",
+      "category": "CANADA GENERAL",
+      "displayName": "ICI EXPLORA"
+    },
+    {
+      "tvg-id": "ICITeleMontreal.ca",
+      "category": "CANADA GENERAL",
+      "displayName": "ICI MONTREAL"
+    },
+    {
+      "tvg-id": "mligadecampeones1.es",
+      "category": "ESPA�A GENERAL",
+      "displayName": "LALIGA DE CAMPEONES 1"
+    },
+    {
+      "tvg-id": "mligadecampeones2.es",
+      "category": "ESPA�A GENERAL",
+      "displayName": "LALIGA DE CAMPEONES 2"
+    },
+    {
+      "tvg-id": "MPlusLigadeCampeones3.es",
+      "category": "ESPA�A GENERAL",
+      "displayName": "LALIGA DE CAMPEONES 3"
+    },
+    {
+      "tvg-id": "mligadecampeones4.es",
+      "category": "ESPA�A GENERAL",
+      "displayName": "LALIGA DE CAMPEONES 4"
+    },
+    {
+      "tvg-id": "MPlusLigadeCampeones5.es",
+      "category": "ESPA�A GENERAL",
+      "displayName": "LALIGA DE CAMPEONES 5"
+    },
+    {
+      "tvg-id": "MPlusLigadeCampeones6.es",
+      "category": "ESPA�A GENERAL",
+      "displayName": "LALIGA DE CAMPEONES 6"
+    },
+    {
+      "tvg-id": "MPlusLigadeCampeones7.es",
+      "category": "ESPA�A GENERAL",
+      "displayName": "LALIGA DE CAMPEONES 7"
+    },
+    {
+      "tvg-id": "MPlusLigadeCampeones8.es",
+      "category": "ESPA�A GENERAL",
+      "displayName": "LALIGA DE CAMPEONES 8"
+    },
+    {
+      "tvg-id": "mlaligahypermotion2.es",
+      "category": "ESPA�A GENERAL",
+      "displayName": "LALIGA TV 2 HYPERMOTION ᴴᴰ"
+    },
+    {
+      "tvg-id": "mlaligahypermotion3.es",
+      "category": "ESPA�A GENERAL",
+      "displayName": "LALIGA TV 3 HYPERMOTION ᴴᴰ"
+    },
+    {
+      "tvg-id": "mlaligahypermotion.es",
+      "category": "ESPA�A GENERAL",
+      "displayName": "LALIGA TV HYPERMOTION ᴴᴰ"
+    },
+    {
+      "tvg-id": "mlaliga.es",
+      "category": "ESPA�A GENERAL",
+      "displayName": "M.LALIGA ᴴᴰᴿ ³⁸⁴⁰"
+    },
+    {
+      "tvg-id": "mdeportes1.es",
+      "category": "ESPA�A GENERAL",
+      "displayName": "M+ DEPORTES 1"
+    },
+    {
+      "tvg-id": "mdeportes2.es",
+      "category": "ESPA�A GENERAL",
+      "displayName": "M+ DEPORTES 2"
+    },
+    {
+      "tvg-id": "mdeportes3.es",
+      "category": "ESPA�A GENERAL",
+      "displayName": "M+ DEPORTES 3"
+    },
+    {
+      "tvg-id": "mdeportes4.es",
+      "category": "ESPA�A GENERAL",
+      "displayName": "M+ DEPORTES 4"
+    },
+    {
+      "tvg-id": "mdeportes5.es",
+      "category": "ESPA�A GENERAL",
+      "displayName": "M+ DEPORTES 6"
+    },
+    {
+      "tvg-id": "Makeful.ca",
+      "category": "CANADA GENERAL",
+      "displayName": "MAKEFUL SD"
+    },
+    {
+      "tvg-id": "Mezzo.es",
+      "category": "ESPA�A GENERAL",
+      "displayName": "MEZZO SD"
+    },
+    {
+      "tvg-id": "MovistarAccion.es",
+      "category": "ESPA�A GENERAL",
+      "displayName": "MOVISTAR ACCION ESPA�A"
+    },
+    {
+      "tvg-id": "MovistarClasicos.es",
+      "category": "ESPA�A GENERAL",
+      "displayName": "MOVISTAR CLASICOS ESPA�A"
+    },
+    {
+      "tvg-id": "MovistarComedia.es",
+      "category": "ESPA�A GENERAL",
+      "displayName": "MOVISTAR COMEDIA ESPA�A"
+    },
+    {
+      "tvg-id": "MovistarDeportes2.es",
+      "category": "ESPA�A GENERAL",
+      "displayName": "MOVISTAR DEPORTES 2 SD (SOLO E"
+    },
+    {
+      "tvg-id": "MovistarDeportes3.es",
+      "category": "ESPA�A GENERAL",
+      "displayName": "MOVISTAR DEPORTES 3 SD (SOLO E"
+    },
+    {
+      "tvg-id": "MovistarDeportes1.es",
+      "category": "ESPA�A GENERAL",
+      "displayName": "MOVISTAR DEPORTES SD"
+    },
+    {
+      "tvg-id": "MovistarDrama.es",
+      "category": "ESPA�A GENERAL",
+      "displayName": "MOVISTAR DRAMA ESPA�A"
+    },
+    {
+      "tvg-id": "movistargolf.es",
+      "category": "ESPA�A GENERAL",
+      "displayName": "MOVISTAR GOLF ᴴᴰ"
+    },
+    {
+      "tvg-id": "MovistarGolf.es",
+      "category": "ESPA�A GENERAL",
+      "displayName": "MOVISTAR GOLF ESPA�A"
+    },
+    {
+      "tvg-id": "MovistarSeries1.es",
+      "category": "ESPA�A GENERAL",
+      "displayName": "MOVISTAR HITS ESPA�A"
+    },
+    {
+      "tvg-id": "MLaLiga2.es",
+      "category": "ESPA�A GENERAL",
+      "displayName": "MOVISTAR LA LIGA 2 ESPA�A (SOL"
+    },
+    {
+      "tvg-id": "MLaLiga.es",
+      "category": "ESPA�A GENERAL",
+      "displayName": "MOVISTAR LA LIGA ESPA�A"
+    },
+    {
+      "tvg-id": "MTV.es",
+      "category": "ESPA�A GENERAL",
+      "displayName": "MTV SD"
+    },
+    {
+      "tvg-id": "MuchMusic.ca",
+      "category": "CANADA GENERAL",
+      "displayName": "MUCH_MUSIC"
+    },
+    {
+      "tvg-id": "OutdoorLifeNetwork.ca",
+      "category": "CANADA GENERAL",
+      "displayName": "OLN"
+    },
+    {
+      "tvg-id": "omni1.ca",
+      "category": "CANADA GENERAL",
+      "displayName": "OMNI 1"
+    },
+    {
+      "tvg-id": "OMNI2.ca",
+      "category": "CANADA GENERAL",
+      "displayName": "OMNI 2"
+    },
+    {
+      "tvg-id": "OneSoccer.ca",
+      "category": "CANADA GENERAL",
+      "displayName": "ONE SOCCER HD"
+    },
+    {
+      "tvg-id": "OutTV.ca",
+      "category": "CANADA GENERAL",
+      "displayName": "OUT TV"
+    },
+    {
+      "tvg-id": "OprahWinfreyNetwork.ca",
+      "category": "CANADA GENERAL",
+      "displayName": "OWN HD"
+    },
+    {
+      "tvg-id": "RealMadridTV.es",
+      "category": "ESPA�A GENERAL",
+      "displayName": "REAL MADRID TV ESPA�A"
+    },
+    {
+      "tvg-id": "Showcase.ca",
+      "category": "CANADA GENERAL",
+      "displayName": "SHOWCASE(R)"
+    },
+    {
+      "tvg-id": "SilverScreenClassics.ca",
+      "category": "CANADA GENERAL",
+      "displayName": "SILVER SCREEN CLASSI"
+    },
+    {
+      "tvg-id": "Slice.ca",
+      "category": "CANADA GENERAL",
+      "displayName": "SLICE HD"
+    },
+    {
+      "tvg-id": "Smithsonian.ca",
+      "category": "CANADA GENERAL",
+      "displayName": "SMITHSONIAN"
+    },
+    {
+      "tvg-id": "SuperChannelFuse.ca",
+      "category": "CANADA GENERAL",
+      "displayName": "SUPER CHANNEL FUSE H"
+    },
+    {
+      "tvg-id": "SuperChannelHeartHome.ca",
+      "category": "CANADA GENERAL",
+      "displayName": "SUPER CHANNEL HEART"
+    },
+    {
+      "tvg-id": "SuperChannelVAULT.ca",
+      "category": "CANADA GENERAL",
+      "displayName": "SUPER CHANNEL VAULT"
+    },
+    {
+      "tvg-id": "Teledeporte.es",
+      "category": "ESPA�A GENERAL",
+      "displayName": "TELEDEPORTE ESPA�A"
+    },
+    {
+      "tvg-id": "Teletoon.ca",
+      "category": "CANADA GENERAL",
+      "displayName": "TELETOON"
+    },
+    {
+      "tvg-id": "tlc.ca",
+      "category": "CANADA GENERAL",
+      "displayName": "TLC CANADA"
+    },
+    {
+      "tvg-id": "Treehouse.ca",
+      "category": "CANADA GENERAL",
+      "displayName": "TREEHOUSE"
+    },
+    {
+      "tvg-id": "TodaysShoppingChoice.ca",
+      "category": "CANADA GENERAL",
+      "displayName": "TSC"
+    },
+    {
+      "tvg-id": "TV3Catalunya.es",
+      "category": "ESPA�A GENERAL",
+      "displayName": "TV3 CATALUÑA SD"
+    },
+    {
+      "tvg-id": "Vamos.es",
+      "category": "ESPA�A GENERAL",
+      "displayName": "VAMOS ESPA�A"
+    },
+    {
+      "tvg-id": "Vision.ca",
+      "category": "CANADA GENERAL",
+      "displayName": "VISION"
+    },
+    {
+      "tvg-id": "WNetwork.ca",
+      "category": "CANADA GENERAL",
+      "displayName": "W NETWORK"
+    },
+    {
+      "tvg-id": "NatGeoWild.ca",
+      "category": "CANADA GENERAL",
+      "displayName": "WILD TV"
+    },
+    {
+      "tvg-id": "wnetwork.ca",
+      "category": "CANADA GENERAL",
+      "displayName": "W-NETWORK"
+    },
+    {
+      "tvg-id": "Xtrm.es",
+      "category": "ESPA�A GENERAL",
+      "displayName": "XTRM SD"
+    },
+    {
+      "tvg-id": "yestv.ca",
+      "category": "CANADA GENERAL",
+      "displayName": "YES TV HD"
+    },
+    {
+      "tvg-id": "ACUWTHR.pr",
+      "category": "PUERTO RICO"
+    },
+    {
+      "tvg-id": "FREEFRM.pr",
+      "category": "USA GENERAL",
+      "displayName": "FREEFRM.pr"
+    },
+    {
+      "tvg-id": "FS1.pr",
+      "category": "SPORTS",
+      "displayName": "Fox Sports 1"
+    },
+    {
+      "tvg-id": "HOLAPR.pr",
+      "category": "PUERTO RICO",
+      "displayName": "HOLAPR"
+    },
+    {
+      "tvg-id": "MEGA TV WORA DT5 MAYAGUEZ PUERTO RICO.pr",
+      "category": "PUERTO RICO",
+      "displayName": "WORA Mayaguez"
+    },
+    {
+      "tvg-id": "MICASA W31DL PUERTO RICO.pr",
+      "category": "PUERTO RICO"
+    },
+    {
+      "tvg-id": "MLBN.pr",
+      "category": "SPORTS",
+      "displayName": "MLBN.pr"
+    },
+    {
+      "tvg-id": "PPV.pr",
+      "category": "PUERTO RICO",
+      "displayName": "PPV.pr"
+    },
+    {
+      "tvg-id": "PPV660.pr",
+      "category": "PUERTO RICO",
+      "displayName": "PPV660.pr"
+    },
+    {
+      "tvg-id": "PPV662.pr",
+      "category": "PUERTO RICO",
+      "displayName": "PPV662.pr"
+    },
+    {
+      "tvg-id": "PUERTO RICO SPORTS WIPM TV2 MAYAGUEZ PR.pr",
+      "category": "PUERTO RICO"
+    },
+    {
+      "tvg-id": "WAPA TV  SAN JUAN PUERTO RICO.pr",
+      "category": "PUERTO RICO",
+      "displayName": "WAPA TV Puerto Rico"
+    },
+    {
+      "tvg-id": "WSTE  PONCE PUERTO RICO.pr",
+      "category": "PUERTO RICO",
+      "displayName": "WSTE PONCE Puerto Rico"
+    }
   ]
 }
