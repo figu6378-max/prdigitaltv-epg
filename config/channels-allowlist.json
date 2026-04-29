@@ -2611,7 +2611,8 @@
     },
     {
       "tvg-id": "WAPAAM.pr",
-      "category": "puerto-rico"
+      "category": "PUERTO RICO",
+      "displayName": "WAPA América"
     },
     {
       "tvg-id": "WKAQ.pr",
@@ -2633,7 +2634,8 @@
     },
     {
       "tvg-id": "WAPADeportes.pr",
-      "category": "puerto-rico"
+      "category": "PUERTO RICO",
+      "displayName": "WAPA Deportes"
     },
     {
       "tvg-id": "GAME1.pr",

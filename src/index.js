@@ -101,6 +101,7 @@ async function main() {
       }
 
       const progIndex = new Map(providerEpg.programmes.map((p, i) => [`${p.channel}|${p.start}`, i]));
+      const idMap = source.channel_id_map || {};
       let added = 0, upgraded = 0;
       for (const prog of extra.programmes) {
         const key = `${prog.channel}|${prog.start}`;
@@ -116,6 +117,21 @@ async function main() {
           progIndex.set(key, providerEpg.programmes.length);
           providerEpg.programmes.push(prog);
           added++;
+        }
+
+        // Cross-ID desc injection: upgrade mapped channel slots (e.g. WKAQ.pr → WKAQ.us)
+        // Only upgrades existing slots — never adds phantom entries for channels DINO doesn't carry
+        const mappedId = idMap[prog.channel];
+        if (mappedId && prog.desc?.trim()) {
+          const mappedKey = `${mappedId}|${prog.start}`;
+          if (progIndex.has(mappedKey)) {
+            const idx = progIndex.get(mappedKey);
+            const existingEmpty = !providerEpg.programmes[idx].desc?.trim();
+            if (existingEmpty || source.prefer_desc) {
+              providerEpg.programmes[idx] = { ...prog, channel: mappedId };
+              upgraded++;
+            }
+          }
         }
       }
       console.log(`[pipeline] After merge: ${providerEpg.channels.length} channels, ${providerEpg.programmes.length} programmes (+${added} new, ${upgraded} desc upgrades)`);

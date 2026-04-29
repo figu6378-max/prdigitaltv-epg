@@ -6,7 +6,20 @@
       "enabled": true,
       "gzip": false,
       "prefer_desc": true,
-      "_comment": "Primary desc source for all matched channels — open-epg desc wins over provider desc"
+      "channel_id_map": {
+        "WKAQ.pr": "WKAQ.us",
+        "WKAQDT2.pr": "WKAQDT2.us",
+        "WLII.pr": "WLII.us",
+        "WLIIDT2.pr": "WLIIDT2.us",
+        "WIPR.pr": "WIPR.us",
+        "WSTE.pr": "WSTE.us",
+        "MEGDTV.pr": "MEGDTV.us",
+        "WAPA.pr": "WAPA.us",
+        "WAPADT2.pr": "WAPADT2.us",
+        "WAPAAM.pr": "WAPAAM.us",
+        "WAPADeportes.pr": "WAPADeportes.us"
+      },
+      "_comment": "Primary desc source for all matched channels — open-epg desc wins over provider desc. channel_id_map injects .pr Spanish desc into matching .us slots (DINO has no PR descriptions)"
     },
     {
       "name": "iptv-epg-us",
