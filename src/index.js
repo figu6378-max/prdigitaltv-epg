@@ -109,7 +109,8 @@ async function main() {
           const idx = progIndex.get(key);
           const hasIncomingDesc = prog.desc?.trim();
           const existingEmpty = !providerEpg.programmes[idx].desc?.trim();
-          if (hasIncomingDesc && (existingEmpty || source.prefer_desc)) {
+          // Direct match: only fill empty slots — prefer_desc only applies to cross-ID injection
+          if (hasIncomingDesc && existingEmpty) {
             providerEpg.programmes[idx] = prog;
             upgraded++;
           }

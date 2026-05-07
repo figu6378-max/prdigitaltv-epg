@@ -68,7 +68,12 @@ jobs:
           PROVIDER_EPG_URL: ${{ secrets.PROVIDER_EPG_URL }}
           PROVIDER_EPG_URL_2: ${{ secrets.PROVIDER_EPG_URL_2 }}
           TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
-        run: node src/index.js
+        run: |
+          node src/index.js | tee /tmp/epg-pipeline.log
+          CH=$(grep -oP 'After filter: \K[0-9]+(?= channels)' /tmp/epg-pipeline.log | tail -1)
+          PR=$(grep -oP 'After purge: \K[0-9]+(?= programmes)' /tmp/epg-pipeline.log | tail -1)
+          echo "EPG_CHANNELS=${CH:-?}" >> $GITHUB_ENV
+          echo "EPG_PROGRAMMES=${PR:-?}" >> $GITHUB_ENV
 
       - name: Commit updated EPG
         run: |
@@ -88,7 +93,7 @@ jobs:
           GHL_API_KEY: ${{ secrets.GHL_API_KEY }}
         run: |
           TS=$(date -u '+%Y-%m-%d %H:%M UTC')
-          MSG="✅ EPG PRDigitalTV actualizado en GitHub Pages. Canales: 496 | Programas: ~28k | $TS"
+          MSG="✅ EPG PRDigitalTV actualizado en GitHub Pages. Canales: ${{ env.EPG_CHANNELS }} | Programas: ${{ env.EPG_PROGRAMMES }} | $TS"
           echo "Sending SMS notification..."
           RESPONSE=$(curl -s -w "\n%{http_code}" -X POST "https://services.leadconnectorhq.com/conversations/messages" \
             -H "Authorization: Bearer $GHL_API_KEY" \

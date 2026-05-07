@@ -98,7 +98,8 @@ export async function lookupSportsDescription(title, xmltvStart) {
   const match = events.find(e =>
     (e.strHomeTeam && lower.includes(e.strHomeTeam.toLowerCase())) ||
     (e.strAwayTeam && lower.includes(e.strAwayTeam.toLowerCase()))
-  ) || events[0];
+  );
+  if (!match) return '';
 
   return formatSportsDescription(match);
 }
