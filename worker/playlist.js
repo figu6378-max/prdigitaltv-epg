@@ -2,6 +2,36 @@ const EPG_MAP_URL = 'https://figu6378-max.github.io/prdigitaltv-epg/stream-epg-m
 const EPG_URL = 'https://figu6378-max.github.io/prdigitaltv-epg/epg.xml';
 const CACHE_TTL = 3600;
 
+// Categories allowed for provider2 streams that have no epg_channel_id
+const NO_EPG_ALLOWED_CATS = new Set([
+  'FOR ADULTS',
+  '|AM| CANADA',
+  '|AM| DOMINICANA REP',
+  '|ES| 24/7 SPANISH',
+  '|ES| CINEMA',
+  '|ES| GENERAL',
+  '|NA| TELEMUNDO',
+  '|NA| UNIVISION',
+  '|NA| USA ABC',
+  '|NA| USA GENERAL',
+  '|NA| USA KIDS',
+  '|NA| USA MILB',
+  '|NA| USA MLB',
+  '|NA| USA MOVIES',
+  '|NA| USA NBA',
+  '|NA| USA NETFLIX PPV',
+  '|NA| USA NEWS',
+  '|NA| USA SPORTS',
+  '|NA| USA WNBA',
+  '|SA| CARRIBEAN',
+  '|SA| LATINO',
+  '|UK| AMAZON PRIME',
+  '|UK| ENTERTAINMENT',
+  '|UK| GENERAL',
+  '|UK| MOVIES',
+  '|UK| NATIONAL LEAGUE',
+]);
+
 const PROVIDER2_NAME_FALLBACK = {
   'latwapa':                       'WAPA.pr',
   'latwapaamerica':                'WAPAAM.pr',
@@ -9,12 +39,6 @@ const PROVIDER2_NAME_FALLBACK = {
   'usatelemundo2wkaqpuertorico':   'WKAQDT2.pr',
   'usauniivision11prwlii':         'WLII.pr',
 };
-
-// Category consolidation for US/CA/UK/ES live channels
-const CONSOLIDATE_SUFFIX = new Set(['us', 'ca', 'uk', 'gb', 'es']);
-const CONSOLIDATE_COUNTRY_RE = /\b(usa?|canada|uk|spain)\b/i;
-const MOVIE_CAT_RE = /pel[ií]culas?|cinema|cine\b|movies?|films?/i;
-const SPORTS_CAT_RE = /deportes?|sports?/i;
 
 function normalize(s) {
   return s
@@ -27,22 +51,6 @@ function normalize(s) {
 
 function decodeEntities(s) {
   return s.replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&quot;/g, '"');
-}
-
-// Normalizes provider category names for live channels from target countries.
-// VOD movies are always normalized separately since they lack a country-coded tvg-id.
-function normalizeGroupTitle(raw, tvgId) {
-  const suffix = (tvgId.split('.').pop() || '').toLowerCase();
-  let cat = (raw || 'general')
-    .replace(/^\|[^|]+\|\s*/, '')
-    .replace(/^\d+[-.\s]+/, '')
-    .trim() || 'general';
-  const isTarget = CONSOLIDATE_SUFFIX.has(suffix) || CONSOLIDATE_COUNTRY_RE.test(cat);
-  if (isTarget) {
-    if (MOVIE_CAT_RE.test(cat)) return 'MOVIES';
-    if (SPORTS_CAT_RE.test(cat)) return 'SPORTS';
-  }
-  return cat;
 }
 
 async function getMapping(ctx) {
@@ -238,22 +246,16 @@ export default {
         logo = stream.stream_icon || '';
 
         if (!resolvedId) {
+          if (!NO_EPG_ALLOWED_CATS.has(catStripped)) continue;
           name = streamNameClean;
-          // No EPG ID — include only if category is movies or sports
-          if (MOVIE_CAT_RE.test(catStripped)) groupTitle = 'MOVIES';
-          else if (SPORTS_CAT_RE.test(catStripped)) groupTitle = 'SPORTS';
-          else continue;
+          groupTitle = catStripped;
           tvgId = '';
         } else {
           if (seen.has(resolvedId)) continue;
           seen.add(resolvedId);
           tvgId = resolvedId;
           name = tvgDisplayMap[resolvedId] || streamNameClean;
-          const allowlistCat = tvgCatMap[resolvedId];
-          if (allowlistCat === 'movies') groupTitle = 'MOVIES';
-          else if (allowlistCat === 'sports') groupTitle = 'SPORTS';
-          else if (allowlistCat) groupTitle = allowlistCat;
-          else groupTitle = normalizeGroupTitle(rawCat, tvgId);
+          groupTitle = tvgCatMap[resolvedId] || catStripped;
         }
       } else {
         const key = normalize(stream.name);
@@ -265,8 +267,6 @@ export default {
         name = decodeEntities(epg.displayName);
         logo = stream.stream_icon || epg.icon || '';
         groupTitle = epg.groupTitle;
-        if (groupTitle === 'movies') groupTitle = 'MOVIES';
-        else if (groupTitle === 'sports') groupTitle = 'SPORTS';
       }
 
       lines.push(
@@ -279,9 +279,8 @@ export default {
     for (const stream of vodStreams) {
       const name = stream.name || '';
       const logo = stream.stream_icon || '';
-      const rawCat = stream.category_name || vodCatMap[stream.category_id] || 'movies';
-      // All VOD movie categories normalize to 'movies' when they match; keep specific genre otherwise
-      const groupTitle = MOVIE_CAT_RE.test(rawCat) ? 'MOVIES' : rawCat;
+      const rawCat = stream.category_name || vodCatMap[stream.category_id] || '';
+      const groupTitle = rawCat;
       const ext = stream.container_extension || 'mp4';
       lines.push(
         `#EXTINF:-1 tvg-id="" tvg-name="${name}" tvg-logo="${logo}" group-title="${groupTitle}",${name}`,
