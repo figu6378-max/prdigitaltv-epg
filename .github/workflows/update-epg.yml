@@ -68,6 +68,7 @@ jobs:
           PROVIDER_EPG_URL: ${{ secrets.PROVIDER_EPG_URL }}
           PROVIDER_EPG_URL_2: ${{ secrets.PROVIDER_EPG_URL_2 }}
           TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+          NODE_OPTIONS: --max-old-space-size=4096
         run: |
           node src/index.js | tee /tmp/epg-pipeline.log
           CH=$(grep -oP 'After filter: \K[0-9]+(?= channels)' /tmp/epg-pipeline.log | tail -1)
