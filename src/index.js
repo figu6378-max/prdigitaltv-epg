@@ -101,7 +101,11 @@ async function main() {
       }
 
       const progIndex = new Map(providerEpg.programmes.map((p, i) => [`${p.channel}|${p.start}`, i]));
-      const idMap = source.channel_id_map || {};
+      // channel_id_map in sources.json: { "our.pr": "epg-source.us" } (target→source)
+      // Invert so we can look up by prog.channel (the source ID) → our target ID
+      const idMap = Object.fromEntries(
+        Object.entries(source.channel_id_map || {}).map(([target, src]) => [src, target])
+      );
       let added = 0, upgraded = 0;
       for (const prog of extra.programmes) {
         const key = `${prog.channel}|${prog.start}`;
