@@ -215,8 +215,32 @@ async function main() {
   console.log('[pipeline] Enriching descriptions...');
   const enriched = await enrichAllProgrammes(filtered.programmes, secondaryDescMap, tmdbApiKey);
 
+  // CROSS-CHANNEL DESC SHARING: propagate best desc within channel families (same title)
+  const CHANNEL_FAMILIES = [
+    ['WAPA.pr', 'WAPADT2.pr', 'WAPAAM.pr', 'WAPADeportes.pr'],
+    ['WLII.pr', 'WLIIDT2.pr'],
+    ['WKAQ.pr', 'WKAQDT2.pr'],
+  ];
+  const familySet = new Set(CHANNEL_FAMILIES.flat());
+  const famIdx = id => CHANNEL_FAMILIES.findIndex(f => f.includes(id));
+  const famTitleDesc = new Map();
+  for (const p of enriched) {
+    if (!familySet.has(p.channel) || !p.desc?.trim() || p.desc === p.title) continue;
+    const key = `${famIdx(p.channel)}::${p.title.toLowerCase().trim()}`;
+    const cur = famTitleDesc.get(key) || '';
+    if (p.desc.length > cur.length) famTitleDesc.set(key, p.desc);
+  }
+  let sharedDescs = 0;
+  const finalProgrammes = enriched.map(p => {
+    if (!familySet.has(p.channel) || p.desc?.trim()) return p;
+    const shared = famTitleDesc.get(`${famIdx(p.channel)}::${p.title.toLowerCase().trim()}`);
+    if (shared) { sharedDescs++; return { ...p, desc: shared }; }
+    return p;
+  });
+  console.log(`[pipeline] Cross-channel desc share: ${sharedDescs} programmes filled`);
+
   // BUILD
-  const ok = writeEpgFile({ channels: filtered.channels, programmes: enriched });
+  const ok = writeEpgFile({ channels: filtered.channels, programmes: finalProgrammes });
   if (!ok) {
     console.error('[pipeline] Build failed — previous epg.xml preserved');
     process.exit(1);
