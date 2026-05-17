@@ -61,7 +61,7 @@ export function buildXmltvString(epgData) {
  * @param {{ channels: Array, programmes: Array }} epgData
  * @returns {boolean}
  */
-export function writeEpgFile(epgData) {
+export function writeEpgFile(epgData, filename = 'epg.xml') {
   if (!existsSync('output')) mkdirSync('output');
 
   try {
@@ -69,8 +69,8 @@ export function writeEpgFile(epgData) {
     if (!xml.includes('<tv') || !xml.includes('</tv>')) {
       throw new Error('XML validation failed: missing <tv> root element');
     }
-    writeFileSync('output/epg.xml', xml, 'utf8');
-    console.log(`[build] output/epg.xml written — ${epgData.channels.length} channels, ${epgData.programmes.length} programmes`);
+    writeFileSync(`output/${filename}`, xml, 'utf8');
+    console.log(`[build] output/${filename} written — ${epgData.channels.length} channels, ${epgData.programmes.length} programmes`);
     return true;
   } catch (err) {
     console.error(`[build] Write failed: ${err.message}`);

@@ -1,6 +1,7 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { buildXmltvString } from '../src/build.js';
+import { mkdirSync, existsSync, rmSync } from 'node:fs';
+import { buildXmltvString, writeEpgFile } from '../src/build.js';
 
 const SAMPLE = {
   channels: [
@@ -51,4 +52,20 @@ test('buildXmltvString handles empty data without crashing', () => {
   const xml = buildXmltvString({ channels: [], programmes: [] });
   assert.ok(xml.includes('<tv'));
   assert.ok(xml.includes('</tv>'));
+});
+
+test('writeEpgFile defaults to epg.xml when no filename given', () => {
+  if (!existsSync('output')) mkdirSync('output');
+  const ok = writeEpgFile(SAMPLE);
+  assert.equal(ok, true);
+  assert.ok(existsSync('output/epg.xml'));
+});
+
+test('writeEpgFile writes to custom filename', () => {
+  if (!existsSync('output')) mkdirSync('output');
+  if (existsSync('output/epg-test.xml')) rmSync('output/epg-test.xml');
+  const ok = writeEpgFile(SAMPLE, 'epg-test.xml');
+  assert.equal(ok, true);
+  assert.ok(existsSync('output/epg-test.xml'));
+  rmSync('output/epg-test.xml');
 });
