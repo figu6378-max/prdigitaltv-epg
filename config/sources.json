@@ -51,6 +51,13 @@
   ],
   "secondary": [
     {
+      "name": "open-epg-pr",
+      "url": "https://www.open-epg.com/generate/VchmwyY7n2.xml",
+      "enabled": true,
+      "gzip": false,
+      "_comment": "Priority 0 — best PR channel descriptions; channelId-keyed so no cross-channel pollution"
+    },
+    {
       "name": "open-epg",
       "url": "https://www.open-epg.com/generate/VchmwyY7n2.xml",
       "enabled": true,
