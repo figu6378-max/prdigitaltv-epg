@@ -1,36 +1,8 @@
+import { categoryMapper } from './category-mapper.js';
+
 const EPG_MAP_URL = 'https://figu6378-max.github.io/prdigitaltv-epg/stream-epg-map.json';
 const EPG_URL = 'https://figu6378-max.github.io/prdigitaltv-epg/epg.xml';
 const CACHE_TTL = 3600;
-
-// Categories allowed for provider2 streams that have no epg_channel_id
-const NO_EPG_ALLOWED_CATS = new Set([
-  'FOR ADULTS',
-  '|AM| CANADA',
-  '|AM| DOMINICANA REP',
-  '|ES| 24/7 SPANISH',
-  '|ES| CINEMA',
-  '|ES| GENERAL',
-  '|NA| TELEMUNDO',
-  '|NA| UNIVISION',
-  '|NA| USA ABC',
-  '|NA| USA GENERAL',
-  '|NA| USA KIDS',
-  '|NA| USA MILB',
-  '|NA| USA MLB',
-  '|NA| USA MOVIES',
-  '|NA| USA NBA',
-  '|NA| USA NETFLIX PPV',
-  '|NA| USA NEWS',
-  '|NA| USA SPORTS',
-  '|NA| USA WNBA',
-  '|SA| CARRIBEAN',
-  '|SA| LATINO',
-  '|UK| AMAZON PRIME',
-  '|UK| ENTERTAINMENT',
-  '|UK| GENERAL',
-  '|UK| MOVIES',
-  '|UK| NATIONAL LEAGUE',
-]);
 
 const PROVIDER2_NAME_FALLBACK = {
   'latwapa':                       'WAPA.pr',
@@ -237,8 +209,8 @@ export default {
       if (isProvider2) {
         const epgId = stream.epg_channel_id && stream.epg_channel_id.trim();
         const resolvedId = epgId || PROVIDER2_NAME_FALLBACK[normalize(stream.name)] || '';
-        const rawCat = stream.category_name || liveCatMap[stream.category_id] || 'general';
-        const catStripped = rawCat.replace(/^\|[^|]+\|\s*/, '').replace(/^\d+[-.\s]+/, '').trim() || 'general';
+        const rawCat = stream.category_name || liveCatMap[stream.category_id] || '';
+        const mappedCat = categoryMapper(rawCat);
         const streamNameClean = stream.name
           .replace(/^\|[^|]+\|\s*/, '')
           .replace(/^[A-Z]{2,4}\s*[-–]\s*/i, '')
@@ -246,16 +218,15 @@ export default {
         logo = stream.stream_icon || '';
 
         if (!resolvedId) {
-          if (!NO_EPG_ALLOWED_CATS.has(catStripped)) continue;
           name = streamNameClean;
-          groupTitle = catStripped;
+          groupTitle = mappedCat;
           tvgId = '';
         } else {
           if (seen.has(resolvedId)) continue;
           seen.add(resolvedId);
           tvgId = resolvedId;
           name = tvgDisplayMap[resolvedId] || streamNameClean;
-          groupTitle = tvgCatMap[resolvedId] || catStripped;
+          groupTitle = tvgCatMap[resolvedId] || mappedCat;
         }
       } else {
         const key = normalize(stream.name);
