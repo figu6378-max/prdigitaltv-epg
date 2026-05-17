@@ -25,6 +25,24 @@ function decodeEntities(s) {
   return s.replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&quot;/g, '"');
 }
 
+function buildVodLines(lines, vodStreams, vodCatMap, host, u, p) {
+  for (const stream of vodStreams) {
+    const rawName = stream.name || '';
+    const name = rawName
+      .replace(/^\|[^|]+\|\s*/, '')
+      .replace(/^[A-Z]{2,4}\s*[-–]\s*/i, '')
+      .trim() || rawName;
+    const logo = stream.stream_icon || '';
+    const rawCat = stream.category_name || vodCatMap[stream.category_id] || '';
+    const groupTitle = categoryMapper(rawCat);
+    const ext = stream.container_extension || 'mp4';
+    lines.push(
+      `#EXTINF:-1 tvg-id="" tvg-name="${name}" tvg-logo="${logo}" group-title="${groupTitle}",${name}`,
+    );
+    lines.push(`http://${host}/movie/${encodeURIComponent(u)}/${encodeURIComponent(p)}/${stream.stream_id}.${ext}`);
+  }
+}
+
 async function getMapping(ctx) {
   const cache = caches.default;
   const cacheKey = new Request(EPG_MAP_URL);
@@ -182,21 +200,7 @@ export default {
         buildCategoryMap(base, 'get_vod_categories'),
       ]);
 
-      for (const stream of vodStreams) {
-        const rawName = stream.name || '';
-        const name = rawName
-          .replace(/^\|[^|]+\|\s*/, '')
-          .replace(/^[A-Z]{2,4}\s*[-–]\s*/i, '')
-          .trim() || rawName;
-        const logo = stream.stream_icon || '';
-        const rawCat = stream.category_name || vodCatMap[stream.category_id] || '';
-        const groupTitle = categoryMapper(rawCat);
-        const ext = stream.container_extension || 'mp4';
-        lines.push(
-          `#EXTINF:-1 tvg-id="" tvg-name="${name}" tvg-logo="${logo}" group-title="${groupTitle}",${name}`,
-        );
-        lines.push(`http://${host}/movie/${encodeURIComponent(u)}/${encodeURIComponent(p)}/${stream.stream_id}.${ext}`);
-      }
+      buildVodLines(lines, vodStreams, vodCatMap, host, u, p);
 
       return new Response(lines.join('\n'), {
         headers: {
@@ -287,21 +291,7 @@ export default {
     }
 
     // VOD movies
-    for (const stream of vodStreams) {
-      const rawName = stream.name || '';
-      const name = rawName
-        .replace(/^\|[^|]+\|\s*/, '')
-        .replace(/^[A-Z]{2,4}\s*[-–]\s*/i, '')
-        .trim() || rawName;
-      const logo = stream.stream_icon || '';
-      const rawCat = stream.category_name || vodCatMap[stream.category_id] || '';
-      const groupTitle = categoryMapper(rawCat);
-      const ext = stream.container_extension || 'mp4';
-      lines.push(
-        `#EXTINF:-1 tvg-id="" tvg-name="${name}" tvg-logo="${logo}" group-title="${groupTitle}",${name}`,
-      );
-      lines.push(`http://${host}/movie/${encodeURIComponent(u)}/${encodeURIComponent(p)}/${stream.stream_id}.${ext}`);
-    }
+    buildVodLines(lines, vodStreams, vodCatMap, host, u, p);
 
     return new Response(lines.join('\n'), {
       headers: {
