@@ -3,6 +3,7 @@ import { downloadXmltvUrl, parseXmltvString, buildSecondaryDescMap } from './fet
 import { filterEpgData } from './filter.js';
 import { enrichAllProgrammes } from './enrich.js';
 import { writeEpgFile } from './build.js';
+import { splitEpgByProvider } from './split.js';
 import { buildDiscoveredChannels, writeDiscoveredChannels } from './discover.js';
 
 const DISCOVER_MODE = process.argv.includes('--discover');
@@ -34,6 +35,8 @@ async function main() {
 
   // FETCH: Primary provider EPG — DINO (PROVIDER_EPG_URL_2) is now primary
   let providerEpg = null;
+  let p1ChannelIds = new Set();
+  let p2ChannelIds = new Set();
 
   if (providerUrl2) {
     try {
@@ -41,6 +44,8 @@ async function main() {
       const xml2 = await downloadXmltvUrl(providerUrl2, false);
       providerEpg = parseXmltvString(xml2);
       console.log(`[pipeline] DINO (primary): ${providerEpg.channels.length} channels, ${providerEpg.programmes.length} programmes`);
+      p1ChannelIds = new Set(providerEpg.channels.map(c => c.id));
+      console.log(`[pipeline] P1 (DINO) channel IDs tracked: ${p1ChannelIds.size}`);
     } catch (err) {
       console.error(`[pipeline] ERROR: DINO (primary) EPG unavailable: ${err.message}`);
       console.error('[pipeline] Falling back to old provider...');
@@ -56,6 +61,8 @@ async function main() {
       const xml = await downloadXmltvUrl(providerUrl, false);
       const epg1 = parseXmltvString(xml);
       console.log(`[pipeline] Old P1: ${epg1.channels.length} channels, ${epg1.programmes.length} programmes`);
+      p2ChannelIds = new Set(epg1.channels.map(c => c.id));
+      console.log(`[pipeline] P2 (old) channel IDs tracked: ${p2ChannelIds.size}`);
 
       if (!providerEpg) {
         providerEpg = epg1;
@@ -230,10 +237,17 @@ async function main() {
   });
   console.log(`[pipeline] Cross-channel desc share: ${sharedDescs} programmes filled`);
 
-  // BUILD
-  const ok = writeEpgFile({ channels: filtered.channels, programmes: finalProgrammes });
-  if (!ok) {
-    console.error('[pipeline] Build failed — previous epg.xml preserved');
+  // BUILD — split by provider and write two files
+  const p1Set = new Set([...p1ChannelIds, ...additionalBypassIds]);
+  const p2Set = new Set([...p2ChannelIds, ...additionalBypassIds]);
+  console.log(`[pipeline] P1 output set: ${p1Set.size} channel IDs, P2 output set: ${p2Set.size} channel IDs`);
+
+  const { p1: p1Epg, p2: p2Epg } = splitEpgByProvider(filtered.channels, finalProgrammes, p1Set, p2Set);
+
+  const ok1 = writeEpgFile(p1Epg, 'epg.xml');
+  const ok2 = writeEpgFile(p2Epg, 'epg2.xml');
+  if (!ok1 || !ok2) {
+    console.error('[pipeline] Build failed — previous EPG files preserved');
     process.exit(1);
   }
 
