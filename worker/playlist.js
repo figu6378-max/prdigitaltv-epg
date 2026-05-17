@@ -80,33 +80,41 @@ export default {
       return new Response('ok', { status: 200 });
     }
 
-    let u, p, host, isProvider2, isSeries;
+    let u, p, host, isProvider2, isSeries, isVodOnly;
     const parts = url.pathname.split('/').filter(Boolean);
 
     if (parts.length === 3 && parts[0] === 'playlist') {
       u = parts[1]; p = parts[2];
       host = env.PROVIDER_HOST || 'prdigital.cc';
-      isProvider2 = false; isSeries = false;
+      isProvider2 = false; isSeries = false; isVodOnly = false;
     } else if (parts.length === 3 && parts[0] === 'playlist2') {
       u = parts[1]; p = parts[2];
       host = env.PROVIDER_HOST_2 || 'line.host-prdigital.cc';
-      isProvider2 = true; isSeries = false;
+      isProvider2 = true; isSeries = false; isVodOnly = false;
     } else if (parts.length === 3 && parts[0] === 'series') {
       u = parts[1]; p = parts[2];
       host = env.PROVIDER_HOST || 'prdigital.cc';
-      isProvider2 = false; isSeries = true;
+      isProvider2 = false; isSeries = true; isVodOnly = false;
     } else if (parts.length === 3 && parts[0] === 'series2') {
       u = parts[1]; p = parts[2];
       host = env.PROVIDER_HOST_2 || 'line.host-prdigital.cc';
-      isProvider2 = true; isSeries = true;
+      isProvider2 = true; isSeries = true; isVodOnly = false;
+    } else if (parts.length === 3 && parts[0] === 'vod') {
+      u = parts[1]; p = parts[2];
+      host = env.PROVIDER_HOST || 'prdigital.cc';
+      isProvider2 = false; isSeries = false; isVodOnly = true;
+    } else if (parts.length === 3 && parts[0] === 'vod2') {
+      u = parts[1]; p = parts[2];
+      host = env.PROVIDER_HOST_2 || 'line.host-prdigital.cc';
+      isProvider2 = true; isSeries = false; isVodOnly = true;
     } else if (url.pathname === '/playlist') {
       u = url.searchParams.get('u');
       p = url.searchParams.get('p');
       host = env.PROVIDER_HOST || 'prdigital.cc';
-      isProvider2 = false; isSeries = false;
+      isProvider2 = false; isSeries = false; isVodOnly = false;
     } else {
       return new Response(
-        'Use /playlist/USER/PASS, /playlist2/USER/PASS, /series/USER/PASS, or /series2/USER/PASS',
+        'Use /playlist/USER/PASS, /playlist2/USER/PASS, /series/USER/PASS, /series2/USER/PASS, /vod/USER/PASS, or /vod2/USER/PASS',
         { status: 404 },
       );
     }
@@ -156,6 +164,38 @@ export default {
             }
           }
         }
+      }
+
+      return new Response(lines.join('\n'), {
+        headers: {
+          'Content-Type': 'application/x-mpegurl; charset=utf-8',
+          'Cache-Control': 'no-store',
+          'Access-Control-Allow-Origin': '*',
+        },
+      });
+    }
+
+    // ── VOD-only route ────────────────────────────────────────────────────────
+    if (isVodOnly) {
+      const [vodStreams, vodCatMap] = await Promise.all([
+        fetchJsonArray(`${base}&action=get_vod_streams`, { cf: { cacheTtl: 300 } }),
+        buildCategoryMap(base, 'get_vod_categories'),
+      ]);
+
+      for (const stream of vodStreams) {
+        const rawName = stream.name || '';
+        const name = rawName
+          .replace(/^\|[^|]+\|\s*/, '')
+          .replace(/^[A-Z]{2,4}\s*[-–]\s*/i, '')
+          .trim() || rawName;
+        const logo = stream.stream_icon || '';
+        const rawCat = stream.category_name || vodCatMap[stream.category_id] || '';
+        const groupTitle = categoryMapper(rawCat);
+        const ext = stream.container_extension || 'mp4';
+        lines.push(
+          `#EXTINF:-1 tvg-id="" tvg-name="${name}" tvg-logo="${logo}" group-title="${groupTitle}",${name}`,
+        );
+        lines.push(`http://${host}/movie/${encodeURIComponent(u)}/${encodeURIComponent(p)}/${stream.stream_id}.${ext}`);
       }
 
       return new Response(lines.join('\n'), {
@@ -248,10 +288,14 @@ export default {
 
     // VOD movies
     for (const stream of vodStreams) {
-      const name = stream.name || '';
+      const rawName = stream.name || '';
+      const name = rawName
+        .replace(/^\|[^|]+\|\s*/, '')
+        .replace(/^[A-Z]{2,4}\s*[-–]\s*/i, '')
+        .trim() || rawName;
       const logo = stream.stream_icon || '';
       const rawCat = stream.category_name || vodCatMap[stream.category_id] || '';
-      const groupTitle = rawCat;
+      const groupTitle = categoryMapper(rawCat);
       const ext = stream.container_extension || 'mp4';
       lines.push(
         `#EXTINF:-1 tvg-id="" tvg-name="${name}" tvg-logo="${logo}" group-title="${groupTitle}",${name}`,
