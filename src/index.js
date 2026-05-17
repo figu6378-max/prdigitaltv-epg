@@ -19,6 +19,10 @@ async function main() {
   const allowlist = existsSync('config/channels-allowlist.json')
     ? JSON.parse(readFileSync('config/channels-allowlist.json', 'utf8'))
     : { channels: [] };
+  const channelAliases = existsSync('config/channel-aliases.json')
+    ? JSON.parse(readFileSync('config/channel-aliases.json', 'utf8'))
+    : {};
+  console.log(`[pipeline] Channel aliases loaded: ${Object.keys(channelAliases).length}`);
 
   // Load known-active DINO epg_channel_ids (from player_api — only channels with live streams)
   const provider2ChannelIds = new Set(
@@ -200,7 +204,7 @@ async function main() {
 
   // ENRICH
   console.log('[pipeline] Enriching descriptions...');
-  const enriched = await enrichAllProgrammes(filtered.programmes, secondaryDescMap, tmdbApiKey);
+  const enriched = await enrichAllProgrammes(filtered.programmes, secondaryDescMap, tmdbApiKey, channelAliases);
 
   // CROSS-CHANNEL DESC SHARING: propagate best desc within channel families (same title)
   const CHANNEL_FAMILIES = [
