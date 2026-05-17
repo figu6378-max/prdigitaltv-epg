@@ -200,11 +200,14 @@ export async function lookupSeriesDescription(title) {
  * @param {string} tmdbApiKey
  * @returns {Promise<Object>}
  */
-export async function enrichProgramme(programme, secondaryDescMap, tmdbApiKey) {
+export async function enrichProgramme(programme, secondaryDescMap, tmdbApiKey, channelAliases = {}) {
   if (programme.desc?.trim()) return programme;
 
-  const secKey = programme.title.toLowerCase().trim();
-  const secDesc = secondaryDescMap.get(secKey);
+  const titleKey = programme.title.toLowerCase().trim();
+  const key1 = `${programme.channel}::${titleKey}`;
+  const aliasId = channelAliases[programme.channel];
+  const key2 = aliasId ? `${aliasId}::${titleKey}` : null;
+  const secDesc = secondaryDescMap.get(key1) ?? (key2 ? secondaryDescMap.get(key2) : undefined);
   if (secDesc) return { ...programme, desc: secDesc };
 
   const type = detectProgrammeType(programme.title);
@@ -242,7 +245,7 @@ export async function enrichProgramme(programme, secondaryDescMap, tmdbApiKey) {
  * @param {string} tmdbApiKey
  * @returns {Promise<Array>}
  */
-export async function enrichAllProgrammes(programmes, secondaryDescMap, tmdbApiKey) {
+export async function enrichAllProgrammes(programmes, secondaryDescMap, tmdbApiKey, channelAliases = {}) {
   const BATCH = 20;
   const DELAY = 300; // ms between batches
   const results = [];
@@ -250,7 +253,7 @@ export async function enrichAllProgrammes(programmes, secondaryDescMap, tmdbApiK
   for (let i = 0; i < programmes.length; i += BATCH) {
     const batch = programmes.slice(i, i + BATCH);
     const enriched = await Promise.all(
-      batch.map(p => enrichProgramme(p, secondaryDescMap, tmdbApiKey))
+      batch.map(p => enrichProgramme(p, secondaryDescMap, tmdbApiKey, channelAliases))
     );
     results.push(...enriched);
     if (i + BATCH < programmes.length) {

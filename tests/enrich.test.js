@@ -4,6 +4,7 @@ import {
   detectProgrammeType,
   formatSportsDescription,
   extractTitleAndYear,
+  enrichProgramme,
 } from '../src/enrich.js';
 
 test('detectProgrammeType identifies sports by keyword', () => {
@@ -58,4 +59,34 @@ test('extractTitleAndYear returns null year when no year present', () => {
   const result = extractTitleAndYear('SportsCenter');
   assert.equal(result.title, 'SportsCenter');
   assert.equal(result.year, null);
+});
+
+test('enrichProgramme uses channelId::title key from secondary map', async () => {
+  const map = new Map([
+    ['WAPA.pr::noticias', 'Noticias desde Puerto Rico.'],
+  ]);
+  const prog = { channel: 'WAPA.pr', title: 'Noticias', desc: '', start: '', stop: '', category: '', icon: '' };
+  const result = await enrichProgramme(prog, map, '', {});
+  assert.equal(result.desc, 'Noticias desde Puerto Rico.');
+});
+
+test('enrichProgramme resolves alias for desc lookup', async () => {
+  const map = new Map([
+    ['WAPA.pr::noticias', 'Desc from WAPA.pr source.'],
+  ]);
+  const aliases = { 'WAPA.us': 'WAPA.pr' };
+  const prog = { channel: 'WAPA.us', title: 'Noticias', desc: '', start: '', stop: '', category: '', icon: '' };
+  const result = await enrichProgramme(prog, map, '', aliases);
+  assert.equal(result.desc, 'Desc from WAPA.pr source.');
+});
+
+test('enrichProgramme does not apply alias desc to unrelated channel', async () => {
+  const map = new Map([
+    ['WAPA.pr::noticias', 'WAPA PR noticias desc.'],
+  ]);
+  const aliases = { 'WAPA.us': 'WAPA.pr' };
+  const prog = { channel: 'AMC.us', title: 'Noticias', desc: '', start: '', stop: '', category: '', icon: '' };
+  const result = await enrichProgramme(prog, map, '', aliases);
+  // AMC.us has no alias and no direct key match — desc falls back to title
+  assert.equal(result.desc, 'Noticias');
 });
