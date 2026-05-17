@@ -107,14 +107,16 @@ async function main() {
         Object.entries(source.channel_id_map || {}).map(([target, src]) => [src, target])
       );
       let added = 0, upgraded = 0;
-      for (const prog of extra.programmes) {
+      for (const rawProg of extra.programmes) {
+        // Remap channel ID before indexing so mapped channels land under the correct ID
+        const remapped = idMap[rawProg.channel];
+        const prog = remapped ? { ...rawProg, channel: remapped } : rawProg;
         const key = `${prog.channel}|${prog.start}`;
         if (progIndex.has(key)) {
           const idx = progIndex.get(key);
           const hasIncomingDesc = prog.desc?.trim();
           const existingEmpty = !providerEpg.programmes[idx].desc?.trim();
-          // Direct match: only fill empty slots — prefer_desc only applies to cross-ID injection
-          if (hasIncomingDesc && existingEmpty) {
+          if (hasIncomingDesc && (existingEmpty || source.prefer_desc)) {
             providerEpg.programmes[idx] = prog;
             upgraded++;
           }
@@ -122,21 +124,6 @@ async function main() {
           progIndex.set(key, providerEpg.programmes.length);
           providerEpg.programmes.push(prog);
           added++;
-        }
-
-        // Cross-ID desc injection: upgrade mapped channel slots (e.g. WKAQ.pr → WKAQ.us)
-        // Only upgrades existing slots — never adds phantom entries for channels DINO doesn't carry
-        const mappedId = idMap[prog.channel];
-        if (mappedId && prog.desc?.trim()) {
-          const mappedKey = `${mappedId}|${prog.start}`;
-          if (progIndex.has(mappedKey)) {
-            const idx = progIndex.get(mappedKey);
-            const existingEmpty = !providerEpg.programmes[idx].desc?.trim();
-            if (existingEmpty || source.prefer_desc) {
-              providerEpg.programmes[idx] = { ...prog, channel: mappedId };
-              upgraded++;
-            }
-          }
         }
       }
       console.log(`[pipeline] After merge: ${providerEpg.channels.length} channels, ${providerEpg.programmes.length} programmes (+${added} new, ${upgraded} desc upgrades)`);
