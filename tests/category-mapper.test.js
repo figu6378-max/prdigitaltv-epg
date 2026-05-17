@@ -37,6 +37,7 @@ test('MLB stays MLB, not Sports', () => {
 test('WNBA stays WNBA, not NBA or Sports', () => {
   assert.equal(categoryMapper('|NA| USA WNBA'), 'WNBA');
   assert.equal(categoryMapper('WNBA'), 'WNBA');
+  assert.notEqual(categoryMapper('|NA| USA WNBA'), 'NBA');
 });
 
 test('maps news variants to News', () => {
@@ -73,6 +74,7 @@ test('maps España variants', () => {
 test('maps UK variants', () => {
   assert.equal(categoryMapper('|UK| ENTERTAINMENT'), 'UK');
   assert.equal(categoryMapper('|IE| IRELAND'), 'UK');
+  assert.equal(categoryMapper('|UK| GENERAL'), 'Entertainment');
 });
 
 test('maps Canada', () => {

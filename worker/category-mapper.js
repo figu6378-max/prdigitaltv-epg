@@ -14,7 +14,7 @@ const RULES = [
   [/DOCUMENTARY|DOCUMENTAL/i,                                      'Documentary'],
   [/MUSIC|M[ÚU]SICA/i,                                             'Music'],
   [/\bSERIES\b|TELENOVELA/i,                                       'Series'],
-  [/\bPPV\b|\bEVENT\b/i,                                           'PPV'],
+  [/\bPPV\b|\bEVENTS?\b/i,                                         'PPV'],
   // Region prefixes with content type keywords
   [/\|UK\|.*ENTERTAINMENT/i,                                       'UK'],
   [/\|IE\||IRELAND/i,                                              'UK'],
