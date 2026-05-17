@@ -123,7 +123,7 @@ export async function buildSecondaryDescMap(sources) {
       let added = 0;
       for (const prog of programmes) {
         if (!prog.desc || !prog.title) continue;
-        const key = prog.title.toLowerCase().trim();
+        const key = `${prog.channel}::${prog.title.toLowerCase().trim()}`;
         if (!descMap.has(key)) { descMap.set(key, prog.desc); added++; }
       }
       console.log(`[fetch] ${source.name}: ${programmes.length} programmes, ${added} new descriptions added`);

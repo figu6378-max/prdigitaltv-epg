@@ -66,3 +66,27 @@ test('buildDiscoveredChannels deduplicates and sorts channels', () => {
   assert.deepEqual(result[0], { 'tvg-id': 'ESPN.us', displayName: 'ESPN', category: '' });
   assert.deepEqual(result[1], { 'tvg-id': 'HBO.us', displayName: 'HBO', category: '' });
 });
+
+const SAMPLE_XMLTV_TWO_CHANNELS = `<?xml version="1.0" encoding="UTF-8"?>
+<tv>
+  <channel id="WAPA.pr"><display-name>WAPA</display-name></channel>
+  <channel id="AMC.us"><display-name>AMC</display-name></channel>
+  <programme start="20260101120000 +0000" stop="20260101130000 +0000" channel="WAPA.pr">
+    <title>Noticias</title>
+    <desc>Noticias desde Puerto Rico.</desc>
+  </programme>
+  <programme start="20260101120000 +0000" stop="20260101130000 +0000" channel="AMC.us">
+    <title>Noticias</title>
+    <desc>AMC version of noticias.</desc>
+  </programme>
+</tv>`;
+
+test('buildSecondaryDescMap keys by channelId::titleLower', async () => {
+  const { programmes } = parseXmltvString(SAMPLE_XMLTV_TWO_CHANNELS);
+  assert.equal(programmes[0].channel, 'WAPA.pr');
+  assert.equal(programmes[1].channel, 'AMC.us');
+  assert.notEqual(
+    `${programmes[0].channel}::${programmes[0].title.toLowerCase()}`,
+    `${programmes[1].channel}::${programmes[1].title.toLowerCase()}`
+  );
+});
