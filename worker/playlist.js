@@ -285,7 +285,7 @@ export default {
         tvgId = epg.tvgId;
         name = decodeEntities(epg.displayName);
         logo = stream.stream_icon || epg.icon || '';
-        groupTitle = epg.groupTitle;
+        groupTitle = (epg.tvgId?.endsWith('.pr') ? 'Puerto Rico' : null) ?? categoryMapper(epg.groupTitle);
       }
 
       lines.push(
