@@ -272,7 +272,7 @@ export default {
           seen.add(resolvedId);
           tvgId = resolvedId;
           name = tvgDisplayMap[resolvedId] || streamNameClean;
-          groupTitle = tvgCatMap[resolvedId] || mappedCat;
+          groupTitle = categoryMapper(tvgCatMap[resolvedId]) || mappedCat;
         }
       } else {
         const key = normalize(stream.name);
