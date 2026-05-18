@@ -71,16 +71,21 @@ jobs:
           NODE_OPTIONS: --max-old-space-size=6144
         run: |
           node src/index.js | tee /tmp/epg-pipeline.log
-          CH=$(grep -oP 'After filter: \K[0-9]+(?= channels)' /tmp/epg-pipeline.log | tail -1)
-          PR=$(grep -oP 'After purge: \K[0-9]+(?= programmes)' /tmp/epg-pipeline.log | tail -1)
-          echo "EPG_CHANNELS=${CH:-?}" >> $GITHUB_ENV
-          echo "EPG_PROGRAMMES=${PR:-?}" >> $GITHUB_ENV
+          P1_CH=$(grep -oP 'epg\.xml written — \K[0-9]+(?= channels)' /tmp/epg-pipeline.log | tail -1)
+          P1_PR=$(grep -oP 'epg\.xml written — [0-9]+ channels, \K[0-9]+(?= programmes)' /tmp/epg-pipeline.log | tail -1)
+          P2_CH=$(grep -oP 'epg2\.xml written — \K[0-9]+(?= channels)' /tmp/epg-pipeline.log | tail -1)
+          P2_PR=$(grep -oP 'epg2\.xml written — [0-9]+ channels, \K[0-9]+(?= programmes)' /tmp/epg-pipeline.log | tail -1)
+          echo "EPG_P1_CHANNELS=${P1_CH:-?}" >> $GITHUB_ENV
+          echo "EPG_P1_PROGRAMMES=${P1_PR:-?}" >> $GITHUB_ENV
+          echo "EPG_P2_CHANNELS=${P2_CH:-?}" >> $GITHUB_ENV
+          echo "EPG_P2_PROGRAMMES=${P2_PR:-?}" >> $GITHUB_ENV
 
       - name: Commit updated EPG
         run: |
           cp output/epg.xml epg.xml
+          cp output/epg2.xml epg2.xml
           git add -u
-          git add epg.xml
+          git add epg.xml epg2.xml
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
@@ -94,7 +99,7 @@ jobs:
           GHL_API_KEY: ${{ secrets.GHL_API_KEY }}
         run: |
           TS=$(date -u '+%Y-%m-%d %H:%M UTC')
-          MSG="✅ EPG PRDigitalTV actualizado en GitHub Pages. Canales: ${{ env.EPG_CHANNELS }} | Programas: ${{ env.EPG_PROGRAMMES }} | $TS"
+          MSG="✅ EPG PRDigitalTV actualizado. P1: ${{ env.EPG_P1_CHANNELS }}ch/${{ env.EPG_P1_PROGRAMMES }}prog | P2: ${{ env.EPG_P2_CHANNELS }}ch/${{ env.EPG_P2_PROGRAMMES }}prog | $TS"
           echo "Sending SMS notification..."
           RESPONSE=$(curl -s -w "\n%{http_code}" -X POST "https://services.leadconnectorhq.com/conversations/messages" \
             -H "Authorization: Bearer $GHL_API_KEY" \
