@@ -272,7 +272,7 @@ export default {
           seen.add(resolvedId);
           tvgId = resolvedId;
           name = tvgDisplayMap[resolvedId] || streamNameClean;
-          groupTitle = (resolvedId.endsWith('.pr') || resolvedId.startsWith('WKAQ') || resolvedId.startsWith('TelemundoWKAQ') || resolvedId.startsWith('TelemundoKVEA') ? 'Puerto Rico' : null)
+          groupTitle = (resolvedId.endsWith('.pr') || resolvedId === 'WKAQ.us' || resolvedId === 'TelemundoWKAQ.us' ? 'Puerto Rico' : null)
             ?? categoryMapper(tvgCatMap[resolvedId])
             ?? mappedCat;
         }
