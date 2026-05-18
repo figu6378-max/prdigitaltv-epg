@@ -81,13 +81,14 @@ test('maps Canada', () => {
   assert.equal(categoryMapper('|AM| CANADA'), 'Canada');
 });
 
-test('maps Caribbean/PR variants to Puerto Rico', () => {
-  assert.equal(categoryMapper('|SA| CARRIBEAN'), 'Puerto Rico');
-  assert.equal(categoryMapper('CARIBBEAN'), 'Puerto Rico');
+test('maps puerto-rico allowlist category to Puerto Rico', () => {
   assert.equal(categoryMapper('puerto-rico'), 'Puerto Rico');
+  assert.equal(categoryMapper('PUERTO RICO'), 'Puerto Rico');
 });
 
-test('maps Latin to Latino', () => {
+test('maps Caribbean/Latin to Latino', () => {
+  assert.equal(categoryMapper('|SA| CARRIBEAN'), 'Latino');
+  assert.equal(categoryMapper('CARIBBEAN'), 'Latino');
   assert.equal(categoryMapper('|SA| LATINO'), 'Latino');
   assert.equal(categoryMapper('LATIN AMERICA'), 'Latino');
 });
