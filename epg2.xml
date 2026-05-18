@@ -648,10 +648,6 @@
     <display-name lang="es">SP - BEIN SPORTS XTRA HD</display-name>
     <icon src="http://103.176.90.118/picons-dino/logos/BEIN-SPORTS-XTRA.png"/>
   </channel>
-  <programme start="20260518023000 +0200" stop="20260518030000 +0200" channel="ACCNetwork.us">
-    <title lang="es">All ACC</title>
-    <desc lang="es">Providing the latest news and information on the ACC&amp;apos;s 28 sponsored sports - including post-game coverage around the conference&amp;apos;s biggest events.</desc>
-  </programme>
   <programme start="20260518030000 +0200" stop="20260518033000 +0200" channel="ACCNetwork.us">
     <title lang="es">All ACC</title>
     <desc lang="es">Providing the latest news and information on the ACC&amp;apos;s 28 sponsored sports - including post-game coverage around the conference&amp;apos;s biggest events.</desc>
@@ -847,10 +843,6 @@
   <programme start="20260519010200 +0200" stop="20260519020000 +0200" channel="AMCPlus.us">
     <title lang="es">The Audacity</title>
     <desc lang="es">HyperG&amp;apos;s salvation is close, but there&amp;apos;s danger to Duncan; Lili has a secret; JoAnne hopes garlic can save her; Anushka finds gold at the end of the slide, but a witness to Easter Island threatens to destroy her; Beatrice cuts a deal with the Tang.</desc>
-  </programme>
-  <programme start="20260518023000 +0200" stop="20260518030000 +0200" channel="AXSTV.us">
-    <title lang="es">The Top Ten Revealed</title>
-    <desc lang="es">So many topics are explored in song lyrics. Today we are ranking tunes that talk about America. Find out which SONGS OF AMERICA make our list as rock experts like Kenny Aronoff, Lita Ford, Jeff Pilson and more count us down!</desc>
   </programme>
   <programme start="20260518030000 +0200" stop="20260518033000 +0200" channel="AXSTV.us">
     <title lang="es">The Top Ten Revealed</title>
@@ -1107,10 +1099,6 @@
   <programme start="20260519010000 +0200" stop="20260519020000 +0200" channel="AnimalPlanet.us">
     <title lang="es">Crikey! It&amp;apos;s the Irwins</title>
     <desc lang="es">Robert travels to Australia&amp;apos;s Great Barrier Reef to help conduct research on manta rays; the zoo&amp;apos;s rescue unit, wildlife hospital and volunteers team up to save a baby wallaby that is struggling to survive.</desc>
-  </programme>
-  <programme start="20260518023000 +0200" stop="20260518030000 +0200" channel="AntennaTV.us">
-    <title lang="es">Who&amp;apos;s the Boss?</title>
-    <desc lang="es">Jonathan starts acting bizarre after moving up a grade into junior high school.</desc>
   </programme>
   <programme start="20260518030000 +0200" stop="20260518033000 +0200" channel="AntennaTV.us">
     <title lang="es">Family Ties</title>
@@ -2214,10 +2202,6 @@ CNBC&apos;s Dan Murphy explores the global luxury hotel and resorts brand Ananta
     <title lang="es">Live: U.S. House of Representatives</title>
     <desc lang="es">Gavel-to-gavel coverage of the U.S. House of Representatives from the Capitol Building in Washington, D.C.</desc>
   </programme>
-  <programme start="20260518022500 +0200" stop="20260518032500 +0200" channel="CSPAN2.us">
-    <title lang="es">Eyck Freymann, Defending Taiwan</title>
-    <desc lang="es">The Hoover Institution&amp;apos;s Eyck Freymann argues that the United States can deter a war with China by strengthening its defense of Taiwan.</desc>
-  </programme>
   <programme start="20260518032500 +0200" stop="20260518042500 +0200" channel="CSPAN2.us">
     <title lang="es">Gal Beckerman, How to be a Dissident</title>
     <desc lang="es">In an age of division, Atlantic Staff Writer Gal Beckerman talks about what it takes to be a dissident - from Socrates through the anti-slavery movement to today&amp;apos;s protestors.</desc>
@@ -2589,10 +2573,6 @@ CNBC&apos;s Dan Murphy explores the global luxury hotel and resorts brand Ananta
   <programme start="20260519013000 +0200" stop="20260519032000 +0200" channel="CineLatino.us">
     <title lang="es">Nosotros, mi papá y el perro</title>
     <desc lang="es">Sebastián es despedido de su trabajo e intenta recuperar el control de una vida que parece haber perdido hace mucho tiempo. Justo cuando la tarea de poner todo en orden se siente imposible, su hermano llega exigiendo parte de la herencia y resurgen viejos resentimientos familiares.</desc>
-  </programme>
-  <programme start="20260518023000 +0200" stop="20260518030000 +0200" channel="CleoTV.us">
-    <title lang="es">The Parkers</title>
-    <desc lang="es">A widower&amp;apos;s son decides he wants Nikki to be his new mother and tricks her into giving up the professor.</desc>
   </programme>
   <programme start="20260518030000 +0200" stop="20260518033000 +0200" channel="CleoTV.us">
     <title lang="es">Half &amp;amp; Half</title>
@@ -3046,10 +3026,6 @@ CNBC&apos;s Dan Murphy explores the global luxury hotel and resorts brand Ananta
     <title lang="es">Bizarre Foods America</title>
     <desc lang="es">Rocky Mountain oysters at a ballpark; yak and elk served at an historic restaurant; pheasant cooked outside.</desc>
   </programme>
-  <programme start="20260518023000 +0200" stop="20260518030000 +0200" channel="CoziTV.us">
-    <title lang="es">Two and a Half Men</title>
-    <desc lang="es">Charlie must choose between his girlfriend and his housekeeper; Alan looks to sell Kandi&amp;apos;s condo, but sex keeps getting in the way.</desc>
-  </programme>
   <programme start="20260518030000 +0200" stop="20260518033000 +0200" channel="CoziTV.us">
     <title lang="es">Two and a Half Men</title>
     <desc lang="es">Charlie prepares for Christmas Eve alone with his date; he finds himself throwing an unwanted, unplanned holiday party; Evelyn tries to keep Charlie from sleeping with his party date.</desc>
@@ -3221,10 +3197,6 @@ CNBC&apos;s Dan Murphy explores the global luxury hotel and resorts brand Ananta
   <programme start="20260519013000 +0200" stop="20260519020000 +0200" channel="CoziTV.us">
     <title lang="es">The King of Queens</title>
     <desc lang="es">Carrie feels that she and Doug are getting stupid as a couple, so she enrolls them and Spence into a class where they read a book and discuss it.</desc>
-  </programme>
-  <programme start="20260518023000 +0200" stop="20260518030000 +0200" channel="Dabl.us">
-    <title lang="es">Martin</title>
-    <desc lang="es">Martin assists a burglar who breaks into his apartment, believing the robbery is a joke set up by Pam and Tommy.</desc>
   </programme>
   <programme start="20260518030000 +0200" stop="20260518033000 +0200" channel="Dabl.us">
     <title lang="es">Martin</title>
@@ -3409,10 +3381,6 @@ CNBC&apos;s Dan Murphy explores the global luxury hotel and resorts brand Ananta
   <programme start="20260519013000 +0200" stop="20260519020000 +0200" channel="Dabl.us">
     <title lang="es">The Jamie Foxx Show</title>
     <desc lang="es">Jamie challenges NFL players Lawrence Taylor, Charles Woodson and other pros to a game of flag football.</desc>
-  </programme>
-  <programme start="20260518023000 +0200" stop="20260518030000 +0200" channel="DestinationAmerica.us">
-    <title lang="es">Beachfront Bargain Hunt</title>
-    <desc lang="es">After saving enough money, family seeks a home in Avon, North Carolina, after falling in love with its quiet beaches.</desc>
   </programme>
   <programme start="20260518030000 +0200" stop="20260518033000 +0200" channel="DestinationAmerica.us">
     <title lang="es">Beachfront Bargain Hunt</title>
@@ -3681,14 +3649,6 @@ CNBC&apos;s Dan Murphy explores the global luxury hotel and resorts brand Ananta
   <programme start="20260519010000 +0200" stop="20260519020000 +0200" channel="DiscoveryChannel.us">
     <title lang="es">Contraband: Seized at the Airport</title>
     <desc lang="es">In Atlanta, an officer discovers evidence of a lottery scam -- a tactic used by criminals to trick victims into giving up thousands of dollars in exchange for alleged winnings. This find could lead CBP to uncover the network behind this nefarious ploy.</desc>
-  </programme>
-  <programme start="20260518023000 +0200" stop="20260518025500 +0200" channel="DisneyJunior.us">
-    <title lang="es">Bluey</title>
-    <desc lang="es">Dad plays trampoline games with Bluey and Bingo; Dad plans on throwing out Bluey&amp;apos;s old drawings; Bingo causes chaos at Bluey&amp;apos;s backyard zoo.</desc>
-  </programme>
-  <programme start="20260518025500 +0200" stop="20260518032000 +0200" channel="DisneyJunior.us">
-    <title lang="es">BeddyByes</title>
-    <desc lang="es">BaBa learns that when you say sorry, you need to truly mean it; MeMo and BaBa go on the hunt for an intriguing sound.</desc>
   </programme>
   <programme start="20260518032000 +0200" stop="20260518034500 +0200" channel="DisneyJunior.us">
     <title lang="es">Bluey</title>
@@ -4079,10 +4039,6 @@ Magicampers</desc>
     <title lang="es">Live: NHL Hockey</title>
     <desc lang="es">The latest hockey action from across the NHL.</desc>
   </programme>
-  <programme start="20260518023000 +0200" stop="20260518033000 +0200" channel="ESPN2.us">
-    <title lang="es">Live: SportsCenter</title>
-    <desc lang="es">Os principais fatos do mundo esportivo, com as imagens que marcaram o dia, temas fundamentais e polêmicos. Informação apurada e opinião transparente, sem abdicar do bom humor.</desc>
-  </programme>
   <programme start="20260518033000 +0200" stop="20260518043000 +0200" channel="ESPN2.us">
     <title lang="es">Resenha ESPN</title>
     <desc lang="es">Atletas da atualidade e do passado participam de bate-papo descontraído e cheio de boas histórias.</desc>
@@ -4226,14 +4182,6 @@ Magicampers</desc>
   <programme start="20260519000000 +0200" stop="20260519030000 +0200" channel="ESPNU.us">
     <title lang="es">Women&amp;apos;s College Tennis</title>
     <desc lang="es">From Dan Magill Tennis Complex in Athens, Ga.</desc>
-  </programme>
-  <programme start="20260518022000 +0200" stop="20260518023000 +0200" channel="EWTN.us">
-    <title lang="es">Litany of the Sacred Heart</title>
-    <desc lang="es">The Franciscan Missionaries of the Eternal Word pray the Litany of the Sacred Heart.</desc>
-  </programme>
-  <programme start="20260518023000 +0200" stop="20260518030000 +0200" channel="EWTN.us">
-    <title lang="es">Catholics Come Home</title>
-    <desc lang="es">Discover stories of Faith that led atheists, converts, and reverts home to the Catholic Church. Accompany those on their journey and find inspiration to deepen your Faith. As a young military man, Julian Saviano drifted from his Catholic faith into dark and dangerous spiritual realms, but God&amp;apos;s grace led him to repentance and a profound conversion.</desc>
   </programme>
   <programme start="20260518030000 +0200" stop="20260518033000 +0200" channel="EWTN.us">
     <title lang="es">Life on the Rock</title>
@@ -4462,10 +4410,6 @@ Magicampers</desc>
   <programme start="20260519010000 +0200" stop="20260519033000 +0200" channel="FX.us">
     <title lang="es">Air</title>
     <desc lang="es">Sonny Vaccaro and Nike pursue basketball rookie Michael Jordan, creating a partnership that revolutionizes the world of sports and contemporary culture.</desc>
-  </programme>
-  <programme start="20260518023000 +0200" stop="20260518030000 +0200" channel="FoxBusiness.us">
-    <title lang="es">Cops</title>
-    <desc lang="es">Featuring police officers, constables and sheriff&amp;apos;s deputies patrolling streets for car thieves, drug pushers, sex-trade workers, violent thugs and anyone else who dares step onto the wrong side of the law. No music, no scripted dialogue, no narration; just gritty videos of cops in action during patrols and other police activities.</desc>
   </programme>
   <programme start="20260518030000 +0200" stop="20260518033000 +0200" channel="FoxBusiness.us">
     <title lang="es">Cops</title>
@@ -5203,10 +5147,6 @@ Magicampers</desc>
     <title lang="es">My Lottery Dream Home</title>
     <desc lang="es">After receiving an inheritance in Florida, a Rhode Island native is ready to relocate to Myrtle Beach, South Carolina; she&amp;apos;s looking to start a new life in a fresh place, and David is prepared to leave no stone unturned to find her dream home.</desc>
   </programme>
-  <programme start="20260518023000 +0200" stop="20260518030000 +0200" channel="HLN.us">
-    <title lang="es">Forensic Files</title>
-    <desc lang="es">A search in Virginia&amp;apos;s DNA databank reveals the identity of a news producer&amp;apos;s murderer.</desc>
-  </programme>
   <programme start="20260518030000 +0200" stop="20260518033000 +0200" channel="HLN.us">
     <title lang="es">Forensic Files</title>
     <desc lang="es">A homicide detective claims his wife accidentally shot herself in the head, but the evidence indicates otherwise.</desc>
@@ -5482,10 +5422,6 @@ Magicampers</desc>
   <programme start="20260519013000 +0200" stop="20260519020000 +0200" channel="INSP.us">
     <title lang="es">Have Gun -- Will Travel</title>
     <desc lang="es">The death of a calf leads to murder. Starring Richard Boone and Hal Needham.</desc>
-  </programme>
-  <programme start="20260518023000 +0200" stop="20260518030000 +0200" channel="JusticeCentral.us">
-    <title lang="es">Justice for the People With Judge Milian</title>
-    <desc lang="es">An MMA fighter accuses a sponsor of giving him a supplement contaminated with steroids, resulting in a suspension that ruined his career.</desc>
   </programme>
   <programme start="20260518030000 +0200" stop="20260518033000 +0200" channel="JusticeCentral.us">
     <title lang="es">Justice for All With Judge Cristina Pérez</title>
@@ -5835,10 +5771,6 @@ Magicampers</desc>
     <title lang="es">Last Man Standing</title>
     <desc lang="es">Mindy worries about Kyle&amp;apos;s safety after he gets in an accident; Ed makes an unexpected announcement; Eve plays with her high school football team.</desc>
   </programme>
-  <programme start="20260518023000 +0200" stop="20260518030000 +0200" channel="LawAndCrime.us">
-    <title lang="es">Cops Reloaded</title>
-    <desc lang="es">A truck chase ends when he pulls off the side of the road and runs through a field; a driver takes off on foot after a high-speed chase ends in a collision.</desc>
-  </programme>
   <programme start="20260518030000 +0200" stop="20260518033000 +0200" channel="LawAndCrime.us">
     <title lang="es">Cops Reloaded</title>
     <desc lang="es">Officers try to stop a motorcyclist after he weaves in and out of lanes and has no plate on his bike; officers pose as drug buyers and catch a man dealing drugs.</desc>
@@ -5969,10 +5901,6 @@ A sneaker meetup to buy and sell Yeezys turns deadly—but surveillance footage 
     <title lang="es">BodyCam by Law&amp;amp;Crime</title>
     <desc lang="es">Bodycam takes you on patrol and in the line of duty with raw footage of high-stakes police encounters.</desc>
   </programme>
-  <programme start="20260518023000 +0200" stop="20260518030000 +0200" channel="Logo.us">
-    <title lang="es">Three&amp;apos;s Company</title>
-    <desc lang="es">Jack plays cupid for his date&amp;apos;s widowed father.</desc>
-  </programme>
   <programme start="20260518030000 +0200" stop="20260518033000 +0200" channel="Logo.us">
     <title lang="es">Three&amp;apos;s Company</title>
     <desc lang="es">Janet tells her parents she and Jack are married.</desc>
@@ -6060,10 +5988,6 @@ A sneaker meetup to buy and sell Yeezys turns deadly—but surveillance footage 
   <programme start="20260519013000 +0200" stop="20260519020000 +0200" channel="Logo.us">
     <title lang="es">Three&amp;apos;s Company</title>
     <desc lang="es">When two single girls need a roommate to share their Santa Monica apartment, they decide to offer a room to the guy they find passed out in the bathtub after the going-away party for their last roommate. Hijinks ensue.</desc>
-  </programme>
-  <programme start="20260518023000 +0200" stop="20260518033000 +0200" channel="MTV2.us">
-    <title lang="es">Jersey Shore Family Vacation</title>
-    <desc lang="es">Tucson, Ariz., takes a turn when a Jersey Shore fan club leaks Angelina&amp;apos;s DM&amp;apos;s; things come to a head between Angelina and Sammi and there&amp;apos;s only one man to stop it, The Situation.</desc>
   </programme>
   <programme start="20260518033000 +0200" stop="20260518043000 +0200" channel="MTV2.us">
     <title lang="es">Jersey Shore Family Vacation</title>
@@ -6373,10 +6297,6 @@ A sneaker meetup to buy and sell Yeezys turns deadly—but surveillance footage 
     <title lang="es">MTV Live Special</title>
     <desc lang="es">Features the newest and hottest music.</desc>
   </programme>
-  <programme start="20260518023000 +0200" stop="20260518030000 +0200" channel="News12Bronx.us">
-    <title lang="es">Crime Files</title>
-    <desc lang="es">In a NJ courtroom, a man admits killing a former Boy Scout leader years after alleging childhood abuse by him.</desc>
-  </programme>
   <programme start="20260518030000 +0200" stop="20260518033000 +0200" channel="News12Bronx.us">
     <title lang="es">News 12 the Bronx</title>
     <desc lang="es">Local news, weather, traffic, politics, investigative and more.</desc>
@@ -6524,10 +6444,6 @@ A sneaker meetup to buy and sell Yeezys turns deadly—but surveillance footage 
   <programme start="20260519013000 +0200" stop="20260519020000 +0200" channel="News12Bronx.us">
     <title lang="es">News 12 The Bronx</title>
     <desc lang="es">Latest Bronx news, weather, and more.</desc>
-  </programme>
-  <programme start="20260518023000 +0200" stop="20260518030000 +0200" channel="News12Brooklyn.us">
-    <title lang="es">Crime Files</title>
-    <desc lang="es">In a NJ courtroom, a man admits killing a former Boy Scout leader years after alleging childhood abuse by him.</desc>
   </programme>
   <programme start="20260518030000 +0200" stop="20260518033000 +0200" channel="News12Brooklyn.us">
     <title lang="es">News 12 Brooklyn</title>
@@ -6965,10 +6881,6 @@ A sneaker meetup to buy and sell Yeezys turns deadly—but surveillance footage 
     <title lang="es">Two and a Half Men</title>
     <desc lang="es">Chiropractor and single father Alan Harper lives in a beachfront house with divorced Internet billionaire Walden Schmidt, who bought the house following the untimely death of Alan&amp;apos;s brother, Charlie. As they acclimate to their living arrangement, the tightly wound Alan finds himself taking on a mentor role with Walden, whose lifelong dependence on being taken care of has left him a bit naive. Despite his unsuccessful romantic history, Alan also tries to help Walden overcome his limited experiences with dating. Berta, a sharp-tongued, unapologetic housekeeper, is also featured in the series.</desc>
   </programme>
-  <programme start="20260518023000 +0200" stop="20260518030000 +0200" channel="PursuitChannel.us">
-    <title lang="es">On The Road</title>
-    <desc lang="es">In this episode, the OTR crew heads back to Colorado for their annual summertime velvet elk hunt. It&amp;apos;s a trip the guys look forward to every year.</desc>
-  </programme>
   <programme start="20260518030000 +0200" stop="20260518033000 +0200" channel="PursuitChannel.us">
     <title lang="es">The Choice</title>
     <desc lang="es">The Cianciarulos continue their Turkey Tour as they travel through Illinois, Texas, and Colorado to try to complete their Turkey Grand Slam in just one spring!</desc>
@@ -7284,10 +7196,6 @@ A sneaker meetup to buy and sell Yeezys turns deadly—but surveillance footage 
   <programme start="20260519013000 +0200" stop="20260519020000 +0200" channel="RFDTV.us">
     <title lang="es">DocTalk</title>
     <desc lang="es">A visit about the utilization of ultrasounds for reproduction work in cows.</desc>
-  </programme>
-  <programme start="20260518023000 +0200" stop="20260518030000 +0200" channel="RecipeTV.us">
-    <title lang="es">A Taste of Dubai</title>
-    <desc lang="es">Irish journalist and self-confessed food-lover Kate Hardie Buckley is on a mission to explore some tasty cities of the world.</desc>
   </programme>
   <programme start="20260518030000 +0200" stop="20260518033000 +0200" channel="RecipeTV.us">
     <title lang="es">Catherine&amp;apos;s Farmhouse Kitchen</title>
@@ -8149,10 +8057,6 @@ Vite Condiments.</desc>
     <title lang="es">Waking Up in Reno</title>
     <desc lang="es">Candy (Charlize Theron) and Lonnie Earl (Billy Bob Thornton) are just crazy about each other. The problem: she&amp;apos;s married to Roy (Patrick Swayze) and he&amp;apos;s married to Darlene (Natasha Richardson). So far it&amp;apos;s been a secret affair. But that&amp;apos;s about to change, because this foursome is driving cross-country and headed for some big surprises.</desc>
   </programme>
-  <programme start="20260518022000 +0200" stop="20260518033000 +0200" channel="SoYummy.us">
-    <title lang="es">Zumbo&amp;apos;s Just Desserts</title>
-    <desc lang="es">The remaining dessert makers must take their favorite Arnott&amp;apos;s biscuit and turn it into an amazing new dessert.</desc>
-  </programme>
   <programme start="20260518033000 +0200" stop="20260518040000 +0200" channel="SoYummy.us">
     <title lang="es">Hot Mess Express</title>
     <desc lang="es">Vlog Squad member and YouTuber Zane Hijazi follows a professional chef as they provide verbal only instruction for how to make a popular Chinese take-out dish in 25 minutes.</desc>
@@ -8433,10 +8337,6 @@ Vite Condiments.</desc>
     <title lang="es">The Closer</title>
     <desc lang="es">Brenda tries to solve the murder of an Arab teenager while she is on administrative leave.</desc>
   </programme>
-  <programme start="20260518024700 +0200" stop="20260518042300 +0200" channel="StarzInBlack.us">
-    <title lang="es">How High</title>
-    <desc lang="es">Multi-platinum rap superstars Redman and Method Man star as Jamal and Silas, two regular guys who smoke something magical, ace their college entrance exams and wind up at Harvard. Ivy League ways are strange but Silas and Jamal take it in a stride -- until their supply of supernatural smoke runs dry. That&amp;apos;s when they have to start living by their wits and rely on their natural resources to make the grade.</desc>
-  </programme>
   <programme start="20260518042300 +0200" stop="20260518061600 +0200" channel="StarzInBlack.us">
     <title lang="es">The Kingdom</title>
     <desc lang="es">Charged with the most important assignment of his career, federal agent Ron Fleury has one week to assemble a team, infiltrate and destroy a terrorist cell based in Riyadh, Saudi Arabia. Culture shock and opposition from local law enforcement combine to hinder his progress and that of his elite team, but a sympathetic Saudi police captain becomes an unexpected comrade-in-arms.</desc>
@@ -8540,10 +8440,6 @@ Vite Condiments.</desc>
   <programme start="20260519002800 +0200" stop="20260519023000 +0200" channel="Syfy.us">
     <title lang="es">Dredd</title>
     <desc lang="es">Mega City One is a vast, violent metropolis where felons rule the streets. The only law lies with cops called &amp;quot;judges,&amp;quot; who act as judge, jury and executioner, and Dredd (Karl Urban) is one of the city&amp;apos;s most feared. One day, Dredd is partnered with Cassandra (Olivia Thirlby), a rookie with powerful psychic abilities. A report of a terrible crime sends Dredd and Cassandra to a dangerous area controlled by Ma-Ma (Lena Headey), a drug lord who will stop at nothing to protect her empire.</desc>
-  </programme>
-  <programme start="20260518023000 +0200" stop="20260518030000 +0200" channel="TBN.us">
-    <title lang="es">Turning Point With Dr. David Jeremiah</title>
-    <desc lang="es">In this weekly program, Dr. David Jeremiah delivers practical messages to the congregation at the Shadow Mountain Community Church in San Diego. Also featured is music from the Shadow Mountain Community Church Choir and Orchestra, as well as performances by musical guests that have included Steve Green and Charles Billingsley. Men and women who have been impacted by the Turning Point ministry also share their stories with viewers. During the month of December, &amp;quot;Turning Point&amp;quot; usually features special Christmas programming.</desc>
   </programme>
   <programme start="20260518030000 +0200" stop="20260518033000 +0200" channel="TBN.us">
     <title lang="es">Elmer Heinrich: Boosting Health with Immuno 150</title>
@@ -8712,10 +8608,6 @@ Vite Condiments.</desc>
   <programme start="20260519013000 +0200" stop="20260519020000 +0200" channel="TBN.us">
     <title lang="es">Stakelbeck Tonight</title>
     <desc lang="es">Host Erick Stakelbeck takes viewers around the world; from Jerusalem to London to Washington, D.C.; pointing beyond with cutting-edge commentary, analysis and interviews focusing on ever-changing events and why they matter.</desc>
-  </programme>
-  <programme start="20260518023000 +0200" stop="20260518030000 +0200" channel="TBS.us">
-    <title lang="es">The Big Bang Theory</title>
-    <desc lang="es">Penny is forced to rely on Sheldon when she is injured while Howard, Leonard and Raj are away.</desc>
   </programme>
   <programme start="20260518030000 +0200" stop="20260518033000 +0200" channel="TBS.us">
     <title lang="es">The Big Bang Theory</title>
@@ -8925,10 +8817,6 @@ Vite Condiments.</desc>
     <title lang="es">Godzilla: King of the Monsters</title>
     <desc lang="es">Members of the crypto-zoological agency Monarch face off against a battery of god-sized monsters, including the mighty Godzilla, who collides with Mothra, Rodan, and his ultimate nemesis, the three-headed King Ghidorah. When these ancient super-species-thought to be mere myths-rise again, they all vie for supremacy, leaving humanity&amp;apos;s very existence hanging in the balance.</desc>
   </programme>
-  <programme start="20260518024500 +0200" stop="20260518032000 +0200" channel="TVLand.us">
-    <title lang="es">Everybody Loves Raymond</title>
-    <desc lang="es">Debra is upset when her sister, Jennifer, decides to become a nun.</desc>
-  </programme>
   <programme start="20260518032000 +0200" stop="20260518035500 +0200" channel="TVLand.us">
     <title lang="es">Everybody Loves Raymond</title>
     <desc lang="es">Debra points out that Ray is just like his annoying cousin Gerard, a charge his family gleefully reinforces.</desc>
@@ -9089,10 +8977,6 @@ Vite Condiments.</desc>
     <title lang="es">Everybody Loves Raymond</title>
     <desc lang="es">Ray thinks a family portrait would be the perfect gift for his mother, until the family gets together.</desc>
   </programme>
-  <programme start="20260518023000 +0200" stop="20260518030000 +0200" channel="TVOne.us">
-    <title lang="es">A Different World</title>
-    <desc lang="es">Dwayne and Ron are suspicious of a new student who attracts Whitley.</desc>
-  </programme>
   <programme start="20260518030000 +0200" stop="20260518033000 +0200" channel="TVOne.us">
     <title lang="es">A Different World</title>
     <desc lang="es">Whitley&amp;apos;s boss (Tom Wright) puts her in a difficult position; Terrence (Cory Tyler) finally decides on a major.</desc>
@@ -9240,10 +9124,6 @@ Vite Condiments.</desc>
   <programme start="20260519013000 +0200" stop="20260519020000 +0200" channel="TVOne.us">
     <title lang="es">The Cosby Show</title>
     <desc lang="es">Breaking up is the activity of the day, as Rudy splits from Stanley (Merlin Santana) and Vanessa leaves Dabnis (William Thomas Jr.).</desc>
-  </programme>
-  <programme start="20260518023000 +0200" stop="20260518050000 +0200" channel="TheCowboyChannel.us">
-    <title lang="es">The American Rodeo</title>
-    <desc lang="es">Coverage for the American Rodeo&amp;apos;s Contender Round from Globe Life Field in Arlington, Texas.</desc>
   </programme>
   <programme start="20260518050000 +0200" stop="20260518070000 +0200" channel="TheCowboyChannel.us">
     <title lang="es">The American Rodeo</title>
@@ -9590,10 +9470,6 @@ X-Games Reaction Sports</desc>
     <title lang="es">Goodwood Members&amp;apos; Meeting</title>
     <desc lang="es">Classic cars gathered together at the Goodwood circuit in Sussex.</desc>
   </programme>
-  <programme start="20260518023000 +0200" stop="20260518033000 +0200" channel="truTV.us">
-    <title lang="es">To Be Announced</title>
-    <desc lang="es">Programming to be announced.</desc>
-  </programme>
   <programme start="20260518033000 +0200" stop="20260518043000 +0200" channel="truTV.us">
     <title lang="es">To Be Announced</title>
     <desc lang="es">Programming to be announced.</desc>
@@ -9762,6 +9638,10 @@ X-Games Reaction Sports</desc>
     <title lang="es">The Top Ten Revealed</title>
     <desc lang="es">Ranking songs that flew up the chart but got stuck at number two and the songs that held them off.</desc>
   </programme>
+  <programme start="20260519033000 +0200" stop="20260519040000 +0200" channel="AXSTV.us">
+    <title lang="es">The Top Ten Revealed</title>
+    <desc lang="es">Ranking the best soul songs of the 1960s.</desc>
+  </programme>
   <programme start="20260519020000 +0200" stop="20260519060000 +0200" channel="Accuweather.us">
     <title lang="es">Ask the Experts</title>
     <desc lang="es">Goes beyond the forecast to give you the how and why about stuff you wanted to ask about weather, space and science.</desc>
@@ -9785,6 +9665,10 @@ X-Games Reaction Sports</desc>
   <programme start="20260519030000 +0200" stop="20260519033000 +0200" channel="AntennaTV.us">
     <title lang="es">The Jeffersons</title>
     <desc lang="es">Louise&amp;apos;s jealous curiosity reaches criminal proportions when she talks Helen into helping her break into George&amp;apos;s office safe.</desc>
+  </programme>
+  <programme start="20260519033000 +0200" stop="20260519040000 +0200" channel="AntennaTV.us">
+    <title lang="es">The Jeffersons</title>
+    <desc lang="es">George is in for a surprise when Florence poses as someone he never expected and she never intended -- Mrs. George Jefferson.</desc>
   </programme>
   <programme start="20260519020000 +0200" stop="20260519050000 +0200" channel="BBCAmerica.us">
     <title lang="es">Shooter</title>
@@ -9818,6 +9702,10 @@ X-Games Reaction Sports</desc>
     <title lang="es">The Neighborhood</title>
     <desc lang="es">When Calvin decides to film a local TV commercial for his business, he enlists Dave, Tina and Marty to help; Malcolm considers making a grand gesture when his girlfriend, Sofia, is offered her dream job abroad.</desc>
   </programme>
+  <programme start="20260519033000 +0200" stop="20260519040000 +0200" channel="BET.us">
+    <title lang="es">The Neighborhood</title>
+    <desc lang="es">When Grover joins Calvin&amp;apos;s youth basketball team, Gemma finds herself at odds with some of her neighbor&amp;apos;s coaching methods; Tina and Marty are forced to confront a long-buried Butler family secret.</desc>
+  </programme>
   <programme start="20260519020000 +0200" stop="20260519030000 +0200" channel="BETGospel.us">
     <title lang="es">Lifted</title>
     <desc lang="es">Centric&amp;apos;s destination for Gospel and inspirational music and artists.</desc>
@@ -9845,6 +9733,10 @@ X-Games Reaction Sports</desc>
   <programme start="20260519030000 +0200" stop="20260519033000 +0200" channel="CMT.us">
     <title lang="es">Reba</title>
     <desc lang="es">Barbra Jean confesses that she has a big crush on her new marriage counselor, and she asks Reba to help her fire him.</desc>
+  </programme>
+  <programme start="20260519033000 +0200" stop="20260519040000 +0200" channel="CMT.us">
+    <title lang="es">Reba</title>
+    <desc lang="es">Reba decides to pursue a career in real estate, and Brock reluctantly allows her to handle the sale of his condo.</desc>
   </programme>
   <programme start="20260519020000 +0200" stop="20260519030000 +0200" channel="CNBC.us">
     <title lang="es">Shark Tank</title>
@@ -9886,6 +9778,14 @@ X-Games Reaction Sports</desc>
     <title lang="es">Hot in Cleveland</title>
     <desc lang="es">The women take DNA tests to learn about their ancestries; Melanie pretends to be someone else; Victoria learns she is Native American; Joy and Elka make a startling discovery.</desc>
   </programme>
+  <programme start="20260519033000 +0200" stop="20260519040000 +0200" channel="CatchyComedy.us">
+    <title lang="es">Hot in Cleveland</title>
+    <desc lang="es">Elka believes that Bob has given Joy a voodoo doll; Melanie doses her boyfriend with estrogen by accident; Victoria&amp;apos;s agent visits.</desc>
+  </programme>
+  <programme start="20260519032000 +0200" stop="20260519050000 +0200" channel="CineLatino.us">
+    <title lang="es">Los trapos sucios se lavan en casa</title>
+    <desc lang="es">La historia de dos trabajadoras domésticas, Lupita y Tola, en la casa de la adinerada familia de los Ruiz Palacios.</desc>
+  </programme>
   <programme start="20260519020000 +0200" stop="20260519023000 +0200" channel="CleoTV.us">
     <title lang="es">The Parkers</title>
     <desc lang="es">Kim and Nikki win a guest appearance on their favorite daytime talk show; the Professor agrees to help T charm a beautiful woman (guest star Vivica A. Fox).</desc>
@@ -9897,6 +9797,10 @@ X-Games Reaction Sports</desc>
   <programme start="20260519030000 +0200" stop="20260519033000 +0200" channel="CleoTV.us">
     <title lang="es">Half &amp;amp; Half</title>
     <desc lang="es">Dee Dee cannot contain her jealousy when her ex-boyfriend is about to marry, so she tells his fiancee about their relationship.</desc>
+  </programme>
+  <programme start="20260519033000 +0200" stop="20260519040000 +0200" channel="CleoTV.us">
+    <title lang="es">Half &amp;amp; Half</title>
+    <desc lang="es">Feeling alienated from friends and family, Mona parties on the eve of a big presentation.</desc>
   </programme>
   <programme start="20260519020000 +0200" stop="20260519030000 +0200" channel="Comet.us">
     <title lang="es">Grimm</title>
@@ -9918,6 +9822,10 @@ X-Games Reaction Sports</desc>
     <title lang="es">The Best Thing I Ever Ate</title>
     <desc lang="es">Spaghetti and meatballs; biscuits and gravy; fish and chips; chicken and waffles.</desc>
   </programme>
+  <programme start="20260519033000 +0200" stop="20260519040000 +0200" channel="CookingChannel.us">
+    <title lang="es">The Best Thing I Ever Ate</title>
+    <desc lang="es">Alex Guarnaschelli names the dish that resulted in her being born; Fanny Slater explains why she wouldn&amp;apos;t get married without catfish and grits; Jonathon Sawyer discusses how one dish changed the lives of over 200 inmates.</desc>
+  </programme>
   <programme start="20260519020000 +0200" stop="20260519023000 +0200" channel="CoziTV.us">
     <title lang="es">The King of Queens</title>
     <desc lang="es">Doug, Carrie and Arthur face a chaotic trip to the grocery store on the day before Thanksgiving; Doug encounters a stranger from his past.</desc>
@@ -9929,6 +9837,10 @@ X-Games Reaction Sports</desc>
   <programme start="20260519030000 +0200" stop="20260519033000 +0200" channel="CoziTV.us">
     <title lang="es">Two and a Half Men</title>
     <desc lang="es">While in a precarious position with a woman, Charlie injures his back and won&amp;apos;t let Alan, a chiropractor, help him; after Alan drives Charlie to the doctor&amp;apos;s office, Charlie is surprised to learn that his physician died four years ago, and a female, Dr. Michelle Talmadge, has replaced him; Berta teaches Jake a lesson.</desc>
+  </programme>
+  <programme start="20260519033000 +0200" stop="20260519040000 +0200" channel="CoziTV.us">
+    <title lang="es">Two and a Half Men</title>
+    <desc lang="es">When a gay ad executive invites Charlie to a cocktail party, Charlie makes Alan go with him, as his gay partner.</desc>
   </programme>
   <programme start="20260519020000 +0200" stop="20260519023000 +0200" channel="Dabl.us">
     <title lang="es">Martin</title>
@@ -9942,6 +9854,10 @@ X-Games Reaction Sports</desc>
     <title lang="es">Martin</title>
     <desc lang="es">Tommy Ford competes with his visiting military father; trouble follows after Martin Lawrence buys Nipsey&amp;apos;s.</desc>
   </programme>
+  <programme start="20260519033000 +0200" stop="20260519040000 +0200" channel="Dabl.us">
+    <title lang="es">Martin</title>
+    <desc lang="es">An unexpected event disrupts Pam&amp;apos;s birthday celebration; police try to capture a criminal.</desc>
+  </programme>
   <programme start="20260519020000 +0200" stop="20260519023000 +0200" channel="DestinationAmerica.us">
     <title lang="es">Log Cabin Living</title>
     <desc lang="es">Devin is a well-traveled bachelor who loves the rustic feel of log cabins, and is ready to settle down and buy his first home in a rural area.</desc>
@@ -9953,6 +9869,10 @@ X-Games Reaction Sports</desc>
   <programme start="20260519030000 +0200" stop="20260519033000 +0200" channel="DestinationAmerica.us">
     <title lang="es">Log Cabin Living</title>
     <desc lang="es">Newlyweds escape the busy city life of Los Angeles, move to a traditional ski town and like the unique log cabins.</desc>
+  </programme>
+  <programme start="20260519033000 +0200" stop="20260519040000 +0200" channel="DestinationAmerica.us">
+    <title lang="es">Log Cabin Living</title>
+    <desc lang="es">Matt and Angie look for the perfect vacation cabin for their family to escape city life, and enjoy the outdoor living offered by the nearby Smoky Mountains.</desc>
   </programme>
   <programme start="20260519020000 +0200" stop="20260519030000 +0200" channel="DiscoveryChannel.us">
     <title lang="es">Contraband: Seized at the Airport</title>
@@ -9969,6 +9889,14 @@ X-Games Reaction Sports</desc>
   <programme start="20260519025000 +0200" stop="20260519031500 +0200" channel="DisneyJunior.us">
     <title lang="es">BeddyByes</title>
     <desc lang="es">MeMo and BaBa discover many new ways to play on a windy day; BaBa wants to see a shooting star, but must learn to be patient.</desc>
+  </programme>
+  <programme start="20260519031500 +0200" stop="20260519034000 +0200" channel="DisneyJunior.us">
+    <title lang="es">Bluey</title>
+    <desc lang="es">Bluey keeps breaking her promises; Bluey teaches Bingo how to use magic; Bluey teaches Bingo to be more like him.</desc>
+  </programme>
+  <programme start="20260519034000 +0200" stop="20260519040500 +0200" channel="DisneyJunior.us">
+    <title lang="es">Bluey</title>
+    <desc lang="es">Dad is accused of fluffing in Bluey&amp;apos;s face; Bluey and Mackenzie play with two older friends; Bluey and Bingo want Dad all to themselves.</desc>
   </programme>
   <programme start="20260519020000 +0200" stop="20260519030000 +0200" channel="DogTV.us">
     <title lang="es">Live: Stimulation for Dogs</title>
@@ -10014,6 +9942,10 @@ X-Games Reaction Sports</desc>
     <title lang="es">Live: Linha de Passe: Mesa-Redonda</title>
     <desc lang="es">Comentaristas esportivos conceituados entram em campo para uma análise completa da rodada do futebol ao estilo &amp;quot;mesa redonda&amp;quot;, com debates acalorados e comentários de qualidade, sempre a partir de um olhar crítico e da imparcialidade.</desc>
   </programme>
+  <programme start="20260519033000 +0200" stop="20260519040000 +0200" channel="ESPN2.us">
+    <title lang="es">Last Train to North America</title>
+    <desc lang="es">Traveling south, the series visits Atlanta and Miami, two cities where culture, music and soccer passion converge.</desc>
+  </programme>
   <programme start="20260518040000 +0200" stop="20260518050000 +0200" channel="ESPNU.us">
     <title lang="es">7Innings Live</title>
     <desc lang="es">Up-to-date college softball highlights, scores, and analysis live from experts in the studio.</desc>
@@ -10029,6 +9961,14 @@ X-Games Reaction Sports</desc>
   <programme start="20260519030000 +0200" stop="20260519033000 +0200" channel="EWTN.us">
     <title lang="es">EWTN News Nightly</title>
     <desc lang="es">Daily news and analysis, from Washington, D.C.</desc>
+  </programme>
+  <programme start="20260519033000 +0200" stop="20260519040000 +0200" channel="EWTN.us">
+    <title lang="es">Holy Rosary From Lourdes</title>
+    <desc lang="es">Pilgrims from around the world gather and pray the Rosary from the Lourdes Grotto in France, site of the famous apparitions by the Blessed Virgin Mary in 1858.</desc>
+  </programme>
+  <programme start="20260519033000 +0200" stop="20260519060000 +0200" channel="FX.us">
+    <title lang="es">Air</title>
+    <desc lang="es">Sonny Vaccaro and Nike pursue basketball rookie Michael Jordan, creating a partnership that revolutionizes the world of sports and contemporary culture.</desc>
   </programme>
   <programme start="20260519020000 +0200" stop="20260519030000 +0200" channel="FoxBusiness.us">
     <title lang="es">How America Works</title>
@@ -10053,6 +9993,10 @@ X-Games Reaction Sports</desc>
   <programme start="20260519020000 +0200" stop="20260519030900 +0200" channel="HBO.us">
     <title lang="es">Half Man</title>
     <desc lang="es">When Niall&amp;apos;s estranged brother Ruben shows up at his wedding, it leads to an explosion of violence that catapults us back through their lives, from the eighties to the present day.</desc>
+  </programme>
+  <programme start="20260519030900 +0200" stop="20260519053000 +0200" channel="HBO.us">
+    <title lang="es">Everything Everywhere All at Once</title>
+    <desc lang="es">When an interdimensional rupture unravels reality, an unlikely hero must channel her newfound powers to fight bizarre and bewildering dangers from the multiverse.</desc>
   </programme>
   <programme start="20260519023800 +0200" stop="20260519040600 +0200" channel="HBOComedy.us">
     <title lang="es">Nine Lives</title>
@@ -10086,6 +10030,10 @@ X-Games Reaction Sports</desc>
     <title lang="es">Forensic Files</title>
     <desc lang="es">A man is found dead in his Michigan auto-salvage shop.</desc>
   </programme>
+  <programme start="20260519033000 +0200" stop="20260519040000 +0200" channel="HLN.us">
+    <title lang="es">Forensic Files</title>
+    <desc lang="es">A man is murdered in a drive-by shooting. When a mobile phone trace incriminates a killer, it&amp;apos;s up to a forensic geologist to find evidence that he was at the scene.</desc>
+  </programme>
   <programme start="20260519020000 +0200" stop="20260519023000 +0200" channel="INSP.us">
     <title lang="es">Gunsmoke</title>
     <desc lang="es">A gunfighter kills in self-defense, but must face his victim&amp;apos;s vengeful brother.</desc>
@@ -10110,6 +10058,10 @@ X-Games Reaction Sports</desc>
     <title lang="es">Justice for All With Judge Cristina Pérez</title>
     <desc lang="es">Judge Cristina Pérez presides over small-claims court arbitrations.</desc>
   </programme>
+  <programme start="20260519033000 +0200" stop="20260519040000 +0200" channel="JusticeCentral.us">
+    <title lang="es">Justice for All With Judge Cristina Pérez</title>
+    <desc lang="es">Judge Cristina Pérez presides over small-claims court arbitrations.</desc>
+  </programme>
   <programme start="20260519020000 +0200" stop="20260519023000 +0200" channel="Laff.us">
     <title lang="es">Last Man Standing</title>
     <desc lang="es">When Mike discovers Vanessa has given away the last of his incandescent light bulbs, he and Chuck go looking for more; Mandy announces she is getting her own apartment.</desc>
@@ -10121,6 +10073,10 @@ X-Games Reaction Sports</desc>
   <programme start="20260519030000 +0200" stop="20260519033000 +0200" channel="Laff.us">
     <title lang="es">That &amp;apos;70s Show</title>
     <desc lang="es">New guy Mitch (Seth Green) tries to make out with Donna; Bob asks Pamela (Brooke Shields) to move in with him.</desc>
+  </programme>
+  <programme start="20260519033000 +0200" stop="20260519040000 +0200" channel="Laff.us">
+    <title lang="es">That &amp;apos;70s Show</title>
+    <desc lang="es">Mitch (guest star Seth Green) tells Donna a secret about Eric that makes him seem less than desirable; Red and Hyde see a side of Pamela (guest star Brooke Shields) they will never forget.</desc>
   </programme>
   <programme start="20260519020000 +0200" stop="20260519030000 +0200" channel="LawAndCrime.us">
     <title lang="es">Police Pursuits by Law&amp;amp;Crime</title>
@@ -10142,6 +10098,10 @@ X-Games Reaction Sports</desc>
     <title lang="es">Three&amp;apos;s Company</title>
     <desc lang="es">Janet invites Terri to stay in the apartment as their roommate, not realizing that she and Jack have met before.</desc>
   </programme>
+  <programme start="20260519033000 +0200" stop="20260519040000 +0200" channel="Logo.us">
+    <title lang="es">Three&amp;apos;s Company</title>
+    <desc lang="es">Terri&amp;apos;s overly friendly behavior toward Jack makes Janet suspicious.</desc>
+  </programme>
   <programme start="20260519020000 +0200" stop="20260519023000 +0200" channel="MTV2.us">
     <title lang="es">Auction Hunters</title>
     <desc lang="es">A ruthless store owner tries to stop Ton and Allen from scoring new items in Santa Barbara so they fight back; the guys uncover a rare antique air gun and a vintage wooden boat built for speed.</desc>
@@ -10153,6 +10113,10 @@ X-Games Reaction Sports</desc>
   <programme start="20260519030000 +0200" stop="20260519033000 +0200" channel="MTV2.us">
     <title lang="es">Auction Hunters</title>
     <desc lang="es">Ton and Allen race to purchase a rare comic; Allen lives out a childhood fantasy with a Samurai sword.</desc>
+  </programme>
+  <programme start="20260519033000 +0200" stop="20260519040000 +0200" channel="MTV2.us">
+    <title lang="es">Auction Hunters</title>
+    <desc lang="es">Allen and Ton find themselves in trouble with the law in Louisiana.</desc>
   </programme>
   <programme start="20260519020000 +0200" stop="20260519030000 +0200" channel="MTVClassic.us">
     <title lang="es">Spotlight</title>
@@ -10182,6 +10146,10 @@ X-Games Reaction Sports</desc>
     <title lang="es">News 12 The Bronx</title>
     <desc lang="es">Latest Bronx news, weather, and more.</desc>
   </programme>
+  <programme start="20260519033000 +0200" stop="20260519040000 +0200" channel="News12Bronx.us">
+    <title lang="es">News 12 The Bronx</title>
+    <desc lang="es">Latest Bronx news, weather, and more.</desc>
+  </programme>
   <programme start="20260519020000 +0200" stop="20260519023000 +0200" channel="News12Brooklyn.us">
     <title lang="es">News 12 Brooklyn</title>
     <desc lang="es">Local news, weather, traffic, politics, investigative and more.</desc>
@@ -10191,6 +10159,10 @@ X-Games Reaction Sports</desc>
     <desc lang="es">Local news, weather, traffic, politics, investigative and more.</desc>
   </programme>
   <programme start="20260519030000 +0200" stop="20260519033000 +0200" channel="News12Brooklyn.us">
+    <title lang="es">News 12 Brooklyn</title>
+    <desc lang="es">Local news, weather, traffic, politics, investigative and more.</desc>
+  </programme>
+  <programme start="20260519033000 +0200" stop="20260519040000 +0200" channel="News12Brooklyn.us">
     <title lang="es">News 12 Brooklyn</title>
     <desc lang="es">Local news, weather, traffic, politics, investigative and more.</desc>
   </programme>
@@ -10226,6 +10198,10 @@ X-Games Reaction Sports</desc>
     <title lang="es">200</title>
     <desc lang="es">If you hunt big whitetails, this is a must see!</desc>
   </programme>
+  <programme start="20260519033000 +0200" stop="20260519040000 +0200" channel="PursuitChannel.us">
+    <title lang="es">The American Way</title>
+    <desc lang="es">Elaine Lake Bear hunting continues with Mark and Angie.</desc>
+  </programme>
   <programme start="20260519020000 +0200" stop="20260519023000 +0200" channel="RFDTV.us">
     <title lang="es">Cattlemen to Cattlemen</title>
     <desc lang="es">Beef industry news, markets and features from the National Cattlemen&amp;apos;s Beef Association.</desc>
@@ -10238,6 +10214,10 @@ X-Games Reaction Sports</desc>
     <title lang="es">Special Cowboy Moments</title>
     <desc lang="es">Rancher Gene Veeder is a prominent figure in shaping one of America&amp;apos;s biggest oil-rich counties.</desc>
   </programme>
+  <programme start="20260519033000 +0200" stop="20260519040000 +0200" channel="RFDTV.us">
+    <title lang="es">Red Steagall West of Wall Street</title>
+    <desc lang="es">Enjoy the stories and poetry as Red interviews one of the most accomplished cowboy poets in society, Joel Nelson.</desc>
+  </programme>
   <programme start="20260519020000 +0200" stop="20260519023000 +0200" channel="RecipeTV.us">
     <title lang="es">Celebrating With Lorna Maseko</title>
     <desc lang="es">Chef Lorna Maseko shares South Africa&amp;apos;s beautiful food and colorful, historic culture with iconic dishes and adventures featuring her hometown of Johannesburg.</desc>
@@ -10249,6 +10229,10 @@ X-Games Reaction Sports</desc>
   <programme start="20260519030000 +0200" stop="20260519033000 +0200" channel="RecipeTV.us">
     <title lang="es">The French Pub</title>
     <desc lang="es">Chef Edward Delling-Williams creates traditional French pub fare.</desc>
+  </programme>
+  <programme start="20260519033000 +0200" stop="20260519040000 +0200" channel="RecipeTV.us">
+    <title lang="es">Eleni&amp;apos;s Greek Odyssey</title>
+    <desc lang="es">Eleni Saltas takes viewers through Athens to sample iconic Greek foods and tour historic sites, along with cooking fresh dishes.</desc>
   </programme>
   <programme start="20260519020000 +0200" stop="20260519023000 +0200" channel="ReelzChannel.us">
     <title lang="es">Cops Reloaded</title>
@@ -10282,9 +10266,17 @@ X-Games Reaction Sports</desc>
     <title lang="es">Overtime Hustle</title>
     <desc lang="es">Speedy meets up with pilates instructor Raven Ross to learn about the popularity of pilates, try a few challenging Pilates exercises and attempt to lead his first class as an instructor.</desc>
   </programme>
+  <programme start="20260519033000 +0200" stop="20260519040000 +0200" channel="Revolt.us">
+    <title lang="es">Overtime Hustle</title>
+    <desc lang="es">Speedy pairs up with bartender Q to learn how to prepare a bar station, make popular cocktails, and tries his luck working behind a busy bar.</desc>
+  </programme>
   <programme start="20260519020000 +0200" stop="20260519034500 +0200" channel="Showtime2.us">
     <title lang="es">Doin&amp;apos; It</title>
     <desc lang="es">Moonlighting as a high-school substitute teacher, a 30-year-old virgin gets in over her head when she&amp;apos;s assigned to teach sex education.</desc>
+  </programme>
+  <programme start="20260519034500 +0200" stop="20260519053000 +0200" channel="Showtime2.us">
+    <title lang="es">A Bad Moms Christmas</title>
+    <desc lang="es">Under-appreciated and overburdened moms Amy, Kiki and Carla rebel against the challenges and expectations of the Super Bowl for moms: Christmas. As if creating the perfect holiday for their families isn&amp;apos;t hard enough, they&amp;apos;ll have to do it while hosting and entertaining their own respective mothers when they come to visit.</desc>
   </programme>
   <programme start="20260519021500 +0200" stop="20260519040000 +0200" channel="ShowtimeExtreme.us">
     <title lang="es">Gasoline Alley</title>
@@ -10293,6 +10285,10 @@ X-Games Reaction Sports</desc>
   <programme start="20260519020000 +0200" stop="20260519033000 +0200" channel="ShowtimeNext.us">
     <title lang="es">Strange Wilderness</title>
     <desc lang="es">Peter Gaulke takes over when his father, a respected wildlife TV host, dies, but receives far less success. When the show is threatened with cancellation, Peter and his know-nothing crew of stoners and idiots realize that only one creature can save the show: Bigfoot.</desc>
+  </programme>
+  <programme start="20260519033000 +0200" stop="20260519051500 +0200" channel="ShowtimeNext.us">
+    <title lang="es">Super</title>
+    <desc lang="es">After his wife (Liv Tyler) leaves him, a fry cook (Rainn Wilson) emulates a TV superhero and transforms himself into a costumed vigilante.</desc>
   </programme>
   <programme start="20260519020000 +0200" stop="20260519040500 +0200" channel="ShowtimeShowcase.us">
     <title lang="es">Not Without Hope</title>
@@ -10309,10 +10305,6 @@ X-Games Reaction Sports</desc>
   <programme start="20260519030000 +0200" stop="20260519040000 +0200" channel="SoYummy.us">
     <title lang="es">Come Dine with Me</title>
     <desc lang="es">Today&amp;apos;s brand new Come Dine With Me Professionals heads to South Wales, where Prego start the week with sibling duo Toni and Andrea aiming to provide a fully authentic Italian experience for their guests.</desc>
-  </programme>
-  <programme start="20260518023000 +0200" stop="20260518030000 +0200" channel="SpectrumNews13.us">
-    <title lang="es">In Focus With Allison Walker</title>
-    <desc lang="es">Tackling the topical issues impacting Florida in an in-depth discussion with local newsmakers and experts.</desc>
   </programme>
   <programme start="20260518030000 +0200" stop="20260518040000 +0200" channel="SpectrumNews13.us">
     <title lang="es">Live: News 13 Your Evening News at 9</title>
@@ -10390,6 +10382,10 @@ X-Games Reaction Sports</desc>
     <title lang="es">Foul Play With Anthony Davis</title>
     <desc lang="es">Turning the tables on the locker-room dynamic, athletes from all sports pull pranks on their teammates and sports-world friends; the team behind &amp;quot;Impractical Jokers&amp;quot; helps them see the prank through from the opening tip-off to the final buzzer.</desc>
   </programme>
+  <programme start="20260519033000 +0200" stop="20260519040000 +0200" channel="TBS.us">
+    <title lang="es">Foul Play With Anthony Davis</title>
+    <desc lang="es">Anthony Davis and Dude Perfect&amp;apos;s Cody Jones push Dereck Lively into a game-show disaster, while USC basketball player JuJu Watkins and coach Lindsey Gottlieb prank their team with a fake meeting that leaves them stranded on a haunted abandoned floor.</desc>
+  </programme>
   <programme start="20260519023000 +0200" stop="20260519044500 +0200" channel="TNT.us">
     <title lang="es">Godzilla x Kong: The New Empire</title>
     <desc lang="es">Godzilla and the almighty Kong face a colossal threat hidden deep within the planet, challenging their very existence and the survival of the human race.</desc>
@@ -10405,6 +10401,10 @@ X-Games Reaction Sports</desc>
   <programme start="20260519030000 +0200" stop="20260519033000 +0200" channel="TVLand.us">
     <title lang="es">Everybody Loves Raymond</title>
     <desc lang="es">Ray decides to imitate his father by going to church every week, until he realizes why it is he never misses a sermon.</desc>
+  </programme>
+  <programme start="20260519033000 +0200" stop="20260519040000 +0200" channel="TVLand.us">
+    <title lang="es">Everybody Loves Raymond</title>
+    <desc lang="es">Ray cancels his plans with Robert, but later feels guilty when Robert is injured and lands in the hospital.</desc>
   </programme>
   <programme start="20260519020000 +0200" stop="20260519030000 +0200" channel="TVOne.us">
     <title lang="es">Fatal Attraction</title>
@@ -10442,9 +10442,17 @@ X-Games Reaction Sports</desc>
     <title lang="es">2025 World Taekwondo Championships</title>
     <desc lang="es">2025 World Taekwondo Championships</desc>
   </programme>
+  <programme start="20260519033000 +0200" stop="20260519040000 +0200" channel="beINSports.us">
+    <title lang="es">FIBA 3x3 Basketball World Tour</title>
+    <desc lang="es">FIBA 3x3 Basketball World Tour</desc>
+  </programme>
   <programme start="20260518040000 +0200" stop="20260518043000 +0200" channel="truTV.us">
     <title lang="es">Live: NHL Post-Game on TNT</title>
     <desc lang="es">Liam McHugh, Anson Carter and Paul Bissonnette recap the night in the NHL.</desc>
+  </programme>
+  <programme start="20260519033000 +0200" stop="20260519060000 +0200" channel="truTV.us">
+    <title lang="es">Draft Day</title>
+    <desc lang="es">Sonny Weaver Jr. is the general manager of the Cleveland Browns. One of pro football&amp;apos;s most important days, NFL draft day, is drawing near, but Sonny has much more on his mind than just which players to recruit. His lover is pregnant, and the team&amp;apos;s owner wants to fire him. After Sonny accepts a deal with Seattle that nets him that team&amp;apos;s first-round pick, he immediately wonders if he has made the right choice for himself and the Browns.</desc>
   </programme>
   <programme start="20260518050000 +0200" stop="20260518060000 +0200" channel="ESPN2.us">
     <title lang="es">Resenha ESPN</title>
@@ -10453,6 +10461,10 @@ X-Games Reaction Sports</desc>
   <programme start="20260518093000 +0200" stop="20260518113000 +0200" channel="ESPN2.us">
     <title lang="es">Campeonato Espanhol</title>
     <desc lang="es">Do Spotify Camp Nou, em Barcelona, Espanha.</desc>
+  </programme>
+  <programme start="20260519033500 +0200" stop="20260519064000 +0200" channel="ParamountNetwork.us">
+    <title lang="es">Top Gun: Maverick</title>
+    <desc lang="es">After more than 30 years of service as one of the Navy&amp;apos;s top aviators, Pete &amp;quot;Maverick&amp;quot; Mitchell is where he belongs, pushing the envelope as a courageous test pilot and dodging the advancement in rank that would ground him. Training a detachment of graduates for a special assignment, Maverick must confront the ghosts of his past and his deepest fears, culminating in a mission that demands the ultimate sacrifice from those who choose to fly it.</desc>
   </programme>
   <programme start="20260518103000 +0200" stop="20260518110000 +0200" channel="truTV.us">
     <title lang="es">The Health Forum - Mindful Matters</title>
@@ -10485,6 +10497,10 @@ X-Games Reaction Sports</desc>
   <programme start="20260519023000 +0200" stop="20260519030000 +0200" channel="MTVLive.us">
     <title lang="es">Push Showcase: Jordan Adetunji</title>
     <desc lang="es">Push Showcase: Jordan Adetunji</desc>
+  </programme>
+  <programme start="20260519033000 +0200" stop="20260519040000 +0200" channel="MTVLive.us">
+    <title lang="es">PUSH Showcase: Shaboozey</title>
+    <desc lang="es">PUSH Showcase: Shaboozey</desc>
   </programme>
   <programme start="20260518063000 +0200" stop="20260518070000 +0200" channel="News12Bronx.us">
     <title lang="es">News 12 the Bronx</title>
@@ -10558,10 +10574,6 @@ X-Games Reaction Sports</desc>
     <title lang="es">News 12 Brooklyn</title>
     <desc lang="es">Local news, weather, traffic, politics, investigative and more.</desc>
   </programme>
-  <programme start="20260518023000 +0200" stop="20260518050000 +0200" channel="TNT.us">
-    <title lang="es">National Treasure: Book of Secrets</title>
-    <desc lang="es">When a long-missing page from the diary of assassin John Wilkes Booth suddenly resurfaces, it implicates the great-great-grandfather of treasure hunter Ben Gates (Nicolas Cage) as a conspirator in Lincoln&amp;apos;s death. Ben&amp;apos;s globetrotting quest to prove his ancestor&amp;apos;s innocence leads him to a closely guarded book containing the nation&amp;apos;s deepest secrets.</desc>
-  </programme>
   <programme start="20260518050000 +0200" stop="20260518080000 +0200" channel="TNT.us">
     <title lang="es">The Lost World: Jurassic Park</title>
     <desc lang="es">Four years after &amp;quot;Jurassic Park,&amp;quot; mathematician Ian Malcolm ventures onto a second island to save his girlfriend from becoming dinosaur bait.</desc>
@@ -10629,10 +10641,6 @@ X-Games Reaction Sports</desc>
   <programme start="20260519003000 +0200" stop="20260519020000 +0200" channel="CSPAN.us">
     <title lang="es">Live: U.S. House of Representatives</title>
     <desc lang="es">Gavel-to-gavel coverage of the U.S. House of Representatives from the Capitol Building in Washington, D.C.</desc>
-  </programme>
-  <programme start="20260518023000 +0200" stop="20260518033100 +0200" channel="CSPAN2.us">
-    <title lang="es">Eyck Freymann, Defending Taiwan</title>
-    <desc lang="es">The Hoover Institution&amp;apos;s Eyck Freymann argues that the United States can deter a war with China by strengthening its defense of Taiwan.</desc>
   </programme>
   <programme start="20260518033100 +0200" stop="20260518043100 +0200" channel="CSPAN2.us">
     <title lang="es">Gal Beckerman, How to be a Dissident</title>
@@ -10834,6 +10842,10 @@ X-Games Reaction Sports</desc>
     <title lang="es">Half Man</title>
     <desc lang="es">Después de una crisis nerviosa, Niall se entera de que Rubén ha regresado. La obsesión se apodera de él y un tenso enfrentamiento obliga a los hermanos a confrontar su pasado conflictivo.</desc>
   </programme>
+  <programme start="20260519030900 +0200" stop="20260519053000 +0200" channel="HBOLatino.us">
+    <title lang="es">Everything Everywhere All at Once</title>
+    <desc lang="es">Una heroína inesperada debe usar sus nuevos poderes para luchar contra los desconcertantes peligros del multiverso y así lograr salvar su mundo.</desc>
+  </programme>
   <programme start="20260518034500 +0200" stop="20260518063000 +0200" channel="truTV.us">
     <title lang="es">Joker</title>
     <desc lang="es">Forever alone in a crowd, failed comedian Arthur Fleck seeks connection as he walks the streets of Gotham City. Arthur wears two masks -- the one he paints for his day job as a clown, and the guise he projects in a futile attempt to feel like he&amp;apos;s part of the world around him. Isolated, bullied and disregarded by society, Fleck begins a slow descent into madness as he transforms into the criminal mastermind known as the Joker.</desc>
@@ -10849,10 +10861,6 @@ X-Games Reaction Sports</desc>
   <programme start="20260518073000 +0200" stop="20260518080000 +0200" channel="truTV.us">
     <title lang="es">Impractical Jokers</title>
     <desc lang="es">Q, Joe, Murr and Sal find scandalous diary entries written by their daughters; then break up with significant others in front of baffled strangers; the loser finds himself in hot water and on shaky ground while waiting tables.</desc>
-  </programme>
-  <programme start="20260518003000 +0000" stop="20260518010000 +0000" channel="MEGA TV WORA DT5 MAYAGUEZ PUERTO RICO.pr">
-    <title lang="es">Programa pagado</title>
-    <desc lang="es">Programa que muestra diversos productos para la venta.</desc>
   </programme>
   <programme start="20260518010000 +0000" stop="20260518013000 +0000" channel="MEGA TV WORA DT5 MAYAGUEZ PUERTO RICO.pr">
     <title lang="es">Programa pagado</title>
@@ -10913,10 +10921,6 @@ X-Games Reaction Sports</desc>
   <programme start="20260518093000 +0000" stop="20260518100000 +0000" channel="MEGA TV WORA DT5 MAYAGUEZ PUERTO RICO.pr">
     <title lang="es">Programa pagado</title>
     <desc lang="es">Programa que muestra diversos productos para la venta.</desc>
-  </programme>
-  <programme start="20260518003000 +0000" stop="20260518010000 +0000" channel="MICASA W31DL PUERTO RICO.pr">
-    <title lang="es">The Outdoorsman</title>
-    <desc lang="es">Buck McNeely explores a number of hunting venues, brings conservation issues to the forefront, and chats with celebrity guests.</desc>
   </programme>
   <programme start="20260518010000 +0000" stop="20260518013000 +0000" channel="MICASA W31DL PUERTO RICO.pr">
     <title lang="es">National Walleye Tour</title>
@@ -12389,10 +12393,6 @@ X-Games Reaction Sports</desc>
   <programme start="20260519180000 +0000" stop="20260520000100 +0000" channel="GME14.pr">
     <title lang="es">MLB Extra Innings</title>
     <desc lang="es">MLB Extra Innings</desc>
-  </programme>
-  <programme start="20260518003000 +0000" stop="20260518010000 +0000" channel="HOLAPR.pr">
-    <title lang="es">El jardín del edén de Pamela</title>
-    <desc lang="es">El jardín del edén de Pamela</desc>
   </programme>
   <programme start="20260518010000 +0000" stop="20260518013000 +0000" channel="HOLAPR.pr">
     <title lang="es">Íntimo y personal</title>
@@ -16252,12 +16252,6 @@ Una noche de bohemia, baladas y buen humor. Un escenario de estrellas locales e 
     <category lang="es">Cooking</category>
     <icon src="https://iptv-epg.org/images/4CXxFXWgDSPQ_KyNI7DudhdQgiDPT6j8kVn6BzgaemNaFn23nzAILQQDYpM6dFaexa4bV5A0h3IZqHF1x_wsPs9-H6aobqgIv5S8Ir_8_K4"/>
   </programme>
-  <programme start="20260518003000 +0000" stop="20260518010000 +0000" channel="ACCNetwork.us">
-    <title lang="es">All ACC ᴺᵉʷ</title>
-    <desc lang="es">Providing the latest news and information on the ACC&apos;s 28 sponsored sports - including post-game coverage around the conference&apos;s biggest events.</desc>
-    <category lang="es">Sports talk</category>
-    <icon src="https://iptv-epg.org/images/g5XaJ_KPMVDnxZoI7zIFJ5aqzUdb1r7Dl09mPLhkJnZs0W4MYhkKi5PhaZ7T7LSfPi6Riqt0lWkdm-phEXbSTvnGQc5hXy5L6LQwtl3ahJo"/>
-  </programme>
   <programme start="20260518010000 +0000" stop="20260518013000 +0000" channel="ACCNetwork.us">
     <title lang="es">All ACC ᴺᵉʷ</title>
     <desc lang="es">Providing the latest news and information on the ACC&apos;s 28 sponsored sports - including post-game coverage around the conference&apos;s biggest events.</desc>
@@ -18251,12 +18245,6 @@ Altitude Extra</desc>
 Altitude Extra</desc>
     <category lang="es">Sports talk</category>
     <icon src="https://iptv-epg.org/images/Yy9tPF6WvpRjeQfOiWsj_CUbmvMDGtLsFJWkZ4f3QNtAI3zCgFzOIl7xXf2-Vv6EQfApAYBpNC9t4ntszTuWvnTu8b4bnOpTp3bPJKPdoHU"/>
-  </programme>
-  <programme start="20260518001900 +0000" stop="20260518015400 +0000" channel="AMCThrillers.us">
-    <title lang="es">Airborne</title>
-    <desc lang="es">A plane takes off during a snowstorm and soon reports both pilots are dead. As the passengers slowly die off, they wish they had never left the ground.</desc>
-    <category lang="es">Horror</category>
-    <icon src="https://iptv-epg.org/images/qVHcdInGm_OgNspf5FT7onOzykTmFMZ9L9joBZVnN7wAeF50MTSXAiw0NNOrZr-MFIulTIa8aIzAFsGyH-NeQADdkNpor8SGXZpkRJV5028"/>
   </programme>
   <programme start="20260518015400 +0000" stop="20260518033300 +0000" channel="AMCThrillers.us">
     <title lang="es">Mary</title>
@@ -20388,13 +20376,6 @@ Villalobos gets invited to attend their first Puppy Bowl; new parolee Spencer jo
     <category lang="es">Animals</category>
     <icon src="https://iptv-epg.org/images/OLyVot8skxotVqYsDeWgPhPXM2uRhIfndA6IF4eZeIP1qv2puIgyOvIXaqwFb6Dknm_ZZeh2m3VefLy3bq8AP2tPql1fKxlB_JQpgHX-YR0"/>
   </programme>
-  <programme start="20260518003000 +0000" stop="20260518010000 +0000" channel="AntennaTV.us">
-    <title lang="es">Who&apos;s the Boss?</title>
-    <desc lang="es">S04 E04 — Trip to the Principal
-Jonathan starts acting bizarre after moving up a grade into junior high school.</desc>
-    <category lang="es">Sitcom</category>
-    <icon src="https://iptv-epg.org/images/gQ-SNre-67VaR2LVfYZ4Z7ew0gF1ueSUr5EwlyNtf8cXgp3mkQsgwV4Dzcvmca5hbuNSr2_Sgd8jzOFnMNVPK13l5CWEWZRFcx9VjHGk2dg"/>
-  </programme>
   <programme start="20260518010000 +0000" stop="20260518013000 +0000" channel="AntennaTV.us">
     <title lang="es">Family Ties</title>
     <desc lang="es">S05 E01 — Be True to Your Preschool
@@ -21948,13 +21929,6 @@ A psychic predicts that Maude will marry for a fifth time.</desc>
 Maude&apos;s telethon is left without a disease.</desc>
     <category lang="es">Sitcom</category>
     <icon src="https://iptv-epg.org/images/ii-uTWNL5EA7Wp-bVPhCy8BUFgERYj6j-if-N47LPl-LJHjvUD1gR3SfuW_CRyup_mAfgZ0Joul12ES78HdppxYgSAwh20L86XncHuFIu-E"/>
-  </programme>
-  <programme start="20260518003000 +0000" stop="20260518010000 +0000" channel="AXSTV.us">
-    <title lang="es">The Top Ten Revealed</title>
-    <desc lang="es">S02 E22 — Songs of America
-So many topics are explored in song lyrics. Today we are ranking tunes that talk about America. Find out which SONGS OF AMERICA make our list as rock experts like Kenny Aronoff, Lita Ford, Jeff Pilson and more count us down!</desc>
-    <category lang="es">Music</category>
-    <icon src="https://iptv-epg.org/images/1FfW2GHqEwXpBpzKuNC57eXlhjkQbZRrL8F-ILHJHW4IB4cEk4ESM0UAEFKVThcSyE1k7aTH4Q37EVpMinmY3CZ5R4P24L3CgUExqGpSoxk"/>
   </programme>
   <programme start="20260518010000 +0000" stop="20260518013000 +0000" channel="AXSTV.us">
     <title lang="es">The Top Ten Revealed</title>
@@ -28131,13 +28105,6 @@ The Glenn Beck Podcast</desc>
     <category lang="es">Talk</category>
     <icon src="https://iptv-epg.org/images/4GXTjZbmr-q444mzQxUBp2pADZuJ5OhGQsNvLD-zMHCPD25YNR8fPeuCsGHEwec-EP79Hh5l0t01DbF79Sr-DkySrwftfC8klTbEyoccgts"/>
   </programme>
-  <programme start="20260518003000 +0000" stop="20260518010000 +0000" channel="Boomerang.us">
-    <title lang="es">Scooby-Doo, Where Are You!</title>
-    <desc lang="es">S01 E04 — Mine Your Own Business
-The gang spends the night in a haunted ghost town.</desc>
-    <category lang="es">Adventure</category>
-    <icon src="https://iptv-epg.org/images/nPq0cNhfGjm3wN8P2wk_RoUyKJb_t0h8BKmaiFc1PEHxg1hLeEYJlvaI3DbCHsJ2J5gZN5uuctra7obCn5ffUO6CG_S9hgeuHILgnDVufk8"/>
-  </programme>
   <programme start="20260518010000 +0000" stop="20260518013000 +0000" channel="Boomerang.us">
     <title lang="es">The Flintstones</title>
     <desc lang="es">S02 E21 — Impractical Joker
@@ -30518,12 +30485,6 @@ The gang goes to Salem, Mass., for a historical festival, only to discover a dem
     <category lang="es">Adventure</category>
     <icon src="https://iptv-epg.org/images/vjycIC_t1T7egCMwCBdavkFKrkQVKpIt1Eq-zWowYeLiOqWgPty-r-yE-5b8t9a0vpDGdKfetsfTan5NHmSXMHDqpUzVMF7c4FDegxKOHcg"/>
   </programme>
-  <programme start="20260518003000 +0000" stop="20260518030000 +0000" channel="BounceTV.us">
-    <title lang="es">XXX</title>
-    <desc lang="es">A government agent (Samuel L. Jackson) recruits an athlete (Vin Diesel) to stop an anarchist from using biological and chemical weapons.</desc>
-    <category lang="es">Action</category>
-    <icon src="https://iptv-epg.org/images/X_AO3VHg1UTdcA1wrrOIsNnMj6BQS1smsxGCvTT5gFVTT087_SkqlZODqk9fRz4BTV4xlFC8bGFHuHgN4g9vB9LaEEHa48IZwVg574nUxpk"/>
-  </programme>
   <programme start="20260518030000 +0000" stop="20260518050000 +0000" channel="BounceTV.us">
     <title lang="es">XXX: State of the Union</title>
     <desc lang="es">In Washington, D.C., the new XXX agent (Ice Cube) must eliminate a threat to the president from within the U.S. government.</desc>
@@ -31707,12 +31668,6 @@ Adam Szetela, author of That Book Is Dangerous!, discusses his investigation int
     <category lang="es">Documentary</category>
     <icon src="https://iptv-epg.org/images/hRbEe_eYU5Jj1IhEtULU--mpFRJtjoE9qMy2f2eNrm2loZYrJxaPUZ2n2h4G7tRmsqcPFrKsGvz22D7ok_jadTh4e-QK8TKC1jQyibluPWQ"/>
   </programme>
-  <programme start="20260518002500 +0000" stop="20260518012500 +0000" channel="CSPAN2.us">
-    <title lang="es">Eyck Freymann, Defending Taiwan</title>
-    <desc lang="es">The Hoover Institution&apos;s Eyck Freymann argues that the United States can deter a war with China by strengthening its defense of Taiwan.</desc>
-    <category lang="es">Documentary</category>
-    <icon src="https://iptv-epg.org/images/JTjxPvxq5V1N6K2Urxd3SBG7UWTDcTsw9U6IijKxw9GaiodX-ddyb8KGOV61-je_hQF19OdAu30wu4Omz7ALTcozrhi5zgpRSdSkJZgp2o0"/>
-  </programme>
   <programme start="20260518012500 +0000" stop="20260518022500 +0000" channel="CSPAN2.us">
     <title lang="es">Gal Beckerman, How to be a Dissident</title>
     <desc lang="es">In an age of division, Atlantic Staff Writer Gal Beckerman talks about what it takes to be a dissident - from Socrates through the anti-slavery movement to today&apos;s protestors.</desc>
@@ -32521,13 +32476,6 @@ American Battlefield Trust recounts the history of the Revolutionary War, from t
     <desc lang="es">Public affairs events, congressional hearings, speeches, and interviews.</desc>
     <category lang="es">Event</category>
     <icon src="https://iptv-epg.org/images/dBRKO_qNHFov8QL5tRaO0uDsY8kZUsTGd18eyjvDV9OPYy80aVVVxrqZzVt8JVcOfgcM9h8LFWA8xTOpPfOFadvvMuOPGkFp9lzo8DZ7XBI"/>
-  </programme>
-  <programme start="20260518003000 +0000" stop="20260518010000 +0000" channel="CartoonNetwork.us">
-    <title lang="es">Family Guy</title>
-    <desc lang="es">S17 E14 — Family Guy Lite
-After a mishap at work, Peter decides to take his health more seriously and diet with the help of Quagmire, Joe and Cleveland; Lois tries to write a romantic fantasy novel.</desc>
-    <category lang="es">Animated</category>
-    <icon src="https://iptv-epg.org/images/TtRZNG2xul6MVmTf-vpfTh3PcoZWkvKtydIAu2PXUdVokZvobd45e1dt9DN1qSGoYgqMgiseHrh37I7CJfTUdugb8cEpV-eSPo_lrJ3J0Mo"/>
   </programme>
   <programme start="20260518010000 +0000" stop="20260518013000 +0000" channel="CartoonNetwork.us">
     <title lang="es">Family Guy</title>
@@ -36626,13 +36574,6 @@ Mary and Lou attend a seminar in Washington, D.C.</desc>
     <desc lang="es">Un hechizo provoca que María José y Alfredo repitan eternamente el mismo día durante las vacaciones que sus hijos les han pagado para celebrar su aniversario de bodas.</desc>
     <category lang="es">Comedy</category>
     <icon src="https://iptv-epg.org/images/n0N1z7aSFshMZPp5KT4hIOXgZFfwomjzqdDP3Wp74uz82hg6dAzlQOt4cpU58JdcH6N63rVwGdZs1z-vTGMWZk0UgAZq5toE4boxXiwHd_k"/>
-  </programme>
-  <programme start="20260518003000 +0000" stop="20260518010000 +0000" channel="CleoTV.us">
-    <title lang="es">The Parkers</title>
-    <desc lang="es">S04 E22 — She&apos;s a Bad Mamma Jamma
-A widower&apos;s son decides he wants Nikki to be his new mother and tricks her into giving up the professor.</desc>
-    <category lang="es">Drama</category>
-    <icon src="https://iptv-epg.org/images/RiwGOJz-xSw6WPFBfRXUkKj2pkmP1d5YnqlryJ6WlohQ4uPjQDjWIYHmxPS9H_YCS7hv5O4WLRdDCF9TbgziRVnzY4XAg39RcMTfrGUK3Rg"/>
   </programme>
   <programme start="20260518010000 +0000" stop="20260518013000 +0000" channel="CleoTV.us">
     <title lang="es">Half &amp;amp; Half</title>
@@ -43548,13 +43489,6 @@ Bizarre Foods: Delicious Destinations</desc>
 Bizarre Foods: Delicious Destinations</desc>
     <icon src="https://iptv-epg.org/images/ItK3TPo9wfXm41HLwt8qvaefxiKvEk0KTcQc-0TMRT_1d7o75c1WkoW4uAMbzNhV8XRRiA_yxfoxtSZe4U7xGxiznPLsq9lCJefv-hnXuJk"/>
   </programme>
-  <programme start="20260518003000 +0000" stop="20260518030000 +0000" channel="TheCowboyChannel.us">
-    <title lang="es">The American Rodeo</title>
-    <desc lang="es">S02 E06 — Contender Round
-Coverage for the American Rodeo&apos;s Contender Round from Globe Life Field in Arlington, Texas.</desc>
-    <category lang="es">Rodeo</category>
-    <icon src="https://iptv-epg.org/images/UPxRaSZLTlHGUxhcmnJXqeB7uYTl76Jp024Cp9ZNKm6L8GKxXewo_iIOAEukIISppi1HvIrLEkzFB2ISX16reewej5Hc3vdOHqwPes0KORg"/>
-  </programme>
   <programme start="20260518030000 +0000" stop="20260518050000 +0000" channel="TheCowboyChannel.us">
     <title lang="es">The American Rodeo</title>
     <desc lang="es">S02 E07 — Championship Round
@@ -43979,13 +43913,6 @@ The American Rodeo Contender Tournament coverage from the East Regional Finals i
 The American Rodeo Contender Tournament coverage from the Central Regional Finals in Oklahoma City, Oklahoma.</desc>
     <category lang="es">Rodeo</category>
     <icon src="https://iptv-epg.org/images/5a5Opik1OGg2Zmk5LqxAVJOPSMPLPDMpLFXrj-RlJY1H6zJATmkkBebb91zlgYdFgW6x0xJlZIWKXIDDNAT2YdkW3hnUT4pg42Yw7jcgB7E"/>
-  </programme>
-  <programme start="20260518003000 +0000" stop="20260518010000 +0000" channel="CoziTV.us">
-    <title lang="es">Two and a Half Men</title>
-    <desc lang="es">S04 E10 — Kissing Abraham Lincoln
-Charlie must choose between his girlfriend and his housekeeper; Alan looks to sell Kandi&apos;s condo, but sex keeps getting in the way.</desc>
-    <category lang="es">Sitcom</category>
-    <icon src="https://iptv-epg.org/images/u6fbeSww6F8tOD_xWAFgqmdezSahtkND4kOZUkbaFKFrmysnySW_2yuUOClXzHX-IbknlS1CsVrZjE5F4bmWz7gkTu2Bmsgr8rkixJ8dMTY"/>
   </programme>
   <programme start="20260518010000 +0000" stop="20260518013000 +0000" channel="CoziTV.us">
     <title lang="es">Two and a Half Men</title>
@@ -45506,13 +45433,6 @@ Roseanne joins a women&apos;s group to promote business and leaves D.J. in a tou
 Dan tries to reunite Becky and Mark; Roseanne learns Darlene and David are in Chicago.</desc>
     <category lang="es">Sitcom</category>
     <icon src="https://iptv-epg.org/images/-JLRRptgQU4IGMkVD0TqPfNxF02e-1AubquJKuPlblNyuWyDCi5WjRc3kltr7hWwyVF84UkYACfv5Bb3Z6wFAXFGUaVXKoj5IZUgioKk-ys"/>
-  </programme>
-  <programme start="20260518003000 +0000" stop="20260518010000 +0000" channel="Dabl.us">
-    <title lang="es">Martin</title>
-    <desc lang="es">S05 E12 — You Play Too Much
-Martin assists a burglar who breaks into his apartment, believing the robbery is a joke set up by Pam and Tommy.</desc>
-    <category lang="es">Sitcom</category>
-    <icon src="https://iptv-epg.org/images/hnkGQ7m5LTYTIshiKc27nwgEHqcANQEn9IpS1oEVqERtaP1VFggNM29dMjG7atF1GhCMPMLlWJjNhSCMsRD8u8fZNwsB0GUth4X27k5HUDk"/>
   </programme>
   <programme start="20260518010000 +0000" stop="20260518013000 +0000" channel="Dabl.us">
     <title lang="es">Martin</title>
@@ -47095,13 +47015,6 @@ When pop star Sasha (guest star Paula Abdul) visits, Shawn&apos;s (Shawn Wayans)
 Shawn (Shawn Wayans) feels unsuccessful after an encounter with an old friend (guest star Ski-Ter Jones); Marlon and Pops (Marlon Wayans, John Witherspoon) recall bad memories.</desc>
     <category lang="es">Sitcom</category>
     <icon src="https://iptv-epg.org/images/kvqrzXjEL5-xCC22bOtFVGWPGQltpc35yRDdNT2DobUqpdK5wRSSl_i3E3kk60EmzA9XHKezQfLCX8ga9zHaVWImbEv0NQ0_8oU03biyu0k"/>
-  </programme>
-  <programme start="20260518003000 +0000" stop="20260518010000 +0000" channel="DestinationAmerica.us">
-    <title lang="es">Beachfront Bargain Hunt</title>
-    <desc lang="es">S13 E12 — Off-Season Escape in Avon, North Carolina
-After saving enough money, family seeks a home in Avon, North Carolina, after falling in love with its quiet beaches.</desc>
-    <category lang="es">Documentary</category>
-    <icon src="https://iptv-epg.org/images/asiGuetLBkoxklw6eBEd3cpe1Pq4CqpjspwII-HXERsUgb1y8Zqvc49aiVt7fWNlZBGiwgqR6H3hJAQL8ILJqos7MHjVmn7y3gkFNI02pD8"/>
   </programme>
   <programme start="20260518010000 +0000" stop="20260518013000 +0000" channel="DestinationAmerica.us">
     <title lang="es">Beachfront Bargain Hunt</title>
@@ -49251,20 +49164,6 @@ At over 9,000 feet, a Colorado family faces inhospitable alpine isolation; winte
 After the loader fire, Jared faces a new reality, wildfire threat; Adrian is tasked with reviving a rusted fire truck, while fallers fall high-dollar timber; when road damage shuts down their main haul route, the operation grinds to a halt.</desc>
     <category lang="es">Outdoors</category>
     <icon src="https://iptv-epg.org/images/LU3INRwva1C9PV2JDeXeLq4XAUntCuUlGYEhPF7ARNxFWYRjLgUrS51LJiMmog6Pj2diLGqHhW36QqEDFi-cip_WDI5rLlyau4qj27ysw24"/>
-  </programme>
-  <programme start="20260518003000 +0000" stop="20260518005500 +0000" channel="DisneyJunior.us">
-    <title lang="es">Bluey</title>
-    <desc lang="es">Trampoline; The Dump; Zoo
-Dad plays trampoline games with Bluey and Bingo; Dad plans on throwing out Bluey&apos;s old drawings; Bingo causes chaos at Bluey&apos;s backyard zoo.</desc>
-    <category lang="es">Adventure</category>
-    <icon src="https://iptv-epg.org/images/dGOFCzDaMyIuXQO8RZZ_YbzbS7ayajLzW7HmWyhLBgRPNKelsw4sdhNEvEEZNn9XN0xtIsK-C95wB9j0uilGym1jr0UwBrneefXlTTMGjj8"/>
-  </programme>
-  <programme start="20260518005500 +0000" stop="20260518012000 +0000" channel="DisneyJunior.us">
-    <title lang="es">BeddyByes</title>
-    <desc lang="es">Sorry; Mystery Song
-BaBa learns that when you say sorry, you need to truly mean it; MeMo and BaBa go on the hunt for an intriguing sound.</desc>
-    <category lang="es">Adventure</category>
-    <icon src="https://iptv-epg.org/images/kG4cxIs_hkdNsu4vkeqTeTK61ebj7rYdgKjCfKXZoVWMZGVbVFAFqh6IPqFouipppX5nFQpooQin7ykh7dZJnog1VCHzpSyzMV4Uh_nj9kM"/>
   </programme>
   <programme start="20260518012000 +0000" stop="20260518014500 +0000" channel="DisneyJunior.us">
     <title lang="es">Bluey</title>
@@ -54782,18 +54681,6 @@ On March 13, 2006, the Duke University lacrosse team threw a party that not only
     <category lang="es">Documentary</category>
     <icon src="https://iptv-epg.org/images/ocRZ0l6IVQ8lZLpLiOfS-kRqtChARhhipFS7XekyD4Jc-emDQiyBLzjv9AMIQ28V9cEv1VgcFPwhIHQazgs1d51rh4shmCJpkLkbsQcW3Cs"/>
   </programme>
-  <programme start="20260518002900 +0000" stop="20260518003400 +0000" channel="Euronews.us">
-    <title lang="es">The European debrief ᴺᵉʷ</title>
-    <desc lang="es">Live headlines, breaking news, analyses, and interviews from Europe&apos;s News Centre.</desc>
-    <category lang="es">News</category>
-    <icon src="https://iptv-epg.org/images/PwfHXG1OivBGappt2_V3jaBfCY3l0tOa0cRf3Hg06_yQnbdIt_usMSZrXmwLNg_KzTlE2UJ01PTIJbW9nEU_mBefphcbyT39j-vLiGcBCmI"/>
-  </programme>
-  <programme start="20260518003400 +0000" stop="20260518010000 +0000" channel="Euronews.us">
-    <title lang="es">News</title>
-    <desc lang="es">International and world news from a European perspective.</desc>
-    <category lang="es">News</category>
-    <icon src="https://iptv-epg.org/images/cBYeA1IvgoH_o43JaT9k-aq71Q-lTL9SWZcE3V5WGKyPGnSmMY2j_EtCUIYLYfZj5PFHX7fP3iDHFjWVSxvk2qcSp5p3JurbKs45CCNmf9A"/>
-  </programme>
   <programme start="20260518010000 +0000" stop="20260518010500 +0000" channel="Euronews.us">
     <title lang="es">The European debrief ᴺᵉʷ</title>
     <desc lang="es">Live headlines, breaking news, analyses, and interviews from Europe&apos;s News Centre.</desc>
@@ -56990,19 +56877,6 @@ On March 13, 2006, the Duke University lacrosse team threw a party that not only
     <category lang="es">News</category>
     <icon src="https://iptv-epg.org/images/PwfHXG1OivBGappt2_V3jaBfCY3l0tOa0cRf3Hg06_yQnbdIt_usMSZrXmwLNg_KzTlE2UJ01PTIJbW9nEU_mBefphcbyT39j-vLiGcBCmI"/>
   </programme>
-  <programme start="20260518002000 +0000" stop="20260518003000 +0000" channel="EWTN.us">
-    <title lang="es">Litany of the Sacred Heart</title>
-    <desc lang="es">The Franciscan Missionaries of the Eternal Word pray the Litany of the Sacred Heart.</desc>
-    <category lang="es">Religious</category>
-    <icon src="https://iptv-epg.org/images/JgJPAVtS4Gj95FfUGzLk-EM1Lix92RHKuqXcqMPWqJKb3Pc1SaUE1V1DYLHcj_L1W2Nh4aFK0bm79UZmiNV3y-uo6oRnPOd_dOjPsLmyrhg"/>
-  </programme>
-  <programme start="20260518003000 +0000" stop="20260518010000 +0000" channel="EWTN.us">
-    <title lang="es">Catholics Come Home ᴺᵉʷ</title>
-    <desc lang="es">God Wins The Battle
-As a young military man, Julian Saviano drifted from his Catholic faith into dark and dangerous spiritual realms, but God&apos;s grace led him to repentance and a profound conversion.</desc>
-    <category lang="es">Religious</category>
-    <icon src="https://iptv-epg.org/images/JyvgCgfChI8_0cuyL_J05ZQwssoQCMXSpwSLixsTcxW08H4T5Hp9aQ710p8bzDcaJinGnzhIIGFl4hTGPzoDLNGhZZhVVhTurY6YDHYH9E8"/>
-  </programme>
   <programme start="20260518010000 +0000" stop="20260518013000 +0000" channel="EWTN.us">
     <title lang="es">Life on the Rock ᴺᵉʷ</title>
     <desc lang="es">Peter Gravelle
@@ -58240,13 +58114,6 @@ Dr. Joseph Atkinson offers up a look at the key role women have played throughou
     <category lang="es">Religious</category>
     <icon src="https://iptv-epg.org/images/6YNaUlcHuxJs778WN0IJ6HkEgft2WFch1bWdsVRtadkMf1kI9IAO_6PZf1UyOChW9OkbpanqXsREfiDnbbkRaT-we6fw9i-oe9iyfbJDXWE"/>
   </programme>
-  <programme start="20260518003000 +0000" stop="20260518010000 +0000" channel="FoxBusiness.us">
-    <title lang="es">Cops</title>
-    <desc lang="es">S27 E20 — Sucker Punch
-A customer out to get a haircut winds up in jail; a street fight between a boxer and his confused friend; a suspect&apos;s chance to admit his obvious crime.</desc>
-    <category lang="es">Crime</category>
-    <icon src="https://iptv-epg.org/images/VRsn5DjAJ9UX0b9-yMnKJDwRBI-MMluaXt6cM9AHhgF6vZC_XwekRgQ2B-q9Bkcm6TnWjcv8pDxvu-8uVI3ceA23LI0BhEPe-1mzcsZKW5g"/>
-  </programme>
   <programme start="20260518010000 +0000" stop="20260518013000 +0000" channel="FoxBusiness.us">
     <title lang="es">Cops</title>
     <desc lang="es">S27 E15 — Lady Bit My Finger
@@ -59113,13 +58980,6 @@ A jaywalker darts on a mad dash through the weeds; things go badly for a suspect
     <desc lang="es">Taylor Riggs, Brian Brenberg and Jackie DeAngelis host an informative and fast-paced hour filled with business topics that impact everyone from Wall Street to the average person.</desc>
     <category lang="es">Bus./financial</category>
     <icon src="https://iptv-epg.org/images/shJdyrDM89yDturdh8czPri7g1HujIa4dL6lgNHzDOFwkecndvS7jlnDzujNVgmq1EmnGbYysSK4jDeLb40c2mCVsh32hb56nLmtIoHTh5M"/>
-  </programme>
-  <programme start="20260518003000 +0000" stop="20260518010000 +0000" channel="FoxSoccerPlus.us">
-    <title lang="es">FIFA World Cup 2026: Stories From the Cities Vancouver</title>
-    <desc lang="es">S01 E03 — Vancouver
-Vancouver is one of two Canadian host cities for the 2026 FIFA World Cup; learn about the soccer tradition fans will encounter when visiting The Hollywood of the North.</desc>
-    <category lang="es">Soccer</category>
-    <icon src="https://iptv-epg.org/images/3gmEazbKKjUFoSo1uQ_TmP7h1S7rqnS8vFgznOTte1_Za6NyY2UB6KVaLkFiremq-iBS56SbJW61uHBC3BQr02YWr8YZ63lxBiDOcJeNG9Q"/>
   </programme>
   <programme start="20260518010000 +0000" stop="20260518030000 +0000" channel="FoxSoccerPlus.us">
     <title lang="es">Canadian Premier League Soccer Cavalry FC at Vancouver FC ᴸᶦᵛᵉ</title>
@@ -60907,13 +60767,6 @@ Jim fears that Cheryl&apos;s romantic expectations will increase as Ryan (Mitch 
     <desc lang="es">Luke Skywalker&apos;s peaceful and solitary existence gets upended when he encounters Rey, a young woman who shows strong signs of the Force. Her desire to learn the ways of the Jedi forces Luke to make a decision that changes their lives forever.</desc>
     <category lang="es">Action</category>
     <icon src="https://iptv-epg.org/images/NmL7Wb_z-L8ME0SceUuiKuWIIA43U2ilZRlAJS-sDhL8sHSIWyOZCj-yNBDNbwhG-Bh3OsUeufDgAR68p4-IqtLXG41-Wct3oV_zhu8PPoA"/>
-  </programme>
-  <programme start="20260518003000 +0000" stop="20260518010000 +0000" channel="FXX.us">
-    <title lang="es">Bob&apos;s Burgers</title>
-    <desc lang="es">S12 E10 — Gene&apos;s Christmas Break
-After Gene breaks his favorite, extremely rare &apos;70s era Christmas record, Tina and Louise join him in the search for another copy; Teddy wants to do a neighborhood Secret Santa with Bob and Linda.</desc>
-    <category lang="es">Animated</category>
-    <icon src="https://iptv-epg.org/images/wV5eVd7pm1vfUJKF2ryoXWiPOeN3MuB8SzQkfFWMmtLLMZ_1xYUq0Q5JajA3qVFdhVrfkgA5zgYpyn2foDEGTT7Kew5N8S8a4ppiZXsIq5U"/>
   </programme>
   <programme start="20260518010000 +0000" stop="20260518013000 +0000" channel="FXX.us">
     <title lang="es">The Simpsons</title>
@@ -67353,13 +67206,6 @@ In the French countryside, a local expert helps a mother and daughter duo hunt b
     <category lang="es">Series</category>
     <icon src="https://iptv-epg.org/images/qhVW6aG7ecl6NtWRIvkmCEhuVc_d1BNO9SEh79vQHG691zMCTc_nQmD54Nde4S0gl6dMTtqVeYqqlq8iKUUUnk-aQgkV8Mz8o9sIZwTIP88"/>
   </programme>
-  <programme start="20260518003000 +0000" stop="20260518010000 +0000" channel="HLN.us">
-    <title lang="es">Forensic Files</title>
-    <desc lang="es">S08 E09 — Breaking News
-A search in Virginia&apos;s DNA databank reveals the identity of a news producer&apos;s murderer.</desc>
-    <category lang="es">Crime</category>
-    <icon src="https://iptv-epg.org/images/d_07NYDWWiaMBTAaegHutUiDNTpdHiETa2L8tz_5olsuw-IBiYDUP6QWN0GoQ5bER30-0OiGXqFUWp29nzB2J0ivytSEoLd36VGDLgWzS_A"/>
-  </programme>
   <programme start="20260518010000 +0000" stop="20260518013000 +0000" channel="HLN.us">
     <title lang="es">Forensic Files</title>
     <desc lang="es">S08 E10 — All the World&apos;s a Stage
@@ -70799,13 +70645,6 @@ Tensions run high for members of Team Scorpion when they must overcome personal 
     <category lang="es">Action</category>
     <icon src="https://iptv-epg.org/images/-XCTX5e3AQvw-XQMQ-Vo8BgWGl6Yo2qc6ICoTc0ojfdzu_NPziJogpmls7ni-1BRO9eH5uRMKhG2se7jUaF6ZCNGEUwEonC7NREjRZidP2E"/>
   </programme>
-  <programme start="20260518003000 +0000" stop="20260518010000 +0000" channel="JusticeCentral.us">
-    <title lang="es">Justice for the People With Judge Milian</title>
-    <desc lang="es">S03 E140 — Roid Rage
-An MMA fighter accuses a sponsor of giving him a supplement contaminated with steroids, resulting in a suspension that ruined his career.</desc>
-    <category lang="es">Law</category>
-    <icon src="https://iptv-epg.org/images/nm_BF_suETwDvLk4Ww2W9d0L4WFdZtfCMFdU6cZnlbnFFGhIj87dBtHHW6hFw77wfN4G9vWywUFzlVWJi2TTk3tnmIk-VI78ZDweIyVwIVI"/>
-  </programme>
   <programme start="20260518010000 +0000" stop="20260518013000 +0000" channel="JusticeCentral.us">
     <title lang="es">Justice for All With Judge Cristina Pérez</title>
     <desc lang="es">S13 E62 — Tattoo Verses
@@ -73689,13 +73528,6 @@ Mike&apos;s willpower is put to the test when Vanessa challenges him to go veget
     <category lang="es">Sitcom</category>
     <icon src="https://iptv-epg.org/images/XyfwBWuyYwlw-1R6NK0ugdw04_19xH9EkD0U_JGwB5FZYyp9Yb5zISiStJAGvaUGEIgPyM_CQC6b9er1njF_v8f4CGWrjaV55nILJtRD7pY"/>
   </programme>
-  <programme start="20260518003000 +0000" stop="20260518010000 +0000" channel="LawAndCrime.us">
-    <title lang="es">Cops Reloaded</title>
-    <desc lang="es">S01 E91 — Ranger in Danger
-A truck chase ends when he pulls off the side of the road and runs through a field; a driver takes off on foot after a high-speed chase ends in a collision.</desc>
-    <category lang="es">Reality</category>
-    <icon src="https://iptv-epg.org/images/TgD1g4CIpOitLEpGe1UmqGSwuoLoHmVe_4-azRYIGrQCWAzTNaYmrNE1o5RDOx5qZi9GA7wEUkbZ8cdHfrE56O8cfHEGjcuW5I_IDCwb_4c"/>
-  </programme>
   <programme start="20260518010000 +0000" stop="20260518013000 +0000" channel="LawAndCrime.us">
     <title lang="es">Cops Reloaded</title>
     <desc lang="es">S01 E92 — Rooftop Nibble
@@ -74829,13 +74661,6 @@ A driver goes in circles to evade police; a suspect&apos;s college degree isn&ap
 A Burger King employee is arrested after allegedly attacking a customer over a food complaint.</desc>
     <category lang="es">Crime</category>
     <icon src="https://iptv-epg.org/images/__KU0_TUW3yXkzRFPMIs6LugOqsI31GoRpaDd5-BX7Uv0dqXauL2txmrm-lsmMEV4kXXNx2WS8to9eFKzkFa3Xa8ESnLN0C4cJK_8rSgbGw"/>
-  </programme>
-  <programme start="20260518003000 +0000" stop="20260518010000 +0000" channel="Logo.us">
-    <title lang="es">Three&apos;s Company</title>
-    <desc lang="es">S05 E11 — Make Room for Daddy
-Jack plays cupid for his date&apos;s widowed father.</desc>
-    <category lang="es">Sitcom</category>
-    <icon src="https://iptv-epg.org/images/aIFUvSAFM4HmcmlC7FnwvUWnWyNZjL2vyaEPYEC720gFTSRW68ccVGD7xLaDDlalUskVc5Bivscvv_2A6hRRHXKWapqrK9X5bL7qDRx0DiE"/>
   </programme>
   <programme start="20260518010000 +0000" stop="20260518013000 +0000" channel="Logo.us">
     <title lang="es">Three&apos;s Company</title>
@@ -78205,13 +78030,6 @@ Rachel sits down with the sensational John Wall. They break down his career as o
     <desc lang="es">The Pet Pals are put to the test as the Evil Crow Witch is determined to drain the canals of Venice, Italy. Armed with a touch of magic, the Pet Pals combine their strengths to uncover the secret code before the Evil Witch does.</desc>
     <category lang="es">Adventure</category>
     <icon src="https://iptv-epg.org/images/3AnpEKBgv5jKk7AXdzWY8q3UP_0aCGNp037sx0Nj25Sx1qnmxdIEIdmCPGFD-IWtCl8x_8q_JV4ahhM9Lwbv4gygJ23jAGmFKDv0-0l2tU4"/>
-  </programme>
-  <programme start="20260518003000 +0000" stop="20260518013000 +0000" channel="MTV2.us">
-    <title lang="es">Jersey Shore Family Vacation</title>
-    <desc lang="es">S07 E13 — Jersey Shore Fan Club?
-Tucson, Ariz., takes a turn when a Jersey Shore fan club leaks Angelina&apos;s DM&apos;s; things come to a head between Angelina and Sammi and there&apos;s only one man to stop it, The Situation.</desc>
-    <category lang="es">Reality</category>
-    <icon src="https://iptv-epg.org/images/EjUaxzkfKzG07ySvk9artTt-wMtvarRjK1Q-J2LAybKfWRtUngoEKVaXI9ZlU3ZCbMB_RRCSVs1qWnmdR_Kiv-BW9BOKorar_lJuqwWN-0k"/>
   </programme>
   <programme start="20260518013000 +0000" stop="20260518023000 +0000" channel="MTV2.us">
     <title lang="es">Jersey Shore Family Vacation</title>
@@ -81659,13 +81477,6 @@ Jay gets muddy when he visits a mud bog festival; exploring the variety of vehic
     <category lang="es">Consumer</category>
     <icon src="https://iptv-epg.org/images/SwY5AN9teM7wdit3kZi9JNAKf2pUVIil41yQYYp3Sn7AvWCJz9hDBbTvQ6TLjKXCwwFNN1q_9O2VNW6bBFNjLb4HIALXNgmxexSm4Hsf3dQ"/>
   </programme>
-  <programme start="20260518003000 +0000" stop="20260518010000 +0000" channel="NBCSportsCalifornia.us">
-    <title lang="es">MLB According to CC</title>
-    <desc lang="es">S01 E05
-A weekly series featuring MLB Hall of Famer CC Sabathia&apos;s thoughtful and entertaining insights into the world of Major League Baseball.</desc>
-    <category lang="es">Sports</category>
-    <icon src="https://iptv-epg.org/images/TBC8KXd7bO6wyFpSMO6Cwififp3vFfXD3mxhJBOpyz3eUo0GZNIiWwQBzq9T5aOLheO3YSG6T8vwVfHb4JsB-xhSkjT_aoE5bDcLayCEg3k"/>
-  </programme>
   <programme start="20260518010000 +0000" stop="20260518020000 +0000" channel="NBCSportsCalifornia.us">
     <title lang="es">49ers Cal-Hi Sports Report</title>
     <desc lang="es">Scores, highlights and features from high school sports across the Bay Area.</desc>
@@ -82538,12 +82349,6 @@ From Angel Stadium of Anaheim in Anaheim, Calif.</desc>
     <desc lang="es">Join Connie Craig-Carroll and health visionary Ken Meares as they uncover OmegaXL, the groundbreaking natural supplement transforming lives by tackling joint pain and inflammation.</desc>
     <category lang="es">Consumer</category>
     <icon src="https://iptv-epg.org/images/F4saGX3hyM3SZz0pqw40C6w9o1eolHusf3Yeoc5T_5r3Kh8h7q1jiCF0sT6zAJLcuHG22vA6kRBIWfbDTN7uByAbvDYAqqTB75ZEIJo7rfg"/>
-  </programme>
-  <programme start="20260518003000 +0000" stop="20260518010000 +0000" channel="NBCSportsPhiladelphia.us">
-    <title lang="es">The Contenders ᴺᵉʷ</title>
-    <desc lang="es">A preview of the 2026 World Cup.</desc>
-    <category lang="es">Soccer</category>
-    <icon src="https://iptv-epg.org/images/Vksoa5lJW0q68FRGsPFj2ZONKxm5xwGWWboKFNbutknamvWxdsSyaT56pS5d_R72CthxfWtxa1rLqqsv9-1HIlxUWl1EuBrPofQN3lAtaPA"/>
   </programme>
   <programme start="20260518010000 +0000" stop="20260518013000 +0000" channel="NBCSportsPhiladelphia.us">
     <title lang="es">Game Time With Boomer Esiason Torey Lovullo</title>
@@ -84331,20 +84136,6 @@ From Sept. 28, 2025.</desc>
     <desc lang="es">Catch up on everything NFL with the latest news, highlights, and trending topics from across the football world and beyond.</desc>
     <category lang="es">Football</category>
     <icon src="https://iptv-epg.org/images/oFulD6sVvJ3B4V7QL8N2AmViY_m4De0vw1ydQiHxLQdGWPnunu48liHTpvf2_C2gobwlMp1Xd3gUpnQYpa_W6yTl-0ECtNbF6qr6Z6q8pek"/>
-  </programme>
-  <programme start="20260518001900 +0000" stop="20260518004500 +0000" channel="Nicktoons.us">
-    <title lang="es">SpongeBob SquarePants</title>
-    <desc lang="es">S04 E12 — All That Glitters; Wishing You Well
-SpongeBob&apos;s spatula breaks; Mr. Krabs wants to collect all the coins from a wishing well.</desc>
-    <category lang="es">Animated</category>
-    <icon src="https://iptv-epg.org/images/Ksk3TWQZv2gE2AUxQG3jQ1gWWeGMI30eOvK-Ui_WzDJwbdvDgiEdKbSweZU6qzL3hO1l2NC8gSQOlNpwMYRbvzk1n0TsK58q3HF1ZmFYhYk"/>
-  </programme>
-  <programme start="20260518004500 +0000" stop="20260518011100 +0000" channel="Nicktoons.us">
-    <title lang="es">SpongeBob SquarePants</title>
-    <desc lang="es">S09 E09 — SpongeBob, You&apos;re Fired!
-Mr. Krabs fires SpongeBob to save money; SpongeBob tries to get back to work.</desc>
-    <category lang="es">Animated</category>
-    <icon src="https://iptv-epg.org/images/Ksk3TWQZv2gE2AUxQG3jQ1gWWeGMI30eOvK-Ui_WzDJwbdvDgiEdKbSweZU6qzL3hO1l2NC8gSQOlNpwMYRbvzk1n0TsK58q3HF1ZmFYhYk"/>
   </programme>
   <programme start="20260518011100 +0000" stop="20260518013800 +0000" channel="Nicktoons.us">
     <title lang="es">SpongeBob SquarePants</title>
@@ -86199,13 +85990,6 @@ SpongeBob and Patrick get hooked on the latest fad, flying your own brain like a
 When a prehistoric sponge is unfrozen, he causes chaos all over town and only SpongeBob can communicate with him; when a flock of clams descends on Bikini Bottom, SpongeBob has to get them out before they ruin the whole town.</desc>
     <category lang="es">Animated</category>
     <icon src="https://iptv-epg.org/images/Ksk3TWQZv2gE2AUxQG3jQ1gWWeGMI30eOvK-Ui_WzDJwbdvDgiEdKbSweZU6qzL3hO1l2NC8gSQOlNpwMYRbvzk1n0TsK58q3HF1ZmFYhYk"/>
-  </programme>
-  <programme start="20260518003000 +0000" stop="20260518010000 +0000" channel="OutdoorChannel.us">
-    <title lang="es">Hunt Masters Take Two</title>
-    <desc lang="es">S16 E06 — Take Two
-Gregg Ritz attempts to top his archery bull from last season in the Gila National Forest.</desc>
-    <category lang="es">Hunting</category>
-    <icon src="https://iptv-epg.org/images/Zzovf_yOz61rbPuBWsRezXuhzFLe44eQpaNc61cxSRJIwwhqz7cpKqeVCm9bJE2GwQrycjHecwgpPnviAqZq0Fi7QnMJ2v90kT9-LfP9Pz0"/>
   </programme>
   <programme start="20260518010000 +0000" stop="20260518013000 +0000" channel="OutdoorChannel.us">
     <title lang="es">Realtree Outdoors 1000 Ducks in the Hole</title>
@@ -89066,13 +88850,6 @@ Jon travels back to San Antonio to find a bar and marriage both crippled at the 
     <category lang="es">Reality</category>
     <icon src="https://iptv-epg.org/images/yBacqjgmzkWyq0O0A7bIoBZPqXflAav9SC2pKD_YW4JSDm7G_74ttR18HLpbqqfhtMuHk1ZK1DBhVX0sWV0sKyX3yTkDmKp2yCJz0pGdJwo"/>
   </programme>
-  <programme start="20260518003000 +0000" stop="20260518010000 +0000" channel="PursuitChannel.us">
-    <title lang="es">On The Road Velvet Elk</title>
-    <desc lang="es">Velvet Elk
-In this episode, the OTR crew heads back to Colorado for their annual summertime velvet elk hunt. It&apos;s a trip the guys look forward to every year.</desc>
-    <category lang="es">Outdoors</category>
-    <icon src="https://iptv-epg.org/images/F7SmpMUA7Opjlh90n8smnltnmeJGX_CRM8njS6tGuz-ot4msHW8tfz7rhqu0SIKlhQbC96cInZhPrcmTtPMg2rcrDqdhN6-Y1J9zHAKSYgw"/>
-  </programme>
   <programme start="20260518010000 +0000" stop="20260518013000 +0000" channel="PursuitChannel.us">
     <title lang="es">The Choice The Choice Turkey Tour &apos;26 - Part 2</title>
     <desc lang="es">The Choice Turkey Tour &apos;26 - Part 2
@@ -90565,12 +90342,6 @@ A fishing forecast show that provides updates on what is biting from across the 
 Terry finds himself back in Texas hunting with Steve Biggers of Rocky Creek Retrievers.</desc>
     <category lang="es">Hunting</category>
     <icon src="https://iptv-epg.org/images/7q7ndUKH0hTdDczdIEcL-73WNeVLp3SuKuibCAQKuhurKY8_r5MDse2477bwJoAaATp6ODLBDrRp1PpTBcV-kXi1BUgkkP7SbuxDJ8ZP9_8"/>
-  </programme>
-  <programme start="20260518003000 +0000" stop="20260518010000 +0000" channel="RecipeTV.us">
-    <title lang="es">A Taste of Dubai</title>
-    <desc lang="es">Irish journalist and self-confessed food-lover Kate Hardie Buckley is on a mission to explore some tasty cities of the world.</desc>
-    <category lang="es">Cooking</category>
-    <icon src="https://iptv-epg.org/images/uuSKKjpzsNC51FZVtbpBnX5QFp6--QiHz3fz1rBnehIw5zUpXqnFtQ9b9r2Qk31lAr07vpoR1FR6mu8fNLNMlBXyJ8MQqhYUqTbNdQATGgc"/>
   </programme>
   <programme start="20260518010000 +0000" stop="20260518013000 +0000" channel="RecipeTV.us">
     <title lang="es">Catherine&apos;s Farmhouse Kitchen</title>
@@ -97189,12 +96960,6 @@ Markets specialist Scott Shellady breaks down headlines that drive the commoditi
     <category lang="es">Action</category>
     <icon src="https://iptv-epg.org/images/xTpK9UJvbvqSlgLJC1iwyx8WwUrPqrOn821tVStzT2n4aYi_q5-fwvf7skGL7IDT7zESQwImXt2Qv3wBgYkPrtXJO5vNaP-KujYp1afR9Kg"/>
   </programme>
-  <programme start="20260518004000 +0000" stop="20260518022000 +0000" channel="ScreenPixVoices.us">
-    <title lang="es">Cotton Comes to Harlem</title>
-    <desc lang="es">Detectives Coffin (Raymond St. Jacques) and Gravedigger (Godfrey Cambridge) question a con-man preacher (Calvin Lockhart) and his back-to-Africa movement.</desc>
-    <category lang="es">Comedy drama</category>
-    <icon src="https://iptv-epg.org/images/XyPfam2_Nw52MDOiwgqa0FJ0KxAKIcTZYtH8SAcncPAAaRTMJa7s_nfTz8Bl8ZaMwPwiZslN_1hCyWNc9fSL-ZjJX0bsFlzoOC0uh_gnmao"/>
-  </programme>
   <programme start="20260518022000 +0000" stop="20260518034500 +0000" channel="ScreenPixVoices.us">
     <title lang="es">Blind Rage</title>
     <desc lang="es">A CIA agent (Fred Williamson) in a pancake house closes the case of five blind bank robbers in the Philippines.</desc>
@@ -100032,13 +99797,6 @@ From Hoover Metropolitan Stadium in Hoover, Ala.</desc>
     <category lang="es">Crime drama</category>
     <icon src="https://iptv-epg.org/images/LLYzf9aUU94bqwBbT0MRnnkiNXDhfEnfaGGE6lfYbNGmfc-0PgvwgVObWdOG-Qs9urK2HABAyTLD03sahN7unsWq82BJuT0Wf9Dg9Cmsqwg"/>
   </programme>
-  <programme start="20260518002000 +0000" stop="20260518013000 +0000" channel="SoYummy.us">
-    <title lang="es">Zumbo&apos;s Just Desserts</title>
-    <desc lang="es">S01 E06
-The remaining dessert makers must take their favorite Arnott&apos;s biscuit and turn it into an amazing new dessert.</desc>
-    <category lang="es">Cooking</category>
-    <icon src="https://iptv-epg.org/images/FY4DNwNJeDMKUmstqN1BXB7fIaJrLPfKA1Vvbc31TC54yL80So-BzqykBsSeSFymtXwS6KDn3xk8TLr96jQXDT7K4CkN6RW-RIKH7joIpnU"/>
-  </programme>
   <programme start="20260518013000 +0000" stop="20260518020000 +0000" channel="SoYummy.us">
     <title lang="es">Hot Mess Express</title>
     <desc lang="es">S01 E02 — Zane Hijazi Attempts to Cook
@@ -101564,12 +101322,6 @@ As Kane gets ever-closer to The Ghost, he lets Finch go into the field but is un
 Kane knows that his hidden nemesis The Ghost is now closer than ever; Kane continues to track the suitcase nukes, but now suspects that his contact inside the CIA may be working against him; Kane tries to stop the nukes from reaching buyers.</desc>
     <category lang="es">Action</category>
     <icon src="https://iptv-epg.org/images/5eO3AgjG27EGQ-J1DsrqC-MmeV20gUu1JAFndWFJd49Lgf5nzKP8CT3to4F2sizt5W1U64T-npg10sCtieKKDSuBYx5QEfXuKkXq__xx-EI"/>
-  </programme>
-  <programme start="20260518003000 +0000" stop="20260518010000 +0000" channel="SpectrumNews13.us">
-    <title lang="es">In Focus With Allison Walker</title>
-    <desc lang="es">Tackling the topical issues impacting Florida in an in-depth discussion with local newsmakers and experts.</desc>
-    <category lang="es">News</category>
-    <icon src="https://iptv-epg.org/images/YptYx1E5l5CwEd4fAWM0U6Q-hgVW5I9rLJGlOQizB0ITWfDSayfyIIfVyJz457AUc-Axj032Y4JI5K7jNs36A_XOC10lELEM1YAfm2WMio4"/>
   </programme>
   <programme start="20260518010000 +0000" stop="20260518020000 +0000" channel="SpectrumNews13.us">
     <title lang="es">News 13 Your Evening News at 9 ᴸᶦᵛᵉ</title>
@@ -103176,13 +102928,6 @@ When Maura is abducted, Jane and the team are determined to bring her home; Maur
 A security guard foils a robbery when he kills one of the robbers; Jane and Maura work together to search for the robber&apos;s accomplice; Jane continues her quest to protect Maura and Angela.</desc>
     <category lang="es">Crime drama</category>
     <icon src="https://iptv-epg.org/images/kRjY-Wa1e6IGXCirtUl9dqYHQe1agNMckog_U7ESKIgkehAwLnFpKwEb1rDZv9HrPpoyTts1pFhW57IKmazXpQPly_ORjFdjYW-7xUqEpM8"/>
-  </programme>
-  <programme start="20260518004000 +0000" stop="20260518015500 +0000" channel="Starz.us">
-    <title lang="es">Outlander</title>
-    <desc lang="es">S08 E10 — And the World Was All Around Us
-In the series finale, Jamie and Claire must protect the home that they&apos;ve made for themselves and trust in the love that binds them.</desc>
-    <category lang="es">Drama</category>
-    <icon src="https://iptv-epg.org/images/Ecp3qtO1RMbuoFwyXamYog9BbGL_2Nm88guds2lakYsO6gu0pWbkPhNraEFu0VezZMBDB3VUQ4wR6ztgSR3gRiMnPIVKb5e1Hx1k7cwM4Kk"/>
   </programme>
   <programme start="20260518015500 +0000" stop="20260518025500 +0000" channel="Starz.us">
     <title lang="es">Amadeus</title>
@@ -105755,12 +105500,6 @@ Tragedy falls upon the Mozarts and their newborn baby, after Salieri meddles in 
     <category lang="es">Adventure</category>
     <icon src="https://iptv-epg.org/images/UDtsO71VgBEJcR2GFP-6roUaELSCNzIKjjI-DNtdaBhHKAXeqIhMiXqcLa8dgYRmSNn_uQKo4R-pycumXQaOzGTIy-ESCUeVy4b1kG8XXgg"/>
   </programme>
-  <programme start="20260518002000 +0000" stop="20260518020000 +0000" channel="StarzEncoreBlack.us">
-    <title lang="es">Big Momma&apos;s House</title>
-    <desc lang="es">To protect a woman and her son from a robber, a male FBI agent assumes the guise of a large grandmother.</desc>
-    <category lang="es">Comedy</category>
-    <icon src="https://iptv-epg.org/images/Mo0jBZRHmZyQE9IWEDCBVcjwawK5tcr0g_ksZls21uuo1-I_JOQ6AK5fU-ZIsPe9Lm4BTp2pVWsSUVqZZ4duqkrQCWqPFUpTXcUUUi64oQw"/>
-  </programme>
   <programme start="20260518020000 +0000" stop="20260518032500 +0000" channel="StarzEncoreBlack.us">
     <title lang="es">No Good Deed</title>
     <desc lang="es">An unsuspecting Atlanta woman lets in a charming stranger to use her phone and soon believes the adage &quot;no good deed goes unpunished&quot; when he takes over her home and terrorizes her family.</desc>
@@ -106613,13 +106352,6 @@ Tragedy falls upon the Mozarts and their newborn baby, after Salieri meddles in 
     <category lang="es">Children</category>
     <icon src="https://iptv-epg.org/images/QE5yFyZrGbEazVakEii3XXpKZ8tLUua2HfEtmzcdC0qQpAdcPhk9bVl4GA8b8bTXTy6AqJRZnIRLfm2Xi8EEIJ9-LU5QcxYHfDSReOg_3k4"/>
   </programme>
-  <programme start="20260518004000 +0000" stop="20260518013000 +0000" channel="StarzEncoreWesterns.us">
-    <title lang="es">Maverick</title>
-    <desc lang="es">S01 E13 — Naked Gallows
-Bart tries to clear a friend of a murder charge, and winds up facing the barrel end of a 45-caliber.</desc>
-    <category lang="es">Drama</category>
-    <icon src="https://iptv-epg.org/images/wgdIaSkmS7fpO55owaYHvEpeVwYq8TC1YrrMn27UknlaiAM3pWRDkFbkZofKM7azzTZxxQunyu4LNrn4b_x6RGeefRPxrQj0gSiUsx18S2A"/>
-  </programme>
   <programme start="20260518013000 +0000" stop="20260518022000 +0000" channel="StarzEncoreWesterns.us">
     <title lang="es">Maverick</title>
     <desc lang="es">S01 E14 — Comstock Conspiracy
@@ -107337,12 +107069,6 @@ Cheyenne is sent by the Cattlemen&apos;s Association to stop a cattle rustling.<
 Josh looks for a wife for his old friend.</desc>
     <category lang="es">Adventure</category>
     <icon src="https://iptv-epg.org/images/W5cTxfB1pddIaqkujHOvoKIoAJBXTI6OFod6npWBb8Ua88PF_iOlv_AUCqrkyMnY2cOxevU2PbAMiP_Ngr2ejdstCO1G6Erjtd-Y7gcczDY"/>
-  </programme>
-  <programme start="20260518004700 +0000" stop="20260518022300 +0000" channel="StarzInBlack.us">
-    <title lang="es">How High</title>
-    <desc lang="es">Two stoners (Method Man, Redman) get into Harvard University after magic marijuana enables them to ace their tests.</desc>
-    <category lang="es">Comedy</category>
-    <icon src="https://iptv-epg.org/images/1tjMDcbPxgl66efsKaZ9ZKIp_cMeuKNZ8zwzzK7NM-ajNvD-uXi2rkn66qNPosN2EXi_FmJPjTQ50dzju1udUI57eu4gV7H-tY5v70OEPi8"/>
   </programme>
   <programme start="20260518022300 +0000" stop="20260518041600 +0000" channel="StarzInBlack.us">
     <title lang="es">The Kingdom</title>
@@ -108955,13 +108681,6 @@ Callen and Sam travel to San Francisco to search for Beale after he&apos;s kidna
     <category lang="es">Action</category>
     <icon src="https://iptv-epg.org/images/xj30ocfvdmZJdDeYm_udLb8JQRSWthHh8bEehCmbFv3sBZS6O6UX6IRKgsH5N0xQfNIf0FIhxysHSFaqgi6vfqhkwe5fjKmC-OOzxw5PX0I"/>
   </programme>
-  <programme start="20260518003000 +0000" stop="20260518010000 +0000" channel="TBN.us">
-    <title lang="es">Turning Point With Dr. David Jeremiah</title>
-    <desc lang="es">The Promise of the Spirit
-Understanding the Holy Spirit; how He teaches, strengthens, and points you back to Christ in every situation.</desc>
-    <category lang="es">Religious</category>
-    <icon src="https://iptv-epg.org/images/mOnlIL_-tjfpx7fGpL2HHZvO0Xb2s6ZdXnZ5k3rMObxck4g7Jb_qeIgDsF4KijLontC-elbdjCOPjp68Bm7U9sy1o406h6DJmXdGy905lgo"/>
-  </programme>
   <programme start="20260518010000 +0000" stop="20260518013000 +0000" channel="TBN.us">
     <title lang="es">Elmer Heinrich: Boosting Health with Immuno 150</title>
     <desc lang="es">Matt Crouch interviews Elmer Heinrich, the company President and CEO of Liquid Assets, about boosting health with Immuno 150.</desc>
@@ -110238,13 +109957,6 @@ Temptation is part of life, but God always provides a way to overcome it; learn 
     <desc lang="es">Women discuss faith, family, friends and more, while building a community of women committed to living life together and making the world a better place.</desc>
     <category lang="es">Religious</category>
     <icon src="https://iptv-epg.org/images/mOUmeNF_7UR03GrDTiNNG8wiVAg9LT63nPBeVOWYUVwh1BPX_ncWv7VIHuCY0Eu4cfKxTgGYANNzdPREmTtUxlRL_MtyrkeJ7kXkTNNM0YQ"/>
-  </programme>
-  <programme start="20260518003000 +0000" stop="20260518010000 +0000" channel="TBS.us">
-    <title lang="es">The Big Bang Theory</title>
-    <desc lang="es">S03 E08 — The Adhesive Duck Deficiency
-Penny is forced to rely on Sheldon when she is injured while Howard, Leonard and Raj are away.</desc>
-    <category lang="es">Sitcom</category>
-    <icon src="https://iptv-epg.org/images/p1vxExGwAeB0kVkNb5wFTJAIUIjZwhSSeRPOqsg65k3kWwriLauhIenYpX1J2ZakrSUinqDAk9wBOirM4AVnGrcfezq1OKa8J92Gba8lUbw"/>
   </programme>
   <programme start="20260518010000 +0000" stop="20260518013000 +0000" channel="TBS.us">
     <title lang="es">The Big Bang Theory</title>
@@ -111830,13 +111542,6 @@ Coverage of professional tennis matches.</desc>
 Tennis highlights from recent matches.</desc>
     <category lang="es">Tennis</category>
     <icon src="https://iptv-epg.org/images/FknRWYPswgzeJ9OQk9ElKECM4cj6_8La6pr4YjNiBcfNG8uRzlt2qiFTwOtZTvbWHraKscZ_QyuNiYe6BjMszbsytnWE6z4p7ia3vsULEvc"/>
-  </programme>
-  <programme start="20260518003000 +0000" stop="20260518010000 +0000" channel="TheDesignNetwork.us">
-    <title lang="es">Tiny BNB</title>
-    <desc lang="es">S05 E11 — Tiny Treehouse Overlooks; A Tiny Frame of Mind
-Levi Kelly is the adventure-seeker in pursuit of the smallest, coziest and sometimes most unconventional stays on the vacation rental market.</desc>
-    <category lang="es">House/garden</category>
-    <icon src="https://iptv-epg.org/images/g7Xumjbv3DgbVxOZaCYuO42Lgi0YzugUECIHIY-826qj0mkFq6yvvNJFF3f86MQA81tJnHH08BA90yhlRne3a_w6suaZJYMJu68G8wVuMn0"/>
   </programme>
   <programme start="20260518010000 +0000" stop="20260518013000 +0000" channel="TheDesignNetwork.us">
     <title lang="es">Tiny BNB</title>
@@ -115509,13 +115214,6 @@ The guys are challenged to hold in their laughter during presentations designed 
     <category lang="es">Comedy</category>
     <icon src="https://iptv-epg.org/images/b-p5AV1nev5ctucX0uY5eCWTf-7EPvPEK1dyk1mHKcMkMi9-wnp83UeYJ_UCOVX74r8J06LnkV7_DRKsJcnDh8hfpC8LfauGjegxvwMjC-k"/>
   </programme>
-  <programme start="20260518003000 +0000" stop="20260518030000 +0000" channel="TUDN.us">
-    <title lang="es">Fútbol Mexicano Primera División Pumas UNAM vs. Pachuca ᴸᶦᵛᵉ</title>
-    <desc lang="es">Pumas UNAM vs. Pachuca
-Desde el Estadio Olímpico Universitario, en Ciudad de México, México.</desc>
-    <category lang="es">Sports</category>
-    <icon src="https://iptv-epg.org/images/om2YNOwQkMLAJwtevNI_H5DoRiBV3AKS_DRVafXGGOMpB8mWs9fCH5SCS495JLTyT6Gl9oK1mVBwEvkv5Cy3MFEEC1TyHL0pqdKiMBAOEL4"/>
-  </programme>
   <programme start="20260518030000 +0000" stop="20260518040000 +0000" channel="TUDN.us">
     <title lang="es">Línea de cuatro ᴸᶦᵛᵉ</title>
     <desc lang="es">Los análisis futboleros más punzantes junto a las opiniones más fuertes. Una combinación exitosa entre la experiencia de los exfutbolistas y el debate apasionado de los periodistas con décadas de recorrido en el deporte más popular del mundo.</desc>
@@ -116185,13 +115883,6 @@ Los momentos más destacados del partido de vuelta de la semifinal de la UEFA Eu
     <desc lang="es">El destino obligado de los amantes del deporte para estar al día con las noticias más importantes y los partidos más destacados de todos los principales deportes.</desc>
     <category lang="es">Entertainment</category>
     <icon src="https://iptv-epg.org/images/SuKR3NhgB4eXnDBfctJT-L1gAr52cYpuoPx4zUkvew9Slr9GgPslSbFzOExulhregXpuKyHxYn-YtecR2xmiYC6mrJqMdoqbcFov4UlOgmo"/>
-  </programme>
-  <programme start="20260518003000 +0000" stop="20260518010000 +0000" channel="TVOne.us">
-    <title lang="es">A Different World</title>
-    <desc lang="es">S05 E15 — Prisoner of Love
-Dwayne and Ron are suspicious of a new student who attracts Whitley.</desc>
-    <category lang="es">Sitcom</category>
-    <icon src="https://iptv-epg.org/images/h7TNz3YD9mdMDnKbRBZV4P5icfGD-qu1K3cHjGjGDMO3WHlh8x39jop57VwYNctKyEMeoZdnysjTJemgR5R2-ZuWArdUdXs7yTdIk1tmAvY"/>
   </programme>
   <programme start="20260518010000 +0000" stop="20260518013000 +0000" channel="TVOne.us">
     <title lang="es">A Different World</title>
@@ -117468,13 +117159,6 @@ She was a successful careerwoman enjoying the dating scene after years in a dyin
 A promising young woman with a passion for hip-hop finds her ride-or-die soul mate in a young up-and-coming rapper; when a petty feud turns deadly, she&apos;ll have to decide if she&apos;s all in for her man or if she&apos;s better off taking this ride alone.</desc>
     <category lang="es">Crime</category>
     <icon src="https://iptv-epg.org/images/NjRumML-NfsD-OIEpxEEbBhWmm_r6m39Wr58jVD196rnFMvdVBfuEwThdgA1gBvKCJnj8uCol0nvkkXKGQNTQXhh3oyPC_sHQ9uy3MUlOUw"/>
-  </programme>
-  <programme start="20260518004500 +0000" stop="20260518012000 +0000" channel="TVLand.us">
-    <title lang="es">Everybody Loves Raymond</title>
-    <desc lang="es">S04 E06 — The Sister
-Debra is upset when her sister, Jennifer, decides to become a nun.</desc>
-    <category lang="es">Sitcom</category>
-    <icon src="https://iptv-epg.org/images/dGk7ueasSJTXo8CQG8jdYN2u-p7MJdmsOTlCCnJvK3FmdDXyNI0c9o5uvpg4kZbVxrx7-C_4SJSkEfZLdTjdLqNVwBsfJC0mHICFI5tc8Bo"/>
   </programme>
   <programme start="20260518012000 +0000" stop="20260518015500 +0000" channel="TVLand.us">
     <title lang="es">Everybody Loves Raymond</title>
@@ -119545,13 +119229,6 @@ Benson investigates a string of sexual assaults targeting local female psychiatr
     <category lang="es">Adventure</category>
     <icon src="https://iptv-epg.org/images/zmZNRPQZmsAiuu9NjlU3ffrvl00oL6dWN569M-dW6K3rd1Rdzxp_ptfZ5iDHcJlOBAysDvR0SIuKpt54uNa7ja967n0iC3zrOtWMAREyeSE"/>
   </programme>
-  <programme start="20260518003000 +0000" stop="20260518010000 +0000" channel="News12Bronx.us">
-    <title lang="es">Crime Files ᴺᵉʷ</title>
-    <desc lang="es">S07 E03 — The Reckoning: Clark Fredericks
-In a NJ courtroom, a man admits killing a former Boy Scout leader years after alleging childhood abuse by him.</desc>
-    <category lang="es">Crime</category>
-    <icon src="https://iptv-epg.org/images/ri2KuxG4si7WUiwMFl1rugl_yDabaU4w6EuZWBFpBlVbeCm6cks39f8cgkKuLRHNZK3E8L0nWtnVnZ_r9yGPRzc4hFuogmFFzxSBng6q62w"/>
-  </programme>
   <programme start="20260518010000 +0000" stop="20260518013000 +0000" channel="News12Bronx.us">
     <title lang="es">News 12 the Bronx ᴺᵉʷ</title>
     <desc lang="es">Local news, weather, traffic, politics, investigative and more.</desc>
@@ -120850,13 +120527,6 @@ Exclusive interviews plus a look at life in the Yankees&apos; minor league syste
     <desc lang="es">Local news, weather, traffic, politics, investigative and more.</desc>
     <category lang="es">News</category>
     <icon src="https://iptv-epg.org/images/I40ghepRbaoqZhbqNtKs_wL8_yasZuy2Yt4zudMGkOL-CP8B7VBh39VSw97w-fR6ENzu1ZN0IpMzRNM0uCSb4UbqhGSKcGYIWOcljNfFpWM"/>
-  </programme>
-  <programme start="20260518003000 +0000" stop="20260518010000 +0000" channel="News12Brooklyn.us">
-    <title lang="es">Crime Files ᴺᵉʷ</title>
-    <desc lang="es">S07 E03 — The Reckoning: Clark Fredericks
-In a NJ courtroom, a man admits killing a former Boy Scout leader years after alleging childhood abuse by him.</desc>
-    <category lang="es">Crime</category>
-    <icon src="https://iptv-epg.org/images/ri2KuxG4si7WUiwMFl1rugl_yDabaU4w6EuZWBFpBlVbeCm6cks39f8cgkKuLRHNZK3E8L0nWtnVnZ_r9yGPRzc4hFuogmFFzxSBng6q62w"/>
   </programme>
   <programme start="20260518010000 +0000" stop="20260518013000 +0000" channel="News12Brooklyn.us">
     <title lang="es">News 12 Brooklyn ᴺᵉʷ</title>
