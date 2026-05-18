@@ -23,7 +23,8 @@ const RULES = [
   [/GENERAL|ENTERTAINMENT|ENTRETENIMIENTO/i,                       'Entertainment'],
   // Generic regions at end
   [/CANADA/i,                                                      'Canada'],
-  [/LATINO|CARIBBEAN|CARRIBEAN|LATIN/i,                            'Latino'],
+  [/PUERTO.?RICO|CARIBB?EAN|CARRIBEAN/i,                          'Puerto Rico'],
+  [/LATINO|LATIN/i,                                                'Latino'],
 ];
 
 /**

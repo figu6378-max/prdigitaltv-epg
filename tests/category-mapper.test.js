@@ -81,9 +81,15 @@ test('maps Canada', () => {
   assert.equal(categoryMapper('|AM| CANADA'), 'Canada');
 });
 
-test('maps Latin/Caribbean to Latino', () => {
-  assert.equal(categoryMapper('|SA| CARRIBEAN'), 'Latino');
+test('maps Caribbean/PR variants to Puerto Rico', () => {
+  assert.equal(categoryMapper('|SA| CARRIBEAN'), 'Puerto Rico');
+  assert.equal(categoryMapper('CARIBBEAN'), 'Puerto Rico');
+  assert.equal(categoryMapper('puerto-rico'), 'Puerto Rico');
+});
+
+test('maps Latin to Latino', () => {
   assert.equal(categoryMapper('|SA| LATINO'), 'Latino');
+  assert.equal(categoryMapper('LATIN AMERICA'), 'Latino');
 });
 
 test('maps documentary', () => {
