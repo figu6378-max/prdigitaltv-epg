@@ -1,7 +1,8 @@
 import { categoryMapper } from './category-mapper.js';
 
 const EPG_MAP_URL = 'https://figu6378-max.github.io/prdigitaltv-epg/stream-epg-map.json';
-const EPG_URL = 'https://figu6378-max.github.io/prdigitaltv-epg/epg.xml';
+const EPG_URL_P1 = 'https://figu6378-max.github.io/prdigitaltv-epg/epg.xml';
+const EPG_URL_P2 = 'https://figu6378-max.github.io/prdigitaltv-epg/epg2.xml';
 const CACHE_TTL = 3600;
 
 const PROVIDER2_NAME_FALLBACK = {
@@ -140,7 +141,8 @@ export default {
     if (!u || !p) return new Response('Missing credentials', { status: 400 });
 
     const base = `http://${host}/player_api.php?username=${encodeURIComponent(u)}&password=${encodeURIComponent(p)}`;
-    const lines = [`#EXTM3U url-tvg="${EPG_URL}" refresh="3600"`];
+    const epgUrl = isProvider2 ? EPG_URL_P1 : EPG_URL_P2;
+    const lines = [`#EXTM3U url-tvg="${epgUrl}" refresh="3600"`];
 
     // ── Series route ─────────────────────────────────────────────────────────
     if (isSeries) {
