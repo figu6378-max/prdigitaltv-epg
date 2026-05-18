@@ -2024,19 +2024,19 @@
   "canal11": {
     "tvgId": "Canal11.pt",
     "displayName": "Canal 11 4K",
-    "groupTitle": "puerto-rico",
+    "groupTitle": "entertainment",
     "icon": "http://picons.cmshulk.com/picons/logos/CANAL-11.jpeg"
   },
   "telemundo47nywnju": {
     "tvgId": "WNJU.us",
     "displayName": "TELEMUNDO 47 NY (WNJU)",
-    "groupTitle": "puerto-rico",
+    "groupTitle": "entertainment",
     "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/new99527.jpg?88439"
   },
   "telemundo51miamiwscv": {
     "tvgId": "WSCV.us",
     "displayName": "TELEMUNDO 51 MIAMI (WSCV)",
-    "groupTitle": "puerto-rico",
+    "groupTitle": "entertainment",
     "icon": "http://photo-tmdb.com/stalker_portal/misc/logos/320/new99527.jpg?88439"
   },
   "antena3": {
