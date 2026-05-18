@@ -94,6 +94,7 @@ async function main() {
   // FETCH: Additional primary EPG sources — merge into provider data
   // Sources with bypass_filter:true have all their channel IDs added to the filter bypass set
   const additionalBypassIds = new Set();
+  const additionalPrimaryChannelIds = new Set(); // all channel IDs from primary_additional sources → go to both outputs
   const additionalPrimary = (sources.primary_additional || []).filter(s => s.enabled);
   for (const source of additionalPrimary) {
     try {
@@ -105,6 +106,7 @@ async function main() {
       const existingIds = new Set(providerEpg.channels.map(c => c.id));
       for (const ch of extra.channels) {
         if (source.bypass_filter) additionalBypassIds.add(ch.id);
+        additionalPrimaryChannelIds.add(ch.id);
         if (!existingIds.has(ch.id)) {
           providerEpg.channels.push(ch);
           existingIds.add(ch.id);
@@ -238,8 +240,8 @@ async function main() {
   console.log(`[pipeline] Cross-channel desc share: ${sharedDescs} programmes filled`);
 
   // BUILD — split by provider and write two files
-  const p1Set = new Set([...p1ChannelIds, ...additionalBypassIds]);
-  const p2Set = new Set([...p2ChannelIds, ...additionalBypassIds]);
+  const p1Set = new Set([...p1ChannelIds, ...additionalBypassIds, ...additionalPrimaryChannelIds]);
+  const p2Set = new Set([...p2ChannelIds, ...additionalBypassIds, ...additionalPrimaryChannelIds]);
   console.log(`[pipeline] P1 output set: ${p1Set.size} channel IDs, P2 output set: ${p2Set.size} channel IDs`);
 
   const { p1: p1Epg, p2: p2Epg } = splitEpgByProvider(filtered.channels, finalProgrammes, p1Set, p2Set);
