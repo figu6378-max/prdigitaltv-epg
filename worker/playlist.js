@@ -272,7 +272,9 @@ export default {
           seen.add(resolvedId);
           tvgId = resolvedId;
           name = tvgDisplayMap[resolvedId] || streamNameClean;
-          groupTitle = categoryMapper(tvgCatMap[resolvedId]) || mappedCat;
+          groupTitle = (resolvedId.endsWith('.pr') ? 'Puerto Rico' : null)
+            ?? categoryMapper(tvgCatMap[resolvedId])
+            ?? mappedCat;
         }
       } else {
         const key = normalize(stream.name);
