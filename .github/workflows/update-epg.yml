@@ -32,6 +32,12 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Restore previous EPG to output/
+        run: |
+          mkdir -p output
+          [ -f epg.xml ]  && cp epg.xml  output/epg.xml  || true
+          [ -f epg2.xml ] && cp epg2.xml output/epg2.xml || true
+
       - name: Refresh DINO active channel IDs
         env:
           PROVIDER_EPG_URL_2: ${{ secrets.PROVIDER_EPG_URL_2 }}
