@@ -70,7 +70,8 @@ jobs:
           TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
           NODE_OPTIONS: --max-old-space-size=6144
         run: |
-          node src/index.js | tee /tmp/epg-pipeline.log
+          set -o pipefail
+          node src/index.js 2>&1 | tee /tmp/epg-pipeline.log
           P1_CH=$(grep -oP 'epg\.xml written — \K[0-9]+(?= channels)' /tmp/epg-pipeline.log | tail -1)
           P1_PR=$(grep -oP 'epg\.xml written — [0-9]+ channels, \K[0-9]+(?= programmes)' /tmp/epg-pipeline.log | tail -1)
           P2_CH=$(grep -oP 'epg2\.xml written — \K[0-9]+(?= channels)' /tmp/epg-pipeline.log | tail -1)
@@ -79,6 +80,10 @@ jobs:
           echo "EPG_P1_PROGRAMMES=${P1_PR:-?}" >> $GITHUB_ENV
           echo "EPG_P2_CHANNELS=${P2_CH:-?}" >> $GITHUB_ENV
           echo "EPG_P2_PROGRAMMES=${P2_PR:-?}" >> $GITHUB_ENV
+
+      - name: Show pipeline log tail on failure
+        if: failure()
+        run: tail -80 /tmp/epg-pipeline.log || true
 
       - name: Commit updated EPG
         run: |
