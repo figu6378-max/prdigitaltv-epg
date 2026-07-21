@@ -104,13 +104,13 @@ jobs:
             git push || (git pull --rebase origin main && git push)
           fi
 
-      - name: Notify admin via GHL SMS
-        if: success()
+      - name: Notify admin via GHL SMS on failure
+        if: failure()
         env:
           GHL_API_KEY: ${{ secrets.GHL_API_KEY }}
         run: |
           TS=$(date -u '+%Y-%m-%d %H:%M UTC')
-          MSG="✅ EPG PRDigitalTV actualizado. P1: ${{ env.EPG_P1_CHANNELS }}ch/${{ env.EPG_P1_PROGRAMMES }}prog | P2: ${{ env.EPG_P2_CHANNELS }}ch/${{ env.EPG_P2_PROGRAMMES }}prog | $TS"
+          MSG="❌ EPG PRDigitalTV FALLO en actualizacion. Revisar GitHub Actions. | $TS"
           echo "Sending SMS notification..."
           RESPONSE=$(curl -s -w "\n%{http_code}" -X POST "https://services.leadconnectorhq.com/conversations/messages" \
             -H "Authorization: Bearer $GHL_API_KEY" \
