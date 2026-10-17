@@ -2,9 +2,10 @@
   "primary_additional": [
     {
       "name": "open-epg-pr",
-      "url": "https://www.open-epg.com/generate/VchmwyY7n2.xml",
+      "url": "https://www.open-epg.com/generate/VchmwyY7n2.xml.gz",
       "enabled": true,
-      "gzip": false,
+      "cache": true,
+      "gzip": true,
       "prefer_desc": true,
       "channel_id_map": {
         "WKAQ.pr": "WKAQ.us",
@@ -22,17 +23,62 @@
       "_comment": "Primary desc source for all matched channels — open-epg desc wins over provider desc. channel_id_map injects .pr Spanish desc into matching .us slots (DINO has no PR descriptions)"
     },
     {
+      "name": "epgenius-6",
+      "url": "https://github.com/ferteque/Curated-M3U-Repository/raw/refs/heads/main/epg6.xml.gz",
+      "enabled": true,
+      "gzip": true,
+      "_comment": "EPGenius #6 (GanjaRelease) — IDs match provider EPG; adds ~197 allowlist channels over provider EPG, 11-day window. ~15k channels, filtered by allowlist (no bypass_filter)"
+    },
+    {
+      "name": "epgshare01-us-locals",
+      "url": "https://epgshare01.online/epgshare01/epg_ripper_US_LOCALS1.xml.gz",
+      "enabled": true,
+      "gzip": true,
+      "channel_id_map": {
+        "WAPA.pr": "WAPA-DT.us_locals1",
+        "WKAQ.pr": "WKAQ-DT.us_locals1",
+        "WLII.pr": "WLII-DT.us_locals1",
+        "WIPR.pr": "WIPR-DT.us_locals1",
+        "WSTE.pr": "WSTE-DT.us_locals1",
+        "WXCW.us": "WXCW-DT.us_locals1",
+        "WZTVDT2.us": "WZTV-DT2.us_locals1",
+        "WBKI.us": "WBKI-DT.us_locals1",
+        "WHIO.us": "WHIO-DT.us_locals1",
+        "WTTE.us": "WTTE-DT.us_locals1",
+        "WWHO.us": "WWHO-DT.us_locals1",
+        "WTOL.us": "WTOL-DT.us_locals1",
+        "KREM.us": "KREM-DT.us_locals1",
+        "WFSB.us": "WFSB-DT.us_locals1",
+        "WLVI.us": "WLVI-DT.us_locals1",
+        "WVNY.us": "WVNY-DT.us_locals1",
+        "CBMT.ca": "CBMT-DT.us_locals1",
+        "WIVB.us": "WIVB-DT.us_locals1",
+        "WNLO.us": "WNLO-DT.us_locals1",
+        "WJW.us": "WJW-DT.us_locals1",
+        "WANF.us": "WANF-DT.us_locals1",
+        "WXTX.us": "WXTX-DT.us_locals1",
+        "WALA.us": "WALA-DT.us_locals1",
+        "WSFL.us": "WSFL-DT.us_locals1",
+        "KQCW.us": "KQCW-DT.us_locals1",
+        "KDFI.us": "KDFI-DT.us_locals1",
+        "KWGN.us": "KWGN-DT.us_locals1",
+        "KMAX.us": "KMAX-DT.us_locals1"
+      },
+      "_comment": "epgshare01 US local stations (Gracenote-style ids, updated daily, 4-day window). Only channels in channel_id_map are used: 5 PR stations (backup if open-epg is stale) + US/CA locals not covered by provider/epg6. Mapped by id; DT2 subchannels excluded on purpose."
+    },
+    {
       "name": "iptv-epg-us",
       "url": "https://iptv-epg.org/files/epg-us.xml.gz",
-      "enabled": true,
-      "gzip": true
+      "enabled": false,
+      "gzip": true,
+      "_comment": "disabled 2026-10-17: adds 0-3 allowlist channels over provider+epg6+open-epg, costs 30-60 MB download"
     },
     {
       "name": "epg-pw-us",
       "url": "https://epg.pw/xmltv/epg_US.xml.gz",
-      "enabled": true,
+      "enabled": false,
       "gzip": true,
-      "_comment": "Large US EPG — covers Telemundo affiliates (WNJU, WSCV) not in iptv-epg-us"
+      "_comment": "Large US EPG — covers Telemundo affiliates (WNJU, WSCV) not in iptv-epg-us | disabled 2026-10-17: adds 0-3 allowlist channels over provider+epg6+open-epg, costs 30-60 MB download"
     },
     {
       "name": "epg-pw-es",
@@ -52,16 +98,18 @@
   "secondary": [
     {
       "name": "open-epg-pr",
-      "url": "https://www.open-epg.com/generate/VchmwyY7n2.xml",
+      "url": "https://www.open-epg.com/generate/VchmwyY7n2.xml.gz",
       "enabled": true,
-      "gzip": false,
+      "cache": true,
+      "gzip": true,
       "_comment": "Priority 0 — best PR channel descriptions; channelId-keyed so no cross-channel pollution"
     },
     {
       "name": "open-epg",
-      "url": "https://www.open-epg.com/generate/VchmwyY7n2.xml",
+      "url": "https://www.open-epg.com/generate/VchmwyY7n2.xml.gz",
       "enabled": true,
-      "gzip": false,
+      "cache": true,
+      "gzip": true,
       "_comment": "Priority 1 — PR channel title-based description fallback for provider-covered channels"
     },
     {

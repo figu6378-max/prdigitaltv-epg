@@ -220,7 +220,7 @@ export default {
     } catch (err) {
       return new Response(`Provider unreachable: ${err.message}`, { status: 502 });
     }
-    if (!liveRes.ok) return new Response('Invalid credentials or provider error', { status: 401 });
+    if (!liveRes.ok) return new Response(`Invalid credentials or provider error (provider HTTP ${liveRes.status})`, { status: 401 });
     const liveStreams = await liveRes.json();
 
     let mapping = {};

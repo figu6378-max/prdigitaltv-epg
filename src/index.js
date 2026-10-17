@@ -1,5 +1,5 @@
 import { readFileSync, existsSync } from 'node:fs';
-import { downloadXmltvUrl, parseXmltvString, buildSecondaryDescMap } from './fetch.js';
+import { downloadXmltvUrl, parseXmltvString, filterXmltvText, buildSecondaryDescMap } from './fetch.js';
 import { filterEpgData } from './filter.js';
 import { enrichAllProgrammes } from './enrich.js';
 import { writeEpgFile } from './build.js';
@@ -96,12 +96,40 @@ async function main() {
   const additionalBypassIds = new Set();
   const additionalPrimaryChannelIds = new Set(); // all channel IDs from primary_additional sources → go to both outputs
   const additionalPrimary = (sources.primary_additional || []).filter(s => s.enabled);
+
+  // Some sources (e.g. EPGenius) publish lowercase IDs ("wqrf.us") while the allowlist and provider use "WQRF.us".
+  // Map each incoming ID to the existing casing so the filter and the channel|start merge key still match.
+  const canonicalIds = new Map();
+  for (const ch of allowlist.channels) canonicalIds.set(ch['tvg-id'].toLowerCase(), ch['tvg-id']);
+  for (const ch of providerEpg.channels) {
+    if (!canonicalIds.has(ch.id.toLowerCase())) canonicalIds.set(ch.id.toLowerCase(), ch.id);
+  }
+  const canonicalId = id => canonicalIds.get(id.toLowerCase()) ?? id;
+  // IDs the filter step keeps for sources without bypass_filter: allowlist + active provider 2 IDs
+  const keepIds = new Set([...allowlist.channels.map(ch => ch['tvg-id']), ...provider2ChannelIds]);
+
   for (const source of additionalPrimary) {
     try {
       console.log(`[pipeline] Fetching additional primary EPG: ${source.name}...`);
-      const xml = await downloadXmltvUrl(source.url, source.gzip);
+      // channel_id_map in sources.json: { "our.pr": "epg-source.us" } (target→source)
+      // Invert so we can look up by the source ID → our target ID
+      const idMap = Object.fromEntries(
+        Object.entries(source.channel_id_map || {}).map(([target, src]) => [src, target])
+      );
+      const keep = id => source.bypass_filter || keepIds.has(id);
+
+      let xml = await downloadXmltvUrl(source.url, source.gzip, source.cache);
+      // Cut unwanted blocks as text so the DOM parse of 60 MB sources fits in CI memory
+      if (!source.bypass_filter) xml = filterXmltvText(xml, id => keep(idMap[id] ?? canonicalId(id)));
       const extra = parseXmltvString(xml);
-      console.log(`[pipeline] ${source.name}: ${extra.channels.length} channels, ${extra.programmes.length} programmes`);
+      xml = null;
+      console.log(`[pipeline] ${source.name}: ${extra.channels.length} channels, ${extra.programmes.length} programmes (after text prefilter)`);
+
+      // Remapped channels also need to join additionalPrimaryChannelIds, or the P1/P2 split drops their programmes
+      extra.channels = extra.channels.map(ch => ({ ...ch, id: idMap[ch.id] ?? canonicalId(ch.id) }));
+
+      // Drop channels the filter would discard anyway so large sources (15k channels, 1M programmes) don't pile up in memory
+      extra.channels = extra.channels.filter(ch => keep(ch.id));
 
       const existingIds = new Set(providerEpg.channels.map(c => c.id));
       for (const ch of extra.channels) {
@@ -114,16 +142,12 @@ async function main() {
       }
 
       const progIndex = new Map(providerEpg.programmes.map((p, i) => [`${p.channel}|${p.start}`, i]));
-      // channel_id_map in sources.json: { "our.pr": "epg-source.us" } (target→source)
-      // Invert so we can look up by prog.channel (the source ID) → our target ID
-      const idMap = Object.fromEntries(
-        Object.entries(source.channel_id_map || {}).map(([target, src]) => [src, target])
-      );
       let added = 0, upgraded = 0;
       for (const rawProg of extra.programmes) {
         // Remap channel ID before indexing so mapped channels land under the correct ID
-        const remapped = idMap[rawProg.channel];
-        const prog = remapped ? { ...rawProg, channel: remapped } : rawProg;
+        const target = idMap[rawProg.channel] ?? canonicalId(rawProg.channel);
+        if (!keep(target)) continue;
+        const prog = target !== rawProg.channel ? { ...rawProg, channel: target } : rawProg;
         const key = `${prog.channel}|${prog.start}`;
         if (progIndex.has(key)) {
           const idx = progIndex.get(key);

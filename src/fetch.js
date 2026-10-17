@@ -43,6 +43,25 @@ export function parseXmltvString(xmlString) {
 }
 
 /**
+ * Drop <channel>/<programme> blocks whose id fails `keepId`, before the DOM parse.
+ * Large sources (60 MB gz) need >4 GB heap in fast-xml-parser; filtering the text first keeps CI under its limit.
+ * @param {string} xmlString
+ * @param {(id: string) => boolean} keepId
+ * @returns {string}
+ */
+export function filterXmltvText(xmlString, keepId) {
+  const kept = [];
+  const blockRe = /<(channel|programme)\b[^>]*?(?:\/>|>[\s\S]*?<\/\1>)/g;
+  const idRe = /^<(?:channel|programme)\b[^>]*?\s(?:id|channel)="([^"]*)"/;
+  let m;
+  while ((m = blockRe.exec(xmlString)) !== null) {
+    const id = idRe.exec(m[0])?.[1];
+    if (id !== undefined && keepId(id)) kept.push(m[0]);
+  }
+  return `<tv>${kept.join('')}</tv>`;
+}
+
+/**
  * Extract string text from an XMLTV node (may be plain string or { #text, @_lang }).
  * @param {any} node
  * @returns {string}
@@ -56,6 +75,8 @@ function extractText(node) {
   return '';
 }
 
+const downloadCache = new Map();
+
 /**
  * Download a URL and return the response body as a UTF-8 string.
  * Handles optional gzip decompression.
@@ -63,28 +84,46 @@ function extractText(node) {
  * @param {boolean} gzip
  * @returns {Promise<string>}
  */
-export async function downloadXmltvUrl(url, gzip = false) {
-  const controller = new AbortController();
-  const timer = setTimeout(() => controller.abort(), 60000);
+export async function downloadXmltvUrl(url, gzip = false, cache = false) {
+  // open-epg caps each personal file at 30 downloads/day, so repeated entries for one URL share a single fetch
+  if (cache) {
+    if (!downloadCache.has(url)) {
+      downloadCache.set(url, downloadXmltvUrl(url, gzip, false).catch(err => { downloadCache.delete(url); throw err; }));
+    }
+    return downloadCache.get(url);
+  }
+  // 60 MB provider EPG sometimes stalls past the old 60s limit; allow 3 attempts of up to 180s
   let response;
-  try {
-    response = await axios.get(url, {
-      responseType: 'arraybuffer',
-      signal: controller.signal,
-      headers: { 'User-Agent': 'PRDigitalTV-EPG/1.0' },
-    });
-  } finally {
-    clearTimeout(timer);
+  for (let attempt = 1; ; attempt++) {
+    const controller = new AbortController();
+    const timer = setTimeout(() => controller.abort(), 180000);
+    try {
+      response = await axios.get(url, {
+        responseType: 'arraybuffer',
+        signal: controller.signal,
+        headers: { 'User-Agent': 'PRDigitalTV-EPG/1.0' },
+      });
+      break;
+    } catch (err) {
+      if (attempt >= 3) throw err;
+      console.warn(`[fetch] attempt ${attempt} failed (${err.message}), retrying...`);
+    } finally {
+      clearTimeout(timer);
+    }
   }
 
   if (response.status < 200 || response.status >= 300) {
     throw new Error(`HTTP ${response.status} from ${url}`);
   }
 
-  if (gzip) {
-    return decompressGzip(Buffer.from(response.data));
+  const text = gzip
+    ? await decompressGzip(Buffer.from(response.data))
+    : Buffer.from(response.data).toString('utf8');
+  // Some hosts answer HTTP 200 with an HTML error page (e.g. open-epg download limit); reject it instead of parsing 0 programmes
+  if (!/<tv[\s>]/.test(text.slice(0, 2000))) {
+    throw new Error(`Not XMLTV from ${url}: ${text.slice(0, 120).replace(/\s+/g, ' ')}`);
   }
-  return Buffer.from(response.data).toString('utf8');
+  return text;
 }
 
 /**
@@ -118,7 +157,7 @@ export async function buildSecondaryDescMap(sources) {
   // Sequential — higher-priority sources (listed first) write first and cannot be overwritten
   for (const source of active) {
     try {
-      const xml = await downloadXmltvUrl(source.url, source.gzip);
+      const xml = await downloadXmltvUrl(source.url, source.gzip, source.cache);
       const { programmes } = parseXmltvString(xml);
       let added = 0;
       for (const prog of programmes) {
