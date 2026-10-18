@@ -116,12 +116,15 @@ async function main() {
       const idMap = Object.fromEntries(
         Object.entries(source.channel_id_map || {}).map(([target, src]) => [src, target])
       );
-      const keep = id => source.bypass_filter || keepIds.has(id);
+      // extra_suffixes: keep channels outside the allowlist by country suffix (e.g. "us"); they join the bypass set below
+      const extraSuffixes = new Set((source.extra_suffixes || []).map(x => x.toLowerCase()));
+      const isExtra = id => extraSuffixes.size > 0 && !keepIds.has(id) && extraSuffixes.has(id.slice(id.lastIndexOf('.') + 1).toLowerCase());
+      const keep = id => source.bypass_filter || keepIds.has(id) || isExtra(id);
 
       const keepSource = id => keep(idMap[id] ?? canonicalId(id));
       // stream_filter: source too large to hold as one string (>512 MB), so filter while decompressing
       let xml = source.stream_filter
-        ? await downloadXmltvFiltered(source.url, keepSource, { maxDays: source.max_days })
+        ? await downloadXmltvFiltered(source.url, keepSource, { maxDays: source.max_days, extraId: id => isExtra(idMap[id] ?? canonicalId(id)) })
         // Cut unwanted blocks as text so the DOM parse of 60 MB sources fits in CI memory
         : await downloadXmltvUrl(source.url, source.gzip, source.cache);
       if (!source.stream_filter && !source.bypass_filter) xml = filterXmltvText(xml, keepSource);
@@ -134,10 +137,15 @@ async function main() {
 
       // Drop channels the filter would discard anyway so large sources (15k channels, 1M programmes) don't pile up in memory
       extra.channels = extra.channels.filter(ch => keep(ch.id));
+      if (extraSuffixes.size > 0) {
+        // Extra channels without a single kept programme would only add empty <channel> entries
+        const withProg = new Set(extra.programmes.map(pr => idMap[pr.channel] ?? canonicalId(pr.channel)));
+        extra.channels = extra.channels.filter(ch => !isExtra(ch.id) || withProg.has(ch.id));
+      }
 
       const existingIds = new Set(providerEpg.channels.map(c => c.id));
       for (const ch of extra.channels) {
-        if (source.bypass_filter) additionalBypassIds.add(ch.id);
+        if (source.bypass_filter || isExtra(ch.id)) additionalBypassIds.add(ch.id);
         additionalPrimaryChannelIds.add(ch.id);
         if (!existingIds.has(ch.id)) {
           providerEpg.channels.push(ch);

@@ -144,10 +144,11 @@ export async function downloadXmltvUrl(url, gzip = false, cache = false) {
  * downloadXmltvUrl; here the full text never exists, only the kept blocks do.
  * @param {string} url
  * @param {(id: string) => boolean} keepId
- * @param {{ maxDays?: number }} [opts] drop programmes starting more than maxDays ahead
+ * @param {{ maxDays?: number, extraId?: (id: string) => boolean }} [opts] maxDays drops programmes starting further ahead;
+ *   extraId ids are kept only when the programme has a <desc> (no point carrying empty slots for channels we do not require)
  * @returns {Promise<string>} `<tv>…</tv>` containing only the kept channel/programme blocks
  */
-export async function downloadXmltvFiltered(url, keepId, { maxDays } = {}) {
+export async function downloadXmltvFiltered(url, keepId, { maxDays, extraId } = {}) {
   const response = await fetchBuffer(url);
   if (response.status < 200 || response.status >= 300) {
     throw new Error(`HTTP ${response.status} from ${url}`);
@@ -171,7 +172,8 @@ export async function downloadXmltvFiltered(url, keepId, { maxDays } = {}) {
     while ((m = blockRe.exec(rest)) !== null) {
       end = blockRe.lastIndex;
       const id = idRe.exec(m[0])?.[1];
-      if (id === undefined || !keepId(id)) continue;
+      if (id === undefined) continue;
+      if (!keepId(id) && !(extraId?.(id) && (m[1] === 'channel' || m[0].includes('<desc')))) continue;
       if (cutoff && m[1] === 'programme') {
         const day = startRe.exec(m[0])?.[1];
         if (day && day > cutoff) continue;

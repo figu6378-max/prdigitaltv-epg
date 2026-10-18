@@ -72,8 +72,9 @@
       "enabled": true,
       "gzip": true,
       "stream_filter": true,
-      "max_days": 8,
-      "_comment": "Replaces iptv-epg-us (2026-10-18). 75 MB gz / 641 MB xml, over Node's 512 MB string limit, so it is filtered while decompressing (stream_filter) and cut to max_days ahead. Adds 54 allowlist channels the other sources miss, 48 of them .es."
+      "max_days": 3,
+      "extra_suffixes": ["us", "ca", "pr", "es"],
+      "_comment": "Replaces iptv-epg-us (2026-10-18). 75 MB gz / 641 MB xml, over Node's 512 MB string limit, so it is filtered while decompressing (stream_filter) and cut to max_days ahead (workflow runs every 12 h). Allowlist/provider channels always kept; other channels with a .us/.ca/.pr/.es suffix kept only for programmes with a description (extra_suffixes)."
     },
     {
       "name": "iptv-epg-us",
