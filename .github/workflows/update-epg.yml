@@ -7,11 +7,20 @@ on:
 
 permissions:
   contents: write
+  pages: write      # deploy the gzipped EPG to Pages without committing it
+  id-token: write
+
+concurrency:
+  group: update-epg
+  cancel-in-progress: false
 
 jobs:
   update:
     runs-on: ubuntu-latest
     timeout-minutes: 45
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
 
     steps:
       - name: Checkout repository
@@ -35,9 +44,10 @@ jobs:
       - name: Restore previous EPG to output/
         run: |
           mkdir -p output
-          # Published files are gzipped (raw XML exceeds GitHub's 100 MB limit); fall back to raw files from before the switch
-          if [ -f epg.xml.gz ]; then gunzip -c epg.xml.gz > output/epg.xml; elif [ -f epg.xml ]; then cp epg.xml output/epg.xml; fi
-          if [ -f epg2.xml.gz ]; then gunzip -c epg2.xml.gz > output/epg2.xml; elif [ -f epg2.xml ]; then cp epg2.xml output/epg2.xml; fi
+          # The gzipped EPG is not stored in git; the live Pages copy is the fallback if every provider fails this run
+          B=https://figu6378-max.github.io/prdigitaltv-epg
+          curl -fsSL "$B/epg.xml.gz"  | gunzip > output/epg.xml  || rm -f output/epg.xml
+          curl -fsSL "$B/epg2.xml.gz" | gunzip > output/epg2.xml || rm -f output/epg2.xml
 
       - name: Refresh DINO active channel IDs
         env:
@@ -92,20 +102,38 @@ jobs:
         if: failure()
         run: tail -80 /tmp/epg-pipeline.log || true
 
-      - name: Commit updated EPG
+      - name: Commit updated config
         run: |
-          # -n keeps the gzip header free of timestamps so unchanged content gives an identical file
-          gzip -9 -n -c output/epg.xml  > epg.xml.gz
-          gzip -9 -n -c output/epg2.xml > epg2.xml.gz
-          git rm -q -f --ignore-unmatch epg.xml epg2.xml
+          # Raw and gzipped EPG files must stay out of git (~60 MB per run); drop any left from earlier versions
+          git rm -q -f --ignore-unmatch epg.xml epg2.xml epg.xml.gz epg2.xml.gz
           git add -u
-          git add epg.xml.gz epg2.xml.gz
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "chore: update epg.xml [$(date -u '+%Y-%m-%d %H:%M UTC')]"
+            git commit -m "chore: update epg config [$(date -u '+%Y-%m-%d %H:%M UTC')]"
             git push || (git pull --rebase origin main && git push)
           fi
+
+      - name: Build Pages site
+        run: |
+          mkdir -p _site
+          # -n keeps the gzip header free of timestamps
+          gzip -9 -n -c output/epg.xml  > _site/epg.xml.gz
+          gzip -9 -n -c output/epg2.xml > _site/epg2.xml.gz
+          cp stream-epg-map.json _site/
+          ls -l _site
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+      - name: Deploy to Pages
+        id: deploy
+        uses: actions/deploy-pages@v4
 
       - name: Notify admin via GHL SMS on failure
         if: failure()

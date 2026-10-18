@@ -4,3 +4,4 @@ config/channels-selected.json
 output/playlist.m3u
 output/epg.xml
 .env
+_site/
