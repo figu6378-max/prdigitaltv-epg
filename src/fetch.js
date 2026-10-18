@@ -139,7 +139,10 @@ function decompressGzip(buffer) {
     readable.pipe(gunzip);
     readable.on('error', reject);
     gunzip.on('data', chunk => chunks.push(chunk));
-    gunzip.on('end', () => resolve(Buffer.concat(chunks).toString('utf8')));
+    // toString throws ERR_STRING_TOO_LONG above ~512 MB; reject so the source is skipped instead of crashing the run
+    gunzip.on('end', () => {
+      try { resolve(Buffer.concat(chunks).toString('utf8')); } catch (err) { reject(err); }
+    });
     gunzip.on('error', reject);
   });
 }
