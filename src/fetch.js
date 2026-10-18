@@ -1,6 +1,7 @@
 import axios from 'axios';
 import { createGunzip } from 'node:zlib';
 import { Readable } from 'node:stream';
+import { StringDecoder } from 'node:string_decoder';
 import { XMLParser } from 'fast-xml-parser';
 
 const xmlParser = new XMLParser({
@@ -78,20 +79,11 @@ function extractText(node) {
 const downloadCache = new Map();
 
 /**
- * Download a URL and return the response body as a UTF-8 string.
- * Handles optional gzip decompression.
+ * GET a URL as an arraybuffer, retrying up to 3 times.
  * @param {string} url
- * @param {boolean} gzip
- * @returns {Promise<string>}
+ * @returns {Promise<import('axios').AxiosResponse>}
  */
-export async function downloadXmltvUrl(url, gzip = false, cache = false) {
-  // open-epg caps each personal file at 30 downloads/day, so repeated entries for one URL share a single fetch
-  if (cache) {
-    if (!downloadCache.has(url)) {
-      downloadCache.set(url, downloadXmltvUrl(url, gzip, false).catch(err => { downloadCache.delete(url); throw err; }));
-    }
-    return downloadCache.get(url);
-  }
+async function fetchBuffer(url) {
   // 60 MB provider EPG sometimes stalls past the old 60s limit; allow 3 attempts of up to 180s
   let response;
   for (let attempt = 1; ; attempt++) {
@@ -111,6 +103,26 @@ export async function downloadXmltvUrl(url, gzip = false, cache = false) {
       clearTimeout(timer);
     }
   }
+  return response;
+}
+
+
+/**
+ * Download a URL and return the response body as a UTF-8 string.
+ * Handles optional gzip decompression.
+ * @param {string} url
+ * @param {boolean} gzip
+ * @returns {Promise<string>}
+ */
+export async function downloadXmltvUrl(url, gzip = false, cache = false) {
+  // open-epg caps each personal file at 30 downloads/day, so repeated entries for one URL share a single fetch
+  if (cache) {
+    if (!downloadCache.has(url)) {
+      downloadCache.set(url, downloadXmltvUrl(url, gzip, false).catch(err => { downloadCache.delete(url); throw err; }));
+    }
+    return downloadCache.get(url);
+  }
+  const response = await fetchBuffer(url);
 
   if (response.status < 200 || response.status >= 300) {
     throw new Error(`HTTP ${response.status} from ${url}`);
@@ -124,6 +136,64 @@ export async function downloadXmltvUrl(url, gzip = false, cache = false) {
     throw new Error(`Not XMLTV from ${url}: ${text.slice(0, 120).replace(/\s+/g, ' ')}`);
   }
   return text;
+}
+
+/**
+ * Download a gzip XMLTV file and keep only the blocks `keepId` accepts, filtering while it decompresses.
+ * Sources that expand past Node's ~512 MB string limit (iptv-epg.org custom files, 640 MB) cannot go through
+ * downloadXmltvUrl; here the full text never exists, only the kept blocks do.
+ * @param {string} url
+ * @param {(id: string) => boolean} keepId
+ * @param {{ maxDays?: number }} [opts] drop programmes starting more than maxDays ahead
+ * @returns {Promise<string>} `<tv>…</tv>` containing only the kept channel/programme blocks
+ */
+export async function downloadXmltvFiltered(url, keepId, { maxDays } = {}) {
+  const response = await fetchBuffer(url);
+  if (response.status < 200 || response.status >= 300) {
+    throw new Error(`HTTP ${response.status} from ${url}`);
+  }
+  const cutoff = maxDays
+    ? new Date(Date.now() + maxDays * 86400000).toISOString().slice(0, 10).replace(/-/g, '')
+    : null;
+  const blockRe = /<(channel|programme)\b[^>]*?(?:\/>|>[\s\S]*?<\/\1>)/g;
+  const idRe = /^<(?:channel|programme)\b[^>]*?\s(?:id|channel)="([^"]*)"/;
+  const startRe = /^<programme\b[^>]*?\sstart="(\d{8})/;
+  const kept = [];
+  let rest = '';
+  let sawTv = false;
+
+  const consume = text => {
+    rest += text;
+    if (!sawTv && /<tv[\s>]/.test(rest.slice(0, 2000))) sawTv = true;
+    blockRe.lastIndex = 0;
+    let end = 0;
+    let m;
+    while ((m = blockRe.exec(rest)) !== null) {
+      end = blockRe.lastIndex;
+      const id = idRe.exec(m[0])?.[1];
+      if (id === undefined || !keepId(id)) continue;
+      if (cutoff && m[1] === 'programme') {
+        const day = startRe.exec(m[0])?.[1];
+        if (day && day > cutoff) continue;
+      }
+      kept.push(m[0]);
+    }
+    rest = rest.slice(end);
+    const open = rest.search(/<(?:channel|programme)\b/);
+    rest = open >= 0 ? rest.slice(open) : rest.slice(-12);
+  };
+
+  await new Promise((resolve, reject) => {
+    const gunzip = createGunzip();
+    const decoder = new StringDecoder('utf8');
+    gunzip.on('data', chunk => { try { consume(decoder.write(chunk)); } catch (err) { reject(err); } });
+    gunzip.on('end', resolve);
+    gunzip.on('error', reject);
+    gunzip.end(Buffer.from(response.data));
+  });
+
+  if (!sawTv) throw new Error(`Not XMLTV from ${url}`);
+  return `<tv>${kept.join('')}</tv>`;
 }
 
 /**

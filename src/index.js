@@ -1,5 +1,5 @@
 import { readFileSync, existsSync } from 'node:fs';
-import { downloadXmltvUrl, parseXmltvString, filterXmltvText, buildSecondaryDescMap } from './fetch.js';
+import { downloadXmltvUrl, downloadXmltvFiltered, parseXmltvString, filterXmltvText, buildSecondaryDescMap } from './fetch.js';
 import { filterEpgData } from './filter.js';
 import { enrichAllProgrammes } from './enrich.js';
 import { writeEpgFile } from './build.js';
@@ -118,9 +118,13 @@ async function main() {
       );
       const keep = id => source.bypass_filter || keepIds.has(id);
 
-      let xml = await downloadXmltvUrl(source.url, source.gzip, source.cache);
-      // Cut unwanted blocks as text so the DOM parse of 60 MB sources fits in CI memory
-      if (!source.bypass_filter) xml = filterXmltvText(xml, id => keep(idMap[id] ?? canonicalId(id)));
+      const keepSource = id => keep(idMap[id] ?? canonicalId(id));
+      // stream_filter: source too large to hold as one string (>512 MB), so filter while decompressing
+      let xml = source.stream_filter
+        ? await downloadXmltvFiltered(source.url, keepSource, { maxDays: source.max_days })
+        // Cut unwanted blocks as text so the DOM parse of 60 MB sources fits in CI memory
+        : await downloadXmltvUrl(source.url, source.gzip, source.cache);
+      if (!source.stream_filter && !source.bypass_filter) xml = filterXmltvText(xml, keepSource);
       const extra = parseXmltvString(xml);
       xml = null;
       console.log(`[pipeline] ${source.name}: ${extra.channels.length} channels, ${extra.programmes.length} programmes (after text prefilter)`);

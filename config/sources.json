@@ -67,11 +67,20 @@
       "_comment": "epgshare01 US local stations (Gracenote-style ids, updated daily, 4-day window). Only channels in channel_id_map are used: 5 PR stations (backup if open-epg is stale) + US/CA locals not covered by provider/epg6. Mapped by id; DT2 subchannels excluded on purpose."
     },
     {
+      "name": "iptv-epg-custom",
+      "url": "https://iptv-epg.org/files/epg-vnxjmbqkyh.xml.gz",
+      "enabled": true,
+      "gzip": true,
+      "stream_filter": true,
+      "max_days": 8,
+      "_comment": "Replaces iptv-epg-us (2026-10-18). 75 MB gz / 641 MB xml, over Node's 512 MB string limit, so it is filtered while decompressing (stream_filter) and cut to max_days ahead. Adds 54 allowlist channels the other sources miss, 48 of them .es."
+    },
+    {
       "name": "iptv-epg-us",
       "url": "https://iptv-epg.org/files/epg-us.xml.gz",
       "enabled": false,
       "gzip": true,
-      "_comment": "disabled 2026-10-17: adds 0-3 allowlist channels over provider+epg6+open-epg, costs 30-60 MB download"
+      "_comment": "disabled 2026-10-17, replaced by iptv-epg-custom 2026-10-18"
     },
     {
       "name": "epg-pw-us",
@@ -122,9 +131,9 @@
     {
       "name": "iptv-epg-us",
       "url": "https://iptv-epg.org/files/epg-us.xml.gz",
-      "enabled": true,
+      "enabled": false,
       "gzip": true,
-      "_comment": "Priority 3 — fill gaps not in epg2"
+      "_comment": "Priority 3 — fill gaps not in epg2 | disabled 2026-10-18: expands to 540 MB, replaced by iptv-epg-custom"
     },
     {
       "name": "epg-pw-us",
