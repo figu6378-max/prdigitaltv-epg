@@ -5,7 +5,7 @@ Electronic Program Guide for PRDigitalTV — auto-updated every 12 hours via Git
 ## Client EPG URL
 
 ```
-https://figu6378-max.github.io/prdigitaltv-epg/epg.xml
+https://figu6378-max.github.io/prdigitaltv-epg/epg.xml.gz
 ```
 
 Add in TiviMate: **Settings > EPG Sources > Add Source > URL**

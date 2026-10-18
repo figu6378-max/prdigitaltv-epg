@@ -35,8 +35,9 @@ jobs:
       - name: Restore previous EPG to output/
         run: |
           mkdir -p output
-          [ -f epg.xml ]  && cp epg.xml  output/epg.xml  || true
-          [ -f epg2.xml ] && cp epg2.xml output/epg2.xml || true
+          # Published files are gzipped (raw XML exceeds GitHub's 100 MB limit); fall back to raw files from before the switch
+          if [ -f epg.xml.gz ]; then gunzip -c epg.xml.gz > output/epg.xml; elif [ -f epg.xml ]; then cp epg.xml output/epg.xml; fi
+          if [ -f epg2.xml.gz ]; then gunzip -c epg2.xml.gz > output/epg2.xml; elif [ -f epg2.xml ]; then cp epg2.xml output/epg2.xml; fi
 
       - name: Refresh DINO active channel IDs
         env:
@@ -93,10 +94,12 @@ jobs:
 
       - name: Commit updated EPG
         run: |
-          cp output/epg.xml epg.xml
-          cp output/epg2.xml epg2.xml
+          # -n keeps the gzip header free of timestamps so unchanged content gives an identical file
+          gzip -9 -n -c output/epg.xml  > epg.xml.gz
+          gzip -9 -n -c output/epg2.xml > epg2.xml.gz
+          git rm -q -f --ignore-unmatch epg.xml epg2.xml
           git add -u
-          git add epg.xml epg2.xml
+          git add epg.xml.gz epg2.xml.gz
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else

@@ -200,15 +200,24 @@ export async function lookupSeriesDescription(title) {
  * @param {string} tmdbApiKey
  * @returns {Promise<Object>}
  */
-export async function enrichProgramme(programme, secondaryDescMap, tmdbApiKey, channelAliases = {}) {
-  if (programme.desc?.trim()) return programme;
-
+/**
+ * Resolve a programme from data already in memory (no network).
+ * Existing description is kept unless the secondary map holds a longer one for the same channel+title.
+ * @returns {Object|null} the programme, or null when only an API lookup can fill the description
+ */
+export function enrichProgrammeLocal(programme, secondaryDescMap, channelAliases = {}) {
   const titleKey = programme.title.toLowerCase().trim();
-  const key1 = `${programme.channel}::${titleKey}`;
   const aliasId = channelAliases[programme.channel];
-  const key2 = aliasId ? `${aliasId}::${titleKey}` : null;
-  const secDesc = secondaryDescMap.get(key1) ?? (key2 ? secondaryDescMap.get(key2) : undefined);
-  if (secDesc) return { ...programme, desc: secDesc };
+  const secDesc = secondaryDescMap.get(`${programme.channel}::${titleKey}`)
+    ?? (aliasId ? secondaryDescMap.get(`${aliasId}::${titleKey}`) : undefined);
+  const current = programme.desc?.trim();
+  if (current) return secDesc && secDesc.length > current.length ? { ...programme, desc: secDesc } : programme;
+  return secDesc ? { ...programme, desc: secDesc } : null;
+}
+
+export async function enrichProgramme(programme, secondaryDescMap, tmdbApiKey, channelAliases = {}) {
+  const local = enrichProgrammeLocal(programme, secondaryDescMap, channelAliases);
+  if (local) return local;
 
   const type = detectProgrammeType(programme.title);
 
@@ -248,19 +257,28 @@ export async function enrichProgramme(programme, secondaryDescMap, tmdbApiKey, c
 export async function enrichAllProgrammes(programmes, secondaryDescMap, tmdbApiKey, channelAliases = {}) {
   const BATCH = 20;
   const DELAY = 300; // ms between batches
-  const results = [];
+  const results = new Array(programmes.length);
 
-  for (let i = 0; i < programmes.length; i += BATCH) {
-    const batch = programmes.slice(i, i + BATCH);
+  // Programmes resolvable from memory skip the rate-limit pause; only API lookups are batched
+  const pending = [];
+  for (let i = 0; i < programmes.length; i++) {
+    const local = enrichProgrammeLocal(programmes[i], secondaryDescMap, channelAliases);
+    if (local) results[i] = local;
+    else pending.push(i);
+  }
+  console.log(`[enrich] ${programmes.length - pending.length} resolved locally, ${pending.length} need lookups`);
+
+  for (let b = 0; b < pending.length; b += BATCH) {
+    const idxs = pending.slice(b, b + BATCH);
     const enriched = await Promise.all(
-      batch.map(p => enrichProgramme(p, secondaryDescMap, tmdbApiKey, channelAliases))
+      idxs.map(i => enrichProgramme(programmes[i], secondaryDescMap, tmdbApiKey, channelAliases))
     );
-    results.push(...enriched);
-    if (i + BATCH < programmes.length) {
+    idxs.forEach((i, k) => { results[i] = enriched[k]; });
+    if (b + BATCH < pending.length) {
       await new Promise(r => setTimeout(r, DELAY));
     }
-    if (i % 500 === 0 && i > 0) {
-      console.log(`[enrich] ${i}/${programmes.length} processed`);
+    if (b % 500 === 0 && b > 0) {
+      console.log(`[enrich] ${b}/${pending.length} lookups processed`);
     }
   }
 
